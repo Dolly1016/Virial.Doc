@@ -1946,7 +1946,7 @@
   },
   "index.html": {
     "href": "index.html",
-    "title": "This is the HOMEPAGE. | Virial",
-    "summary": "This is the HOMEPAGE. Refer to Markdown for how to write markdown files. Quick Start Notes: Add images to the images folder if the file is referencing an image."
+    "title": "Nebula on the Ship Script API \"Virial\" Documents | Virial",
+    "summary": "Nebula on the Ship Script API \"Virial\" Documents VirialはAmong UsのMod\"Nebula on the Ship\"のスクリプトAPIです。 スクリプトアドオンの開発者にゲームにアクセスする手段を提供します。"
   }
 }
