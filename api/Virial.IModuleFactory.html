@@ -1,0 +1,711 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Interface IModuleFactory | Virial </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Interface IModuleFactory | Virial ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/Dolly1016/Nebula-Public/new/master/apiSpec/new?filename=Virial_IModuleFactory.md&amp;value=---%0Auid%3A%20Virial.IModuleFactory%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="Virial">
+            Virial
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="Virial.IModuleFactory">
+
+
+
+  <h1 id="Virial_IModuleFactory" data-uid="Virial.IModuleFactory" class="text-break">
+Interface IModuleFactory  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/ModuleFactory.cs/#L8"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="Virial.html">Virial</a></dd></dl>
+  
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public interface IModuleFactory</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="Virial_IModuleFactory_AbilityButton_" data-uid="Virial.IModuleFactory.AbilityButton*"></a>
+
+  <h3 id="Virial_IModuleFactory_AbilityButton_Virial_ILifespan_" data-uid="Virial.IModuleFactory.AbilityButton(Virial.ILifespan)">
+  AbilityButton(ILifespan)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/ModuleFactory.cs/#L15"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>能力ボタンを生成します。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">ModAbilityButton AbilityButton(ILifespan lifespan)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>lifespan</code> <a class="xref" href="Virial.ILifespan.html">ILifespan</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Virial.Components.ModAbilityButton.html">ModAbilityButton</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Virial_IModuleFactory_AbilityButton_" data-uid="Virial.IModuleFactory.AbilityButton*"></a>
+
+  <h3 id="Virial_IModuleFactory_AbilityButton_Virial_ILifespan_System_Boolean_System_Boolean_System_Int32_System_Boolean_" data-uid="Virial.IModuleFactory.AbilityButton(Virial.ILifespan,System.Boolean,System.Boolean,System.Int32,System.Boolean)">
+  AbilityButton(ILifespan, bool, bool, int, bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/ModuleFactory.cs/#L24"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>能力ボタンを生成します。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">ModAbilityButton AbilityButton(ILifespan lifespan, bool isLeftSideButton = false, bool isArrangedAsKillButton = false, int priority = 0, bool alwaysShow = false)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>lifespan</code> <a class="xref" href="Virial.ILifespan.html">ILifespan</a></dt>
+    <dd></dd>
+    <dt><code>isLeftSideButton</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+    <dt><code>isArrangedAsKillButton</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+    <dt><code>priority</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>alwaysShow</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Virial.Components.ModAbilityButton.html">ModAbilityButton</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Virial_IModuleFactory_AbilityButton_" data-uid="Virial.IModuleFactory.AbilityButton*"></a>
+
+  <h3 id="Virial_IModuleFactory_AbilityButton_Virial_ILifespan_Virial_Game_Player_System_Boolean_System_Boolean_Virial_Compat_VirtualKeyInput_System_String_System_Single_System_String_Virial_Media_Image_System_Func_Virial_Components_ModAbilityButton_System_Boolean__System_Func_Virial_Components_ModAbilityButton_System_Boolean__System_Boolean_" data-uid="Virial.IModuleFactory.AbilityButton(Virial.ILifespan,Virial.Game.Player,System.Boolean,System.Boolean,Virial.Compat.VirtualKeyInput,System.String,System.Single,System.String,Virial.Media.Image,System.Func{Virial.Components.ModAbilityButton,System.Boolean},System.Func{Virial.Components.ModAbilityButton,System.Boolean},System.Boolean)">
+  AbilityButton(ILifespan, Player, bool, bool, VirtualKeyInput, string?, float, string, Image, Func&lt;ModAbilityButton, bool&gt;?, Func&lt;ModAbilityButton, bool&gt;?, bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/ModuleFactory.cs/#L31"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>プレイヤーの移動可能性と生死を考慮した標準的な能力ボタンを生成します。
+ボタンの可用性と可視性には追加の条件を設けられます。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">ModAbilityButton AbilityButton(ILifespan lifespan, Player player, bool isArrangedAsKillButton, bool isLeftSideButton, VirtualKeyInput input, string? inputHelp, float cooldown, string label, Image image, Func&lt;ModAbilityButton, bool&gt;? availability = null, Func&lt;ModAbilityButton, bool&gt;? visibility = null, bool asGhostButton = false)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>lifespan</code> <a class="xref" href="Virial.ILifespan.html">ILifespan</a></dt>
+    <dd></dd>
+    <dt><code>player</code> <a class="xref" href="Virial.Game.Player.html">Player</a></dt>
+    <dd></dd>
+    <dt><code>isArrangedAsKillButton</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+    <dt><code>isLeftSideButton</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+    <dt><code>input</code> <a class="xref" href="Virial.Compat.VirtualKeyInput.html">VirtualKeyInput</a></dt>
+    <dd></dd>
+    <dt><code>inputHelp</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>cooldown</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>label</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>image</code> <a class="xref" href="Virial.Media.Image.html">Image</a></dt>
+    <dd></dd>
+    <dt><code>availability</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;<a class="xref" href="Virial.Components.ModAbilityButton.html">ModAbilityButton</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>&gt;</dt>
+    <dd></dd>
+    <dt><code>visibility</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;<a class="xref" href="Virial.Components.ModAbilityButton.html">ModAbilityButton</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>&gt;</dt>
+    <dd></dd>
+    <dt><code>asGhostButton</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Virial.Components.ModAbilityButton.html">ModAbilityButton</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Virial_IModuleFactory_AbilityButton_" data-uid="Virial.IModuleFactory.AbilityButton*"></a>
+
+  <h3 id="Virial_IModuleFactory_AbilityButton_Virial_ILifespan_Virial_Game_Player_Virial_Compat_VirtualKeyInput_System_Single_System_String_Virial_Media_Image_System_Func_Virial_Components_ModAbilityButton_System_Boolean__System_Func_Virial_Components_ModAbilityButton_System_Boolean__System_Boolean_" data-uid="Virial.IModuleFactory.AbilityButton(Virial.ILifespan,Virial.Game.Player,Virial.Compat.VirtualKeyInput,System.Single,System.String,Virial.Media.Image,System.Func{Virial.Components.ModAbilityButton,System.Boolean},System.Func{Virial.Components.ModAbilityButton,System.Boolean},System.Boolean)">
+  AbilityButton(ILifespan, Player, VirtualKeyInput, float, string, Image, Func&lt;ModAbilityButton, bool&gt;?, Func&lt;ModAbilityButton, bool&gt;?, bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/ModuleFactory.cs/#L37"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">ModAbilityButton AbilityButton(ILifespan lifespan, Player player, VirtualKeyInput input, float cooldown, string label, Image image, Func&lt;ModAbilityButton, bool&gt;? availability = null, Func&lt;ModAbilityButton, bool&gt;? visibility = null, bool asGhostButton = false)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>lifespan</code> <a class="xref" href="Virial.ILifespan.html">ILifespan</a></dt>
+    <dd></dd>
+    <dt><code>player</code> <a class="xref" href="Virial.Game.Player.html">Player</a></dt>
+    <dd></dd>
+    <dt><code>input</code> <a class="xref" href="Virial.Compat.VirtualKeyInput.html">VirtualKeyInput</a></dt>
+    <dd></dd>
+    <dt><code>cooldown</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>label</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>image</code> <a class="xref" href="Virial.Media.Image.html">Image</a></dt>
+    <dd></dd>
+    <dt><code>availability</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;<a class="xref" href="Virial.Components.ModAbilityButton.html">ModAbilityButton</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>&gt;</dt>
+    <dd></dd>
+    <dt><code>visibility</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;<a class="xref" href="Virial.Components.ModAbilityButton.html">ModAbilityButton</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>&gt;</dt>
+    <dd></dd>
+    <dt><code>asGhostButton</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Virial.Components.ModAbilityButton.html">ModAbilityButton</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Virial_IModuleFactory_AbilityButton_" data-uid="Virial.IModuleFactory.AbilityButton*"></a>
+
+  <h3 id="Virial_IModuleFactory_AbilityButton_Virial_ILifespan_Virial_Game_Player_Virial_Compat_VirtualKeyInput_System_String_System_Single_System_String_Virial_Media_Image_System_Func_Virial_Components_ModAbilityButton_System_Boolean__System_Func_Virial_Components_ModAbilityButton_System_Boolean__System_Boolean_" data-uid="Virial.IModuleFactory.AbilityButton(Virial.ILifespan,Virial.Game.Player,Virial.Compat.VirtualKeyInput,System.String,System.Single,System.String,Virial.Media.Image,System.Func{Virial.Components.ModAbilityButton,System.Boolean},System.Func{Virial.Components.ModAbilityButton,System.Boolean},System.Boolean)">
+  AbilityButton(ILifespan, Player, VirtualKeyInput, string?, float, string, Image, Func&lt;ModAbilityButton, bool&gt;?, Func&lt;ModAbilityButton, bool&gt;?, bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/ModuleFactory.cs/#L39"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">ModAbilityButton AbilityButton(ILifespan lifespan, Player player, VirtualKeyInput input, string? inputHelp, float cooldown, string label, Image image, Func&lt;ModAbilityButton, bool&gt;? availability = null, Func&lt;ModAbilityButton, bool&gt;? visibility = null, bool asGhostButton = false)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>lifespan</code> <a class="xref" href="Virial.ILifespan.html">ILifespan</a></dt>
+    <dd></dd>
+    <dt><code>player</code> <a class="xref" href="Virial.Game.Player.html">Player</a></dt>
+    <dd></dd>
+    <dt><code>input</code> <a class="xref" href="Virial.Compat.VirtualKeyInput.html">VirtualKeyInput</a></dt>
+    <dd></dd>
+    <dt><code>inputHelp</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>cooldown</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>label</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>image</code> <a class="xref" href="Virial.Media.Image.html">Image</a></dt>
+    <dd></dd>
+    <dt><code>availability</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;<a class="xref" href="Virial.Components.ModAbilityButton.html">ModAbilityButton</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>&gt;</dt>
+    <dd></dd>
+    <dt><code>visibility</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;<a class="xref" href="Virial.Components.ModAbilityButton.html">ModAbilityButton</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>&gt;</dt>
+    <dd></dd>
+    <dt><code>asGhostButton</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Virial.Components.ModAbilityButton.html">ModAbilityButton</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Virial_IModuleFactory_EffectButton_" data-uid="Virial.IModuleFactory.EffectButton*"></a>
+
+  <h3 id="Virial_IModuleFactory_EffectButton_Virial_ILifespan_Virial_Game_Player_Virial_Compat_VirtualKeyInput_System_Single_System_Single_System_String_Virial_Media_Image_System_Func_Virial_Components_ModAbilityButton_System_Boolean__System_Func_Virial_Components_ModAbilityButton_System_Boolean__System_Boolean_System_Boolean_" data-uid="Virial.IModuleFactory.EffectButton(Virial.ILifespan,Virial.Game.Player,Virial.Compat.VirtualKeyInput,System.Single,System.Single,System.String,Virial.Media.Image,System.Func{Virial.Components.ModAbilityButton,System.Boolean},System.Func{Virial.Components.ModAbilityButton,System.Boolean},System.Boolean,System.Boolean)">
+  EffectButton(ILifespan, Player, VirtualKeyInput, float, float, string, Image, Func&lt;ModAbilityButton, bool&gt;?, Func&lt;ModAbilityButton, bool&gt;?, bool, bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/ModuleFactory.cs/#L52"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">ModAbilityButton EffectButton(ILifespan lifespan, Player player, VirtualKeyInput input, float cooldown, float duration, string label, Image image, Func&lt;ModAbilityButton, bool&gt;? availability = null, Func&lt;ModAbilityButton, bool&gt;? visibility = null, bool asGhostButton = false, bool isToggleEffect = false)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>lifespan</code> <a class="xref" href="Virial.ILifespan.html">ILifespan</a></dt>
+    <dd></dd>
+    <dt><code>player</code> <a class="xref" href="Virial.Game.Player.html">Player</a></dt>
+    <dd></dd>
+    <dt><code>input</code> <a class="xref" href="Virial.Compat.VirtualKeyInput.html">VirtualKeyInput</a></dt>
+    <dd></dd>
+    <dt><code>cooldown</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>duration</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>label</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>image</code> <a class="xref" href="Virial.Media.Image.html">Image</a></dt>
+    <dd></dd>
+    <dt><code>availability</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;<a class="xref" href="Virial.Components.ModAbilityButton.html">ModAbilityButton</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>&gt;</dt>
+    <dd></dd>
+    <dt><code>visibility</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;<a class="xref" href="Virial.Components.ModAbilityButton.html">ModAbilityButton</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>&gt;</dt>
+    <dd></dd>
+    <dt><code>asGhostButton</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+    <dt><code>isToggleEffect</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Virial.Components.ModAbilityButton.html">ModAbilityButton</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Virial_IModuleFactory_EffectButton_" data-uid="Virial.IModuleFactory.EffectButton*"></a>
+
+  <h3 id="Virial_IModuleFactory_EffectButton_Virial_ILifespan_Virial_Game_Player_Virial_Compat_VirtualKeyInput_System_String_System_Single_System_Single_System_String_Virial_Media_Image_System_Func_Virial_Components_ModAbilityButton_System_Boolean__System_Func_Virial_Components_ModAbilityButton_System_Boolean__System_Boolean_System_Boolean_" data-uid="Virial.IModuleFactory.EffectButton(Virial.ILifespan,Virial.Game.Player,Virial.Compat.VirtualKeyInput,System.String,System.Single,System.Single,System.String,Virial.Media.Image,System.Func{Virial.Components.ModAbilityButton,System.Boolean},System.Func{Virial.Components.ModAbilityButton,System.Boolean},System.Boolean,System.Boolean)">
+  EffectButton(ILifespan, Player, VirtualKeyInput, string?, float, float, string, Image, Func&lt;ModAbilityButton, bool&gt;?, Func&lt;ModAbilityButton, bool&gt;?, bool, bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/ModuleFactory.cs/#L42"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">ModAbilityButton EffectButton(ILifespan lifespan, Player player, VirtualKeyInput input, string? inputHelp, float cooldown, float duration, string label, Image image, Func&lt;ModAbilityButton, bool&gt;? availability = null, Func&lt;ModAbilityButton, bool&gt;? visibility = null, bool asGhostButton = false, bool isToggleEffect = false)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>lifespan</code> <a class="xref" href="Virial.ILifespan.html">ILifespan</a></dt>
+    <dd></dd>
+    <dt><code>player</code> <a class="xref" href="Virial.Game.Player.html">Player</a></dt>
+    <dd></dd>
+    <dt><code>input</code> <a class="xref" href="Virial.Compat.VirtualKeyInput.html">VirtualKeyInput</a></dt>
+    <dd></dd>
+    <dt><code>inputHelp</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>cooldown</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>duration</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>label</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>image</code> <a class="xref" href="Virial.Media.Image.html">Image</a></dt>
+    <dd></dd>
+    <dt><code>availability</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;<a class="xref" href="Virial.Components.ModAbilityButton.html">ModAbilityButton</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>&gt;</dt>
+    <dd></dd>
+    <dt><code>visibility</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;<a class="xref" href="Virial.Components.ModAbilityButton.html">ModAbilityButton</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>&gt;</dt>
+    <dd></dd>
+    <dt><code>asGhostButton</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+    <dt><code>isToggleEffect</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Virial.Components.ModAbilityButton.html">ModAbilityButton</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Virial_IModuleFactory_KillButton_" data-uid="Virial.IModuleFactory.KillButton*"></a>
+
+  <h3 id="Virial_IModuleFactory_KillButton_Virial_ILifespan_Virial_Game_Player_System_Boolean_Virial_Compat_VirtualKeyInput_System_Single_System_String_Virial_Components_ModAbilityButton_LabelType_Virial_Media_Image_System_Action_Virial_Game_Player_Virial_Components_ModAbilityButton__System_Func_Virial_Game_Player_System_Boolean__System_Func_Virial_Components_ModAbilityButton_System_Boolean__System_Func_Virial_Components_ModAbilityButton_System_Boolean__" data-uid="Virial.IModuleFactory.KillButton(Virial.ILifespan,Virial.Game.Player,System.Boolean,Virial.Compat.VirtualKeyInput,System.Single,System.String,Virial.Components.ModAbilityButton.LabelType,Virial.Media.Image,System.Action{Virial.Game.Player,Virial.Components.ModAbilityButton},System.Func{Virial.Game.Player,System.Boolean},System.Func{Virial.Components.ModAbilityButton,System.Boolean},System.Func{Virial.Components.ModAbilityButton,System.Boolean})">
+  KillButton(ILifespan, Player, bool, VirtualKeyInput, float, string, LabelType, Image?, Action&lt;Player, ModAbilityButton&gt;, Func&lt;Player, bool&gt;?, Func&lt;ModAbilityButton, bool&gt;?, Func&lt;ModAbilityButton, bool&gt;?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/ModuleFactory.cs/#L72"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">ModAbilityButton KillButton(ILifespan lifespan, Player player, bool arrangeAsKillButton, VirtualKeyInput input, float cooldown, string label, ModAbilityButton.LabelType labelType, Image? image, Action&lt;Player, ModAbilityButton&gt; onKill, Func&lt;Player, bool&gt;? filter = null, Func&lt;ModAbilityButton, bool&gt;? availability = null, Func&lt;ModAbilityButton, bool&gt;? visibility = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>lifespan</code> <a class="xref" href="Virial.ILifespan.html">ILifespan</a></dt>
+    <dd></dd>
+    <dt><code>player</code> <a class="xref" href="Virial.Game.Player.html">Player</a></dt>
+    <dd></dd>
+    <dt><code>arrangeAsKillButton</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+    <dt><code>input</code> <a class="xref" href="Virial.Compat.VirtualKeyInput.html">VirtualKeyInput</a></dt>
+    <dd></dd>
+    <dt><code>cooldown</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>label</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>labelType</code> <a class="xref" href="Virial.Components.ModAbilityButton.html">ModAbilityButton</a>.<a class="xref" href="Virial.Components.ModAbilityButton.LabelType.html">LabelType</a></dt>
+    <dd></dd>
+    <dt><code>image</code> <a class="xref" href="Virial.Media.Image.html">Image</a></dt>
+    <dd></dd>
+    <dt><code>onKill</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-2">Action</a>&lt;<a class="xref" href="Virial.Game.Player.html">Player</a>, <a class="xref" href="Virial.Components.ModAbilityButton.html">ModAbilityButton</a>&gt;</dt>
+    <dd></dd>
+    <dt><code>filter</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;<a class="xref" href="Virial.Game.Player.html">Player</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>&gt;</dt>
+    <dd></dd>
+    <dt><code>availability</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;<a class="xref" href="Virial.Components.ModAbilityButton.html">ModAbilityButton</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>&gt;</dt>
+    <dd></dd>
+    <dt><code>visibility</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;<a class="xref" href="Virial.Components.ModAbilityButton.html">ModAbilityButton</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Virial.Components.ModAbilityButton.html">ModAbilityButton</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Virial_IModuleFactory_KillButton_" data-uid="Virial.IModuleFactory.KillButton*"></a>
+
+  <h3 id="Virial_IModuleFactory_KillButton_Virial_ILifespan_Virial_Game_Player_System_Boolean_Virial_Compat_VirtualKeyInput_System_String_System_Single_System_String_Virial_Components_ModAbilityButton_LabelType_Virial_Media_Image_System_Action_Virial_Game_Player_Virial_Components_ModAbilityButton__System_Func_Virial_Game_Player_System_Boolean__System_Func_Virial_Components_ModAbilityButton_System_Boolean__System_Func_Virial_Components_ModAbilityButton_System_Boolean__System_Func_Virial_Game_Player_System_Boolean__" data-uid="Virial.IModuleFactory.KillButton(Virial.ILifespan,Virial.Game.Player,System.Boolean,Virial.Compat.VirtualKeyInput,System.String,System.Single,System.String,Virial.Components.ModAbilityButton.LabelType,Virial.Media.Image,System.Action{Virial.Game.Player,Virial.Components.ModAbilityButton},System.Func{Virial.Game.Player,System.Boolean},System.Func{Virial.Components.ModAbilityButton,System.Boolean},System.Func{Virial.Components.ModAbilityButton,System.Boolean},System.Func{Virial.Game.Player,System.Boolean})">
+  KillButton(ILifespan, Player, bool, VirtualKeyInput, string?, float, string, LabelType, Image?, Action&lt;Player, ModAbilityButton&gt;, Func&lt;Player, bool&gt;?, Func&lt;ModAbilityButton, bool&gt;?, Func&lt;ModAbilityButton, bool&gt;?, Func&lt;Player, bool&gt;?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/ModuleFactory.cs/#L55"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">ModAbilityButton KillButton(ILifespan lifespan, Player player, bool arrangeAsKillButton, VirtualKeyInput input, string? inputHelp, float cooldown, string label, ModAbilityButton.LabelType labelType, Image? image, Action&lt;Player, ModAbilityButton&gt; onKill, Func&lt;Player, bool&gt;? filter = null, Func&lt;ModAbilityButton, bool&gt;? availability = null, Func&lt;ModAbilityButton, bool&gt;? visibility = null, Func&lt;Player, bool&gt;? filterHeavier = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>lifespan</code> <a class="xref" href="Virial.ILifespan.html">ILifespan</a></dt>
+    <dd></dd>
+    <dt><code>player</code> <a class="xref" href="Virial.Game.Player.html">Player</a></dt>
+    <dd></dd>
+    <dt><code>arrangeAsKillButton</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+    <dt><code>input</code> <a class="xref" href="Virial.Compat.VirtualKeyInput.html">VirtualKeyInput</a></dt>
+    <dd></dd>
+    <dt><code>inputHelp</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>cooldown</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>label</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>labelType</code> <a class="xref" href="Virial.Components.ModAbilityButton.html">ModAbilityButton</a>.<a class="xref" href="Virial.Components.ModAbilityButton.LabelType.html">LabelType</a></dt>
+    <dd></dd>
+    <dt><code>image</code> <a class="xref" href="Virial.Media.Image.html">Image</a></dt>
+    <dd></dd>
+    <dt><code>onKill</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-2">Action</a>&lt;<a class="xref" href="Virial.Game.Player.html">Player</a>, <a class="xref" href="Virial.Components.ModAbilityButton.html">ModAbilityButton</a>&gt;</dt>
+    <dd></dd>
+    <dt><code>filter</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;<a class="xref" href="Virial.Game.Player.html">Player</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>&gt;</dt>
+    <dd></dd>
+    <dt><code>availability</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;<a class="xref" href="Virial.Components.ModAbilityButton.html">ModAbilityButton</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>&gt;</dt>
+    <dd></dd>
+    <dt><code>visibility</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;<a class="xref" href="Virial.Components.ModAbilityButton.html">ModAbilityButton</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>&gt;</dt>
+    <dd></dd>
+    <dt><code>filterHeavier</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;<a class="xref" href="Virial.Game.Player.html">Player</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Virial.Components.ModAbilityButton.html">ModAbilityButton</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Virial_IModuleFactory_KillTracker_" data-uid="Virial.IModuleFactory.KillTracker*"></a>
+
+  <h3 id="Virial_IModuleFactory_KillTracker_Virial_ILifespan_Virial_Game_Player_System_Func_Virial_Game_Player_System_Boolean__System_Func_Virial_Game_Player_System_Boolean__" data-uid="Virial.IModuleFactory.KillTracker(Virial.ILifespan,Virial.Game.Player,System.Func{Virial.Game.Player,System.Boolean},System.Func{Virial.Game.Player,System.Boolean})">
+  KillTracker(ILifespan, Player, Func&lt;Player, bool&gt;?, Func&lt;Player, bool&gt;?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/ModuleFactory.cs/#L75"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">ObjectTracker&lt;Player&gt; KillTracker(ILifespan lifespan, Player player, Func&lt;Player, bool&gt;? filter = null, Func&lt;Player, bool&gt;? filterHeavier = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>lifespan</code> <a class="xref" href="Virial.ILifespan.html">ILifespan</a></dt>
+    <dd></dd>
+    <dt><code>player</code> <a class="xref" href="Virial.Game.Player.html">Player</a></dt>
+    <dd></dd>
+    <dt><code>filter</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;<a class="xref" href="Virial.Game.Player.html">Player</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>&gt;</dt>
+    <dd></dd>
+    <dt><code>filterHeavier</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;<a class="xref" href="Virial.Game.Player.html">Player</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Virial.Components.ObjectTracker-1.html">ObjectTracker</a>&lt;<a class="xref" href="Virial.Game.Player.html">Player</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Virial_IModuleFactory_Timer_" data-uid="Virial.IModuleFactory.Timer*"></a>
+
+  <h3 id="Virial_IModuleFactory_Timer_Virial_ILifespan_System_Single_" data-uid="Virial.IModuleFactory.Timer(Virial.ILifespan,System.Single)">
+  Timer(ILifespan, float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/ModuleFactory.cs/#L82"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>タイマーを生成します。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">GameTimer Timer(ILifespan lifespan, float max)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>lifespan</code> <a class="xref" href="Virial.ILifespan.html">ILifespan</a></dt>
+    <dd></dd>
+    <dt><code>max</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Virial.Components.GameTimer.html">GameTimer</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/ModuleFactory.cs/#L8" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

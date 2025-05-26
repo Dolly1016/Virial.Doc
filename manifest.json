@@ -1,0 +1,5510 @@
+{
+  "source_base_path": "C:/AmongUsModding/docfx-win-x64-v2.78.3/project",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      }
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Accessibility.OverlayHolder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Accessibility.OverlayHolder.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Accessibility.OverlayHolder",
+      "Summary": "<p sourcefile=\"api/Virial.Accessibility.OverlayHolder.yml\" sourcestartlinenumber=\"1\">緊急会議中、画面上部に表示されるオーバーレイを展開するアイコンを管理します。</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Accessibility.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Accessibility.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Accessibility",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Assignable.AllocationParameters.ExtraAssignment.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Assignable.AllocationParameters.ExtraAssignment.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Assignable.AllocationParameters.ExtraAssignment",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Assignable.AllocationParameters.ExtraAssignmentInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Assignable.AllocationParameters.ExtraAssignmentInfo.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Assignable.AllocationParameters.ExtraAssignmentInfo",
+      "Summary": "<p sourcefile=\"api/Virial.Assignable.AllocationParameters.ExtraAssignmentInfo.yml\" sourcestartlinenumber=\"1\">付随役職の割り当てを表します。</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Assignable.AllocationParameters.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Assignable.AllocationParameters.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Assignable.AllocationParameters",
+      "Summary": "<p sourcefile=\"api/Virial.Assignable.AllocationParameters.yml\" sourcestartlinenumber=\"1\">割り当てパラメータを表します。\nこのパラメータの値は通常、オプションによって変更されます。</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Assignable.AssignableFilterHolder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Assignable.AssignableFilterHolder.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Assignable.AssignableFilterHolder",
+      "Summary": "<p sourcefile=\"api/Virial.Assignable.AssignableFilterHolder.yml\" sourcestartlinenumber=\"1\">モディファイアおよび幽霊役職の割り当てフィルタを持つ対象を表します。</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Assignable.ByCategoryAllocatorOptions.CategoryOption.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Assignable.ByCategoryAllocatorOptions.CategoryOption.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Assignable.ByCategoryAllocatorOptions.CategoryOption",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Assignable.ByCategoryAllocatorOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Assignable.ByCategoryAllocatorOptions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Assignable.ByCategoryAllocatorOptions",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Assignable.Citation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Assignable.Citation.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Assignable.Citation",
+      "Summary": "<p sourcefile=\"api/Virial.Assignable.Citation.yml\" sourcestartlinenumber=\"1\">他Modからの引用情報を表します。</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Assignable.DefinedAllocatableModifier.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Assignable.DefinedAllocatableModifier.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Assignable.DefinedAllocatableModifier",
+      "Summary": "<p sourcefile=\"api/Virial.Assignable.DefinedAllocatableModifier.yml\" sourcestartlinenumber=\"1\">ゲーム開始時に割り当てられるモディファイアの役職定義を表します。</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Assignable.DefinedAllocatableModifierTemplate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Assignable.DefinedAllocatableModifierTemplate.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Assignable.DefinedAllocatableModifierTemplate",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Assignable.DefinedAssignable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Assignable.DefinedAssignable.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Assignable.DefinedAssignable",
+      "Summary": "<p sourcefile=\"api/Virial.Assignable.DefinedAssignable.yml\" sourcestartlinenumber=\"1\">プレイヤーに割り当てられる役職および追加役職の定義を表します。</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Assignable.DefinedAssignableTemplate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Assignable.DefinedAssignableTemplate.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Assignable.DefinedAssignableTemplate",
+      "Summary": "<p sourcefile=\"api/Virial.Assignable.DefinedAssignableTemplate.yml\" sourcestartlinenumber=\"1\">役職定義のテンプレートです。</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Assignable.DefinedCategorizedAssignable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Assignable.DefinedCategorizedAssignable.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Assignable.DefinedCategorizedAssignable",
+      "Summary": "<p sourcefile=\"api/Virial.Assignable.DefinedCategorizedAssignable.yml\" sourcestartlinenumber=\"1\">役職カテゴリで分類される役職の定義を表します。\nクルーメイト役職・インポスター役職・第三陣営役職が該当します。</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Assignable.DefinedGhostRole.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Assignable.DefinedGhostRole.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Assignable.DefinedGhostRole",
+      "Summary": "<p sourcefile=\"api/Virial.Assignable.DefinedGhostRole.yml\" sourcestartlinenumber=\"1\">幽霊役職の役職定義を表します。</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Assignable.DefinedGhostRoleTemplate.GhostAllocator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Assignable.DefinedGhostRoleTemplate.GhostAllocator.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Assignable.DefinedGhostRoleTemplate.GhostAllocator",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Assignable.DefinedGhostRoleTemplate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Assignable.DefinedGhostRoleTemplate.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Assignable.DefinedGhostRoleTemplate",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Assignable.DefinedModifier.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Assignable.DefinedModifier.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Assignable.DefinedModifier",
+      "Summary": "<p sourcefile=\"api/Virial.Assignable.DefinedModifier.yml\" sourcestartlinenumber=\"1\">プレイヤーに割り当てられるモディファイアの役職定義を表します。</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Assignable.DefinedModifierTemplate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Assignable.DefinedModifierTemplate.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Assignable.DefinedModifierTemplate",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Assignable.DefinedRole.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Assignable.DefinedRole.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Assignable.DefinedRole",
+      "Summary": "<p sourcefile=\"api/Virial.Assignable.DefinedRole.yml\" sourcestartlinenumber=\"1\">プレイヤーに割り当てられる役職の定義を表します。</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Assignable.DefinedRoleTemplate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Assignable.DefinedRoleTemplate.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Assignable.DefinedRoleTemplate",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Assignable.DefinedSingleAbilityRole-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Assignable.DefinedSingleAbilityRole-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Assignable.DefinedSingleAbilityRole<Ability>",
+      "Summary": "<p sourcefile=\"api/Virial.Assignable.DefinedSingleAbilityRole-1.yml\" sourcestartlinenumber=\"1\">ジャッカル化あるいは簒奪された能力、および通常の能力を同一のクラスで定義できる役職の定義を表します。</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Assignable.DefinedSingleAbilityRoleTemplate-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Assignable.DefinedSingleAbilityRoleTemplate-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Assignable.DefinedSingleAbilityRoleTemplate<Ability>",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Assignable.DefinedSingleAssignable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Assignable.DefinedSingleAssignable.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Assignable.DefinedSingleAssignable",
+      "Summary": "<p sourcefile=\"api/Virial.Assignable.DefinedSingleAssignable.yml\" sourcestartlinenumber=\"1\">単一のチームに属する役職の定義です。</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Assignable.DefinedSingleAssignableTemplate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Assignable.DefinedSingleAssignableTemplate.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Assignable.DefinedSingleAssignableTemplate",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Assignable.DefinedUsurpableAdvancedRoleTemplate-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Assignable.DefinedUsurpableAdvancedRoleTemplate-2.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Assignable.DefinedUsurpableAdvancedRoleTemplate<Ability, UsurpedAbility>",
+      "Summary": "<p sourcefile=\"api/Virial.Assignable.DefinedUsurpableAdvancedRoleTemplate-2.yml\" sourcestartlinenumber=\"1\">簒奪可能で、簒奪した能力が別の能力として記述される役職のテンプレートです。</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Assignable.HasAssignmentRoutine.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Assignable.HasAssignmentRoutine.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Assignable.HasAssignmentRoutine",
+      "Summary": "<p sourcefile=\"api/Virial.Assignable.HasAssignmentRoutine.yml\" sourcestartlinenumber=\"1\">独自の割り当てルーチンを持つ対象を表します。</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Assignable.HasCitation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Assignable.HasCitation.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Assignable.HasCitation",
+      "Summary": "<p sourcefile=\"api/Virial.Assignable.HasCitation.yml\" sourcestartlinenumber=\"1\">引用元を持つ対象を表します。</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Assignable.HasRoleFilter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Assignable.HasRoleFilter.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Assignable.HasRoleFilter",
+      "Summary": "<p sourcefile=\"api/Virial.Assignable.HasRoleFilter.yml\" sourcestartlinenumber=\"1\">役職フィルタをもつ対象を表します。\nモディファイアや幽霊役職が該当します。</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Assignable.IAssignToCategorizedRole.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Assignable.IAssignToCategorizedRole.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Assignable.IAssignToCategorizedRole",
+      "Summary": "<p sourcefile=\"api/Virial.Assignable.IAssignToCategorizedRole.yml\" sourcestartlinenumber=\"1\">役職が割り当てられたプレイヤーに、役職のカテゴリに応じて異なる割り当て確率を与える割り当てパラメータを表します。</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Assignable.ICategorizedRoleAllocator-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Assignable.ICategorizedRoleAllocator-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Assignable.ICategorizedRoleAllocator<R>",
+      "Summary": "<p sourcefile=\"api/Virial.Assignable.ICategorizedRoleAllocator-1.yml\" sourcestartlinenumber=\"1\">役職割り当て器です。\n該当の役職が何度割り当てられたか記憶し、都度適切な割り当て確率を返します。</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Assignable.ICodeName.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Assignable.ICodeName.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Assignable.ICodeName",
+      "Summary": "<p sourcefile=\"api/Virial.Assignable.ICodeName.yml\" sourcestartlinenumber=\"1\">短縮した、通常大文字アルファベット3文字からなる名前を持ちます。\nモディファイアはオプションの簡潔なシリアライズのため、コードネームを必要とします。</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Assignable.IGuessed.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Assignable.IGuessed.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Assignable.IGuessed",
+      "Summary": "<p sourcefile=\"api/Virial.Assignable.IGuessed.yml\" sourcestartlinenumber=\"1\">推察可能になりうる対象を表します。</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Assignable.IHasCategorizedRoleAllocator-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Assignable.IHasCategorizedRoleAllocator-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Assignable.IHasCategorizedRoleAllocator<R>",
+      "Summary": "<p sourcefile=\"api/Virial.Assignable.IHasCategorizedRoleAllocator-1.yml\" sourcestartlinenumber=\"1\">役職割り当て器を提供する役職を表します。</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Assignable.IRoleAllocator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Assignable.IRoleAllocator.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Assignable.IRoleAllocator",
+      "Summary": "<p sourcefile=\"api/Virial.Assignable.IRoleAllocator.yml\" sourcestartlinenumber=\"1\">役職の割り当て器です。\nゲーム開始時に生成され、ゲーム終了まで同じ割り当て器が使用されます。</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Assignable.IRoleID.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Assignable.IRoleID.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Assignable.IRoleID",
+      "Summary": "<p sourcefile=\"api/Virial.Assignable.IRoleID.yml\" sourcestartlinenumber=\"1\">役職IDをもつ対象を表します。</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Assignable.IRoleTable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Assignable.IRoleTable.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Assignable.IRoleTable",
+      "Summary": "<p sourcefile=\"api/Virial.Assignable.IRoleTable.yml\" sourcestartlinenumber=\"1\">役職の割り当てテーブルです。\nホストが割り当てを確定すると全プレイヤーに役職が配られ、ゲームが開始します。</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Assignable.ISpawnable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Assignable.ISpawnable.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Assignable.ISpawnable",
+      "Summary": "<p sourcefile=\"api/Virial.Assignable.ISpawnable.yml\" sourcestartlinenumber=\"1\">ゲーム中に出現しうる役職が実装するインターフェースです。</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Assignable.NebulaTeams.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Assignable.NebulaTeams.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Assignable.NebulaTeams",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Assignable.RoleCategory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Assignable.RoleCategory.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Assignable.RoleCategory",
+      "Summary": "<p sourcefile=\"api/Virial.Assignable.RoleCategory.yml\" sourcestartlinenumber=\"1\">役職の種別を表します。\n割り当て時に使用されます。</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Assignable.RoleTaskType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Assignable.RoleTaskType.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Assignable.RoleTaskType",
+      "Summary": "<p sourcefile=\"api/Virial.Assignable.RoleTaskType.yml\" sourcestartlinenumber=\"1\">その役職のプレイヤーに割り当てられるタスクの種別を表します。</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Assignable.RoleTeam.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Assignable.RoleTeam.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Assignable.RoleTeam",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Assignable.RuntimeAssignable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Assignable.RuntimeAssignable.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Assignable.RuntimeAssignable",
+      "Summary": "<p sourcefile=\"api/Virial.Assignable.RuntimeAssignable.yml\" sourcestartlinenumber=\"1\">役職実体です。\nプレイヤーに実際に割り当てられた役職やモディファイアのコンテナです。</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Assignable.RuntimeAssignableGenerator-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Assignable.RuntimeAssignableGenerator-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Assignable.RuntimeAssignableGenerator<T>",
+      "Summary": "<p sourcefile=\"api/Virial.Assignable.RuntimeAssignableGenerator-1.yml\" sourcestartlinenumber=\"1\">役職実体を生成する対象を表します。</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Assignable.RuntimeAssignableTemplate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Assignable.RuntimeAssignableTemplate.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Assignable.RuntimeAssignableTemplate",
+      "Summary": "<p sourcefile=\"api/Virial.Assignable.RuntimeAssignableTemplate.yml\" sourcestartlinenumber=\"1\">実行時役職のテンプレートです。</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Assignable.RuntimeGhostRole.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Assignable.RuntimeGhostRole.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Assignable.RuntimeGhostRole",
+      "Summary": "<p sourcefile=\"api/Virial.Assignable.RuntimeGhostRole.yml\" sourcestartlinenumber=\"1\">プレイヤーに割り当てられた役職のコンテナを表します。</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Assignable.RuntimeModifier.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Assignable.RuntimeModifier.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Assignable.RuntimeModifier",
+      "Summary": "<p sourcefile=\"api/Virial.Assignable.RuntimeModifier.yml\" sourcestartlinenumber=\"1\">プレイヤーに割り当てられた追加役職のコンテナを表します。</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Assignable.RuntimeRole.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Assignable.RuntimeRole.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Assignable.RuntimeRole",
+      "Summary": "<p sourcefile=\"api/Virial.Assignable.RuntimeRole.yml\" sourcestartlinenumber=\"1\">プレイヤーに割り当てられた役職のコンテナを表します。</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Assignable.RuntimeSingleAbilityAssignable-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Assignable.RuntimeSingleAbilityAssignable-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Assignable.RuntimeSingleAbilityAssignable<Ability>",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Assignable.RuntimeVentRoleTemplate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Assignable.RuntimeVentRoleTemplate.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Assignable.RuntimeVentRoleTemplate",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Assignable.TeamRevealType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Assignable.TeamRevealType.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Assignable.TeamRevealType",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Assignable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Assignable.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Assignable",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Attributes.AddonDocumentAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Attributes.AddonDocumentAttribute.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Attributes.AddonDocumentAttribute",
+      "Summary": "<p sourcefile=\"api/Virial.Attributes.AddonDocumentAttribute.yml\" sourcestartlinenumber=\"1\">ID付きドキュメントを表すクラスです。</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Attributes.EventPriority.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Attributes.EventPriority.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Attributes.EventPriority",
+      "Summary": "<p sourcefile=\"api/Virial.Attributes.EventPriority.yml\" sourcestartlinenumber=\"1\">リスナに優先度を設定します。デフォルトの優先度は100で、値が大きいほど優先して実行されます。</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Attributes.Local.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Attributes.Local.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Attributes.Local",
+      "Summary": "<p sourcefile=\"api/Virial.Attributes.Local.yml\" sourcestartlinenumber=\"1\">ローカルでのみ呼び出される手続きを表します。</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Attributes.NebulaPreprocess.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Attributes.NebulaPreprocess.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Attributes.NebulaPreprocess",
+      "Summary": "<p sourcefile=\"api/Virial.Attributes.NebulaPreprocess.yml\" sourcestartlinenumber=\"1\">プリプロセスメソッドを実装しているクラスにこの属性を付加します。\n静的な公開メソッドPreprocess(INebulaPreprocessor)を実装していると記述された処理が実行されます。\nそうでない場合でも静的コンストラクタが走ります。</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Attributes.NebulaRPC.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Attributes.NebulaRPC.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Attributes.NebulaRPC",
+      "Summary": "<p sourcefile=\"api/Virial.Attributes.NebulaRPC.yml\" sourcestartlinenumber=\"1\">メソッド呼び出しをRPC呼び出しに置き換える属性です。</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Attributes.OnlyHost.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Attributes.OnlyHost.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Attributes.OnlyHost",
+      "Summary": "<p sourcefile=\"api/Virial.Attributes.OnlyHost.yml\" sourcestartlinenumber=\"1\">ホストのみ呼び出される手続きを表します。</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Attributes.OnlyMyPlayer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Attributes.OnlyMyPlayer.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Attributes.OnlyMyPlayer",
+      "Summary": "<p sourcefile=\"api/Virial.Attributes.OnlyMyPlayer.yml\" sourcestartlinenumber=\"1\">GameOperatorに付与できる属性です。\nそのクラスに紐づけられたプレイヤーに関するイベントでのみ呼び出されるよう制限されます。</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Attributes.PreprocessPhase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Attributes.PreprocessPhase.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Attributes.PreprocessPhase",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Attributes.RequiringHandshake.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Attributes.RequiringHandshake.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Attributes.RequiringHandshake",
+      "Summary": "<p sourcefile=\"api/Virial.Attributes.RequiringHandshake.yml\" sourcestartlinenumber=\"1\">呼び出しによってハンドシェイクが求められるメソッドであることを示す属性です。</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Attributes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Attributes.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Attributes",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.BitMask-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.BitMask-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.BitMask<T>",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Color.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Color.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Color",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Command.ArrayCommandToken.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Command.ArrayCommandToken.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Command.ArrayCommandToken",
+      "Summary": "<p sourcefile=\"api/Virial.Command.ArrayCommandToken.yml\" sourcestartlinenumber=\"1\">配列のトークンです</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Command.CoActionTask-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Command.CoActionTask-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Command.CoActionTask<T>",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Command.CoBuiltInTask-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Command.CoBuiltInTask-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Command.CoBuiltInTask<T>",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Command.CoChainedTask-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Command.CoChainedTask-2.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Command.CoChainedTask<T, S>",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Command.CoChainedTasksHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Command.CoChainedTasksHelper.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Command.CoChainedTasksHelper",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Command.CoImmediateErrorTask-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Command.CoImmediateErrorTask-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Command.CoImmediateErrorTask<T>",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Command.CoImmediateTask-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Command.CoImmediateTask-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Command.CoImmediateTask<T>",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Command.CoTask-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Command.CoTask-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Command.CoTask<T>",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Command.CoTaskChainer-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Command.CoTaskChainer-2.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Command.CoTaskChainer<T, V>",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Command.CommandClause.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Command.CommandClause.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Command.CommandClause",
+      "Summary": "<p sourcefile=\"api/Virial.Command.CommandClause.yml\" sourcestartlinenumber=\"1\">コマンド文節の定義です。</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Command.CommandComplement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Command.CommandComplement.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Command.CommandComplement",
+      "Summary": "<p sourcefile=\"api/Virial.Command.CommandComplement.yml\" sourcestartlinenumber=\"1\">コマンドの補完候補です。</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Command.CommandEnvironment.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Command.CommandEnvironment.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Command.CommandEnvironment",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Command.CommandLogLevel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Command.CommandLogLevel.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Command.CommandLogLevel",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Command.CommandStructure.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Command.CommandStructure.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Command.CommandStructure",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Command.CommandStructureConverter-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Command.CommandStructureConverter-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Command.CommandStructureConverter<T>",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Command.CommandStructureHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Command.CommandStructureHelper.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Command.CommandStructureHelper",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Command.EmptyCommandToken.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Command.EmptyCommandToken.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Command.EmptyCommandToken",
+      "Summary": "<p sourcefile=\"api/Virial.Command.EmptyCommandToken.yml\" sourcestartlinenumber=\"1\">空のトークンです</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Command.ICommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Command.ICommand.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Command.ICommand",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Command.ICommandExecutor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Command.ICommandExecutor.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Command.ICommandExecutor",
+      "Summary": "<p sourcefile=\"api/Virial.Command.ICommandExecutor.yml\" sourcestartlinenumber=\"1\">コマンドの実行者を表します。</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Command.ICommandLogText.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Command.ICommandLogText.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Command.ICommandLogText",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Command.ICommandLogger.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Command.ICommandLogger.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Command.ICommandLogger",
+      "Summary": "<p sourcefile=\"api/Virial.Command.ICommandLogger.yml\" sourcestartlinenumber=\"1\">コマンド用のロガーです。</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Command.ICommandModifier.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Command.ICommandModifier.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Command.ICommandModifier",
+      "Summary": "<p sourcefile=\"api/Virial.Command.ICommandModifier.yml\" sourcestartlinenumber=\"1\">コマンド修飾子\n変数の代入を担います。</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Command.ICommandPropertyHolder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Command.ICommandPropertyHolder.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Command.ICommandPropertyHolder",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Command.ICommandToken.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Command.ICommandToken.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Command.ICommandToken",
+      "Summary": "<p sourcefile=\"api/Virial.Command.ICommandToken.yml\" sourcestartlinenumber=\"1\">コマンドのトークン列を構成します。</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Command.IExecutable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Command.IExecutable.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Command.IExecutable",
+      "Summary": "<p sourcefile=\"api/Virial.Command.IExecutable.yml\" sourcestartlinenumber=\"1\">実行可能な対象を表します。</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Command.NebulaCommandHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Command.NebulaCommandHelper.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Command.NebulaCommandHelper",
+      "Summary": "<p sourcefile=\"api/Virial.Command.NebulaCommandHelper.yml\" sourcestartlinenumber=\"1\">コマンドに関するコーディングをサポートする関数を提供します。</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Command.StructCommandToken.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Command.StructCommandToken.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Command.StructCommandToken",
+      "Summary": "<p sourcefile=\"api/Virial.Command.StructCommandToken.yml\" sourcestartlinenumber=\"1\">構造体トークンです。</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Command.TaskSupplier-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Command.TaskSupplier-2.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Command.TaskSupplier<T, V>",
+      "Summary": "<p sourcefile=\"api/Virial.Command.TaskSupplier-2.yml\" sourcestartlinenumber=\"1\">引数を率いて、タスクを提供する関数を表します。</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Command.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Command.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Command",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Common.IPermissionHolder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Common.IPermissionHolder.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Common.IPermissionHolder",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Common.Permission.PermissionVariable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Common.Permission.PermissionVariable.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Common.Permission.PermissionVariable",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Common.Permission.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Common.Permission.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Common.Permission",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Common.PermissionHolder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Common.PermissionHolder.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Common.PermissionHolder",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Common.VariablePermissionHolder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Common.VariablePermissionHolder.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Common.VariablePermissionHolder",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Common.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Common.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Common",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Compat.Artifact-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Compat.Artifact-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Compat.Artifact<T>",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Compat.FloatSelection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Compat.FloatSelection.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Compat.FloatSelection",
+      "Summary": "<p sourcefile=\"api/Virial.Compat.FloatSelection.yml\" sourcestartlinenumber=\"1\">主にConfigurationで使用する実数型の選択肢の表現を簡略化するためのものです。</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Compat.FuzzySize.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Compat.FuzzySize.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Compat.FuzzySize",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Compat.IReadOnlyArray-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Compat.IReadOnlyArray-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Compat.IReadOnlyArray<T>",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Compat.IntegerSelection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Compat.IntegerSelection.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Compat.IntegerSelection",
+      "Summary": "<p sourcefile=\"api/Virial.Compat.IntegerSelection.yml\" sourcestartlinenumber=\"1\">主にConfigurationで使用する整数型の選択肢の表現を簡略化するためのものです。</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Compat.ReadOnlyArray-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Compat.ReadOnlyArray-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Compat.ReadOnlyArray<T>",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Compat.Reference-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Compat.Reference-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Compat.Reference<T>",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Compat.Size.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Compat.Size.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Compat.Size",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Compat.Vector2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Compat.Vector2.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Compat.Vector2",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Compat.Vector3.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Compat.Vector3.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Compat.Vector3",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Compat.VirtualKeyInput.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Compat.VirtualKeyInput.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Compat.VirtualKeyInput",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Compat.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Compat.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Compat",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Components.GameTimer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Components.GameTimer.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Components.GameTimer",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Components.IKillButtonLike.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Components.IKillButtonLike.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Components.IKillButtonLike",
+      "Summary": "<p sourcefile=\"api/Virial.Components.IKillButtonLike.yml\" sourcestartlinenumber=\"1\">キルボタンに類するボタンを表します。\nシェリフやジャッカル等のキルボタンが含まれます。</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Components.IVisualTimer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Components.IVisualTimer.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Components.IVisualTimer",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Components.ModAbilityButton.LabelType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Components.ModAbilityButton.LabelType.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Components.ModAbilityButton.LabelType",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Components.ModAbilityButton.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Components.ModAbilityButton.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Components.ModAbilityButton",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Components.ObjectTracker-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Components.ObjectTracker-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Components.ObjectTracker<T>",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Components.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Components.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Components",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Configuration.AssignableFilter-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Configuration.AssignableFilter-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Configuration.AssignableFilter<T>",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Configuration.BoolConfiguration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Configuration.BoolConfiguration.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Configuration.BoolConfiguration",
+      "Summary": "<p sourcefile=\"api/Virial.Configuration.BoolConfiguration.yml\" sourcestartlinenumber=\"1\">真偽値を格納するオプションです。</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Configuration.ConfigurationHolderState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Configuration.ConfigurationHolderState.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Configuration.ConfigurationHolderState",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Configuration.ConfigurationTab.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Configuration.ConfigurationTab.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Configuration.ConfigurationTab",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Configuration.ConfigurationTag.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Configuration.ConfigurationTag.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Configuration.ConfigurationTag",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Configuration.Configurations.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Configuration.Configurations.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Configuration.Configurations",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Configuration.CoolDownType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Configuration.CoolDownType.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Configuration.CoolDownType",
+      "Summary": "<p sourcefile=\"api/Virial.Configuration.CoolDownType.yml\" sourcestartlinenumber=\"1\">クールダウン設定で使用する、クールダウンの設定方法です。</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Configuration.FloatConfiguration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Configuration.FloatConfiguration.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Configuration.FloatConfiguration",
+      "Summary": "<p sourcefile=\"api/Virial.Configuration.FloatConfiguration.yml\" sourcestartlinenumber=\"1\">実数値を格納するオプションです。</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Configuration.FloatConfigurationDecorator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Configuration.FloatConfigurationDecorator.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Configuration.FloatConfigurationDecorator",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Configuration.GhostRoleFilter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Configuration.GhostRoleFilter.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Configuration.GhostRoleFilter",
+      "Summary": "<p sourcefile=\"api/Virial.Configuration.GhostRoleFilter.yml\" sourcestartlinenumber=\"1\">割り当て可能な幽霊役職に制限をかけます。</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Configuration.IConfiguration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Configuration.IConfiguration.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Configuration.IConfiguration",
+      "Summary": "<p sourcefile=\"api/Virial.Configuration.IConfiguration.yml\" sourcestartlinenumber=\"1\">設定項目を表します。</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Configuration.IConfigurationHolder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Configuration.IConfigurationHolder.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Configuration.IConfigurationHolder",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Configuration.IOrderedSharableEntry.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Configuration.IOrderedSharableEntry.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Configuration.IOrderedSharableEntry",
+      "Summary": "<p sourcefile=\"api/Virial.Configuration.IOrderedSharableEntry.yml\" sourcestartlinenumber=\"1\">共有可能で、とりうる値に順序のある変数を表します。</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Configuration.IOrderedSharableVariable-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Configuration.IOrderedSharableVariable-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Configuration.IOrderedSharableVariable<T>",
+      "Summary": "<p sourcefile=\"api/Virial.Configuration.IOrderedSharableVariable-1.yml\" sourcestartlinenumber=\"1\">共有可能で、とりうる値に順序のある変数を表します。</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Configuration.IRelativeCoolDownConfiguration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Configuration.IRelativeCoolDownConfiguration.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Configuration.IRelativeCoolDownConfiguration",
+      "Summary": "<p sourcefile=\"api/Virial.Configuration.IRelativeCoolDownConfiguration.yml\" sourcestartlinenumber=\"1\">クールダウン設定のエディタです。</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Configuration.ISharableEntry.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Configuration.ISharableEntry.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Configuration.ISharableEntry",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Configuration.ISharableVariable-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Configuration.ISharableVariable-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Configuration.ISharableVariable<T>",
+      "Summary": "<p sourcefile=\"api/Virial.Configuration.ISharableVariable-1.yml\" sourcestartlinenumber=\"1\">共有可能な変数を表します。</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Configuration.ITaskConfiguration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Configuration.ITaskConfiguration.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Configuration.ITaskConfiguration",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Configuration.IVentConfiguration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Configuration.IVentConfiguration.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Configuration.IVentConfiguration",
+      "Summary": "<p sourcefile=\"api/Virial.Configuration.IVentConfiguration.yml\" sourcestartlinenumber=\"1\">ベント設定オプションのエディタです。</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Configuration.IntegerConfiguration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Configuration.IntegerConfiguration.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Configuration.IntegerConfiguration",
+      "Summary": "<p sourcefile=\"api/Virial.Configuration.IntegerConfiguration.yml\" sourcestartlinenumber=\"1\">整数値を格納するオプションです。</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Configuration.ModifierFilter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Configuration.ModifierFilter.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Configuration.ModifierFilter",
+      "Summary": "<p sourcefile=\"api/Virial.Configuration.ModifierFilter.yml\" sourcestartlinenumber=\"1\">割り当て可能なモディファイアに制限をかけます。</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Configuration.RoleFilter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Configuration.RoleFilter.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Configuration.RoleFilter",
+      "Summary": "<p sourcefile=\"api/Virial.Configuration.RoleFilter.yml\" sourcestartlinenumber=\"1\">割り当て可能な役職に制限をかけます。</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Configuration.ValueConfiguration-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Configuration.ValueConfiguration-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Configuration.ValueConfiguration<T>",
+      "Summary": "<p sourcefile=\"api/Virial.Configuration.ValueConfiguration-1.yml\" sourcestartlinenumber=\"1\">値を持つオプションです。</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Configuration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Configuration.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Configuration",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.DI.AbstractModule-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.DI.AbstractModule-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.DI.AbstractModule<Container>",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.DI.DIManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.DI.DIManager.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.DI.DIManager",
+      "Summary": "<p sourcefile=\"api/Virial.DI.DIManager.yml\" sourcestartlinenumber=\"1\">モジュールコンテナとモジュールに関する管理を担います。</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.DI.IGenericModule-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.DI.IGenericModule-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.DI.IGenericModule<Container>",
+      "Summary": "<p sourcefile=\"api/Virial.DI.IGenericModule-1.yml\" sourcestartlinenumber=\"1\">コンテナに属するモジュールを表します。</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.DI.IModule.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.DI.IModule.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.DI.IModule",
+      "Summary": "<p sourcefile=\"api/Virial.DI.IModule.yml\" sourcestartlinenumber=\"1\">モジュールを表します。</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.DI.IModuleContainer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.DI.IModuleContainer.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.DI.IModuleContainer",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.DI.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.DI.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.DI",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.DependentLifespan.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.DependentLifespan.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.DependentLifespan",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.EditableBitMask-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.EditableBitMask-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.EditableBitMask<T>",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Events.Event.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Events.Event.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Events.Event",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Events.Game.AbstractGameEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Events.Game.AbstractGameEvent.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Events.Game.AbstractGameEvent",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Events.Game.CameraUpdateEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Events.Game.CameraUpdateEvent.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Events.Game.CameraUpdateEvent",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Events.Game.DeadBodyInstantiateEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Events.Game.DeadBodyInstantiateEvent.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Events.Game.DeadBodyInstantiateEvent",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Events.Game.EndCriteriaMetEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Events.Game.EndCriteriaMetEvent.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Events.Game.EndCriteriaMetEvent",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Events.Game.GameEndEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Events.Game.GameEndEvent.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Events.Game.GameEndEvent",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Events.Game.GameHudUpdateEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Events.Game.GameHudUpdateEvent.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Events.Game.GameHudUpdateEvent",
+      "Summary": "<p sourcefile=\"api/Virial.Events.Game.GameHudUpdateEvent.yml\" sourcestartlinenumber=\"1\">ここでプレイヤーの輪郭を変更すると、変更が画面に正しく反映されます。</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Events.Game.GameHudUpdateFasterEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Events.Game.GameHudUpdateFasterEvent.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Events.Game.GameHudUpdateFasterEvent",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Events.Game.GameHudUpdateLaterEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Events.Game.GameHudUpdateLaterEvent.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Events.Game.GameHudUpdateLaterEvent",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Events.Game.GameLateUpdateEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Events.Game.GameLateUpdateEvent.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Events.Game.GameLateUpdateEvent",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Events.Game.GameStartEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Events.Game.GameStartEvent.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Events.Game.GameStartEvent",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Events.Game.GameUpdateEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Events.Game.GameUpdateEvent.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Events.Game.GameUpdateEvent",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Events.Game.LightRangeUpdateEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Events.Game.LightRangeUpdateEvent.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Events.Game.LightRangeUpdateEvent",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Events.Game.Meeting.CalledEmergencyMeetingEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Events.Game.Meeting.CalledEmergencyMeetingEvent.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Events.Game.Meeting.CalledEmergencyMeetingEvent",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Events.Game.Meeting.CheckCanPushEmergencyButtonEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Events.Game.Meeting.CheckCanPushEmergencyButtonEvent.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Events.Game.Meeting.CheckCanPushEmergencyButtonEvent",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Events.Game.Meeting.ExileScenePreStartEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Events.Game.Meeting.ExileScenePreStartEvent.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Events.Game.Meeting.ExileScenePreStartEvent",
+      "Summary": "<p sourcefile=\"api/Virial.Events.Game.Meeting.ExileScenePreStartEvent.yml\" sourcestartlinenumber=\"1\">追放シーンの開始直前に呼び出されます。\nExileControllerはまだ生成されていません。</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Events.Game.Meeting.ExileSceneStartEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Events.Game.Meeting.ExileSceneStartEvent.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Events.Game.Meeting.ExileSceneStartEvent",
+      "Summary": "<p sourcefile=\"api/Virial.Events.Game.Meeting.ExileSceneStartEvent.yml\" sourcestartlinenumber=\"1\">追放シーンの開始時に呼び出されます。\nMeetingHudとExileControllerの両方にアクセスできます。</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Events.Game.Meeting.MeetingEndEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Events.Game.Meeting.MeetingEndEvent.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Events.Game.Meeting.MeetingEndEvent",
+      "Summary": "<p sourcefile=\"api/Virial.Events.Game.Meeting.MeetingEndEvent.yml\" sourcestartlinenumber=\"1\">会議終了時に呼び出されます。\nプレイヤーはすでに追放されています。</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Events.Game.Meeting.MeetingPreEndEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Events.Game.Meeting.MeetingPreEndEvent.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Events.Game.Meeting.MeetingPreEndEvent",
+      "Summary": "<p sourcefile=\"api/Virial.Events.Game.Meeting.MeetingPreEndEvent.yml\" sourcestartlinenumber=\"1\">会議終了時、追加追放者を含むプレイヤーが全員追放された後で呼び出されます。\nこのイベントで登録されたコルーチンを全クライアントが実行しきった後、<xref href=\"Virial.Events.Game.Meeting.MeetingEndEvent\" data-throw-if-not-resolved=\"false\"></xref>が呼び出されます。</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Events.Game.Meeting.MeetingPreStartEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Events.Game.Meeting.MeetingPreStartEvent.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Events.Game.Meeting.MeetingPreStartEvent",
+      "Summary": "<p sourcefile=\"api/Virial.Events.Game.Meeting.MeetingPreStartEvent.yml\" sourcestartlinenumber=\"1\">会議の開始の要求が受け入れられた時点(レポート/緊急招集の瞬間)で呼び出されます。\n<xref href=\"Virial.Events.Game.Meeting.MeetingStartEvent\" data-throw-if-not-resolved=\"false\"></xref>より先行して呼び出されます。</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Events.Game.Meeting.MeetingPreSyncEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Events.Game.Meeting.MeetingPreSyncEvent.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Events.Game.Meeting.MeetingPreSyncEvent",
+      "Summary": "<p sourcefile=\"api/Virial.Events.Game.Meeting.MeetingPreSyncEvent.yml\" sourcestartlinenumber=\"1\">会議終了時、追加追放者を決定するルーチンの直前で呼び出されます。\nPlayerExileEventが発火するより前に呼び出されますが、他クライアントのPlayerExileEvent発火によって呼び出されたRPCは呼び出されている可能性があります。</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Events.Game.Meeting.MeetingStartEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Events.Game.Meeting.MeetingStartEvent.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Events.Game.Meeting.MeetingStartEvent",
+      "Summary": "<p sourcefile=\"api/Virial.Events.Game.Meeting.MeetingStartEvent.yml\" sourcestartlinenumber=\"1\">緊急会議開始時に呼び出されます。</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Events.Game.Meeting.MeetingTieVoteEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Events.Game.Meeting.MeetingTieVoteEvent.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Events.Game.Meeting.MeetingTieVoteEvent",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Events.Game.Meeting.MeetingVoteEndEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Events.Game.Meeting.MeetingVoteEndEvent.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Events.Game.Meeting.MeetingVoteEndEvent",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Events.Game.Meeting.PlayerVoteCastEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Events.Game.Meeting.PlayerVoteCastEvent.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Events.Game.Meeting.PlayerVoteCastEvent",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Events.Game.Meeting.PlayerVoteCastLocalEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Events.Game.Meeting.PlayerVoteCastLocalEvent.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Events.Game.Meeting.PlayerVoteCastLocalEvent",
+      "Summary": "<p sourcefile=\"api/Virial.Events.Game.Meeting.PlayerVoteCastLocalEvent.yml\" sourcestartlinenumber=\"1\">投票時に呼び出されます。\n自身が操作するプレイヤーに対してのみ呼び出されます。</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Events.Game.Meeting.PlayerVoteDisclosedLocalEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Events.Game.Meeting.PlayerVoteDisclosedLocalEvent.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Events.Game.Meeting.PlayerVoteDisclosedLocalEvent",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Events.Game.Meeting.PlayerVotedLocalEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Events.Game.Meeting.PlayerVotedLocalEvent.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Events.Game.Meeting.PlayerVotedLocalEvent",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Events.Game.Meeting.ReportDeadBodyEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Events.Game.Meeting.ReportDeadBodyEvent.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Events.Game.Meeting.ReportDeadBodyEvent",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Events.Game.Meeting.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Events.Game.Meeting.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Events.Game.Meeting",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Events.Game.Minimap.AbstractMapOpenEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Events.Game.Minimap.AbstractMapOpenEvent.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Events.Game.Minimap.AbstractMapOpenEvent",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Events.Game.Minimap.MapInstantiateEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Events.Game.Minimap.MapInstantiateEvent.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Events.Game.Minimap.MapInstantiateEvent",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Events.Game.Minimap.MapOpenAdminEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Events.Game.Minimap.MapOpenAdminEvent.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Events.Game.Minimap.MapOpenAdminEvent",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Events.Game.Minimap.MapOpenNormalEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Events.Game.Minimap.MapOpenNormalEvent.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Events.Game.Minimap.MapOpenNormalEvent",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Events.Game.Minimap.MapOpenSabotageEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Events.Game.Minimap.MapOpenSabotageEvent.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Events.Game.Minimap.MapOpenSabotageEvent",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Events.Game.Minimap.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Events.Game.Minimap.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Events.Game.Minimap",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Events.Game.TaskPhaseRestartEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Events.Game.TaskPhaseRestartEvent.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Events.Game.TaskPhaseRestartEvent",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Events.Game.TaskPhaseStartEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Events.Game.TaskPhaseStartEvent.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Events.Game.TaskPhaseStartEvent",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Events.Game.UpdateEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Events.Game.UpdateEvent.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Events.Game.UpdateEvent",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Events.Game.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Events.Game.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Events.Game",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Events.ICancelableEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Events.ICancelableEvent.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Events.ICancelableEvent",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Events.Player.AbstractPlayerEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Events.Player.AbstractPlayerEvent.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Events.Player.AbstractPlayerEvent",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Events.Player.PlayerAlphaUpdateEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Events.Player.PlayerAlphaUpdateEvent.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Events.Player.PlayerAlphaUpdateEvent",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Events.Player.PlayerBeginMinigameByConsoleLocalEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Events.Player.PlayerBeginMinigameByConsoleLocalEvent.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Events.Player.PlayerBeginMinigameByConsoleLocalEvent",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Events.Player.PlayerBlockWinEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Events.Player.PlayerBlockWinEvent.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Events.Player.PlayerBlockWinEvent",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Events.Player.PlayerCanGuessPlayerLocalEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Events.Player.PlayerCanGuessPlayerLocalEvent.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Events.Player.PlayerCanGuessPlayerLocalEvent",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Events.Player.PlayerCheckKilledEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Events.Player.PlayerCheckKilledEvent.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Events.Player.PlayerCheckKilledEvent",
+      "Summary": "<p sourcefile=\"api/Virial.Events.Player.PlayerCheckKilledEvent.yml\" sourcestartlinenumber=\"1\">このイベントはキラーのクライアント上でのみ発火します。\n計算のために必要な値はあらかじめ共有しておく必要があり、値の更新がある場合は更新も共有する必要があります。</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Events.Player.PlayerCheckRoleInfoVisibilityLocalEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Events.Player.PlayerCheckRoleInfoVisibilityLocalEvent.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Events.Player.PlayerCheckRoleInfoVisibilityLocalEvent",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Events.Player.PlayerCheckWinEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Events.Player.PlayerCheckWinEvent.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Events.Player.PlayerCheckWinEvent",
+      "Summary": "<p sourcefile=\"api/Virial.Events.Player.PlayerCheckWinEvent.yml\" sourcestartlinenumber=\"1\">プレイヤーが勝利しているかどうか判定します。\nこのイベントはホストでのみ実行されます。<xref href=\"Virial.Attributes.Local\" data-throw-if-not-resolved=\"false\"></xref>を指定すると意図せぬ挙動をする恐れがあります。</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Events.Player.PlayerDecorateNameEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Events.Player.PlayerDecorateNameEvent.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Events.Player.PlayerDecorateNameEvent",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Events.Player.PlayerDieEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Events.Player.PlayerDieEvent.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Events.Player.PlayerDieEvent",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Events.Player.PlayerDieOrDisconnectEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Events.Player.PlayerDieOrDisconnectEvent.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Events.Player.PlayerDieOrDisconnectEvent",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Events.Player.PlayerDisconnectEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Events.Player.PlayerDisconnectEvent.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Events.Player.PlayerDisconnectEvent",
+      "Summary": "<p sourcefile=\"api/Virial.Events.Player.PlayerDisconnectEvent.yml\" sourcestartlinenumber=\"1\">プレイヤーが切断したときに呼び出されます。</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Events.Player.PlayerDoGameActionEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Events.Player.PlayerDoGameActionEvent.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Events.Player.PlayerDoGameActionEvent",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Events.Player.PlayerExiledEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Events.Player.PlayerExiledEvent.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Events.Player.PlayerExiledEvent",
+      "Summary": "<p sourcefile=\"api/Virial.Events.Player.PlayerExiledEvent.yml\" sourcestartlinenumber=\"1\">プレイヤーの追放時に呼び出されます。\nこのとき、追加追放者を設定することができます。</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Events.Player.PlayerExtraExiledEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Events.Player.PlayerExtraExiledEvent.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Events.Player.PlayerExtraExiledEvent",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Events.Player.PlayerFixVoteHostEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Events.Player.PlayerFixVoteHostEvent.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Events.Player.PlayerFixVoteHostEvent",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Events.Player.PlayerGuardEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Events.Player.PlayerGuardEvent.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Events.Player.PlayerGuardEvent",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Events.Player.PlayerKillPlayerEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Events.Player.PlayerKillPlayerEvent.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Events.Player.PlayerKillPlayerEvent",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Events.Player.PlayerModifierRemoveEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Events.Player.PlayerModifierRemoveEvent.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Events.Player.PlayerModifierRemoveEvent",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Events.Player.PlayerModifierSetEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Events.Player.PlayerModifierSetEvent.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Events.Player.PlayerModifierSetEvent",
+      "Summary": "<p sourcefile=\"api/Virial.Events.Player.PlayerModifierSetEvent.yml\" sourcestartlinenumber=\"1\">モディファイアが追加された直後に呼び出されます。</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Events.Player.PlayerMurderedEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Events.Player.PlayerMurderedEvent.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Events.Player.PlayerMurderedEvent",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Events.Player.PlayerOutfitChangeEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Events.Player.PlayerOutfitChangeEvent.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Events.Player.PlayerOutfitChangeEvent",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Events.Player.PlayerReviveEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Events.Player.PlayerReviveEvent.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Events.Player.PlayerReviveEvent",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Events.Player.PlayerRoleSetEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Events.Player.PlayerRoleSetEvent.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Events.Player.PlayerRoleSetEvent",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Events.Player.PlayerSabotageTaskAddLocalEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Events.Player.PlayerSabotageTaskAddLocalEvent.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Events.Player.PlayerSabotageTaskAddLocalEvent",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Events.Player.PlayerTaskCompleteEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Events.Player.PlayerTaskCompleteEvent.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Events.Player.PlayerTaskCompleteEvent",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Events.Player.PlayerTaskCompleteLocalEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Events.Player.PlayerTaskCompleteLocalEvent.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Events.Player.PlayerTaskCompleteLocalEvent",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Events.Player.PlayerTaskRemoveLocalEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Events.Player.PlayerTaskRemoveLocalEvent.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Events.Player.PlayerTaskRemoveLocalEvent",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Events.Player.PlayerTaskUpdateEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Events.Player.PlayerTaskUpdateEvent.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Events.Player.PlayerTaskUpdateEvent",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Events.Player.PlayerTasksTrySetLocalEvent.Task.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Events.Player.PlayerTasksTrySetLocalEvent.Task.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Events.Player.PlayerTasksTrySetLocalEvent.Task",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Events.Player.PlayerTasksTrySetLocalEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Events.Player.PlayerTasksTrySetLocalEvent.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Events.Player.PlayerTasksTrySetLocalEvent",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Events.Player.PlayerTryVanillaKillLocalEventAbstractPlayerEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Events.Player.PlayerTryVanillaKillLocalEventAbstractPlayerEvent.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Events.Player.PlayerTryVanillaKillLocalEventAbstractPlayerEvent",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Events.Player.PlayerVentEnterEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Events.Player.PlayerVentEnterEvent.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Events.Player.PlayerVentEnterEvent",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Events.Player.PlayerVentExitEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Events.Player.PlayerVentExitEvent.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Events.Player.PlayerVentExitEvent",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Events.Player.ResetKillCooldownLocalEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Events.Player.ResetKillCooldownLocalEvent.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Events.Player.ResetKillCooldownLocalEvent",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Events.Player.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Events.Player.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Events.Player",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Events.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Events.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Events",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.FlexibleLifespan.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.FlexibleLifespan.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.FlexibleLifespan",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.FunctionalLifespan.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.FunctionalLifespan.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.FunctionalLifespan",
+      "Summary": "<p sourcefile=\"api/Virial.FunctionalLifespan.yml\" sourcestartlinenumber=\"1\">関数によって定義される寿命付きオブジェクトです。</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Game.AbstractPlayerAbility.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Game.AbstractPlayerAbility.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Game.AbstractPlayerAbility",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Game.AbstractPlayerUsurpableAbility.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Game.AbstractPlayerUsurpableAbility.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Game.AbstractPlayerUsurpableAbility",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Game.ArchivedColor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Game.ArchivedColor.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Game.ArchivedColor",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Game.EndState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Game.EndState.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Game.EndState",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Game.ExtraWin.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Game.ExtraWin.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Game.ExtraWin",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Game.ExtraWinCheckPhase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Game.ExtraWinCheckPhase.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Game.ExtraWinCheckPhase",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Game.Game.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Game.Game.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Game.Game",
+      "Summary": "<p sourcefile=\"api/Virial.Game.Game.yml\" sourcestartlinenumber=\"1\">現在プレイ中のゲームを表します。</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Game.GameActionType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Game.GameActionType.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Game.GameActionType",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Game.GameActionTypes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Game.GameActionTypes.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Game.GameActionTypes",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Game.GameEnd.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Game.GameEnd.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Game.GameEnd",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Game.GameEndReason.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Game.GameEndReason.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Game.GameEndReason",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Game.GameEntityExtension.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Game.GameEntityExtension.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Game.GameEntityExtension",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Game.GameModeDefinition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Game.GameModeDefinition.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Game.GameModeDefinition",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Game.GameModes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Game.GameModes.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Game.GameModes",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Game.GameStatsCategory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Game.GameStatsCategory.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Game.GameStatsCategory",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Game.GameStatsEntry.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Game.GameStatsEntry.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Game.GameStatsEntry",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Game.IArchivedEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Game.IArchivedEvent.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Game.IArchivedEvent",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Game.IArchivedEventVariation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Game.IArchivedEventVariation.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Game.IArchivedEventVariation",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Game.IArchivedGame.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Game.IArchivedGame.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Game.IArchivedGame",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Game.IArchivedPlayer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Game.IArchivedPlayer.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Game.IArchivedPlayer",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Game.IBindPlayer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Game.IBindPlayer.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Game.IBindPlayer",
+      "Summary": "<p sourcefile=\"api/Virial.Game.IBindPlayer.yml\" sourcestartlinenumber=\"1\">プレイヤーに紐づけられたEntityを表します。</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Game.IGameModeFreePlay.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Game.IGameModeFreePlay.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Game.IGameModeFreePlay",
+      "Summary": "<p sourcefile=\"api/Virial.Game.IGameModeFreePlay.yml\" sourcestartlinenumber=\"1\">フリープレイモードのゲームで生成されるモジュールです。</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Game.IGameModeModule.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Game.IGameModeModule.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Game.IGameModeModule",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Game.IGameModeStandard.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Game.IGameModeStandard.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Game.IGameModeStandard",
+      "Summary": "<p sourcefile=\"api/Virial.Game.IGameModeStandard.yml\" sourcestartlinenumber=\"1\">標準モードのゲームで生成されるモジュールです。</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Game.IGameObject.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Game.IGameObject.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Game.IGameObject",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Game.IGameOperator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Game.IGameOperator.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Game.IGameOperator",
+      "Summary": "<p sourcefile=\"api/Virial.Game.IGameOperator.yml\" sourcestartlinenumber=\"1\">ゲームに作用するEntityを表します。</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Game.IMapObjectSpawner.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Game.IMapObjectSpawner.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Game.IMapObjectSpawner",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Game.IPlayerAbility.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Game.IPlayerAbility.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Game.IPlayerAbility",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Game.IPlayerAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Game.IPlayerAttribute.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Game.IPlayerAttribute",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Game.IPlayerlike.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Game.IPlayerlike.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Game.IPlayerlike",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Game.IUsurpableAbility.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Game.IUsurpableAbility.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Game.IUsurpableAbility",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Game.KillButtonLikeHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Game.KillButtonLikeHandler.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Game.KillButtonLikeHandler",
+      "Summary": "<p sourcefile=\"api/Virial.Game.KillButtonLikeHandler.yml\" sourcestartlinenumber=\"1\">キルボタンに類する対象を管理します。</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Game.KillCondition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Game.KillCondition.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Game.KillCondition",
+      "Summary": "<p sourcefile=\"api/Virial.Game.KillCondition.yml\" sourcestartlinenumber=\"1\">キルはホストが処理します。\nキルのリクエストから実際のキルの遂行までにタイムラグがあるため、この間に生死の状態に変化が起きている場合があります。\n実際のキルを遂行するか否かを決定する際に条件を課します。</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Game.KillParameter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Game.KillParameter.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Game.KillParameter",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Game.KillResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Game.KillResult.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Game.KillResult",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Game.MapObjectCondition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Game.MapObjectCondition.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Game.MapObjectCondition",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Game.MapObjectType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Game.MapObjectType.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Game.MapObjectType",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Game.NebulaGameEnds.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Game.NebulaGameEnds.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Game.NebulaGameEnds",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Game.Outfit.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Game.Outfit.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Game.Outfit",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Game.OutfitCandidate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Game.OutfitCandidate.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Game.OutfitCandidate",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Game.OutfitDefinition.OutfitId.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Game.OutfitDefinition.OutfitId.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Game.OutfitDefinition.OutfitId",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Game.OutfitDefinition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Game.OutfitDefinition.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Game.OutfitDefinition",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Game.OutfitTag.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Game.OutfitTag.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Game.OutfitTag",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Game.Player.ExtraDeadInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Game.Player.ExtraDeadInfo.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Game.Player.ExtraDeadInfo",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Game.Player.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Game.Player.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Game.Player",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Game.PlayerAttributes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Game.PlayerAttributes.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Game.PlayerAttributes",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Game.PlayerDiving.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Game.PlayerDiving.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Game.PlayerDiving",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Game.PlayerTasks.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Game.PlayerTasks.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Game.PlayerTasks",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Game.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Game.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Game",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Helpers.ArrayHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Helpers.ArrayHelper.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Helpers.ArrayHelper",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Helpers.CoroutineHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Helpers.CoroutineHelper.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Helpers.CoroutineHelper",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Helpers.EnumerableHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Helpers.EnumerableHelper.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Helpers.EnumerableHelper",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Helpers.TextHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Helpers.TextHelper.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Helpers.TextHelper",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Helpers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Helpers.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Helpers",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.IBit32.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.IBit32.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.IBit32",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.IBit64.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.IBit64.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.IBit64",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.ILifespan.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.ILifespan.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.ILifespan",
+      "Summary": "<p sourcefile=\"api/Virial.ILifespan.yml\" sourcestartlinenumber=\"1\">寿命を持つオブジェクトです</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.IModuleFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.IModuleFactory.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.IModuleFactory",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.INestedLifespan.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.INestedLifespan.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.INestedLifespan",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.IReleasable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.IReleasable.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.IReleasable",
+      "Summary": "<p sourcefile=\"api/Virial.IReleasable.yml\" sourcestartlinenumber=\"1\">任意のタイミングで解放できるオブジェクトを表します。\n能動的に寿命が切れる寿命オブジェクトが実装すべきインターフェースです。</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Media.Anchor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Media.Anchor.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Media.Anchor",
+      "Summary": "<p sourcefile=\"api/Virial.Media.Anchor.yml\" sourcestartlinenumber=\"1\">画面の基準点を表します。\n生成されたスクリーン上の点と空間上の点は同じ位置にくるように重ね合わせられます。</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Media.GUI.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Media.GUI.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Media.GUI",
+      "Summary": "<p sourcefile=\"api/Virial.Media.GUI.yml\" sourcestartlinenumber=\"1\">GUI上に表示する各種オブジェクトの定義や関連するオブジェクトを生成できます。</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Media.GUIAlignment.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Media.GUIAlignment.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Media.GUIAlignment",
+      "Summary": "<p sourcefile=\"api/Virial.Media.GUIAlignment.yml\" sourcestartlinenumber=\"1\">スクリーン上に表示されるオブジェクトの配置位置を指定します。</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Media.GUIClickable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Media.GUIClickable.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Media.GUIClickable",
+      "Summary": "<p sourcefile=\"api/Virial.Media.GUIClickable.yml\" sourcestartlinenumber=\"1\">GUI上のクリック可能なオブジェクトを表します。</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Media.GUIClickableAction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Media.GUIClickableAction.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Media.GUIClickableAction",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Media.GUIScreen.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Media.GUIScreen.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Media.GUIScreen",
+      "Summary": "<p sourcefile=\"api/Virial.Media.GUIScreen.yml\" sourcestartlinenumber=\"1\">GUIの画面を表します。</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Media.GUIUpdatableText.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Media.GUIUpdatableText.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Media.GUIUpdatableText",
+      "Summary": "<p sourcefile=\"api/Virial.Media.GUIUpdatableText.yml\" sourcestartlinenumber=\"1\">更新可能なテキスト</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Media.GUIWidget.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Media.GUIWidget.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Media.GUIWidget",
+      "Summary": "<p sourcefile=\"api/Virial.Media.GUIWidget.yml\" sourcestartlinenumber=\"1\">GUI上に表示できるオブジェクトの定義を表します。</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Media.GUIWidgetHelpers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Media.GUIWidgetHelpers.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Media.GUIWidgetHelpers",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Media.GUIWidgetSupplier.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Media.GUIWidgetSupplier.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Media.GUIWidgetSupplier",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Media.Hint.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Media.Hint.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Media.Hint",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Media.HintOnlyText.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Media.HintOnlyText.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Media.HintOnlyText",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Media.HintWithImage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Media.HintWithImage.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Media.HintWithImage",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Media.IDocument.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Media.IDocument.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Media.IDocument",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Media.IDocumentWithId.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Media.IDocumentWithId.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Media.IDocumentWithId",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Media.IGUISelectable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Media.IGUISelectable.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Media.IGUISelectable",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Media.IManageableAsset.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Media.IManageableAsset.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Media.IManageableAsset",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Media.INebulaResource.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Media.INebulaResource.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Media.INebulaResource",
+      "Summary": "<p sourcefile=\"api/Virial.Media.INebulaResource.yml\" sourcestartlinenumber=\"1\">名前に紐づけられたリソースを取得します。</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Media.IResourceAllocator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Media.IResourceAllocator.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Media.IResourceAllocator",
+      "Summary": "<p sourcefile=\"api/Virial.Media.IResourceAllocator.yml\" sourcestartlinenumber=\"1\">リソースのアロケータ</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Media.IVariableNamespaceAllocator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Media.IVariableNamespaceAllocator.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Media.IVariableNamespaceAllocator",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Media.IVariableResourceAllocator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Media.IVariableResourceAllocator.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Media.IVariableResourceAllocator",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Media.Image.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Media.Image.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Media.Image",
+      "Summary": "<p sourcefile=\"api/Virial.Media.Image.yml\" sourcestartlinenumber=\"1\">画像メディアを表します。</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Media.Localization.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Media.Localization.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Media.Localization",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Media.MultiImage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Media.MultiImage.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Media.MultiImage",
+      "Summary": "<p sourcefile=\"api/Virial.Media.MultiImage.yml\" sourcestartlinenumber=\"1\">複数の画像メディアを表します。</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Media.NamespaceAllocator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Media.NamespaceAllocator.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Media.NamespaceAllocator",
+      "Summary": "<p sourcefile=\"api/Virial.Media.NamespaceAllocator.yml\" sourcestartlinenumber=\"1\">子空間を持つのみのアロケータ</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Media.Translator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Media.Translator.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Media.Translator",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Media.VariableResourceAllocator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Media.VariableResourceAllocator.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Media.VariableResourceAllocator",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Media.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Media.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Media",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.NebulaAPI.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.NebulaAPI.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.NebulaAPI",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.NonHostPlayerException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.NonHostPlayerException.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.NonHostPlayerException",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.NonOwnerPlayerException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.NonOwnerPlayerException.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.NonOwnerPlayerException",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Runtime.NebulaPreprocessor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Runtime.NebulaPreprocessor.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Runtime.NebulaPreprocessor",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Runtime.NebulaRuntime.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Runtime.NebulaRuntime.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Runtime.NebulaRuntime",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Runtime.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Runtime.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Runtime",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.SimpleLifespan.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.SimpleLifespan.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.SimpleLifespan",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Text.AbstractDocumentTip.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Text.AbstractDocumentTip.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Text.AbstractDocumentTip",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Text.AbstractDocumentTitledTip.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Text.AbstractDocumentTitledTip.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Text.AbstractDocumentTitledTip",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Text.AttributeAsset.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Text.AttributeAsset.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Text.AttributeAsset",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Text.AttributeParams.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Text.AttributeParams.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Text.AttributeParams",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Text.CombinedTextComponent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Text.CombinedTextComponent.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Text.CombinedTextComponent",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Text.CommunicableTextTag.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Text.CommunicableTextTag.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Text.CommunicableTextTag",
+      "Summary": "<p sourcefile=\"api/Virial.Text.CommunicableTextTag.yml\" sourcestartlinenumber=\"1\">翻訳キーに一意的な意味を与えるタグです。</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Text.EventDetails.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Text.EventDetails.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Text.EventDetails",
+      "Summary": "<p sourcefile=\"api/Virial.Text.EventDetails.yml\" sourcestartlinenumber=\"1\">記録されたイベントの概要を説明するタグです。</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Text.Font.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Text.Font.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Text.Font",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Text.FontAsset.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Text.FontAsset.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Text.FontAsset",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Text.FontSize.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Text.FontSize.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Text.FontSize",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Text.FontStyle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Text.FontStyle.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Text.FontStyle",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Text.IDocumentTip.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Text.IDocumentTip.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Text.IDocumentTip",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Text.IDocumentTitledTip.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Text.IDocumentTitledTip.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Text.IDocumentTitledTip",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Text.PlayerStates.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Text.PlayerStates.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Text.PlayerStates",
+      "Summary": "<p sourcefile=\"api/Virial.Text.PlayerStates.yml\" sourcestartlinenumber=\"1\">プレイヤーの状態を表すために使用されるタグです。</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Text.TextAlignment.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Text.TextAlignment.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Text.TextAlignment",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Text.TextAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Text.TextAttribute.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Text.TextAttribute",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Text.TextComponent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Text.TextComponent.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Text.TextComponent",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Text.TextComponentHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Text.TextComponentHelper.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Text.TextComponentHelper",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Text.WinConditionTip.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Text.WinConditionTip.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Text.WinConditionTip",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Text.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Text.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Text",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Utilities.Cache-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Utilities.Cache-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Utilities.Cache<T>",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Utilities.ComponentCache-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Utilities.ComponentCache-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Utilities.ComponentCache<T>",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Utilities.FunctionalGetter-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Utilities.FunctionalGetter-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Utilities.FunctionalGetter<T>",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Utilities.FunctionalProperty-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Utilities.FunctionalProperty-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Utilities.FunctionalProperty<T>",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Utilities.FunctionalSetter-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Utilities.FunctionalSetter-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Utilities.FunctionalSetter<T>",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Utilities.IFunctionalGetProperty-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Utilities.IFunctionalGetProperty-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Utilities.IFunctionalGetProperty<T>",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Utilities.IFunctionalProperty-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Utilities.IFunctionalProperty-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Utilities.IFunctionalProperty<T>",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Utilities.IFunctionalSetProperty-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Utilities.IFunctionalSetProperty-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Utilities.IFunctionalSetProperty<T>",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Utilities.IHasher.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Utilities.IHasher.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Utilities.IHasher",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Utilities.OrderedList-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Utilities.OrderedList-2.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Utilities.OrderedList<T, Key>",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Utilities.SerializedDataReader.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Utilities.SerializedDataReader.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Utilities.SerializedDataReader",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Utilities.SerializedDataWriter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Utilities.SerializedDataWriter.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Utilities.SerializedDataWriter",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Utilities.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Utilities.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Utilities",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.VisualProgramming.AbstractExecutableNode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.VisualProgramming.AbstractExecutableNode.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.VisualProgramming.AbstractExecutableNode",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.VisualProgramming.EvaluatorFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.VisualProgramming.EvaluatorFactory.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.VisualProgramming.EvaluatorFactory",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.VisualProgramming.Exception.BrokenProgramException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.VisualProgramming.Exception.BrokenProgramException.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.VisualProgramming.Exception.BrokenProgramException",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.VisualProgramming.Exception.ExecutionPathViolationException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.VisualProgramming.Exception.ExecutionPathViolationException.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.VisualProgramming.Exception.ExecutionPathViolationException",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.VisualProgramming.Exception.InterruptionException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.VisualProgramming.Exception.InterruptionException.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.VisualProgramming.Exception.InterruptionException",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.VisualProgramming.Exception.VPException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.VisualProgramming.Exception.VPException.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.VisualProgramming.Exception.VPException",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.VisualProgramming.Exception.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.VisualProgramming.Exception.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.VisualProgramming.Exception",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.VisualProgramming.FunctionNode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.VisualProgramming.FunctionNode.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.VisualProgramming.FunctionNode",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.VisualProgramming.ICircuit.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.VisualProgramming.ICircuit.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.VisualProgramming.ICircuit",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.VisualProgramming.INode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.VisualProgramming.INode.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.VisualProgramming.INode",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.VisualProgramming.INodesCollection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.VisualProgramming.INodesCollection.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.VisualProgramming.INodesCollection",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.VisualProgramming.IVPCalculable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.VisualProgramming.IVPCalculable.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.VisualProgramming.IVPCalculable",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.VisualProgramming.IVPNumeric.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.VisualProgramming.IVPNumeric.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.VisualProgramming.IVPNumeric",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.VisualProgramming.IVPTypeProperty.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.VisualProgramming.IVPTypeProperty.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.VisualProgramming.IVPTypeProperty",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.VisualProgramming.NodeFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.VisualProgramming.NodeFactory.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.VisualProgramming.NodeFactory",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.VisualProgramming.NodeGenerator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.VisualProgramming.NodeGenerator.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.VisualProgramming.NodeGenerator",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.VisualProgramming.NodeProperty.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.VisualProgramming.NodeProperty.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.VisualProgramming.NodeProperty",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.VisualProgramming.VPBool.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.VisualProgramming.VPBool.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.VisualProgramming.VPBool",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.VisualProgramming.VPCacheValue.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.VisualProgramming.VPCacheValue.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.VisualProgramming.VPCacheValue",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.VisualProgramming.VPConstant.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.VisualProgramming.VPConstant.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.VisualProgramming.VPConstant",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.VisualProgramming.VPDummyValue.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.VisualProgramming.VPDummyValue.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.VisualProgramming.VPDummyValue",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.VisualProgramming.VPEnvironment.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.VisualProgramming.VPEnvironment.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.VisualProgramming.VPEnvironment",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.VisualProgramming.VPFloat.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.VisualProgramming.VPFloat.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.VisualProgramming.VPFloat",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.VisualProgramming.VPInt.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.VisualProgramming.VPInt.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.VisualProgramming.VPInt",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.VisualProgramming.VPLimitations.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.VisualProgramming.VPLimitations.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.VisualProgramming.VPLimitations",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.VisualProgramming.VPString.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.VisualProgramming.VPString.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.VisualProgramming.VPString",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.VisualProgramming.VPTypeLimitation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.VisualProgramming.VPTypeLimitation.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.VisualProgramming.VPTypeLimitation",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.VisualProgramming.VPTypeProperties.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.VisualProgramming.VPTypeProperties.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.VisualProgramming.VPTypeProperties",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.VisualProgramming.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.VisualProgramming.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.VisualProgramming",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial",
+      "Summary": null
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html"
+        },
+        ".json": {
+          "relative_path": "api/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/introduction.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/introduction.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "docs/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/toc.html"
+        },
+        ".json": {
+          "relative_path": "docs/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html"
+        },
+        ".json": {
+          "relative_path": "toc.json"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}
