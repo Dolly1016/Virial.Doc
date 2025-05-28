@@ -2,11 +2,11 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Class ExileSceneStartEvent | Virial </title>
+      <title>Class MeetingTieVoteHostEvent | Virial </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Class ExileSceneStartEvent | Virial ">
+      <meta name="title" content="Class MeetingTieVoteHostEvent | Virial ">
       
-      <meta name="description" content="追放シーンの開始時に呼び出されます。 会議画面と追放画面の両方にアクセスできます。">
+      <meta name="description" content="タイ投票が発生したときに発火します。 追加票を投じさせられます。追加票を投じた後の投票結果がタイ投票であっても、このイベントは発火しません。">
       <link rel="icon" href="../images/icon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -16,7 +16,7 @@
       <meta name="docfx:rel" content="../">
       
       
-      <meta name="docfx:docurl" content="https://github.com/Dolly1016/Nebula-Public/new/master/apiSpec/new?filename=Virial_Events_Game_Meeting_ExileSceneStartEvent.md&amp;value=---%0Auid%3A%20Virial.Events.Game.Meeting.ExileSceneStartEvent%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="docfx:docurl" content="https://github.com/Dolly1016/Nebula-Public/new/master/apiSpec/new?filename=Virial_Events_Game_Meeting_MeetingTieVoteHostEvent.md&amp;value=---%0Auid%3A%20Virial.Events.Game.Meeting.MeetingTieVoteHostEvent%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -84,12 +84,12 @@
           <nav id="breadcrumb"></nav>
         </div>
 
-        <article data-uid="Virial.Events.Game.Meeting.ExileSceneStartEvent">
+        <article data-uid="Virial.Events.Game.Meeting.MeetingTieVoteHostEvent">
 
 
 
-  <h1 id="Virial_Events_Game_Meeting_ExileSceneStartEvent" data-uid="Virial.Events.Game.Meeting.ExileSceneStartEvent" class="text-break">
-Class ExileSceneStartEvent  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Events/Game/Meeting/ExileScenePreStartEvent.cs/#L13"><i class="bi bi-code-slash"></i></a>
+  <h1 id="Virial_Events_Game_Meeting_MeetingTieVoteHostEvent" data-uid="Virial.Events.Game.Meeting.MeetingTieVoteHostEvent" class="text-break">
+Class MeetingTieVoteHostEvent  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Events/Game/Meeting/MeetingTieVoteHostEvent.cs/#L17"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -97,13 +97,13 @@ Class ExileSceneStartEvent  <a class="header-action link-secondary" title="View 
   
   </div>
 
-  <div class="markdown summary"><p>追放シーンの開始時に呼び出されます。
-会議画面と追放画面の両方にアクセスできます。</p>
+  <div class="markdown summary"><p>タイ投票が発生したときに発火します。
+追加票を投じさせられます。追加票を投じた後の投票結果がタイ投票であっても、このイベントは発火しません。</p>
 </div>
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class ExileSceneStartEvent : Event</code></pre>
+    <pre><code class="lang-csharp hljs">public class MeetingTieVoteHostEvent : Event</code></pre>
   </div>
 
 
@@ -113,7 +113,7 @@ Class ExileSceneStartEvent  <a class="header-action link-secondary" title="View 
     <dt>Inheritance</dt>
     <dd>
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
-      <div><span class="xref">ExileSceneStartEvent</span></div>
+      <div><span class="xref">MeetingTieVoteHostEvent</span></div>
     </dd>
   </dl>
 
@@ -154,35 +154,80 @@ Class ExileSceneStartEvent  <a class="header-action link-secondary" title="View 
 
 
 
+  <h2 id="Virial_Events_Game_Meeting_MeetingTieVoteHostEvent_remarks">Remarks</h2>
+  <div class="markdown level0 remarks"><p>このイベントはホストでのみ発火します。</p>
+</div>
 
 
-  <h2 class="section" id="properties">Properties
+  <h2 class="section" id="methods">Methods
 </h2>
 
 
-  <a id="Virial_Events_Game_Meeting_ExileSceneStartEvent_Exiled_" data-uid="Virial.Events.Game.Meeting.ExileSceneStartEvent.Exiled*"></a>
+  <a id="Virial_Events_Game_Meeting_MeetingTieVoteHostEvent_AddExtraVote_" data-uid="Virial.Events.Game.Meeting.MeetingTieVoteHostEvent.AddExtraVote*"></a>
 
-  <h3 id="Virial_Events_Game_Meeting_ExileSceneStartEvent_Exiled" data-uid="Virial.Events.Game.Meeting.ExileSceneStartEvent.Exiled">
-  Exiled
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Events/Game/Meeting/ExileScenePreStartEvent.cs/#L17"><i class="bi bi-code-slash"></i></a>
+  <h3 id="Virial_Events_Game_Meeting_MeetingTieVoteHostEvent_AddExtraVote_Virial_Game_Player_" data-uid="Virial.Events.Game.Meeting.MeetingTieVoteHostEvent.AddExtraVote(Virial.Game.Player)">
+  AddExtraVote(Player?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Events/Game/Meeting/MeetingTieVoteHostEvent.cs/#L43"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>追加票を投じます。</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public IReadOnlyList&lt;Player&gt; Exiled { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public void AddExtraVote(Player? voteFor)</code></pre>
   </div>
 
-
-
-
-
-  <h4 class="section">Property Value</h4>
+  <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1">IReadOnlyList</a>&lt;<a class="xref" href="Virial.Game.Player.html">Player</a>&gt;</dt>
+    <dt><code>voteFor</code> <a class="xref" href="Virial.Game.Player.html">Player</a></dt>
     <dd></dd>
   </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Virial_Events_Game_Meeting_MeetingTieVoteHostEvent_TryCheckVotedFor_" data-uid="Virial.Events.Game.Meeting.MeetingTieVoteHostEvent.TryCheckVotedFor*"></a>
+
+  <h3 id="Virial_Events_Game_Meeting_MeetingTieVoteHostEvent_TryCheckVotedFor_Virial_Game_Player_Virial_Game_Player__" data-uid="Virial.Events.Game.Meeting.MeetingTieVoteHostEvent.TryCheckVotedFor(Virial.Game.Player,Virial.Game.Player@)">
+  TryCheckVotedFor(Player, out Player?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Events/Game/Meeting/MeetingTieVoteHostEvent.cs/#L37"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>投票者の投票先を取得します。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool TryCheckVotedFor(Player voter, out Player? votedFor)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>voter</code> <a class="xref" href="Virial.Game.Player.html">Player</a></dt>
+    <dd><p>投票者</p>
+</dd>
+    <dt><code>votedFor</code> <a class="xref" href="Virial.Game.Player.html">Player</a></dt>
+    <dd><p>投票先がある場合、投票先。スキップ票及び白票の場合は<code>null</code></p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
 
 
 

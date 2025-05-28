@@ -6,7 +6,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta name="title" content="Class EndCriteriaMetEvent | Virial ">
       
-      
+      <meta name="description" content="ゲーム終了が決定したときに呼び出されます。 ゲーム終了理由を書き換えられます。">
       <link rel="icon" href="../images/icon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -89,7 +89,7 @@
 
 
   <h1 id="Virial_Events_Game_EndCriteriaMetEvent" data-uid="Virial.Events.Game.EndCriteriaMetEvent" class="text-break">
-Class EndCriteriaMetEvent  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Events/Game/EndCriteriaMetEvent.cs/#L10"><i class="bi bi-code-slash"></i></a>
+Class EndCriteriaMetEvent  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Events/Game/EndCriteriaMetEvent.cs/#L17"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -97,7 +97,9 @@ Class EndCriteriaMetEvent  <a class="header-action link-secondary" title="View s
   
   </div>
 
-  <div class="markdown summary"></div>
+  <div class="markdown summary"><p>ゲーム終了が決定したときに呼び出されます。
+ゲーム終了理由を書き換えられます。</p>
+</div>
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
@@ -152,6 +154,9 @@ Class EndCriteriaMetEvent  <a class="header-action link-secondary" title="View s
 
 
 
+  <h2 id="Virial_Events_Game_EndCriteriaMetEvent_remarks">Remarks</h2>
+  <div class="markdown level0 remarks"><p>ホストでのみ発火します。</p>
+</div>
 
 
   <h2 class="section" id="properties">Properties
@@ -162,7 +167,7 @@ Class EndCriteriaMetEvent  <a class="header-action link-secondary" title="View s
 
   <h3 id="Virial_Events_Game_EndCriteriaMetEvent_EndReason" data-uid="Virial.Events.Game.EndCriteriaMetEvent.EndReason">
   EndReason
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Events/Game/EndCriteriaMetEvent.cs/#L38"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Events/Game/EndCriteriaMetEvent.cs/#L45"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>終了条件を満たした理由。</p>
@@ -194,7 +199,7 @@ Class EndCriteriaMetEvent  <a class="header-action link-secondary" title="View s
 
   <h3 id="Virial_Events_Game_EndCriteriaMetEvent_GameEnd" data-uid="Virial.Events.Game.EndCriteriaMetEvent.GameEnd">
   GameEnd
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Events/Game/EndCriteriaMetEvent.cs/#L33"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Events/Game/EndCriteriaMetEvent.cs/#L40"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>終了条件を満たしたエンディング。</p>
@@ -226,10 +231,10 @@ Class EndCriteriaMetEvent  <a class="header-action link-secondary" title="View s
 
   <h3 id="Virial_Events_Game_EndCriteriaMetEvent_LastWinners" data-uid="Virial.Events.Game.EndCriteriaMetEvent.LastWinners">
   LastWinners
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Events/Game/EndCriteriaMetEvent.cs/#L28"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Events/Game/EndCriteriaMetEvent.cs/#L35"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>書き換え前の勝者</p>
+  <div class="markdown level1 summary"><p>書き換え前の勝者。</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -258,10 +263,11 @@ Class EndCriteriaMetEvent  <a class="header-action link-secondary" title="View s
 
   <h3 id="Virial_Events_Game_EndCriteriaMetEvent_Overwritten" data-uid="Virial.Events.Game.EndCriteriaMetEvent.Overwritten">
   Overwritten
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Events/Game/EndCriteriaMetEvent.cs/#L51"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Events/Game/EndCriteriaMetEvent.cs/#L61"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>ゲーム終了理由が上書きされた場合は<code>true</code>を返します。</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -289,7 +295,7 @@ Class EndCriteriaMetEvent  <a class="header-action link-secondary" title="View s
 
   <h3 id="Virial_Events_Game_EndCriteriaMetEvent_OverwrittenEndReason" data-uid="Virial.Events.Game.EndCriteriaMetEvent.OverwrittenEndReason">
   OverwrittenEndReason
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Events/Game/EndCriteriaMetEvent.cs/#L50"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Events/Game/EndCriteriaMetEvent.cs/#L57"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>乗っ取りの末に実際に至るエンディングの終了理由。
@@ -322,7 +328,7 @@ Class EndCriteriaMetEvent  <a class="header-action link-secondary" title="View s
 
   <h3 id="Virial_Events_Game_EndCriteriaMetEvent_OverwrittenGameEnd" data-uid="Virial.Events.Game.EndCriteriaMetEvent.OverwrittenGameEnd">
   OverwrittenGameEnd
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Events/Game/EndCriteriaMetEvent.cs/#L44"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Events/Game/EndCriteriaMetEvent.cs/#L51"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>乗っ取りの末に実際に至るエンディング。
@@ -355,10 +361,10 @@ Class EndCriteriaMetEvent  <a class="header-action link-secondary" title="View s
 
   <h3 id="Virial_Events_Game_EndCriteriaMetEvent_Winners" data-uid="Virial.Events.Game.EndCriteriaMetEvent.Winners">
   Winners
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Events/Game/EndCriteriaMetEvent.cs/#L23"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Events/Game/EndCriteriaMetEvent.cs/#L30"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>現在の勝者</p>
+  <div class="markdown level1 summary"><p>現在の勝者。</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -391,10 +397,12 @@ Class EndCriteriaMetEvent  <a class="header-action link-secondary" title="View s
 
   <h3 id="Virial_Events_Game_EndCriteriaMetEvent_TryOverwriteEnd_Virial_Game_GameEnd_Virial_Game_GameEndReason_System_Int32_" data-uid="Virial.Events.Game.EndCriteriaMetEvent.TryOverwriteEnd(Virial.Game.GameEnd,Virial.Game.GameEndReason,System.Int32)">
   TryOverwriteEnd(GameEnd, GameEndReason, int)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Events/Game/EndCriteriaMetEvent.cs/#L53"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Events/Game/EndCriteriaMetEvent.cs/#L71"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>ゲーム終了理由の上書きを試行します。
+ゲーム終了理由の優先度によって上書きできない場合があります。</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -404,11 +412,14 @@ Class EndCriteriaMetEvent  <a class="header-action link-secondary" title="View s
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>end</code> <a class="xref" href="Virial.Game.GameEnd.html">GameEnd</a></dt>
-    <dd></dd>
+    <dd><p>上書きするゲーム終了。</p>
+</dd>
     <dt><code>reason</code> <a class="xref" href="Virial.Game.GameEndReason.html">GameEndReason</a></dt>
-    <dd></dd>
+    <dd><p>ゲーム終了理由。</p>
+</dd>
     <dt><code>preWinners</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
-    <dd></dd>
+    <dd><p>上書き時の勝者マスク。これ以外でもプレイヤーは役職やモディファイア等の都合で勝利できます。</p>
+</dd>
   </dl>
 
   <h4 class="section">Returns</h4>

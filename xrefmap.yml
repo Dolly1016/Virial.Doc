@@ -8863,19 +8863,6 @@ references:
   isSpec: "True"
   fullName: Virial.Events.Game.Meeting.CheckCanPushEmergencyButtonEvent.CanPushButton
   nameWithType: CheckCanPushEmergencyButtonEvent.CanPushButton
-- uid: Virial.Events.Game.Meeting.CheckCanPushEmergencyButtonEvent.CannotPushReason
-  name: CannotPushReason
-  href: api/Virial.Events.Game.Meeting.CheckCanPushEmergencyButtonEvent.html#Virial_Events_Game_Meeting_CheckCanPushEmergencyButtonEvent_CannotPushReason
-  commentId: P:Virial.Events.Game.Meeting.CheckCanPushEmergencyButtonEvent.CannotPushReason
-  fullName: Virial.Events.Game.Meeting.CheckCanPushEmergencyButtonEvent.CannotPushReason
-  nameWithType: CheckCanPushEmergencyButtonEvent.CannotPushReason
-- uid: Virial.Events.Game.Meeting.CheckCanPushEmergencyButtonEvent.CannotPushReason*
-  name: CannotPushReason
-  href: api/Virial.Events.Game.Meeting.CheckCanPushEmergencyButtonEvent.html#Virial_Events_Game_Meeting_CheckCanPushEmergencyButtonEvent_CannotPushReason_
-  commentId: Overload:Virial.Events.Game.Meeting.CheckCanPushEmergencyButtonEvent.CannotPushReason
-  isSpec: "True"
-  fullName: Virial.Events.Game.Meeting.CheckCanPushEmergencyButtonEvent.CannotPushReason
-  nameWithType: CheckCanPushEmergencyButtonEvent.CannotPushReason
 - uid: Virial.Events.Game.Meeting.CheckCanPushEmergencyButtonEvent.DenyButton(System.String)
   name: DenyButton(string?)
   href: api/Virial.Events.Game.Meeting.CheckCanPushEmergencyButtonEvent.html#Virial_Events_Game_Meeting_CheckCanPushEmergencyButtonEvent_DenyButton_System_String_
@@ -8930,6 +8917,54 @@ references:
   isSpec: "True"
   fullName: Virial.Events.Game.Meeting.ExileSceneStartEvent.Exiled
   nameWithType: ExileSceneStartEvent.Exiled
+- uid: Virial.Events.Game.Meeting.FixExileTextEvent
+  name: FixExileTextEvent
+  href: api/Virial.Events.Game.Meeting.FixExileTextEvent.html
+  commentId: T:Virial.Events.Game.Meeting.FixExileTextEvent
+  fullName: Virial.Events.Game.Meeting.FixExileTextEvent
+  nameWithType: FixExileTextEvent
+- uid: Virial.Events.Game.Meeting.FixExileTextEvent.AddText(System.String)
+  name: AddText(string)
+  href: api/Virial.Events.Game.Meeting.FixExileTextEvent.html#Virial_Events_Game_Meeting_FixExileTextEvent_AddText_System_String_
+  commentId: M:Virial.Events.Game.Meeting.FixExileTextEvent.AddText(System.String)
+  name.vb: AddText(String)
+  fullName: Virial.Events.Game.Meeting.FixExileTextEvent.AddText(string)
+  fullName.vb: Virial.Events.Game.Meeting.FixExileTextEvent.AddText(String)
+  nameWithType: FixExileTextEvent.AddText(string)
+  nameWithType.vb: FixExileTextEvent.AddText(String)
+- uid: Virial.Events.Game.Meeting.FixExileTextEvent.AddText*
+  name: AddText
+  href: api/Virial.Events.Game.Meeting.FixExileTextEvent.html#Virial_Events_Game_Meeting_FixExileTextEvent_AddText_
+  commentId: Overload:Virial.Events.Game.Meeting.FixExileTextEvent.AddText
+  isSpec: "True"
+  fullName: Virial.Events.Game.Meeting.FixExileTextEvent.AddText
+  nameWithType: FixExileTextEvent.AddText
+- uid: Virial.Events.Game.Meeting.FixExileTextEvent.Exiled
+  name: Exiled
+  href: api/Virial.Events.Game.Meeting.FixExileTextEvent.html#Virial_Events_Game_Meeting_FixExileTextEvent_Exiled
+  commentId: P:Virial.Events.Game.Meeting.FixExileTextEvent.Exiled
+  fullName: Virial.Events.Game.Meeting.FixExileTextEvent.Exiled
+  nameWithType: FixExileTextEvent.Exiled
+- uid: Virial.Events.Game.Meeting.FixExileTextEvent.Exiled*
+  name: Exiled
+  href: api/Virial.Events.Game.Meeting.FixExileTextEvent.html#Virial_Events_Game_Meeting_FixExileTextEvent_Exiled_
+  commentId: Overload:Virial.Events.Game.Meeting.FixExileTextEvent.Exiled
+  isSpec: "True"
+  fullName: Virial.Events.Game.Meeting.FixExileTextEvent.Exiled
+  nameWithType: FixExileTextEvent.Exiled
+- uid: Virial.Events.Game.Meeting.FixExileTextEvent.GetTexts
+  name: GetTexts()
+  href: api/Virial.Events.Game.Meeting.FixExileTextEvent.html#Virial_Events_Game_Meeting_FixExileTextEvent_GetTexts
+  commentId: M:Virial.Events.Game.Meeting.FixExileTextEvent.GetTexts
+  fullName: Virial.Events.Game.Meeting.FixExileTextEvent.GetTexts()
+  nameWithType: FixExileTextEvent.GetTexts()
+- uid: Virial.Events.Game.Meeting.FixExileTextEvent.GetTexts*
+  name: GetTexts
+  href: api/Virial.Events.Game.Meeting.FixExileTextEvent.html#Virial_Events_Game_Meeting_FixExileTextEvent_GetTexts_
+  commentId: Overload:Virial.Events.Game.Meeting.FixExileTextEvent.GetTexts
+  isSpec: "True"
+  fullName: Virial.Events.Game.Meeting.FixExileTextEvent.GetTexts
+  nameWithType: FixExileTextEvent.GetTexts
 - uid: Virial.Events.Game.Meeting.MeetingEndEvent
   name: MeetingEndEvent
   href: api/Virial.Events.Game.Meeting.MeetingEndEvent.html
@@ -9063,6 +9098,44 @@ references:
   isSpec: "True"
   fullName: Virial.Events.Game.Meeting.MeetingTieVoteEvent.TryCheckVotedFor
   nameWithType: MeetingTieVoteEvent.TryCheckVotedFor
+- uid: Virial.Events.Game.Meeting.MeetingTieVoteHostEvent
+  name: MeetingTieVoteHostEvent
+  href: api/Virial.Events.Game.Meeting.MeetingTieVoteHostEvent.html
+  commentId: T:Virial.Events.Game.Meeting.MeetingTieVoteHostEvent
+  fullName: Virial.Events.Game.Meeting.MeetingTieVoteHostEvent
+  nameWithType: MeetingTieVoteHostEvent
+- uid: Virial.Events.Game.Meeting.MeetingTieVoteHostEvent.AddExtraVote(Virial.Game.Player)
+  name: AddExtraVote(Player?)
+  href: api/Virial.Events.Game.Meeting.MeetingTieVoteHostEvent.html#Virial_Events_Game_Meeting_MeetingTieVoteHostEvent_AddExtraVote_Virial_Game_Player_
+  commentId: M:Virial.Events.Game.Meeting.MeetingTieVoteHostEvent.AddExtraVote(Virial.Game.Player)
+  name.vb: AddExtraVote(Player)
+  fullName: Virial.Events.Game.Meeting.MeetingTieVoteHostEvent.AddExtraVote(Virial.Game.Player?)
+  fullName.vb: Virial.Events.Game.Meeting.MeetingTieVoteHostEvent.AddExtraVote(Virial.Game.Player)
+  nameWithType: MeetingTieVoteHostEvent.AddExtraVote(Player?)
+  nameWithType.vb: MeetingTieVoteHostEvent.AddExtraVote(Player)
+- uid: Virial.Events.Game.Meeting.MeetingTieVoteHostEvent.AddExtraVote*
+  name: AddExtraVote
+  href: api/Virial.Events.Game.Meeting.MeetingTieVoteHostEvent.html#Virial_Events_Game_Meeting_MeetingTieVoteHostEvent_AddExtraVote_
+  commentId: Overload:Virial.Events.Game.Meeting.MeetingTieVoteHostEvent.AddExtraVote
+  isSpec: "True"
+  fullName: Virial.Events.Game.Meeting.MeetingTieVoteHostEvent.AddExtraVote
+  nameWithType: MeetingTieVoteHostEvent.AddExtraVote
+- uid: Virial.Events.Game.Meeting.MeetingTieVoteHostEvent.TryCheckVotedFor(Virial.Game.Player,Virial.Game.Player@)
+  name: TryCheckVotedFor(Player, out Player?)
+  href: api/Virial.Events.Game.Meeting.MeetingTieVoteHostEvent.html#Virial_Events_Game_Meeting_MeetingTieVoteHostEvent_TryCheckVotedFor_Virial_Game_Player_Virial_Game_Player__
+  commentId: M:Virial.Events.Game.Meeting.MeetingTieVoteHostEvent.TryCheckVotedFor(Virial.Game.Player,Virial.Game.Player@)
+  name.vb: TryCheckVotedFor(Player, Player)
+  fullName: Virial.Events.Game.Meeting.MeetingTieVoteHostEvent.TryCheckVotedFor(Virial.Game.Player, out Virial.Game.Player?)
+  fullName.vb: Virial.Events.Game.Meeting.MeetingTieVoteHostEvent.TryCheckVotedFor(Virial.Game.Player, Virial.Game.Player)
+  nameWithType: MeetingTieVoteHostEvent.TryCheckVotedFor(Player, out Player?)
+  nameWithType.vb: MeetingTieVoteHostEvent.TryCheckVotedFor(Player, Player)
+- uid: Virial.Events.Game.Meeting.MeetingTieVoteHostEvent.TryCheckVotedFor*
+  name: TryCheckVotedFor
+  href: api/Virial.Events.Game.Meeting.MeetingTieVoteHostEvent.html#Virial_Events_Game_Meeting_MeetingTieVoteHostEvent_TryCheckVotedFor_
+  commentId: Overload:Virial.Events.Game.Meeting.MeetingTieVoteHostEvent.TryCheckVotedFor
+  isSpec: "True"
+  fullName: Virial.Events.Game.Meeting.MeetingTieVoteHostEvent.TryCheckVotedFor
+  nameWithType: MeetingTieVoteHostEvent.TryCheckVotedFor
 - uid: Virial.Events.Game.Meeting.MeetingVoteEndEvent
   name: MeetingVoteEndEvent
   href: api/Virial.Events.Game.Meeting.MeetingVoteEndEvent.html
@@ -13146,15 +13219,6 @@ references:
   isSpec: "True"
   fullName: Virial.Game.Player.EyesightIgnoreWalls
   nameWithType: Player.EyesightIgnoreWalls
-- uid: Virial.Game.Player.GainAttribute(System.Single,System.Single,System.Boolean,System.Int32,System.String)
-  name: GainAttribute(float, float, bool, int, string?)
-  href: api/Virial.Game.Player.html#Virial_Game_Player_GainAttribute_System_Single_System_Single_System_Boolean_System_Int32_System_String_
-  commentId: M:Virial.Game.Player.GainAttribute(System.Single,System.Single,System.Boolean,System.Int32,System.String)
-  name.vb: GainAttribute(Single, Single, Boolean, Integer, String)
-  fullName: Virial.Game.Player.GainAttribute(float, float, bool, int, string?)
-  fullName.vb: Virial.Game.Player.GainAttribute(Single, Single, Boolean, Integer, String)
-  nameWithType: Player.GainAttribute(float, float, bool, int, string?)
-  nameWithType.vb: Player.GainAttribute(Single, Single, Boolean, Integer, String)
 - uid: Virial.Game.Player.GainAttribute(Virial.Game.IPlayerAttribute,System.Single,System.Boolean,System.Int32,System.String)
   name: GainAttribute(IPlayerAttribute, float, bool, int, string?)
   href: api/Virial.Game.Player.html#Virial_Game_Player_GainAttribute_Virial_Game_IPlayerAttribute_System_Single_System_Boolean_System_Int32_System_String_
@@ -13164,6 +13228,15 @@ references:
   fullName.vb: Virial.Game.Player.GainAttribute(Virial.Game.IPlayerAttribute, Single, Boolean, Integer, String)
   nameWithType: Player.GainAttribute(IPlayerAttribute, float, bool, int, string?)
   nameWithType.vb: Player.GainAttribute(IPlayerAttribute, Single, Boolean, Integer, String)
+- uid: Virial.Game.Player.GainAttribute(Virial.Game.IPlayerAttribute,System.Single,System.Single,System.Boolean,System.Int32,System.String)
+  name: GainAttribute(IPlayerAttribute, float, float, bool, int, string?)
+  href: api/Virial.Game.Player.html#Virial_Game_Player_GainAttribute_Virial_Game_IPlayerAttribute_System_Single_System_Single_System_Boolean_System_Int32_System_String_
+  commentId: M:Virial.Game.Player.GainAttribute(Virial.Game.IPlayerAttribute,System.Single,System.Single,System.Boolean,System.Int32,System.String)
+  name.vb: GainAttribute(IPlayerAttribute, Single, Single, Boolean, Integer, String)
+  fullName: Virial.Game.Player.GainAttribute(Virial.Game.IPlayerAttribute, float, float, bool, int, string?)
+  fullName.vb: Virial.Game.Player.GainAttribute(Virial.Game.IPlayerAttribute, Single, Single, Boolean, Integer, String)
+  nameWithType: Player.GainAttribute(IPlayerAttribute, float, float, bool, int, string?)
+  nameWithType.vb: Player.GainAttribute(IPlayerAttribute, Single, Single, Boolean, Integer, String)
 - uid: Virial.Game.Player.GainAttribute*
   name: GainAttribute
   href: api/Virial.Game.Player.html#Virial_Game_Player_GainAttribute_
@@ -13171,6 +13244,38 @@ references:
   isSpec: "True"
   fullName: Virial.Game.Player.GainAttribute
   nameWithType: Player.GainAttribute
+- uid: Virial.Game.Player.GainSizeAttribute(Virial.Compat.Vector2,System.Single,System.Boolean,System.Int32,System.String)
+  name: GainSizeAttribute(Vector2, float, bool, int, string?)
+  href: api/Virial.Game.Player.html#Virial_Game_Player_GainSizeAttribute_Virial_Compat_Vector2_System_Single_System_Boolean_System_Int32_System_String_
+  commentId: M:Virial.Game.Player.GainSizeAttribute(Virial.Compat.Vector2,System.Single,System.Boolean,System.Int32,System.String)
+  name.vb: GainSizeAttribute(Vector2, Single, Boolean, Integer, String)
+  fullName: Virial.Game.Player.GainSizeAttribute(Virial.Compat.Vector2, float, bool, int, string?)
+  fullName.vb: Virial.Game.Player.GainSizeAttribute(Virial.Compat.Vector2, Single, Boolean, Integer, String)
+  nameWithType: Player.GainSizeAttribute(Vector2, float, bool, int, string?)
+  nameWithType.vb: Player.GainSizeAttribute(Vector2, Single, Boolean, Integer, String)
+- uid: Virial.Game.Player.GainSizeAttribute*
+  name: GainSizeAttribute
+  href: api/Virial.Game.Player.html#Virial_Game_Player_GainSizeAttribute_
+  commentId: Overload:Virial.Game.Player.GainSizeAttribute
+  isSpec: "True"
+  fullName: Virial.Game.Player.GainSizeAttribute
+  nameWithType: Player.GainSizeAttribute
+- uid: Virial.Game.Player.GainSpeedAttribute(System.Single,System.Single,System.Boolean,System.Int32,System.String)
+  name: GainSpeedAttribute(float, float, bool, int, string?)
+  href: api/Virial.Game.Player.html#Virial_Game_Player_GainSpeedAttribute_System_Single_System_Single_System_Boolean_System_Int32_System_String_
+  commentId: M:Virial.Game.Player.GainSpeedAttribute(System.Single,System.Single,System.Boolean,System.Int32,System.String)
+  name.vb: GainSpeedAttribute(Single, Single, Boolean, Integer, String)
+  fullName: Virial.Game.Player.GainSpeedAttribute(float, float, bool, int, string?)
+  fullName.vb: Virial.Game.Player.GainSpeedAttribute(Single, Single, Boolean, Integer, String)
+  nameWithType: Player.GainSpeedAttribute(float, float, bool, int, string?)
+  nameWithType.vb: Player.GainSpeedAttribute(Single, Single, Boolean, Integer, String)
+- uid: Virial.Game.Player.GainSpeedAttribute*
+  name: GainSpeedAttribute
+  href: api/Virial.Game.Player.html#Virial_Game_Player_GainSpeedAttribute_
+  commentId: Overload:Virial.Game.Player.GainSpeedAttribute
+  isSpec: "True"
+  fullName: Virial.Game.Player.GainSpeedAttribute
+  nameWithType: Player.GainSpeedAttribute
 - uid: Virial.Game.Player.GetAttributes
   name: GetAttributes()
   href: api/Virial.Game.Player.html#Virial_Game_Player_GetAttributes
@@ -15692,22 +15797,6 @@ references:
   commentId: T:Virial.Media.IResourceAllocator
   fullName: Virial.Media.IResourceAllocator
   nameWithType: IResourceAllocator
-- uid: Virial.Media.IResourceAllocator.GetChildAllocator(System.String)
-  name: GetChildAllocator(string)
-  href: api/Virial.Media.IResourceAllocator.html#Virial_Media_IResourceAllocator_GetChildAllocator_System_String_
-  commentId: M:Virial.Media.IResourceAllocator.GetChildAllocator(System.String)
-  name.vb: GetChildAllocator(String)
-  fullName: Virial.Media.IResourceAllocator.GetChildAllocator(string)
-  fullName.vb: Virial.Media.IResourceAllocator.GetChildAllocator(String)
-  nameWithType: IResourceAllocator.GetChildAllocator(string)
-  nameWithType.vb: IResourceAllocator.GetChildAllocator(String)
-- uid: Virial.Media.IResourceAllocator.GetChildAllocator*
-  name: GetChildAllocator
-  href: api/Virial.Media.IResourceAllocator.html#Virial_Media_IResourceAllocator_GetChildAllocator_
-  commentId: Overload:Virial.Media.IResourceAllocator.GetChildAllocator
-  isSpec: "True"
-  fullName: Virial.Media.IResourceAllocator.GetChildAllocator
-  nameWithType: IResourceAllocator.GetChildAllocator
 - uid: Virial.Media.IResourceAllocator.GetResource(System.String)
   name: GetResource(string)
   href: api/Virial.Media.IResourceAllocator.html#Virial_Media_IResourceAllocator_GetResource_System_String_
@@ -15717,15 +15806,6 @@ references:
   fullName.vb: Virial.Media.IResourceAllocator.GetResource(String)
   nameWithType: IResourceAllocator.GetResource(string)
   nameWithType.vb: IResourceAllocator.GetResource(String)
-- uid: Virial.Media.IResourceAllocator.GetResource(Virial.Compat.IReadOnlyArray{System.String},System.String)
-  name: GetResource(IReadOnlyArray<string>, string)
-  href: api/Virial.Media.IResourceAllocator.html#Virial_Media_IResourceAllocator_GetResource_Virial_Compat_IReadOnlyArray_System_String__System_String_
-  commentId: M:Virial.Media.IResourceAllocator.GetResource(Virial.Compat.IReadOnlyArray{System.String},System.String)
-  name.vb: GetResource(IReadOnlyArray(Of String), String)
-  fullName: Virial.Media.IResourceAllocator.GetResource(Virial.Compat.IReadOnlyArray<string>, string)
-  fullName.vb: Virial.Media.IResourceAllocator.GetResource(Virial.Compat.IReadOnlyArray(Of String), String)
-  nameWithType: IResourceAllocator.GetResource(IReadOnlyArray<string>, string)
-  nameWithType.vb: IResourceAllocator.GetResource(IReadOnlyArray(Of String), String)
 - uid: Virial.Media.IResourceAllocator.GetResource*
   name: GetResource
   href: api/Virial.Media.IResourceAllocator.html#Virial_Media_IResourceAllocator_GetResource_

@@ -722,7 +722,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Virial.Assignable.TeamRevealType",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/Virial.Assignable.TeamRevealType.yml\" sourcestartlinenumber=\"1\">陣営の開示バリエーションを表します。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1422,7 +1422,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Virial.Compat.FloatSelection",
-      "Summary": "<p sourcefile=\"api/Virial.Compat.FloatSelection.yml\" sourcestartlinenumber=\"1\">主にConfigurationで使用する実数型の選択肢の表現を簡略化するためのものです。</p>\n"
+      "Summary": "<p sourcefile=\"api/Virial.Compat.FloatSelection.yml\" sourcestartlinenumber=\"1\">オプションのコンストラクタで使用する、実数型の選択肢の簡略化された表現です。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1450,7 +1450,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Virial.Compat.IReadOnlyArray<T>",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/Virial.Compat.IReadOnlyArray-1.yml\" sourcestartlinenumber=\"1\">配列のスライスを表します。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1464,7 +1464,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Virial.Compat.IntegerSelection",
-      "Summary": "<p sourcefile=\"api/Virial.Compat.IntegerSelection.yml\" sourcestartlinenumber=\"1\">主にConfigurationで使用する整数型の選択肢の表現を簡略化するためのものです。</p>\n"
+      "Summary": "<p sourcefile=\"api/Virial.Compat.IntegerSelection.yml\" sourcestartlinenumber=\"1\">オプションのコンストラクタで使用する、整数型の選択肢の簡略化された表現です。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1478,7 +1478,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Virial.Compat.ReadOnlyArray<T>",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/Virial.Compat.ReadOnlyArray-1.yml\" sourcestartlinenumber=\"1\">配列のスライスです。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1548,7 +1548,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Virial.Compat.VirtualKeyInput",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/Virial.Compat.VirtualKeyInput.yml\" sourcestartlinenumber=\"1\">入力の種類を表します。\n実際のキーバインドに言及する必要はありません。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1576,7 +1576,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Virial.Components.GameTimer",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/Virial.Components.GameTimer.yml\" sourcestartlinenumber=\"1\">クールダウン及び能力効果タイマーを表します。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1604,7 +1604,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Virial.Components.IVisualTimer",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/Virial.Components.IVisualTimer.yml\" sourcestartlinenumber=\"1\">能力ボタンで使用できるタイマーを表します。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1618,7 +1618,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Virial.Components.ModAbilityButton.LabelType",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/Virial.Components.ModAbilityButton.LabelType.yml\" sourcestartlinenumber=\"1\">ボタンのラベルの種類を表します。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1632,7 +1632,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Virial.Components.ModAbilityButton",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/Virial.Components.ModAbilityButton.yml\" sourcestartlinenumber=\"1\">能力ボタンを表します。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1646,7 +1646,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Virial.Components.ObjectTracker<T>",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/Virial.Components.ObjectTracker-1.yml\" sourcestartlinenumber=\"1\">近くのオブジェクトを追跡するトラッカーを表します。\nオブジェクトに対してインタラクトするボタンなどで使用します。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2094,7 +2094,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Virial.DependentLifespan",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/Virial.DependentLifespan.yml\" sourcestartlinenumber=\"1\">他の寿命オブジェクトにキルのタイミングを委ねる寿命オブジェクトです。\n委ねる寿命オブジェクトを注入されるまでは少なくとも生存します。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2136,7 +2136,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Virial.Events.Game.AbstractGameEvent",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/Virial.Events.Game.AbstractGameEvent.yml\" sourcestartlinenumber=\"1\">ゲームに関するイベントを表します。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2150,7 +2150,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Virial.Events.Game.CameraUpdateEvent",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/Virial.Events.Game.CameraUpdateEvent.yml\" sourcestartlinenumber=\"1\">カメラが更新される際に呼び出されます。\nカメラの色調を変更できます。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2164,7 +2164,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Virial.Events.Game.DeadBodyInstantiateEvent",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/Virial.Events.Game.DeadBodyInstantiateEvent.yml\" sourcestartlinenumber=\"1\">死体が生成されるときに呼び出されます。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2178,7 +2178,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Virial.Events.Game.EndCriteriaMetEvent",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/Virial.Events.Game.EndCriteriaMetEvent.yml\" sourcestartlinenumber=\"1\">ゲーム終了が決定したときに呼び出されます。\nゲーム終了理由を書き換えられます。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2192,7 +2192,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Virial.Events.Game.GameEndEvent",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/Virial.Events.Game.GameEndEvent.yml\" sourcestartlinenumber=\"1\">ゲーム終了時に発火します。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2206,7 +2206,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Virial.Events.Game.GameHudUpdateEvent",
-      "Summary": "<p sourcefile=\"api/Virial.Events.Game.GameHudUpdateEvent.yml\" sourcestartlinenumber=\"1\">ここでプレイヤーの輪郭を変更すると、変更が画面に正しく反映されます。</p>\n"
+      "Summary": "<p sourcefile=\"api/Virial.Events.Game.GameHudUpdateEvent.yml\" sourcestartlinenumber=\"1\">ゲームのHUDを更新する際に発火します。\nここでプレイヤーの輪郭を変更すると、変更が画面に正しく反映されます。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2220,7 +2220,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Virial.Events.Game.GameHudUpdateFasterEvent",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/Virial.Events.Game.GameHudUpdateFasterEvent.yml\" sourcestartlinenumber=\"1\">このイベントの使用は推奨されません。\n<xref href=\"Virial.Events.Game.GameHudUpdateEvent\" data-throw-if-not-resolved=\"false\"></xref>を使用し、<xref href=\"Virial.Attributes.EventPriority\" data-throw-if-not-resolved=\"false\"></xref>属性でより高い優先度を設定してください。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2234,7 +2234,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Virial.Events.Game.GameHudUpdateLaterEvent",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/Virial.Events.Game.GameHudUpdateLaterEvent.yml\" sourcestartlinenumber=\"1\">このイベントの使用は推奨されません。\n<xref href=\"Virial.Events.Game.GameHudUpdateEvent\" data-throw-if-not-resolved=\"false\"></xref>を使用し、<xref href=\"Virial.Attributes.EventPriority\" data-throw-if-not-resolved=\"false\"></xref>属性でより低い優先度を設定してください。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2248,7 +2248,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Virial.Events.Game.GameLateUpdateEvent",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/Virial.Events.Game.GameLateUpdateEvent.yml\" sourcestartlinenumber=\"1\">LateUpdateのタイミングで発火します。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2262,7 +2262,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Virial.Events.Game.GameStartEvent",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/Virial.Events.Game.GameStartEvent.yml\" sourcestartlinenumber=\"1\">ゲーム開始時に発火します。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2276,7 +2276,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Virial.Events.Game.GameUpdateEvent",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/Virial.Events.Game.GameUpdateEvent.yml\" sourcestartlinenumber=\"1\">ゲーム中に毎ティック発火します。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2290,7 +2290,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Virial.Events.Game.LightRangeUpdateEvent",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/Virial.Events.Game.LightRangeUpdateEvent.yml\" sourcestartlinenumber=\"1\">視界の広さを更新する際に発火します。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2304,7 +2304,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Virial.Events.Game.Meeting.CalledEmergencyMeetingEvent",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/Virial.Events.Game.Meeting.CalledEmergencyMeetingEvent.yml\" sourcestartlinenumber=\"1\">緊急招集の際に発火するイベントです。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2318,7 +2318,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Virial.Events.Game.Meeting.CheckCanPushEmergencyButtonEvent",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/Virial.Events.Game.Meeting.CheckCanPushEmergencyButtonEvent.yml\" sourcestartlinenumber=\"1\">緊急会議ボタンが押せるか調べる際に呼び出されます。\n緊急会議をブロックできます。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2332,7 +2332,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Virial.Events.Game.Meeting.ExileScenePreStartEvent",
-      "Summary": "<p sourcefile=\"api/Virial.Events.Game.Meeting.ExileScenePreStartEvent.yml\" sourcestartlinenumber=\"1\">追放シーンの開始直前に呼び出されます。\nExileControllerはまだ生成されていません。</p>\n"
+      "Summary": "<p sourcefile=\"api/Virial.Events.Game.Meeting.ExileScenePreStartEvent.yml\" sourcestartlinenumber=\"1\">追放シーンの開始直前に呼び出されます。\nこのとき、追放画面はまだ生成されていません。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2346,7 +2346,21 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Virial.Events.Game.Meeting.ExileSceneStartEvent",
-      "Summary": "<p sourcefile=\"api/Virial.Events.Game.Meeting.ExileSceneStartEvent.yml\" sourcestartlinenumber=\"1\">追放シーンの開始時に呼び出されます。\nMeetingHudとExileControllerの両方にアクセスできます。</p>\n"
+      "Summary": "<p sourcefile=\"api/Virial.Events.Game.Meeting.ExileSceneStartEvent.yml\" sourcestartlinenumber=\"1\">追放シーンの開始時に呼び出されます。\n会議画面と追放画面の両方にアクセスできます。</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Events.Game.Meeting.FixExileTextEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Events.Game.Meeting.FixExileTextEvent.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Events.Game.Meeting.FixExileTextEvent",
+      "Summary": "<p sourcefile=\"api/Virial.Events.Game.Meeting.FixExileTextEvent.yml\" sourcestartlinenumber=\"1\">追放テキストを決定するために呼び出されます。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2402,7 +2416,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Virial.Events.Game.Meeting.MeetingPreSyncEvent",
-      "Summary": "<p sourcefile=\"api/Virial.Events.Game.Meeting.MeetingPreSyncEvent.yml\" sourcestartlinenumber=\"1\">会議終了時、追加追放者を決定するルーチンの直前で呼び出されます。\nPlayerExileEventが発火するより前に呼び出されますが、他クライアントのPlayerExileEvent発火によって呼び出されたRPCは呼び出されている可能性があります。</p>\n"
+      "Summary": "<p sourcefile=\"api/Virial.Events.Game.Meeting.MeetingPreSyncEvent.yml\" sourcestartlinenumber=\"1\">会議終了時、追加追放者を決定するルーチンの直前で呼び出されます。\n<xref href=\"Virial.Events.Player.PlayerExiledEvent\" data-throw-if-not-resolved=\"false\"></xref>が発火するより前に呼び出されますが、他クライアントの<xref href=\"Virial.Events.Player.PlayerExiledEvent\" data-throw-if-not-resolved=\"false\"></xref>/&gt;発火によって呼び出されたRPCは呼び出されている可能性があります。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2434,6 +2448,20 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Events.Game.Meeting.MeetingTieVoteHostEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Events.Game.Meeting.MeetingTieVoteHostEvent.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Events.Game.Meeting.MeetingTieVoteHostEvent",
+      "Summary": "<p sourcefile=\"api/Virial.Events.Game.Meeting.MeetingTieVoteHostEvent.yml\" sourcestartlinenumber=\"1\">タイ投票が発生したときに発火します。\n追加票を投じさせられます。追加票を投じた後の投票結果がタイ投票であっても、このイベントは発火しません。</p>\n"
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Virial.Events.Game.Meeting.MeetingVoteEndEvent.yml",
       "output": {
         ".html": {
@@ -2444,7 +2472,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Virial.Events.Game.Meeting.MeetingVoteEndEvent",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/Virial.Events.Game.Meeting.MeetingVoteEndEvent.yml\" sourcestartlinenumber=\"1\">投票終了時に発火します。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2458,7 +2486,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Virial.Events.Game.Meeting.PlayerVoteCastEvent",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/Virial.Events.Game.Meeting.PlayerVoteCastEvent.yml\" sourcestartlinenumber=\"1\">投票時に呼び出されます。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2472,7 +2500,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Virial.Events.Game.Meeting.PlayerVoteCastLocalEvent",
-      "Summary": "<p sourcefile=\"api/Virial.Events.Game.Meeting.PlayerVoteCastLocalEvent.yml\" sourcestartlinenumber=\"1\">投票時に呼び出されます。\n自身が操作するプレイヤーに対してのみ呼び出されます。</p>\n"
+      "Summary": "<p sourcefile=\"api/Virial.Events.Game.Meeting.PlayerVoteCastLocalEvent.yml\" sourcestartlinenumber=\"1\">投票時に呼び出されます。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2486,7 +2514,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Virial.Events.Game.Meeting.PlayerVoteDisclosedLocalEvent",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/Virial.Events.Game.Meeting.PlayerVoteDisclosedLocalEvent.yml\" sourcestartlinenumber=\"1\">投票が開示されたときに呼び出されます。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2500,7 +2528,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Virial.Events.Game.Meeting.PlayerVotedLocalEvent",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/Virial.Events.Game.Meeting.PlayerVotedLocalEvent.yml\" sourcestartlinenumber=\"1\">投票結果の開示時に呼び出されます。\nこのイベントによって、誰が自身に票を投じたか知ることができます。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2514,7 +2542,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Virial.Events.Game.Meeting.ReportDeadBodyEvent",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/Virial.Events.Game.Meeting.ReportDeadBodyEvent.yml\" sourcestartlinenumber=\"1\">死体が通報されると発火するイベントです。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2542,7 +2570,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Virial.Events.Game.Minimap.AbstractMapOpenEvent",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/Virial.Events.Game.Minimap.AbstractMapOpenEvent.yml\" sourcestartlinenumber=\"1\">何らかのミニマップを開いた際に発火するイベントを表します。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2556,7 +2584,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Virial.Events.Game.Minimap.MapInstantiateEvent",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/Virial.Events.Game.Minimap.MapInstantiateEvent.yml\" sourcestartlinenumber=\"1\">ミニマップが生成されたときに呼び出されます。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2570,7 +2598,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Virial.Events.Game.Minimap.MapOpenAdminEvent",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/Virial.Events.Game.Minimap.MapOpenAdminEvent.yml\" sourcestartlinenumber=\"1\">アドミンマップを開いたときに呼び出されます。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2584,7 +2612,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Virial.Events.Game.Minimap.MapOpenNormalEvent",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/Virial.Events.Game.Minimap.MapOpenNormalEvent.yml\" sourcestartlinenumber=\"1\">通常のマップを開いたときに呼び出されます。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2598,7 +2626,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Virial.Events.Game.Minimap.MapOpenSabotageEvent",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/Virial.Events.Game.Minimap.MapOpenSabotageEvent.yml\" sourcestartlinenumber=\"1\">サボタージュマップを開いたときに呼び出されます。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2626,7 +2654,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Virial.Events.Game.TaskPhaseRestartEvent",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/Virial.Events.Game.TaskPhaseRestartEvent.yml\" sourcestartlinenumber=\"1\">タスクフェイズが再開するときに発火します。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2640,7 +2668,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Virial.Events.Game.TaskPhaseStartEvent",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/Virial.Events.Game.TaskPhaseStartEvent.yml\" sourcestartlinenumber=\"1\">タスクフェイズが開始あるいは再開するときに発火します。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2654,7 +2682,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Virial.Events.Game.UpdateEvent",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/Virial.Events.Game.UpdateEvent.yml\" sourcestartlinenumber=\"1\">毎ティック発火します。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2696,7 +2724,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Virial.Events.Player.AbstractPlayerEvent",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/Virial.Events.Player.AbstractPlayerEvent.yml\" sourcestartlinenumber=\"1\">プレイヤーの関するイベントを表します。\n<xref href=\"Virial.Game.IBindPlayer\" data-throw-if-not-resolved=\"false\"></xref>を実装する作用素では、<xref href=\"Virial.Attributes.OnlyMyPlayer\" data-throw-if-not-resolved=\"false\"></xref>属性を付すと自身のプレイヤ―に関するイベントに限って発火させられます。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2710,7 +2738,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Virial.Events.Player.PlayerAlphaUpdateEvent",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/Virial.Events.Player.PlayerAlphaUpdateEvent.yml\" sourcestartlinenumber=\"1\">プレイヤーの透明度が更新されるときに発火します。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2724,7 +2752,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Virial.Events.Player.PlayerBeginMinigameByConsoleLocalEvent",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/Virial.Events.Player.PlayerBeginMinigameByConsoleLocalEvent.yml\" sourcestartlinenumber=\"1\">プレイヤーがミニゲームコンソールを使用して開くときに呼び出されます。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -3214,7 +3242,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Virial.FlexibleLifespan",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/Virial.FlexibleLifespan.yml\" sourcestartlinenumber=\"1\">注入された寿命オブジェクトの寿命が尽きるか、Release操作によってキルできます。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -4026,7 +4054,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Virial.ILifespan",
-      "Summary": "<p sourcefile=\"api/Virial.ILifespan.yml\" sourcestartlinenumber=\"1\">寿命を持つオブジェクトです</p>\n"
+      "Summary": "<p sourcefile=\"api/Virial.ILifespan.yml\" sourcestartlinenumber=\"1\">寿命オブジェクトを表します。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -4054,7 +4082,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Virial.INestedLifespan",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/Virial.INestedLifespan.yml\" sourcestartlinenumber=\"1\">入れ子状になった寿命オブジェクトを表します。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -4334,7 +4362,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Virial.Media.IResourceAllocator",
-      "Summary": "<p sourcefile=\"api/Virial.Media.IResourceAllocator.yml\" sourcestartlinenumber=\"1\">リソースのアロケータ</p>\n"
+      "Summary": "<p sourcefile=\"api/Virial.Media.IResourceAllocator.yml\" sourcestartlinenumber=\"1\">リソースのアロケータを表します。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -4558,7 +4586,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Virial.SimpleLifespan",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/Virial.SimpleLifespan.yml\" sourcestartlinenumber=\"1\">ごく単純な寿命オブジェクトを表します。\nRelease操作によってのみキルできます。</p>\n"
     },
     {
       "type": "ManagedReference",

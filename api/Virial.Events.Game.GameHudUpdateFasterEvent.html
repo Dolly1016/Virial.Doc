@@ -6,7 +6,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta name="title" content="Class GameHudUpdateFasterEvent | Virial ">
       
-      
+      <meta name="description" content="このイベントの使用は推奨されません。 を使用し、属性でより高い優先度を設定してください。">
       <link rel="icon" href="../images/icon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -89,7 +89,7 @@
 
 
   <h1 id="Virial_Events_Game_GameHudUpdateFasterEvent" data-uid="Virial.Events.Game.GameHudUpdateFasterEvent" class="text-break">
-Class GameHudUpdateFasterEvent  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Events/Game/GameUpdateEvent.cs/#L27"><i class="bi bi-code-slash"></i></a>
+Class GameHudUpdateFasterEvent  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Events/Game/GameUpdateEvent.cs/#L39"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -97,11 +97,14 @@ Class GameHudUpdateFasterEvent  <a class="header-action link-secondary" title="V
   
   </div>
 
-  <div class="markdown summary"></div>
+  <div class="markdown summary"><p>このイベントの使用は推奨されません。
+<a class="xref" href="Virial.Events.Game.GameHudUpdateEvent.html">GameHudUpdateEvent</a>を使用し、<a class="xref" href="Virial.Attributes.EventPriority.html">EventPriority</a>属性でより高い優先度を設定してください。</p>
+</div>
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class GameHudUpdateFasterEvent : AbstractGameEvent, Event</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;EventPriority属性の使用を検討してください。&quot;)]
+public class GameHudUpdateFasterEvent : AbstractGameEvent, Event</code></pre>
   </div>
 
 

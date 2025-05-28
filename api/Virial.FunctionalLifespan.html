@@ -89,7 +89,7 @@
 
 
   <h1 id="Virial_FunctionalLifespan" data-uid="Virial.FunctionalLifespan" class="text-break">
-Class FunctionalLifespan  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Common/Lifespan.cs/#L36"><i class="bi bi-code-slash"></i></a>
+Class FunctionalLifespan  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Common/Lifespan.cs/#L39"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -163,10 +163,10 @@ Class FunctionalLifespan  <a class="header-action link-secondary" title="View so
 
   <h3 id="Virial_FunctionalLifespan__ctor_System_Func_System_Boolean__" data-uid="Virial.FunctionalLifespan.#ctor(System.Func{System.Boolean})">
   FunctionalLifespan(Func&lt;bool&gt;)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Common/Lifespan.cs/#L56"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Common/Lifespan.cs/#L59"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>生存している間はtrueを返す関数から作られる寿命付きオブジェクト</p>
+  <div class="markdown level1 summary"><p>生存している間はtrueを返す関数から作られる寿命付きオブジェクトを生成します。</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -177,7 +177,7 @@ Class FunctionalLifespan  <a class="header-action link-secondary" title="View so
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>predicate</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-1">Func</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>&gt;</dt>
-    <dd><p>生存している間はtrueを返す関数</p>
+    <dd><p>生存している間はtrueを返す関数。</p>
 </dd>
   </dl>
 
@@ -200,7 +200,7 @@ Class FunctionalLifespan  <a class="header-action link-secondary" title="View so
 
   <h3 id="Virial_FunctionalLifespan_IsDeadObject" data-uid="Virial.FunctionalLifespan.IsDeadObject">
   IsDeadObject
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Common/Lifespan.cs/#L44"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Common/Lifespan.cs/#L47"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>一度寿命が尽きたオブジェクトは復活しません。</p>
@@ -236,10 +236,11 @@ Class FunctionalLifespan  <a class="header-action link-secondary" title="View so
 
   <h3 id="Virial_FunctionalLifespan_GetTimeLifespan_System_Single_" data-uid="Virial.FunctionalLifespan.GetTimeLifespan(System.Single)">
   GetTimeLifespan(float)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Common/Lifespan.cs/#L61"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Common/Lifespan.cs/#L69"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>指定の時間だけ生存する寿命オブジェクトを生成します。</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">

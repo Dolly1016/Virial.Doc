@@ -138,7 +138,8 @@ Interface IModuleFactory  <a class="header-action link-secondary" title="View so
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>lifespan</code> <a class="xref" href="Virial.ILifespan.html">ILifespan</a></dt>
-    <dd></dd>
+    <dd><p>寿命。</p>
+</dd>
   </dl>
 
   <h4 class="section">Returns</h4>
@@ -175,15 +176,20 @@ Interface IModuleFactory  <a class="header-action link-secondary" title="View so
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>lifespan</code> <a class="xref" href="Virial.ILifespan.html">ILifespan</a></dt>
-    <dd></dd>
+    <dd><p>寿命。</p>
+</dd>
     <dt><code>isLeftSideButton</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
-    <dd></dd>
+    <dd><p>画面の左側に表示する場合、<code>true</code>。</p>
+</dd>
     <dt><code>isArrangedAsKillButton</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
-    <dd></dd>
+    <dd><p>キルボタンの位置に配置する場合、<code>true</code>。</p>
+</dd>
     <dt><code>priority</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
-    <dd></dd>
+    <dd><p>ボタン配置の優先度</p>
+</dd>
     <dt><code>alwaysShow</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
-    <dd></dd>
+    <dd><p>常に表示する場合、<code>true</code>。</p>
+</dd>
   </dl>
 
   <h4 class="section">Returns</h4>
@@ -606,10 +612,12 @@ Interface IModuleFactory  <a class="header-action link-secondary" title="View so
 
   <h3 id="Virial_IModuleFactory_KillTracker_Virial_ILifespan_Virial_Game_Player_System_Func_Virial_Game_Player_System_Boolean__System_Func_Virial_Game_Player_System_Boolean__" data-uid="Virial.IModuleFactory.KillTracker(Virial.ILifespan,Virial.Game.Player,System.Func{Virial.Game.Player,System.Boolean},System.Func{Virial.Game.Player,System.Boolean})">
   KillTracker(ILifespan, Player, Func&lt;Player, bool&gt;?, Func&lt;Player, bool&gt;?)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/ModuleFactory.cs/#L75"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/ModuleFactory.cs/#L84"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>キル対象を選択するトラッカーを返します。
+キル可能なプレイヤーのみ選択できます。</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -619,13 +627,17 @@ Interface IModuleFactory  <a class="header-action link-secondary" title="View so
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>lifespan</code> <a class="xref" href="Virial.ILifespan.html">ILifespan</a></dt>
-    <dd></dd>
+    <dd><p>寿命。</p>
+</dd>
     <dt><code>player</code> <a class="xref" href="Virial.Game.Player.html">Player</a></dt>
-    <dd></dd>
+    <dd><p>追跡者。通常、自分自身を指定します。</p>
+</dd>
     <dt><code>filter</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;<a class="xref" href="Virial.Game.Player.html">Player</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>&gt;</dt>
-    <dd></dd>
+    <dd><p>さらにプレイヤーを限定するフィルタ。</p>
+</dd>
     <dt><code>filterHeavier</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;<a class="xref" href="Virial.Game.Player.html">Player</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>&gt;</dt>
-    <dd></dd>
+    <dd><p>さらにプレイヤーを限定するフィルタ。コストの高い計算をここに記述してください。</p>
+</dd>
   </dl>
 
   <h4 class="section">Returns</h4>
@@ -648,7 +660,7 @@ Interface IModuleFactory  <a class="header-action link-secondary" title="View so
 
   <h3 id="Virial_IModuleFactory_Timer_Virial_ILifespan_System_Single_" data-uid="Virial.IModuleFactory.Timer(Virial.ILifespan,System.Single)">
   Timer(ILifespan, float)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/ModuleFactory.cs/#L82"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/ModuleFactory.cs/#L91"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>タイマーを生成します。</p>

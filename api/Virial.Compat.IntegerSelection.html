@@ -6,7 +6,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta name="title" content="Class IntegerSelection | Virial ">
       
-      <meta name="description" content="主にConfigurationで使用する整数型の選択肢の表現を簡略化するためのものです。">
+      <meta name="description" content="オプションのコンストラクタで使用する、整数型の選択肢の簡略化された表現です。">
       <link rel="icon" href="../images/icon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -89,7 +89,7 @@
 
 
   <h1 id="Virial_Compat_IntegerSelection" data-uid="Virial.Compat.IntegerSelection" class="text-break">
-Class IntegerSelection  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Compat/Selection.cs/#L31"><i class="bi bi-code-slash"></i></a>
+Class IntegerSelection  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Compat/Selection.cs/#L39"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -97,7 +97,7 @@ Class IntegerSelection  <a class="header-action link-secondary" title="View sour
   
   </div>
 
-  <div class="markdown summary"><p>主にConfigurationで使用する整数型の選択肢の表現を簡略化するためのものです。</p>
+  <div class="markdown summary"><p>オプションのコンストラクタで使用する、整数型の選択肢の簡略化された表現です。</p>
 </div>
   <div class="markdown conceptual"></div>
 
@@ -157,7 +157,7 @@ Class IntegerSelection  <a class="header-action link-secondary" title="View sour
 
   <h3 id="Virial_Compat_IntegerSelection__ctor_System_Int32___" data-uid="Virial.Compat.IntegerSelection.#ctor(System.Int32[])">
   IntegerSelection(int[])
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Compat/Selection.cs/#L35"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Compat/Selection.cs/#L43"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -192,7 +192,7 @@ Class IntegerSelection  <a class="header-action link-secondary" title="View sour
 
   <h3 id="Virial_Compat_IntegerSelection_Selection" data-uid="Virial.Compat.IntegerSelection.Selection">
   Selection
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Compat/Selection.cs/#L33"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Compat/Selection.cs/#L41"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -227,10 +227,11 @@ Class IntegerSelection  <a class="header-action link-secondary" title="View sour
 
   <h3 id="Virial_Compat_IntegerSelection_op_Implicit_System_Int32____Virial_Compat_IntegerSelection" data-uid="Virial.Compat.IntegerSelection.op_Implicit(System.Int32[])~Virial.Compat.IntegerSelection">
   implicit operator IntegerSelection(int[])
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Compat/Selection.cs/#L40"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Compat/Selection.cs/#L52"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>配列から整数型の選択肢を生成します。</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -240,7 +241,8 @@ Class IntegerSelection  <a class="header-action link-secondary" title="View sour
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>selections</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>[]</dt>
-    <dd></dd>
+    <dd><p>選択肢に含まれる値</p>
+</dd>
   </dl>
 
   <h4 class="section">Returns</h4>
@@ -263,10 +265,11 @@ Class IntegerSelection  <a class="header-action link-secondary" title="View sour
 
   <h3 id="Virial_Compat_IntegerSelection_op_Implicit_System_ValueTuple_System_Int32_System_Int32_System_Int32___Virial_Compat_IntegerSelection" data-uid="Virial.Compat.IntegerSelection.op_Implicit(System.ValueTuple{System.Int32,System.Int32,System.Int32})~Virial.Compat.IntegerSelection">
   implicit operator IntegerSelection((int min, int max, int step))
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Compat/Selection.cs/#L41"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Compat/Selection.cs/#L57"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>最小値、最大値、刻み幅から整数型の選択肢を生成します。</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -276,7 +279,8 @@ Class IntegerSelection  <a class="header-action link-secondary" title="View sour
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>parameter</code> (<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.valuetuple-system.int32,system.int32,system.int32-.min">min</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.valuetuple-system.int32,system.int32,system.int32-.max">max</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.valuetuple-system.int32,system.int32,system.int32-.step">step</a>)</dt>
-    <dd></dd>
+    <dd><p>最小値、最大値、刻み幅からなるタプル</p>
+</dd>
   </dl>
 
   <h4 class="section">Returns</h4>
@@ -299,10 +303,11 @@ Class IntegerSelection  <a class="header-action link-secondary" title="View sour
 
   <h3 id="Virial_Compat_IntegerSelection_op_Implicit_System_ValueTuple_System_Int32_System_Int32___Virial_Compat_IntegerSelection" data-uid="Virial.Compat.IntegerSelection.op_Implicit(System.ValueTuple{System.Int32,System.Int32})~Virial.Compat.IntegerSelection">
   implicit operator IntegerSelection((int min, int max))
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Compat/Selection.cs/#L42"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Compat/Selection.cs/#L62"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>最小値、最大値から刻み幅1の整数型の選択肢を生成します。</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -312,7 +317,8 @@ Class IntegerSelection  <a class="header-action link-secondary" title="View sour
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>parameter</code> (<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.valuetuple-system.int32,system.int32-.min">min</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.valuetuple-system.int32,system.int32-.max">max</a>)</dt>
-    <dd></dd>
+    <dd><p>最小値、最大値からなるタプル</p>
+</dd>
   </dl>
 
   <h4 class="section">Returns</h4>

@@ -6,7 +6,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta name="title" content="Class FloatSelection | Virial ">
       
-      <meta name="description" content="主にConfigurationで使用する実数型の選択肢の表現を簡略化するためのものです。">
+      <meta name="description" content="オプションのコンストラクタで使用する、実数型の選択肢の簡略化された表現です。">
       <link rel="icon" href="../images/icon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -97,7 +97,7 @@ Class FloatSelection  <a class="header-action link-secondary" title="View source
   
   </div>
 
-  <div class="markdown summary"><p>主にConfigurationで使用する実数型の選択肢の表現を簡略化するためのものです。</p>
+  <div class="markdown summary"><p>オプションのコンストラクタで使用する、実数型の選択肢の簡略化された表現です。</p>
 </div>
   <div class="markdown conceptual"></div>
 
@@ -227,10 +227,11 @@ Class FloatSelection  <a class="header-action link-secondary" title="View source
 
   <h3 id="Virial_Compat_FloatSelection_op_Implicit_System_Single____Virial_Compat_FloatSelection" data-uid="Virial.Compat.FloatSelection.op_Implicit(System.Single[])~Virial.Compat.FloatSelection">
   implicit operator FloatSelection(float[])
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Compat/Selection.cs/#L24"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Compat/Selection.cs/#L28"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>配列から実数型の選択肢を生成します。</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -240,7 +241,8 @@ Class FloatSelection  <a class="header-action link-secondary" title="View source
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>selections</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a>[]</dt>
-    <dd></dd>
+    <dd><p>選択肢に含まれる値</p>
+</dd>
   </dl>
 
   <h4 class="section">Returns</h4>
@@ -263,10 +265,11 @@ Class FloatSelection  <a class="header-action link-secondary" title="View source
 
   <h3 id="Virial_Compat_FloatSelection_op_Implicit_System_ValueTuple_System_Single_System_Single_System_Single___Virial_Compat_FloatSelection" data-uid="Virial.Compat.FloatSelection.op_Implicit(System.ValueTuple{System.Single,System.Single,System.Single})~Virial.Compat.FloatSelection">
   implicit operator FloatSelection((float min, float max, float step))
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Compat/Selection.cs/#L25"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Compat/Selection.cs/#L33"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>最小値、最大値、刻み幅から実数型の選択肢を生成します。</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -276,7 +279,8 @@ Class FloatSelection  <a class="header-action link-secondary" title="View source
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>parameter</code> (<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.valuetuple-system.single,system.single,system.single-.min">min</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.valuetuple-system.single,system.single,system.single-.max">max</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.valuetuple-system.single,system.single,system.single-.step">step</a>)</dt>
-    <dd></dd>
+    <dd><p>最小値、最大値、刻み幅からなるタプル</p>
+</dd>
   </dl>
 
   <h4 class="section">Returns</h4>

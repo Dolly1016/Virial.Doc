@@ -6,7 +6,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta name="title" content="Class CheckCanPushEmergencyButtonEvent | Virial ">
       
-      
+      <meta name="description" content="緊急会議ボタンが押せるか調べる際に呼び出されます。 緊急会議をブロックできます。">
       <link rel="icon" href="../images/icon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -89,7 +89,7 @@
 
 
   <h1 id="Virial_Events_Game_Meeting_CheckCanPushEmergencyButtonEvent" data-uid="Virial.Events.Game.Meeting.CheckCanPushEmergencyButtonEvent" class="text-break">
-Class CheckCanPushEmergencyButtonEvent  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Events/Game/Meeting/CheckCanPushEmergencyButtonEvent.cs/#L9"><i class="bi bi-code-slash"></i></a>
+Class CheckCanPushEmergencyButtonEvent  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Events/Game/Meeting/CheckCanPushEmergencyButtonEvent.cs/#L13"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -97,7 +97,9 @@ Class CheckCanPushEmergencyButtonEvent  <a class="header-action link-secondary" 
   
   </div>
 
-  <div class="markdown summary"></div>
+  <div class="markdown summary"><p>緊急会議ボタンが押せるか調べる際に呼び出されます。
+緊急会議をブロックできます。</p>
+</div>
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
@@ -162,10 +164,11 @@ Class CheckCanPushEmergencyButtonEvent  <a class="header-action link-secondary" 
 
   <h3 id="Virial_Events_Game_Meeting_CheckCanPushEmergencyButtonEvent_CanPushButton" data-uid="Virial.Events.Game.Meeting.CheckCanPushEmergencyButtonEvent.CanPushButton">
   CanPushButton
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Events/Game/Meeting/CheckCanPushEmergencyButtonEvent.cs/#L11"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Events/Game/Meeting/CheckCanPushEmergencyButtonEvent.cs/#L18"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>自身が緊急会議ボタンを押せるとき、trueを返します。</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -189,37 +192,6 @@ Class CheckCanPushEmergencyButtonEvent  <a class="header-action link-secondary" 
 
 
 
-  <a id="Virial_Events_Game_Meeting_CheckCanPushEmergencyButtonEvent_CannotPushReason_" data-uid="Virial.Events.Game.Meeting.CheckCanPushEmergencyButtonEvent.CannotPushReason*"></a>
-
-  <h3 id="Virial_Events_Game_Meeting_CheckCanPushEmergencyButtonEvent_CannotPushReason" data-uid="Virial.Events.Game.Meeting.CheckCanPushEmergencyButtonEvent.CannotPushReason">
-  CannotPushReason
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Events/Game/Meeting/CheckCanPushEmergencyButtonEvent.cs/#L12"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string? CannotPushReason { get; }</code></pre>
-  </div>
-
-
-
-
-
-  <h4 class="section">Property Value</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
   <h2 class="section" id="methods">Methods
 </h2>
 
@@ -228,10 +200,11 @@ Class CheckCanPushEmergencyButtonEvent  <a class="header-action link-secondary" 
 
   <h3 id="Virial_Events_Game_Meeting_CheckCanPushEmergencyButtonEvent_DenyButton_System_String_" data-uid="Virial.Events.Game.Meeting.CheckCanPushEmergencyButtonEvent.DenyButton(System.String)">
   DenyButton(string?)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Events/Game/Meeting/CheckCanPushEmergencyButtonEvent.cs/#L14"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Events/Game/Meeting/CheckCanPushEmergencyButtonEvent.cs/#L25"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>ボタンの使用をブロックします。</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -241,7 +214,8 @@ Class CheckCanPushEmergencyButtonEvent  <a class="header-action link-secondary" 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>reason</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd></dd>
+    <dd><p>ボタンの禁止理由。翻訳済みのテキストを設定してください。</p>
+</dd>
   </dl>
 
 
