@@ -89,7 +89,7 @@
 
 
   <h1 id="Virial_Game_NebulaGameEnds" data-uid="Virial.Game.NebulaGameEnds" class="text-break">
-Class NebulaGameEnds  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Game/GameEnd.cs/#L61"><i class="bi bi-code-slash"></i></a>
+Class NebulaGameEnds  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Game/GameEnd.cs/#L111"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -148,31 +148,30 @@ Class NebulaGameEnds  <a class="header-action link-secondary" title="View source
 
 
 
-  <h2 class="section" id="properties">Properties
+  <h2 class="section" id="fields">Fields
 </h2>
 
 
-  <a id="Virial_Game_NebulaGameEnds_ArsonistGameEnd_" data-uid="Virial.Game.NebulaGameEnds.ArsonistGameEnd*"></a>
 
   <h3 id="Virial_Game_NebulaGameEnds_ArsonistGameEnd" data-uid="Virial.Game.NebulaGameEnds.ArsonistGameEnd">
   ArsonistGameEnd
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Game/GameEnd.cs/#L65"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Game/GameEnd.cs/#L124"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>アーソニスト勝利。</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static GameEnd ArsonistGameEnd { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public static readonly Cache&lt;GameEnd&gt; ArsonistGameEnd</code></pre>
   </div>
 
 
 
 
-
-  <h4 class="section">Property Value</h4>
+  <h4 class="section">Field Value</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="Virial.Game.GameEnd.html">GameEnd</a></dt>
+    <dt><a class="xref" href="Virial.Utilities.Cache-1.html">Cache</a>&lt;<a class="xref" href="Virial.Game.GameEnd.html">GameEnd</a>&gt;</dt>
     <dd></dd>
   </dl>
 
@@ -183,27 +182,58 @@ Class NebulaGameEnds  <a class="header-action link-secondary" title="View source
 
 
 
-  <a id="Virial_Game_NebulaGameEnds_CrewmateGameEnd_" data-uid="Virial.Game.NebulaGameEnds.CrewmateGameEnd*"></a>
+
+
+  <h3 id="Virial_Game_NebulaGameEnds_AvengerGameEnd" data-uid="Virial.Game.NebulaGameEnds.AvengerGameEnd">
+  AvengerGameEnd
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Game/GameEnd.cs/#L128"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>アヴェンジャー勝利。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly Cache&lt;GameEnd&gt; AvengerGameEnd</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Virial.Utilities.Cache-1.html">Cache</a>&lt;<a class="xref" href="Virial.Game.GameEnd.html">GameEnd</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
 
   <h3 id="Virial_Game_NebulaGameEnds_CrewmateGameEnd" data-uid="Virial.Game.NebulaGameEnds.CrewmateGameEnd">
   CrewmateGameEnd
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Game/GameEnd.cs/#L63"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Game/GameEnd.cs/#L116"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>クルーメイト勝利。</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static GameEnd CrewmateGameEnd { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public static readonly Cache&lt;GameEnd&gt; CrewmateGameEnd</code></pre>
   </div>
 
 
 
 
-
-  <h4 class="section">Property Value</h4>
+  <h4 class="section">Field Value</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="Virial.Game.GameEnd.html">GameEnd</a></dt>
+    <dt><a class="xref" href="Virial.Utilities.Cache-1.html">Cache</a>&lt;<a class="xref" href="Virial.Game.GameEnd.html">GameEnd</a>&gt;</dt>
     <dd></dd>
   </dl>
 
@@ -214,27 +244,89 @@ Class NebulaGameEnds  <a class="header-action link-secondary" title="View source
 
 
 
-  <a id="Virial_Game_NebulaGameEnds_ImpostorGameEnd_" data-uid="Virial.Game.NebulaGameEnds.ImpostorGameEnd*"></a>
+
+
+  <h3 id="Virial_Game_NebulaGameEnds_DancerGameEnd" data-uid="Virial.Game.NebulaGameEnds.DancerGameEnd">
+  DancerGameEnd
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Game/GameEnd.cs/#L132"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>ダンサー勝利。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly Cache&lt;GameEnd&gt; DancerGameEnd</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Virial.Utilities.Cache-1.html">Cache</a>&lt;<a class="xref" href="Virial.Game.GameEnd.html">GameEnd</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Virial_Game_NebulaGameEnds_GamblerGameEnd" data-uid="Virial.Game.NebulaGameEnds.GamblerGameEnd">
+  GamblerGameEnd
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Game/GameEnd.cs/#L136"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>ギャンブラー勝利。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly Cache&lt;GameEnd&gt; GamblerGameEnd</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Virial.Utilities.Cache-1.html">Cache</a>&lt;<a class="xref" href="Virial.Game.GameEnd.html">GameEnd</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
 
   <h3 id="Virial_Game_NebulaGameEnds_ImpostorGameEnd" data-uid="Virial.Game.NebulaGameEnds.ImpostorGameEnd">
   ImpostorGameEnd
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Game/GameEnd.cs/#L64"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Game/GameEnd.cs/#L120"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>インポスター勝利。</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static GameEnd ImpostorGameEnd { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public static readonly Cache&lt;GameEnd&gt; ImpostorGameEnd</code></pre>
   </div>
 
 
 
 
-
-  <h4 class="section">Property Value</h4>
+  <h4 class="section">Field Value</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="Virial.Game.GameEnd.html">GameEnd</a></dt>
+    <dt><a class="xref" href="Virial.Utilities.Cache-1.html">Cache</a>&lt;<a class="xref" href="Virial.Game.GameEnd.html">GameEnd</a>&gt;</dt>
     <dd></dd>
   </dl>
 
@@ -245,27 +337,27 @@ Class NebulaGameEnds  <a class="header-action link-secondary" title="View source
 
 
 
-  <a id="Virial_Game_NebulaGameEnds_JackalGameEnd_" data-uid="Virial.Game.NebulaGameEnds.JackalGameEnd*"></a>
+
 
   <h3 id="Virial_Game_NebulaGameEnds_JackalGameEnd" data-uid="Virial.Game.NebulaGameEnds.JackalGameEnd">
   JackalGameEnd
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Game/GameEnd.cs/#L66"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Game/GameEnd.cs/#L140"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>ジャッカル勝利。</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static GameEnd JackalGameEnd { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public static readonly Cache&lt;GameEnd&gt; JackalGameEnd</code></pre>
   </div>
 
 
 
 
-
-  <h4 class="section">Property Value</h4>
+  <h4 class="section">Field Value</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="Virial.Game.GameEnd.html">GameEnd</a></dt>
+    <dt><a class="xref" href="Virial.Utilities.Cache-1.html">Cache</a>&lt;<a class="xref" href="Virial.Game.GameEnd.html">GameEnd</a>&gt;</dt>
     <dd></dd>
   </dl>
 
@@ -276,27 +368,27 @@ Class NebulaGameEnds  <a class="header-action link-secondary" title="View source
 
 
 
-  <a id="Virial_Game_NebulaGameEnds_JesterGameEnd_" data-uid="Virial.Game.NebulaGameEnds.JesterGameEnd*"></a>
+
 
   <h3 id="Virial_Game_NebulaGameEnds_JesterGameEnd" data-uid="Virial.Game.NebulaGameEnds.JesterGameEnd">
   JesterGameEnd
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Game/GameEnd.cs/#L67"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Game/GameEnd.cs/#L144"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>ジェスター勝利。</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static GameEnd JesterGameEnd { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public static readonly Cache&lt;GameEnd&gt; JesterGameEnd</code></pre>
   </div>
 
 
 
 
-
-  <h4 class="section">Property Value</h4>
+  <h4 class="section">Field Value</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="Virial.Game.GameEnd.html">GameEnd</a></dt>
+    <dt><a class="xref" href="Virial.Utilities.Cache-1.html">Cache</a>&lt;<a class="xref" href="Virial.Game.GameEnd.html">GameEnd</a>&gt;</dt>
     <dd></dd>
   </dl>
 
@@ -307,27 +399,89 @@ Class NebulaGameEnds  <a class="header-action link-secondary" title="View source
 
 
 
-  <a id="Virial_Game_NebulaGameEnds_PaparazzoGameEnd_" data-uid="Virial.Game.NebulaGameEnds.PaparazzoGameEnd*"></a>
+
+
+  <h3 id="Virial_Game_NebulaGameEnds_LoversGameEnd" data-uid="Virial.Game.NebulaGameEnds.LoversGameEnd">
+  LoversGameEnd
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Game/GameEnd.cs/#L148"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>ラバーズ勝利。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly Cache&lt;GameEnd&gt; LoversGameEnd</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Virial.Utilities.Cache-1.html">Cache</a>&lt;<a class="xref" href="Virial.Game.GameEnd.html">GameEnd</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Virial_Game_NebulaGameEnds_NoGameEnd" data-uid="Virial.Game.NebulaGameEnds.NoGameEnd">
+  NoGameEnd
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Game/GameEnd.cs/#L172"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>無効なゲーム。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly Cache&lt;GameEnd&gt; NoGameEnd</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Virial.Utilities.Cache-1.html">Cache</a>&lt;<a class="xref" href="Virial.Game.GameEnd.html">GameEnd</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
 
   <h3 id="Virial_Game_NebulaGameEnds_PaparazzoGameEnd" data-uid="Virial.Game.NebulaGameEnds.PaparazzoGameEnd">
   PaparazzoGameEnd
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Game/GameEnd.cs/#L68"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Game/GameEnd.cs/#L152"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>パパラッチ勝利。</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static GameEnd PaparazzoGameEnd { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public static readonly Cache&lt;GameEnd&gt; PaparazzoGameEnd</code></pre>
   </div>
 
 
 
 
-
-  <h4 class="section">Property Value</h4>
+  <h4 class="section">Field Value</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="Virial.Game.GameEnd.html">GameEnd</a></dt>
+    <dt><a class="xref" href="Virial.Utilities.Cache-1.html">Cache</a>&lt;<a class="xref" href="Virial.Game.GameEnd.html">GameEnd</a>&gt;</dt>
     <dd></dd>
   </dl>
 
@@ -338,29 +492,123 @@ Class NebulaGameEnds  <a class="header-action link-secondary" title="View source
 
 
 
-  <a id="Virial_Game_NebulaGameEnds_VultureGameEnd_" data-uid="Virial.Game.NebulaGameEnds.VultureGameEnd*"></a>
+
+
+  <h3 id="Virial_Game_NebulaGameEnds_ScarletGameEnd" data-uid="Virial.Game.NebulaGameEnds.ScarletGameEnd">
+  ScarletGameEnd
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Game/GameEnd.cs/#L156"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>スカーレット勝利。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly Cache&lt;GameEnd&gt; ScarletGameEnd</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Virial.Utilities.Cache-1.html">Cache</a>&lt;<a class="xref" href="Virial.Game.GameEnd.html">GameEnd</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Virial_Game_NebulaGameEnds_SpectreGameEnd" data-uid="Virial.Game.NebulaGameEnds.SpectreGameEnd">
+  SpectreGameEnd
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Game/GameEnd.cs/#L160"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>妖狐勝利。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly Cache&lt;GameEnd&gt; SpectreGameEnd</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Virial.Utilities.Cache-1.html">Cache</a>&lt;<a class="xref" href="Virial.Game.GameEnd.html">GameEnd</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Virial_Game_NebulaGameEnds_TrilemmaGameEnd" data-uid="Virial.Game.NebulaGameEnds.TrilemmaGameEnd">
+  TrilemmaGameEnd
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Game/GameEnd.cs/#L164"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>トリレンマ単独勝利。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly Cache&lt;GameEnd&gt; TrilemmaGameEnd</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Virial.Utilities.Cache-1.html">Cache</a>&lt;<a class="xref" href="Virial.Game.GameEnd.html">GameEnd</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
 
   <h3 id="Virial_Game_NebulaGameEnds_VultureGameEnd" data-uid="Virial.Game.NebulaGameEnds.VultureGameEnd">
   VultureGameEnd
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Game/GameEnd.cs/#L69"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Game/GameEnd.cs/#L168"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>ヴァルチャー勝利。</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static GameEnd VultureGameEnd { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public static readonly Cache&lt;GameEnd&gt; VultureGameEnd</code></pre>
   </div>
 
 
 
 
-
-  <h4 class="section">Property Value</h4>
+  <h4 class="section">Field Value</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="Virial.Game.GameEnd.html">GameEnd</a></dt>
+    <dt><a class="xref" href="Virial.Utilities.Cache-1.html">Cache</a>&lt;<a class="xref" href="Virial.Game.GameEnd.html">GameEnd</a>&gt;</dt>
     <dd></dd>
   </dl>
+
 
 
 

@@ -890,7 +890,21 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Virial.BitMask<T>",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/Virial.BitMask-1.yml\" sourcestartlinenumber=\"1\">部分集合を表すマスクです。</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.BitMasks.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.BitMasks.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.BitMasks",
+      "Summary": "<p sourcefile=\"api/Virial.BitMasks.yml\" sourcestartlinenumber=\"1\">ビットマスクを生成するAPI群です。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2108,7 +2122,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Virial.EditableBitMask<T>",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/Virial.EditableBitMask-1.yml\" sourcestartlinenumber=\"1\">編集可能なマスクです。\n要素を追加する操作が可能です。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -3396,7 +3410,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Virial.Game.GameEnd",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/Virial.Game.GameEnd.yml\" sourcestartlinenumber=\"1\">ゲーム終了を表します。\n<xref href=\"Virial.Runtime.NebulaPreprocessor.CreateTeam(System.String%2cVirial.Color%2cVirial.Assignable.TeamRevealType)\" data-throw-if-not-resolved=\"false\"></xref></p>\n"
     },
     {
       "type": "ManagedReference",

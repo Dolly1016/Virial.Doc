@@ -3145,40 +3145,6 @@ references:
   fullName.vb: Virial.BitMask(Of T)
   nameWithType: BitMask<T>
   nameWithType.vb: BitMask(Of T)
-- uid: Virial.BitMask`1.AsRawPattern
-  name: AsRawPattern
-  href: api/Virial.BitMask-1.html#Virial_BitMask_1_AsRawPattern
-  commentId: P:Virial.BitMask`1.AsRawPattern
-  fullName: Virial.BitMask<T>.AsRawPattern
-  fullName.vb: Virial.BitMask(Of T).AsRawPattern
-  nameWithType: BitMask<T>.AsRawPattern
-  nameWithType.vb: BitMask(Of T).AsRawPattern
-- uid: Virial.BitMask`1.AsRawPattern*
-  name: AsRawPattern
-  href: api/Virial.BitMask-1.html#Virial_BitMask_1_AsRawPattern_
-  commentId: Overload:Virial.BitMask`1.AsRawPattern
-  isSpec: "True"
-  fullName: Virial.BitMask<T>.AsRawPattern
-  fullName.vb: Virial.BitMask(Of T).AsRawPattern
-  nameWithType: BitMask<T>.AsRawPattern
-  nameWithType.vb: BitMask(Of T).AsRawPattern
-- uid: Virial.BitMask`1.AsRawPatternLong
-  name: AsRawPatternLong
-  href: api/Virial.BitMask-1.html#Virial_BitMask_1_AsRawPatternLong
-  commentId: P:Virial.BitMask`1.AsRawPatternLong
-  fullName: Virial.BitMask<T>.AsRawPatternLong
-  fullName.vb: Virial.BitMask(Of T).AsRawPatternLong
-  nameWithType: BitMask<T>.AsRawPatternLong
-  nameWithType.vb: BitMask(Of T).AsRawPatternLong
-- uid: Virial.BitMask`1.AsRawPatternLong*
-  name: AsRawPatternLong
-  href: api/Virial.BitMask-1.html#Virial_BitMask_1_AsRawPatternLong_
-  commentId: Overload:Virial.BitMask`1.AsRawPatternLong
-  isSpec: "True"
-  fullName: Virial.BitMask<T>.AsRawPatternLong
-  fullName.vb: Virial.BitMask(Of T).AsRawPatternLong
-  nameWithType: BitMask<T>.AsRawPatternLong
-  nameWithType.vb: BitMask(Of T).AsRawPatternLong
 - uid: Virial.BitMask`1.ForEach(System.Collections.Generic.IEnumerable{`0})
   name: ForEach(IEnumerable<T>)
   href: api/Virial.BitMask-1.html#Virial_BitMask_1_ForEach_System_Collections_Generic_IEnumerable__0__
@@ -3242,6 +3208,76 @@ references:
   fullName.vb: Virial.BitMask(Of T).TestAll
   nameWithType: BitMask<T>.TestAll
   nameWithType.vb: BitMask(Of T).TestAll
+- uid: Virial.BitMasks
+  name: BitMasks
+  href: api/Virial.BitMasks.html
+  commentId: T:Virial.BitMasks
+  fullName: Virial.BitMasks
+  nameWithType: BitMasks
+- uid: Virial.BitMasks.AsPlayer(System.UInt32)
+  name: AsPlayer(uint)
+  href: api/Virial.BitMasks.html#Virial_BitMasks_AsPlayer_System_UInt32_
+  commentId: M:Virial.BitMasks.AsPlayer(System.UInt32)
+  name.vb: AsPlayer(UInteger)
+  fullName: Virial.BitMasks.AsPlayer(uint)
+  fullName.vb: Virial.BitMasks.AsPlayer(UInteger)
+  nameWithType: BitMasks.AsPlayer(uint)
+  nameWithType.vb: BitMasks.AsPlayer(UInteger)
+- uid: Virial.BitMasks.AsPlayer*
+  name: AsPlayer
+  href: api/Virial.BitMasks.html#Virial_BitMasks_AsPlayer_
+  commentId: Overload:Virial.BitMasks.AsPlayer
+  isSpec: "True"
+  fullName: Virial.BitMasks.AsPlayer
+  nameWithType: BitMasks.AsPlayer
+- uid: Virial.BitMasks.Bits*
+  name: Bits
+  href: api/Virial.BitMasks.html#Virial_BitMasks_Bits_
+  commentId: Overload:Virial.BitMasks.Bits
+  isSpec: "True"
+  fullName: Virial.BitMasks.Bits
+  nameWithType: BitMasks.Bits
+- uid: Virial.BitMasks.Bits``1(``0[])
+  name: Bits<B>(params B[])
+  href: api/Virial.BitMasks.html#Virial_BitMasks_Bits__1___0___
+  commentId: M:Virial.BitMasks.Bits``1(``0[])
+  name.vb: Bits(Of B)(ParamArray B())
+  fullName: Virial.BitMasks.Bits<B>(params B[])
+  fullName.vb: Virial.BitMasks.Bits(Of B)(ParamArray B())
+  nameWithType: BitMasks.Bits<B>(params B[])
+  nameWithType.vb: BitMasks.Bits(Of B)(ParamArray B())
+- uid: Virial.BitMasks.CreateFunctionalMask*
+  name: CreateFunctionalMask
+  href: api/Virial.BitMasks.html#Virial_BitMasks_CreateFunctionalMask_
+  commentId: Overload:Virial.BitMasks.CreateFunctionalMask
+  isSpec: "True"
+  fullName: Virial.BitMasks.CreateFunctionalMask
+  nameWithType: BitMasks.CreateFunctionalMask
+- uid: Virial.BitMasks.CreateFunctionalMask``1(System.Predicate{``0})
+  name: CreateFunctionalMask<T>(Predicate<T>)
+  href: api/Virial.BitMasks.html#Virial_BitMasks_CreateFunctionalMask__1_System_Predicate___0__
+  commentId: M:Virial.BitMasks.CreateFunctionalMask``1(System.Predicate{``0})
+  name.vb: CreateFunctionalMask(Of T)(Predicate(Of T))
+  fullName: Virial.BitMasks.CreateFunctionalMask<T>(System.Predicate<T>)
+  fullName.vb: Virial.BitMasks.CreateFunctionalMask(Of T)(System.Predicate(Of T))
+  nameWithType: BitMasks.CreateFunctionalMask<T>(Predicate<T>)
+  nameWithType.vb: BitMasks.CreateFunctionalMask(Of T)(Predicate(Of T))
+- uid: Virial.BitMasks.CreateMask*
+  name: CreateMask
+  href: api/Virial.BitMasks.html#Virial_BitMasks_CreateMask_
+  commentId: Overload:Virial.BitMasks.CreateMask
+  isSpec: "True"
+  fullName: Virial.BitMasks.CreateMask
+  nameWithType: BitMasks.CreateMask
+- uid: Virial.BitMasks.CreateMask``1(System.Func{``0,System.UInt32})
+  name: CreateMask<T>(Func<T, uint>)
+  href: api/Virial.BitMasks.html#Virial_BitMasks_CreateMask__1_System_Func___0_System_UInt32__
+  commentId: M:Virial.BitMasks.CreateMask``1(System.Func{``0,System.UInt32})
+  name.vb: CreateMask(Of T)(Func(Of T, UInteger))
+  fullName: Virial.BitMasks.CreateMask<T>(System.Func<T, uint>)
+  fullName.vb: Virial.BitMasks.CreateMask(Of T)(System.Func(Of T, UInteger))
+  nameWithType: BitMasks.CreateMask<T>(Func<T, uint>)
+  nameWithType.vb: BitMasks.CreateMask(Of T)(Func(Of T, UInteger))
 - uid: Virial.Color
   name: Color
   href: api/Virial.Color.html
@@ -10790,6 +10826,35 @@ references:
   commentId: T:Virial.Game.ExtraWin
   fullName: Virial.Game.ExtraWin
   nameWithType: ExtraWin
+- uid: Virial.Game.ExtraWin.DisplayText
+  name: DisplayText
+  href: api/Virial.Game.ExtraWin.html#Virial_Game_ExtraWin_DisplayText
+  commentId: P:Virial.Game.ExtraWin.DisplayText
+  fullName: Virial.Game.ExtraWin.DisplayText
+  nameWithType: ExtraWin.DisplayText
+- uid: Virial.Game.ExtraWin.DisplayText*
+  name: DisplayText
+  href: api/Virial.Game.ExtraWin.html#Virial_Game_ExtraWin_DisplayText_
+  commentId: Overload:Virial.Game.ExtraWin.DisplayText
+  isSpec: "True"
+  fullName: Virial.Game.ExtraWin.DisplayText
+  nameWithType: ExtraWin.DisplayText
+- uid: Virial.Game.ExtraWin.TryGet(System.Byte,Virial.Game.ExtraWin@)
+  name: TryGet(byte, out ExtraWin)
+  href: api/Virial.Game.ExtraWin.html#Virial_Game_ExtraWin_TryGet_System_Byte_Virial_Game_ExtraWin__
+  commentId: M:Virial.Game.ExtraWin.TryGet(System.Byte,Virial.Game.ExtraWin@)
+  name.vb: TryGet(Byte, ExtraWin)
+  fullName: Virial.Game.ExtraWin.TryGet(byte, out Virial.Game.ExtraWin)
+  fullName.vb: Virial.Game.ExtraWin.TryGet(Byte, Virial.Game.ExtraWin)
+  nameWithType: ExtraWin.TryGet(byte, out ExtraWin)
+  nameWithType.vb: ExtraWin.TryGet(Byte, ExtraWin)
+- uid: Virial.Game.ExtraWin.TryGet*
+  name: TryGet
+  href: api/Virial.Game.ExtraWin.html#Virial_Game_ExtraWin_TryGet_
+  commentId: Overload:Virial.Game.ExtraWin.TryGet
+  isSpec: "True"
+  fullName: Virial.Game.ExtraWin.TryGet
+  nameWithType: ExtraWin.TryGet
 - uid: Virial.Game.ExtraWinCheckPhase
   name: ExtraWinCheckPhase
   href: api/Virial.Game.ExtraWinCheckPhase.html
@@ -11443,6 +11508,35 @@ references:
   isSpec: "True"
   fullName: Virial.Game.GameEnd.DisplayText
   nameWithType: GameEnd.DisplayText
+- uid: Virial.Game.GameEnd.Priority
+  name: Priority
+  href: api/Virial.Game.GameEnd.html#Virial_Game_GameEnd_Priority
+  commentId: P:Virial.Game.GameEnd.Priority
+  fullName: Virial.Game.GameEnd.Priority
+  nameWithType: GameEnd.Priority
+- uid: Virial.Game.GameEnd.Priority*
+  name: Priority
+  href: api/Virial.Game.GameEnd.html#Virial_Game_GameEnd_Priority_
+  commentId: Overload:Virial.Game.GameEnd.Priority
+  isSpec: "True"
+  fullName: Virial.Game.GameEnd.Priority
+  nameWithType: GameEnd.Priority
+- uid: Virial.Game.GameEnd.TryGet(System.Byte,Virial.Game.GameEnd@)
+  name: TryGet(byte, out GameEnd)
+  href: api/Virial.Game.GameEnd.html#Virial_Game_GameEnd_TryGet_System_Byte_Virial_Game_GameEnd__
+  commentId: M:Virial.Game.GameEnd.TryGet(System.Byte,Virial.Game.GameEnd@)
+  name.vb: TryGet(Byte, GameEnd)
+  fullName: Virial.Game.GameEnd.TryGet(byte, out Virial.Game.GameEnd)
+  fullName.vb: Virial.Game.GameEnd.TryGet(Byte, Virial.Game.GameEnd)
+  nameWithType: GameEnd.TryGet(byte, out GameEnd)
+  nameWithType.vb: GameEnd.TryGet(Byte, GameEnd)
+- uid: Virial.Game.GameEnd.TryGet*
+  name: TryGet
+  href: api/Virial.Game.GameEnd.html#Virial_Game_GameEnd_TryGet_
+  commentId: Overload:Virial.Game.GameEnd.TryGet
+  isSpec: "True"
+  fullName: Virial.Game.GameEnd.TryGet
+  nameWithType: GameEnd.TryGet
 - uid: Virial.Game.GameEndReason
   name: GameEndReason
   href: api/Virial.Game.GameEndReason.html
@@ -12581,92 +12675,91 @@ references:
 - uid: Virial.Game.NebulaGameEnds.ArsonistGameEnd
   name: ArsonistGameEnd
   href: api/Virial.Game.NebulaGameEnds.html#Virial_Game_NebulaGameEnds_ArsonistGameEnd
-  commentId: P:Virial.Game.NebulaGameEnds.ArsonistGameEnd
+  commentId: F:Virial.Game.NebulaGameEnds.ArsonistGameEnd
   fullName: Virial.Game.NebulaGameEnds.ArsonistGameEnd
   nameWithType: NebulaGameEnds.ArsonistGameEnd
-- uid: Virial.Game.NebulaGameEnds.ArsonistGameEnd*
-  name: ArsonistGameEnd
-  href: api/Virial.Game.NebulaGameEnds.html#Virial_Game_NebulaGameEnds_ArsonistGameEnd_
-  commentId: Overload:Virial.Game.NebulaGameEnds.ArsonistGameEnd
-  isSpec: "True"
-  fullName: Virial.Game.NebulaGameEnds.ArsonistGameEnd
-  nameWithType: NebulaGameEnds.ArsonistGameEnd
+- uid: Virial.Game.NebulaGameEnds.AvengerGameEnd
+  name: AvengerGameEnd
+  href: api/Virial.Game.NebulaGameEnds.html#Virial_Game_NebulaGameEnds_AvengerGameEnd
+  commentId: F:Virial.Game.NebulaGameEnds.AvengerGameEnd
+  fullName: Virial.Game.NebulaGameEnds.AvengerGameEnd
+  nameWithType: NebulaGameEnds.AvengerGameEnd
 - uid: Virial.Game.NebulaGameEnds.CrewmateGameEnd
   name: CrewmateGameEnd
   href: api/Virial.Game.NebulaGameEnds.html#Virial_Game_NebulaGameEnds_CrewmateGameEnd
-  commentId: P:Virial.Game.NebulaGameEnds.CrewmateGameEnd
+  commentId: F:Virial.Game.NebulaGameEnds.CrewmateGameEnd
   fullName: Virial.Game.NebulaGameEnds.CrewmateGameEnd
   nameWithType: NebulaGameEnds.CrewmateGameEnd
-- uid: Virial.Game.NebulaGameEnds.CrewmateGameEnd*
-  name: CrewmateGameEnd
-  href: api/Virial.Game.NebulaGameEnds.html#Virial_Game_NebulaGameEnds_CrewmateGameEnd_
-  commentId: Overload:Virial.Game.NebulaGameEnds.CrewmateGameEnd
-  isSpec: "True"
-  fullName: Virial.Game.NebulaGameEnds.CrewmateGameEnd
-  nameWithType: NebulaGameEnds.CrewmateGameEnd
+- uid: Virial.Game.NebulaGameEnds.DancerGameEnd
+  name: DancerGameEnd
+  href: api/Virial.Game.NebulaGameEnds.html#Virial_Game_NebulaGameEnds_DancerGameEnd
+  commentId: F:Virial.Game.NebulaGameEnds.DancerGameEnd
+  fullName: Virial.Game.NebulaGameEnds.DancerGameEnd
+  nameWithType: NebulaGameEnds.DancerGameEnd
+- uid: Virial.Game.NebulaGameEnds.GamblerGameEnd
+  name: GamblerGameEnd
+  href: api/Virial.Game.NebulaGameEnds.html#Virial_Game_NebulaGameEnds_GamblerGameEnd
+  commentId: F:Virial.Game.NebulaGameEnds.GamblerGameEnd
+  fullName: Virial.Game.NebulaGameEnds.GamblerGameEnd
+  nameWithType: NebulaGameEnds.GamblerGameEnd
 - uid: Virial.Game.NebulaGameEnds.ImpostorGameEnd
   name: ImpostorGameEnd
   href: api/Virial.Game.NebulaGameEnds.html#Virial_Game_NebulaGameEnds_ImpostorGameEnd
-  commentId: P:Virial.Game.NebulaGameEnds.ImpostorGameEnd
-  fullName: Virial.Game.NebulaGameEnds.ImpostorGameEnd
-  nameWithType: NebulaGameEnds.ImpostorGameEnd
-- uid: Virial.Game.NebulaGameEnds.ImpostorGameEnd*
-  name: ImpostorGameEnd
-  href: api/Virial.Game.NebulaGameEnds.html#Virial_Game_NebulaGameEnds_ImpostorGameEnd_
-  commentId: Overload:Virial.Game.NebulaGameEnds.ImpostorGameEnd
-  isSpec: "True"
+  commentId: F:Virial.Game.NebulaGameEnds.ImpostorGameEnd
   fullName: Virial.Game.NebulaGameEnds.ImpostorGameEnd
   nameWithType: NebulaGameEnds.ImpostorGameEnd
 - uid: Virial.Game.NebulaGameEnds.JackalGameEnd
   name: JackalGameEnd
   href: api/Virial.Game.NebulaGameEnds.html#Virial_Game_NebulaGameEnds_JackalGameEnd
-  commentId: P:Virial.Game.NebulaGameEnds.JackalGameEnd
-  fullName: Virial.Game.NebulaGameEnds.JackalGameEnd
-  nameWithType: NebulaGameEnds.JackalGameEnd
-- uid: Virial.Game.NebulaGameEnds.JackalGameEnd*
-  name: JackalGameEnd
-  href: api/Virial.Game.NebulaGameEnds.html#Virial_Game_NebulaGameEnds_JackalGameEnd_
-  commentId: Overload:Virial.Game.NebulaGameEnds.JackalGameEnd
-  isSpec: "True"
+  commentId: F:Virial.Game.NebulaGameEnds.JackalGameEnd
   fullName: Virial.Game.NebulaGameEnds.JackalGameEnd
   nameWithType: NebulaGameEnds.JackalGameEnd
 - uid: Virial.Game.NebulaGameEnds.JesterGameEnd
   name: JesterGameEnd
   href: api/Virial.Game.NebulaGameEnds.html#Virial_Game_NebulaGameEnds_JesterGameEnd
-  commentId: P:Virial.Game.NebulaGameEnds.JesterGameEnd
+  commentId: F:Virial.Game.NebulaGameEnds.JesterGameEnd
   fullName: Virial.Game.NebulaGameEnds.JesterGameEnd
   nameWithType: NebulaGameEnds.JesterGameEnd
-- uid: Virial.Game.NebulaGameEnds.JesterGameEnd*
-  name: JesterGameEnd
-  href: api/Virial.Game.NebulaGameEnds.html#Virial_Game_NebulaGameEnds_JesterGameEnd_
-  commentId: Overload:Virial.Game.NebulaGameEnds.JesterGameEnd
-  isSpec: "True"
-  fullName: Virial.Game.NebulaGameEnds.JesterGameEnd
-  nameWithType: NebulaGameEnds.JesterGameEnd
+- uid: Virial.Game.NebulaGameEnds.LoversGameEnd
+  name: LoversGameEnd
+  href: api/Virial.Game.NebulaGameEnds.html#Virial_Game_NebulaGameEnds_LoversGameEnd
+  commentId: F:Virial.Game.NebulaGameEnds.LoversGameEnd
+  fullName: Virial.Game.NebulaGameEnds.LoversGameEnd
+  nameWithType: NebulaGameEnds.LoversGameEnd
+- uid: Virial.Game.NebulaGameEnds.NoGameEnd
+  name: NoGameEnd
+  href: api/Virial.Game.NebulaGameEnds.html#Virial_Game_NebulaGameEnds_NoGameEnd
+  commentId: F:Virial.Game.NebulaGameEnds.NoGameEnd
+  fullName: Virial.Game.NebulaGameEnds.NoGameEnd
+  nameWithType: NebulaGameEnds.NoGameEnd
 - uid: Virial.Game.NebulaGameEnds.PaparazzoGameEnd
   name: PaparazzoGameEnd
   href: api/Virial.Game.NebulaGameEnds.html#Virial_Game_NebulaGameEnds_PaparazzoGameEnd
-  commentId: P:Virial.Game.NebulaGameEnds.PaparazzoGameEnd
+  commentId: F:Virial.Game.NebulaGameEnds.PaparazzoGameEnd
   fullName: Virial.Game.NebulaGameEnds.PaparazzoGameEnd
   nameWithType: NebulaGameEnds.PaparazzoGameEnd
-- uid: Virial.Game.NebulaGameEnds.PaparazzoGameEnd*
-  name: PaparazzoGameEnd
-  href: api/Virial.Game.NebulaGameEnds.html#Virial_Game_NebulaGameEnds_PaparazzoGameEnd_
-  commentId: Overload:Virial.Game.NebulaGameEnds.PaparazzoGameEnd
-  isSpec: "True"
-  fullName: Virial.Game.NebulaGameEnds.PaparazzoGameEnd
-  nameWithType: NebulaGameEnds.PaparazzoGameEnd
+- uid: Virial.Game.NebulaGameEnds.ScarletGameEnd
+  name: ScarletGameEnd
+  href: api/Virial.Game.NebulaGameEnds.html#Virial_Game_NebulaGameEnds_ScarletGameEnd
+  commentId: F:Virial.Game.NebulaGameEnds.ScarletGameEnd
+  fullName: Virial.Game.NebulaGameEnds.ScarletGameEnd
+  nameWithType: NebulaGameEnds.ScarletGameEnd
+- uid: Virial.Game.NebulaGameEnds.SpectreGameEnd
+  name: SpectreGameEnd
+  href: api/Virial.Game.NebulaGameEnds.html#Virial_Game_NebulaGameEnds_SpectreGameEnd
+  commentId: F:Virial.Game.NebulaGameEnds.SpectreGameEnd
+  fullName: Virial.Game.NebulaGameEnds.SpectreGameEnd
+  nameWithType: NebulaGameEnds.SpectreGameEnd
+- uid: Virial.Game.NebulaGameEnds.TrilemmaGameEnd
+  name: TrilemmaGameEnd
+  href: api/Virial.Game.NebulaGameEnds.html#Virial_Game_NebulaGameEnds_TrilemmaGameEnd
+  commentId: F:Virial.Game.NebulaGameEnds.TrilemmaGameEnd
+  fullName: Virial.Game.NebulaGameEnds.TrilemmaGameEnd
+  nameWithType: NebulaGameEnds.TrilemmaGameEnd
 - uid: Virial.Game.NebulaGameEnds.VultureGameEnd
   name: VultureGameEnd
   href: api/Virial.Game.NebulaGameEnds.html#Virial_Game_NebulaGameEnds_VultureGameEnd
-  commentId: P:Virial.Game.NebulaGameEnds.VultureGameEnd
-  fullName: Virial.Game.NebulaGameEnds.VultureGameEnd
-  nameWithType: NebulaGameEnds.VultureGameEnd
-- uid: Virial.Game.NebulaGameEnds.VultureGameEnd*
-  name: VultureGameEnd
-  href: api/Virial.Game.NebulaGameEnds.html#Virial_Game_NebulaGameEnds_VultureGameEnd_
-  commentId: Overload:Virial.Game.NebulaGameEnds.VultureGameEnd
-  isSpec: "True"
+  commentId: F:Virial.Game.NebulaGameEnds.VultureGameEnd
   fullName: Virial.Game.NebulaGameEnds.VultureGameEnd
   nameWithType: NebulaGameEnds.VultureGameEnd
 - uid: Virial.Game.Outfit
@@ -12973,6 +13066,22 @@ references:
   commentId: T:Virial.Game.Player
   fullName: Virial.Game.Player
   nameWithType: Player
+- uid: Virial.Game.Player.AddModifier(Virial.Assignable.DefinedModifier,System.Int32[])
+  name: AddModifier(DefinedModifier, int[]?)
+  href: api/Virial.Game.Player.html#Virial_Game_Player_AddModifier_Virial_Assignable_DefinedModifier_System_Int32___
+  commentId: M:Virial.Game.Player.AddModifier(Virial.Assignable.DefinedModifier,System.Int32[])
+  name.vb: AddModifier(DefinedModifier, Integer())
+  fullName: Virial.Game.Player.AddModifier(Virial.Assignable.DefinedModifier, int[]?)
+  fullName.vb: Virial.Game.Player.AddModifier(Virial.Assignable.DefinedModifier, Integer())
+  nameWithType: Player.AddModifier(DefinedModifier, int[]?)
+  nameWithType.vb: Player.AddModifier(DefinedModifier, Integer())
+- uid: Virial.Game.Player.AddModifier*
+  name: AddModifier
+  href: api/Virial.Game.Player.html#Virial_Game_Player_AddModifier_
+  commentId: Overload:Virial.Game.Player.AddModifier
+  isSpec: "True"
+  fullName: Virial.Game.Player.AddModifier
+  nameWithType: Player.AddModifier
 - uid: Virial.Game.Player.AllAbilities
   name: AllAbilities
   href: api/Virial.Game.Player.html#Virial_Game_Player_AllAbilities
@@ -13289,6 +13398,22 @@ references:
   isSpec: "True"
   fullName: Virial.Game.Player.GetAttributes
   nameWithType: Player.GetAttributes
+- uid: Virial.Game.Player.GetModifiers*
+  name: GetModifiers
+  href: api/Virial.Game.Player.html#Virial_Game_Player_GetModifiers_
+  commentId: Overload:Virial.Game.Player.GetModifiers
+  isSpec: "True"
+  fullName: Virial.Game.Player.GetModifiers
+  nameWithType: Player.GetModifiers
+- uid: Virial.Game.Player.GetModifiers``1
+  name: GetModifiers<Modifier>()
+  href: api/Virial.Game.Player.html#Virial_Game_Player_GetModifiers__1
+  commentId: M:Virial.Game.Player.GetModifiers``1
+  name.vb: GetModifiers(Of Modifier)()
+  fullName: Virial.Game.Player.GetModifiers<Modifier>()
+  fullName.vb: Virial.Game.Player.GetModifiers(Of Modifier)()
+  nameWithType: Player.GetModifiers<Modifier>()
+  nameWithType.vb: Player.GetModifiers(Of Modifier)()
 - uid: Virial.Game.Player.GetOutfit(System.Int32)
   name: GetOutfit(int)
   href: api/Virial.Game.Player.html#Virial_Game_Player_GetOutfit_System_Int32_
@@ -13509,6 +13634,19 @@ references:
   isSpec: "True"
   fullName: Virial.Game.Player.IsImpostor
   nameWithType: Player.IsImpostor
+- uid: Virial.Game.Player.IsInvisible
+  name: IsInvisible
+  href: api/Virial.Game.Player.html#Virial_Game_Player_IsInvisible
+  commentId: P:Virial.Game.Player.IsInvisible
+  fullName: Virial.Game.Player.IsInvisible
+  nameWithType: Player.IsInvisible
+- uid: Virial.Game.Player.IsInvisible*
+  name: IsInvisible
+  href: api/Virial.Game.Player.html#Virial_Game_Player_IsInvisible_
+  commentId: Overload:Virial.Game.Player.IsInvisible
+  isSpec: "True"
+  fullName: Virial.Game.Player.IsInvisible
+  nameWithType: Player.IsInvisible
 - uid: Virial.Game.Player.IsMadmate
   name: IsMadmate
   href: api/Virial.Game.Player.html#Virial_Game_Player_IsMadmate
@@ -13690,6 +13828,32 @@ references:
   isSpec: "True"
   fullName: Virial.Game.Player.ReleaseHoldingPlayer
   nameWithType: Player.ReleaseHoldingPlayer
+- uid: Virial.Game.Player.RemoveModifier(Virial.Assignable.DefinedModifier)
+  name: RemoveModifier(DefinedModifier)
+  href: api/Virial.Game.Player.html#Virial_Game_Player_RemoveModifier_Virial_Assignable_DefinedModifier_
+  commentId: M:Virial.Game.Player.RemoveModifier(Virial.Assignable.DefinedModifier)
+  fullName: Virial.Game.Player.RemoveModifier(Virial.Assignable.DefinedModifier)
+  nameWithType: Player.RemoveModifier(DefinedModifier)
+- uid: Virial.Game.Player.RemoveModifier*
+  name: RemoveModifier
+  href: api/Virial.Game.Player.html#Virial_Game_Player_RemoveModifier_
+  commentId: Overload:Virial.Game.Player.RemoveModifier
+  isSpec: "True"
+  fullName: Virial.Game.Player.RemoveModifier
+  nameWithType: Player.RemoveModifier
+- uid: Virial.Game.Player.RemoveModifierLocal(Virial.Assignable.RuntimeModifier)
+  name: RemoveModifierLocal(RuntimeModifier)
+  href: api/Virial.Game.Player.html#Virial_Game_Player_RemoveModifierLocal_Virial_Assignable_RuntimeModifier_
+  commentId: M:Virial.Game.Player.RemoveModifierLocal(Virial.Assignable.RuntimeModifier)
+  fullName: Virial.Game.Player.RemoveModifierLocal(Virial.Assignable.RuntimeModifier)
+  nameWithType: Player.RemoveModifierLocal(RuntimeModifier)
+- uid: Virial.Game.Player.RemoveModifierLocal*
+  name: RemoveModifierLocal
+  href: api/Virial.Game.Player.html#Virial_Game_Player_RemoveModifierLocal_
+  commentId: Overload:Virial.Game.Player.RemoveModifierLocal
+  isSpec: "True"
+  fullName: Virial.Game.Player.RemoveModifierLocal
+  nameWithType: Player.RemoveModifierLocal
 - uid: Virial.Game.Player.Revive(Virial.Game.Player,Virial.Compat.Vector2,System.Boolean,System.Boolean)
   name: Revive(Player?, Vector2, bool, bool)
   href: api/Virial.Game.Player.html#Virial_Game_Player_Revive_Virial_Game_Player_Virial_Compat_Vector2_System_Boolean_System_Boolean_
@@ -13719,6 +13883,38 @@ references:
   isSpec: "True"
   fullName: Virial.Game.Player.Role
   nameWithType: Player.Role
+- uid: Virial.Game.Player.SetGhostRole(Virial.Assignable.DefinedGhostRole,System.Int32[])
+  name: SetGhostRole(DefinedGhostRole, int[]?)
+  href: api/Virial.Game.Player.html#Virial_Game_Player_SetGhostRole_Virial_Assignable_DefinedGhostRole_System_Int32___
+  commentId: M:Virial.Game.Player.SetGhostRole(Virial.Assignable.DefinedGhostRole,System.Int32[])
+  name.vb: SetGhostRole(DefinedGhostRole, Integer())
+  fullName: Virial.Game.Player.SetGhostRole(Virial.Assignable.DefinedGhostRole, int[]?)
+  fullName.vb: Virial.Game.Player.SetGhostRole(Virial.Assignable.DefinedGhostRole, Integer())
+  nameWithType: Player.SetGhostRole(DefinedGhostRole, int[]?)
+  nameWithType.vb: Player.SetGhostRole(DefinedGhostRole, Integer())
+- uid: Virial.Game.Player.SetGhostRole*
+  name: SetGhostRole
+  href: api/Virial.Game.Player.html#Virial_Game_Player_SetGhostRole_
+  commentId: Overload:Virial.Game.Player.SetGhostRole
+  isSpec: "True"
+  fullName: Virial.Game.Player.SetGhostRole
+  nameWithType: Player.SetGhostRole
+- uid: Virial.Game.Player.SetRole(Virial.Assignable.DefinedRole,System.Int32[])
+  name: SetRole(DefinedRole, int[]?)
+  href: api/Virial.Game.Player.html#Virial_Game_Player_SetRole_Virial_Assignable_DefinedRole_System_Int32___
+  commentId: M:Virial.Game.Player.SetRole(Virial.Assignable.DefinedRole,System.Int32[])
+  name.vb: SetRole(DefinedRole, Integer())
+  fullName: Virial.Game.Player.SetRole(Virial.Assignable.DefinedRole, int[]?)
+  fullName.vb: Virial.Game.Player.SetRole(Virial.Assignable.DefinedRole, Integer())
+  nameWithType: Player.SetRole(DefinedRole, int[]?)
+  nameWithType.vb: Player.SetRole(DefinedRole, Integer())
+- uid: Virial.Game.Player.SetRole*
+  name: SetRole
+  href: api/Virial.Game.Player.html#Virial_Game_Player_SetRole_
+  commentId: Overload:Virial.Game.Player.SetRole
+  isSpec: "True"
+  fullName: Virial.Game.Player.SetRole
+  nameWithType: Player.SetRole
 - uid: Virial.Game.Player.ShowKillButton
   name: ShowKillButton
   href: api/Virial.Game.Player.html#Virial_Game_Player_ShowKillButton
@@ -16031,6 +16227,22 @@ references:
   isSpec: "True"
   fullName: Virial.NebulaAPI.Configurations
   nameWithType: NebulaAPI.Configurations
+- uid: Virial.NebulaAPI.CreateRPCSection(System.String)
+  name: CreateRPCSection(string?)
+  href: api/Virial.NebulaAPI.html#Virial_NebulaAPI_CreateRPCSection_System_String_
+  commentId: M:Virial.NebulaAPI.CreateRPCSection(System.String)
+  name.vb: CreateRPCSection(String)
+  fullName: Virial.NebulaAPI.CreateRPCSection(string?)
+  fullName.vb: Virial.NebulaAPI.CreateRPCSection(String)
+  nameWithType: NebulaAPI.CreateRPCSection(string?)
+  nameWithType.vb: NebulaAPI.CreateRPCSection(String)
+- uid: Virial.NebulaAPI.CreateRPCSection*
+  name: CreateRPCSection
+  href: api/Virial.NebulaAPI.html#Virial_NebulaAPI_CreateRPCSection_
+  commentId: Overload:Virial.NebulaAPI.CreateRPCSection
+  isSpec: "True"
+  fullName: Virial.NebulaAPI.CreateRPCSection
+  nameWithType: NebulaAPI.CreateRPCSection
 - uid: Virial.NebulaAPI.CreateStatsEntry(System.String,Virial.Game.GameStatsCategory,Virial.Assignable.DefinedAssignable,Virial.Text.TextComponent,System.Int32)
   name: CreateStatsEntry(string, GameStatsCategory, DefinedAssignable?, TextComponent?, int)
   href: api/Virial.NebulaAPI.html#Virial_NebulaAPI_CreateStatsEntry_System_String_Virial_Game_GameStatsCategory_Virial_Assignable_DefinedAssignable_Virial_Text_TextComponent_System_Int32_
@@ -16354,6 +16566,56 @@ references:
   commentId: T:Virial.Runtime.NebulaPreprocessor
   fullName: Virial.Runtime.NebulaPreprocessor
   nameWithType: NebulaPreprocessor
+- uid: Virial.Runtime.NebulaPreprocessor.CreateEnd(System.String,Virial.Color,System.Int32)
+  name: CreateEnd(string, Color, int)
+  href: api/Virial.Runtime.NebulaPreprocessor.html#Virial_Runtime_NebulaPreprocessor_CreateEnd_System_String_Virial_Color_System_Int32_
+  commentId: M:Virial.Runtime.NebulaPreprocessor.CreateEnd(System.String,Virial.Color,System.Int32)
+  name.vb: CreateEnd(String, Color, Integer)
+  fullName: Virial.Runtime.NebulaPreprocessor.CreateEnd(string, Virial.Color, int)
+  fullName.vb: Virial.Runtime.NebulaPreprocessor.CreateEnd(String, Virial.Color, Integer)
+  nameWithType: NebulaPreprocessor.CreateEnd(string, Color, int)
+  nameWithType.vb: NebulaPreprocessor.CreateEnd(String, Color, Integer)
+- uid: Virial.Runtime.NebulaPreprocessor.CreateEnd(System.String,Virial.Text.TextComponent,Virial.Color,System.Int32)
+  name: CreateEnd(string, TextComponent, Color, int)
+  href: api/Virial.Runtime.NebulaPreprocessor.html#Virial_Runtime_NebulaPreprocessor_CreateEnd_System_String_Virial_Text_TextComponent_Virial_Color_System_Int32_
+  commentId: M:Virial.Runtime.NebulaPreprocessor.CreateEnd(System.String,Virial.Text.TextComponent,Virial.Color,System.Int32)
+  name.vb: CreateEnd(String, TextComponent, Color, Integer)
+  fullName: Virial.Runtime.NebulaPreprocessor.CreateEnd(string, Virial.Text.TextComponent, Virial.Color, int)
+  fullName.vb: Virial.Runtime.NebulaPreprocessor.CreateEnd(String, Virial.Text.TextComponent, Virial.Color, Integer)
+  nameWithType: NebulaPreprocessor.CreateEnd(string, TextComponent, Color, int)
+  nameWithType.vb: NebulaPreprocessor.CreateEnd(String, TextComponent, Color, Integer)
+- uid: Virial.Runtime.NebulaPreprocessor.CreateEnd*
+  name: CreateEnd
+  href: api/Virial.Runtime.NebulaPreprocessor.html#Virial_Runtime_NebulaPreprocessor_CreateEnd_
+  commentId: Overload:Virial.Runtime.NebulaPreprocessor.CreateEnd
+  isSpec: "True"
+  fullName: Virial.Runtime.NebulaPreprocessor.CreateEnd
+  nameWithType: NebulaPreprocessor.CreateEnd
+- uid: Virial.Runtime.NebulaPreprocessor.CreateExtraWin(System.String,Virial.Color)
+  name: CreateExtraWin(string, Color)
+  href: api/Virial.Runtime.NebulaPreprocessor.html#Virial_Runtime_NebulaPreprocessor_CreateExtraWin_System_String_Virial_Color_
+  commentId: M:Virial.Runtime.NebulaPreprocessor.CreateExtraWin(System.String,Virial.Color)
+  name.vb: CreateExtraWin(String, Color)
+  fullName: Virial.Runtime.NebulaPreprocessor.CreateExtraWin(string, Virial.Color)
+  fullName.vb: Virial.Runtime.NebulaPreprocessor.CreateExtraWin(String, Virial.Color)
+  nameWithType: NebulaPreprocessor.CreateExtraWin(string, Color)
+  nameWithType.vb: NebulaPreprocessor.CreateExtraWin(String, Color)
+- uid: Virial.Runtime.NebulaPreprocessor.CreateExtraWin(System.String,Virial.Text.TextComponent,Virial.Color)
+  name: CreateExtraWin(string, TextComponent, Color)
+  href: api/Virial.Runtime.NebulaPreprocessor.html#Virial_Runtime_NebulaPreprocessor_CreateExtraWin_System_String_Virial_Text_TextComponent_Virial_Color_
+  commentId: M:Virial.Runtime.NebulaPreprocessor.CreateExtraWin(System.String,Virial.Text.TextComponent,Virial.Color)
+  name.vb: CreateExtraWin(String, TextComponent, Color)
+  fullName: Virial.Runtime.NebulaPreprocessor.CreateExtraWin(string, Virial.Text.TextComponent, Virial.Color)
+  fullName.vb: Virial.Runtime.NebulaPreprocessor.CreateExtraWin(String, Virial.Text.TextComponent, Virial.Color)
+  nameWithType: NebulaPreprocessor.CreateExtraWin(string, TextComponent, Color)
+  nameWithType.vb: NebulaPreprocessor.CreateExtraWin(String, TextComponent, Color)
+- uid: Virial.Runtime.NebulaPreprocessor.CreateExtraWin*
+  name: CreateExtraWin
+  href: api/Virial.Runtime.NebulaPreprocessor.html#Virial_Runtime_NebulaPreprocessor_CreateExtraWin_
+  commentId: Overload:Virial.Runtime.NebulaPreprocessor.CreateExtraWin
+  isSpec: "True"
+  fullName: Virial.Runtime.NebulaPreprocessor.CreateExtraWin
+  nameWithType: NebulaPreprocessor.CreateExtraWin
 - uid: Virial.Runtime.NebulaPreprocessor.CreateTeam(System.String,Virial.Color,Virial.Assignable.TeamRevealType)
   name: CreateTeam(string, Color, TeamRevealType)
   href: api/Virial.Runtime.NebulaPreprocessor.html#Virial_Runtime_NebulaPreprocessor_CreateTeam_System_String_Virial_Color_Virial_Assignable_TeamRevealType_
@@ -18124,6 +18386,15 @@ references:
   fullName.vb: Virial.Utilities.Cache(Of T).CType(System.Func(Of T))
   nameWithType: Cache<T>.implicit operator Cache<T>(Func<T>)
   nameWithType.vb: Cache(Of T).CType(Func(Of T))
+- uid: Virial.Utilities.Cache`1.op_Implicit(Virial.Utilities.Cache{`0})~`0
+  name: implicit operator T(Cache<T>)
+  href: api/Virial.Utilities.Cache-1.html#Virial_Utilities_Cache_1_op_Implicit_Virial_Utilities_Cache__0____0
+  commentId: M:Virial.Utilities.Cache`1.op_Implicit(Virial.Utilities.Cache{`0})~`0
+  name.vb: CType(Cache(Of T))
+  fullName: Virial.Utilities.Cache<T>.implicit operator T(Virial.Utilities.Cache<T>)
+  fullName.vb: Virial.Utilities.Cache(Of T).CType(Virial.Utilities.Cache(Of T))
+  nameWithType: Cache<T>.implicit operator T(Cache<T>)
+  nameWithType.vb: Cache(Of T).CType(Cache(Of T))
 - uid: Virial.Utilities.Cache`1.op_Implicit*
   name: implicit operator
   href: api/Virial.Utilities.Cache-1.html#Virial_Utilities_Cache_1_op_Implicit_
