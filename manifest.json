@@ -2798,6 +2798,20 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Events.Player.PlayerCheckCanKillLocalEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Events.Player.PlayerCheckCanKillLocalEvent.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Events.Player.PlayerCheckCanKillLocalEvent",
+      "Summary": "<p sourcefile=\"api/Virial.Events.Player.PlayerCheckCanKillLocalEvent.yml\" sourcestartlinenumber=\"1\">キルできる相手かどうか調べます。</p>\n"
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Virial.Events.Player.PlayerCheckKilledEvent.yml",
       "output": {
         ".html": {
@@ -2809,6 +2823,20 @@
       "IsMRef": true,
       "Title": "Virial.Events.Player.PlayerCheckKilledEvent",
       "Summary": "<p sourcefile=\"api/Virial.Events.Player.PlayerCheckKilledEvent.yml\" sourcestartlinenumber=\"1\">このイベントはキラーのクライアント上でのみ発火します。\n計算のために必要な値はあらかじめ共有しておく必要があり、値の更新がある場合は更新も共有する必要があります。</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Events.Player.PlayerCheckPlayFootSoundEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Events.Player.PlayerCheckPlayFootSoundEvent.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Events.Player.PlayerCheckPlayFootSoundEvent",
+      "Summary": null
     },
     {
       "type": "ManagedReference",

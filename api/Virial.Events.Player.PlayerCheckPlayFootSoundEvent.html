@@ -2,9 +2,9 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Class OutfitTag | Virial </title>
+      <title>Class PlayerCheckPlayFootSoundEvent | Virial </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Class OutfitTag | Virial ">
+      <meta name="title" content="Class PlayerCheckPlayFootSoundEvent | Virial ">
       
       
       <link rel="icon" href="../images/icon.ico">
@@ -16,7 +16,7 @@
       <meta name="docfx:rel" content="../">
       
       
-      <meta name="docfx:docurl" content="https://github.com/Dolly1016/Nebula-Public/new/master/apiSpec/new?filename=Virial_Game_OutfitTag.md&amp;value=---%0Auid%3A%20Virial.Game.OutfitTag%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="docfx:docurl" content="https://github.com/Dolly1016/Nebula-Public/new/master/apiSpec/new?filename=Virial_Events_Player_PlayerCheckPlayFootSoundEvent.md&amp;value=---%0Auid%3A%20Virial.Events.Player.PlayerCheckPlayFootSoundEvent%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -84,16 +84,16 @@
           <nav id="breadcrumb"></nav>
         </div>
 
-        <article data-uid="Virial.Game.OutfitTag">
+        <article data-uid="Virial.Events.Player.PlayerCheckPlayFootSoundEvent">
 
 
 
-  <h1 id="Virial_Game_OutfitTag" data-uid="Virial.Game.OutfitTag" class="text-break">
-Class OutfitTag  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Game/Player.cs/#L190"><i class="bi bi-code-slash"></i></a>
+  <h1 id="Virial_Events_Player_PlayerCheckPlayFootSoundEvent" data-uid="Virial.Events.Player.PlayerCheckPlayFootSoundEvent" class="text-break">
+Class PlayerCheckPlayFootSoundEvent  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Events/Player/PlayerCheckPlayFootSoundEvent.cs/#L11"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
-    <dl><dt>Namespace</dt><dd><a class="xref" href="Virial.html">Virial</a>.<a class="xref" href="Virial.Game.html">Game</a></dd></dl>
+    <dl><dt>Namespace</dt><dd><a class="xref" href="Virial.html">Virial</a>.<a class="xref" href="Virial.Events.html">Events</a>.<a class="xref" href="Virial.Events.Player.html">Player</a></dd></dl>
   
   </div>
 
@@ -101,7 +101,7 @@ Class OutfitTag  <a class="header-action link-secondary" title="View source" hre
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public record OutfitTag : IEquatable&lt;OutfitTag&gt;</code></pre>
+    <pre><code class="lang-csharp hljs">public class PlayerCheckPlayFootSoundEvent : AbstractPlayerEvent, Event</code></pre>
   </div>
 
 
@@ -111,14 +111,15 @@ Class OutfitTag  <a class="header-action link-secondary" title="View source" hre
     <dt>Inheritance</dt>
     <dd>
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
-      <div><span class="xref">OutfitTag</span></div>
+      <div><a class="xref" href="Virial.Events.Player.AbstractPlayerEvent.html">AbstractPlayerEvent</a></div>
+      <div><span class="xref">PlayerCheckPlayFootSoundEvent</span></div>
     </dd>
   </dl>
 
   <dl class="typelist implements">
     <dt>Implements</dt>
     <dd>
-      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iequatable-1">IEquatable</a>&lt;<a class="xref" href="Virial.Game.OutfitTag.html">OutfitTag</a>&gt;</div>
+      <div><a class="xref" href="Virial.Events.Event.html">Event</a></div>
     </dd>
   </dl>
 
@@ -126,6 +127,9 @@ Class OutfitTag  <a class="header-action link-secondary" title="View source" hre
   <dl class="typelist inheritedMembers">
     <dt>Inherited Members</dt>
     <dd>
+    <div>
+      <a class="xref" href="Virial.Events.Player.AbstractPlayerEvent.html#Virial_Events_Player_AbstractPlayerEvent_Player">AbstractPlayerEvent.Player</a>
+    </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
     </div>
@@ -158,18 +162,18 @@ Class OutfitTag  <a class="header-action link-secondary" title="View source" hre
 </h2>
 
 
-  <a id="Virial_Game_OutfitTag_DisplayName_" data-uid="Virial.Game.OutfitTag.DisplayName*"></a>
+  <a id="Virial_Events_Player_PlayerCheckPlayFootSoundEvent_PlayFootSound_" data-uid="Virial.Events.Player.PlayerCheckPlayFootSoundEvent.PlayFootSound*"></a>
 
-  <h3 id="Virial_Game_OutfitTag_DisplayName" data-uid="Virial.Game.OutfitTag.DisplayName">
-  DisplayName
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Game/Player.cs/#L193"><i class="bi bi-code-slash"></i></a>
+  <h3 id="Virial_Events_Player_PlayerCheckPlayFootSoundEvent_PlayFootSound" data-uid="Virial.Events.Player.PlayerCheckPlayFootSoundEvent.PlayFootSound">
+  PlayFootSound
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Events/Player/PlayerCheckPlayFootSoundEvent.cs/#L13"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string DisplayName { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public bool PlayFootSound { get; set; }</code></pre>
   </div>
 
 
@@ -178,142 +182,9 @@ Class OutfitTag  <a class="header-action link-secondary" title="View source" hre
 
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
     <dd></dd>
   </dl>
-
-
-
-
-
-
-
-
-  <a id="Virial_Game_OutfitTag_Id_" data-uid="Virial.Game.OutfitTag.Id*"></a>
-
-  <h3 id="Virial_Game_OutfitTag_Id" data-uid="Virial.Game.OutfitTag.Id">
-  Id
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Game/Player.cs/#L194"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int Id { get; }</code></pre>
-  </div>
-
-
-
-
-
-  <h4 class="section">Property Value</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
-  <a id="Virial_Game_OutfitTag_TagImage_" data-uid="Virial.Game.OutfitTag.TagImage*"></a>
-
-  <h3 id="Virial_Game_OutfitTag_TagImage" data-uid="Virial.Game.OutfitTag.TagImage">
-  TagImage
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Game/Player.cs/#L191"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Image TagImage { get; }</code></pre>
-  </div>
-
-
-
-
-
-  <h4 class="section">Property Value</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="Virial.Media.Image.html">Image</a></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
-  <h2 class="section" id="methods">Methods
-</h2>
-
-
-  <a id="Virial_Game_OutfitTag_GetAllTags_" data-uid="Virial.Game.OutfitTag.GetAllTags*"></a>
-
-  <h3 id="Virial_Game_OutfitTag_GetAllTags" data-uid="Virial.Game.OutfitTag.GetAllTags">
-  GetAllTags()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Game/Player.cs/#L210"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static IEnumerable&lt;OutfitTag&gt; GetAllTags()</code></pre>
-  </div>
-
-
-  <h4 class="section">Returns</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="Virial.Game.OutfitTag.html">OutfitTag</a>&gt;</dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
-
-
-
-  <a id="Virial_Game_OutfitTag_GetTagById_" data-uid="Virial.Game.OutfitTag.GetTagById*"></a>
-
-  <h3 id="Virial_Game_OutfitTag_GetTagById_System_Int32_" data-uid="Virial.Game.OutfitTag.GetTagById(System.Int32)">
-  GetTagById(int)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Game/Player.cs/#L209"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static OutfitTag GetTagById(int id)</code></pre>
-  </div>
-
-  <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
-    <dd></dd>
-  </dl>
-
-  <h4 class="section">Returns</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="Virial.Game.OutfitTag.html">OutfitTag</a></dt>
-    <dd></dd>
-  </dl>
-
-
-
 
 
 
