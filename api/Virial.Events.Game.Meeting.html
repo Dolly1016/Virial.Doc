@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Namespace Virial.Events.Game.Meeting | Virial </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Namespace Virial.Events.Game.Meeting | Virial ">
+      
+      
+      <link rel="icon" href="../images/icon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../images/logo.png" alt="Virial">
+            Virial
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="Virial.Events.Game.Meeting">
+
+  <h1 id="Virial_Events_Game_Meeting" data-uid="Virial.Events.Game.Meeting" class="text-break">Namespace Virial.Events.Game.Meeting</h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="markdown level0 remarks"></div>
+
+    <h3 id="classes">
+Classes
+</h3>
+    <dl class="jumplist">
+      <dt><a class="xref" href="Virial.Events.Game.Meeting.CalledEmergencyMeetingEvent.html">CalledEmergencyMeetingEvent</a></dt>
+      <dd><p>緊急招集の際に発火するイベントです。</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="Virial.Events.Game.Meeting.CheckCanPushEmergencyButtonEvent.html">CheckCanPushEmergencyButtonEvent</a></dt>
+      <dd><p>緊急会議ボタンが押せるか調べる際に呼び出されます。
+緊急会議をブロックできます。</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="Virial.Events.Game.Meeting.ExileScenePreStartEvent.html">ExileScenePreStartEvent</a></dt>
+      <dd><p>追放シーンの開始直前に呼び出されます。
+このとき、追放画面はまだ生成されていません。</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="Virial.Events.Game.Meeting.ExileSceneStartEvent.html">ExileSceneStartEvent</a></dt>
+      <dd><p>追放シーンの開始時に呼び出されます。
+会議画面と追放画面の両方にアクセスできます。</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="Virial.Events.Game.Meeting.FixExileTextEvent.html">FixExileTextEvent</a></dt>
+      <dd><p>追放テキストを決定するために呼び出されます。</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="Virial.Events.Game.Meeting.MeetingEndEvent.html">MeetingEndEvent</a></dt>
+      <dd><p>会議終了時に呼び出されます。
+プレイヤーはすでに追放されています。</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="Virial.Events.Game.Meeting.MeetingPreEndEvent.html">MeetingPreEndEvent</a></dt>
+      <dd><p>会議終了時、追加追放者を含むプレイヤーが全員追放された後で呼び出されます。
+このイベントで登録されたコルーチンを全クライアントが実行しきった後、<a class="xref" href="Virial.Events.Game.Meeting.MeetingEndEvent.html">MeetingEndEvent</a>が呼び出されます。</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="Virial.Events.Game.Meeting.MeetingPreStartEvent.html">MeetingPreStartEvent</a></dt>
+      <dd><p>会議の開始の要求が受け入れられた時点(レポート/緊急招集の瞬間)で呼び出されます。
+<a class="xref" href="Virial.Events.Game.Meeting.MeetingStartEvent.html">MeetingStartEvent</a>より先行して呼び出されます。</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="Virial.Events.Game.Meeting.MeetingPreSyncEvent.html">MeetingPreSyncEvent</a></dt>
+      <dd><p>会議終了時、追加追放者を決定するルーチンの直前で呼び出されます。
+<a class="xref" href="Virial.Events.Player.PlayerExiledEvent.html">PlayerExiledEvent</a>が発火するより前に呼び出されますが、他クライアントの<a class="xref" href="Virial.Events.Player.PlayerExiledEvent.html">PlayerExiledEvent</a>/&gt;発火によって呼び出されたRPCは呼び出されている可能性があります。</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="Virial.Events.Game.Meeting.MeetingStartEvent.html">MeetingStartEvent</a></dt>
+      <dd><p>緊急会議開始時に呼び出されます。</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="Virial.Events.Game.Meeting.MeetingTieVoteHostEvent.html">MeetingTieVoteHostEvent</a></dt>
+      <dd><p>タイ投票が発生したときに発火します。
+追加票を投じさせられます。追加票を投じた後の投票結果がタイ投票であっても、このイベントは発火しません。</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="Virial.Events.Game.Meeting.MeetingVoteEndEvent.html">MeetingVoteEndEvent</a></dt>
+      <dd><p>投票終了時に発火します。</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="Virial.Events.Game.Meeting.PlayerVoteCastEvent.html">PlayerVoteCastEvent</a></dt>
+      <dd><p>投票時に呼び出されます。</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="Virial.Events.Game.Meeting.PlayerVoteCastLocalEvent.html">PlayerVoteCastLocalEvent</a></dt>
+      <dd><p>投票時に呼び出されます。</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="Virial.Events.Game.Meeting.PlayerVoteDisclosedLocalEvent.html">PlayerVoteDisclosedLocalEvent</a></dt>
+      <dd><p>投票が開示されたときに呼び出されます。</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="Virial.Events.Game.Meeting.PlayerVotedLocalEvent.html">PlayerVotedLocalEvent</a></dt>
+      <dd><p>投票結果の開示時に呼び出されます。
+このイベントによって、誰が自身に票を投じたか知ることができます。</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="Virial.Events.Game.Meeting.ReportDeadBodyEvent.html">ReportDeadBodyEvent</a></dt>
+      <dd><p>死体が通報されると発火するイベントです。</p>
+</dd>
+    </dl>
+
+
+</article>
+
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

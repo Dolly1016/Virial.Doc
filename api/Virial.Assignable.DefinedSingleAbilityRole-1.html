@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Interface DefinedSingleAbilityRole&lt;Ability&gt; | Virial </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Interface DefinedSingleAbilityRole&lt;Ability&gt; | Virial ">
+      
+      <meta name="description" content="ジャッカル化あるいは簒奪された能力、および通常の能力を同一のクラスで定義できる役職の定義を表します。">
+      <link rel="icon" href="../images/icon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/Dolly1016/Nebula-Public/new/master/apiSpec/new?filename=Virial_Assignable_DefinedSingleAbilityRole_1.md&amp;value=---%0Auid%3A%20Virial.Assignable.DefinedSingleAbilityRole%601%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../images/logo.png" alt="Virial">
+            Virial
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="Virial.Assignable.DefinedSingleAbilityRole`1">
+
+
+
+  <h1 id="Virial_Assignable_DefinedSingleAbilityRole_1" data-uid="Virial.Assignable.DefinedSingleAbilityRole`1" class="text-break">
+Interface DefinedSingleAbilityRole&lt;Ability&gt;  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Assignable/Role.cs/#L447"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="Virial.html">Virial</a>.<a class="xref" href="Virial.Assignable.html">Assignable</a></dd></dl>
+  
+  </div>
+
+  <div class="markdown summary"><p>ジャッカル化あるいは簒奪された能力、および通常の能力を同一のクラスで定義できる役職の定義を表します。</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public interface DefinedSingleAbilityRole&lt;Ability&gt; : DefinedRole, DefinedSingleAssignable, DefinedCategorizedAssignable, DefinedAssignable, IRoleID, ISpawnable, IGuessed, AssignableFilterHolder, RuntimeAssignableGenerator&lt;RuntimeRole&gt; where Ability : class, IPlayerAbility</code></pre>
+  </div>
+
+
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>Ability</code></dt>
+    <dd><p>役職の能力。</p>
+</dd>
+  </dl>
+
+
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="Virial.Assignable.DefinedRole.html#Virial_Assignable_DefinedRole_DisplayIntroBlurb">DefinedRole.DisplayIntroBlurb</a>
+    </div>
+    <div>
+      <a class="xref" href="Virial.Assignable.DefinedRole.html#Virial_Assignable_DefinedRole_IsJackalizable">DefinedRole.IsJackalizable</a>
+    </div>
+    <div>
+      <a class="xref" href="Virial.Assignable.DefinedRole.html#Virial_Assignable_DefinedRole_GetJackalizedAbility_Virial_Game_Player_System_Int32___">DefinedRole.GetJackalizedAbility(Player, int[])</a>
+    </div>
+    <div>
+      <a class="xref" href="Virial.Assignable.DefinedRole.html#Virial_Assignable_DefinedRole_GetUsurpedAbility_Virial_Game_Player_System_Int32___">DefinedRole.GetUsurpedAbility(Player, int[])</a>
+    </div>
+    <div>
+      <a class="xref" href="Virial.Assignable.DefinedRole.html#Virial_Assignable_DefinedRole_IsMadmate">DefinedRole.IsMadmate</a>
+    </div>
+    <div>
+      <a class="xref" href="Virial.Assignable.DefinedRole.html#Virial_Assignable_DefinedRole_AdditionalRoles">DefinedRole.AdditionalRoles</a>
+    </div>
+    <div>
+      <a class="xref" href="Virial.Assignable.DefinedRole.html#Virial_Assignable_DefinedRole_GetDisplayName_Virial_Game_IPlayerAbility_">DefinedRole.GetDisplayName(IPlayerAbility)</a>
+    </div>
+    <div>
+      <a class="xref" href="Virial.Assignable.DefinedSingleAssignable.html#Virial_Assignable_DefinedSingleAssignable_Team">DefinedSingleAssignable.Team</a>
+    </div>
+    <div>
+      <a class="xref" href="Virial.Assignable.DefinedSingleAssignable.html#Virial_Assignable_DefinedSingleAssignable_AllocationParameters">DefinedSingleAssignable.AllocationParameters</a>
+    </div>
+    <div>
+      <a class="xref" href="Virial.Assignable.DefinedSingleAssignable.html#Virial_Assignable_DefinedSingleAssignable_JackalAllocationParameters">DefinedSingleAssignable.JackalAllocationParameters</a>
+    </div>
+    <div>
+      <a class="xref" href="Virial.Assignable.DefinedCategorizedAssignable.html#Virial_Assignable_DefinedCategorizedAssignable_Category">DefinedCategorizedAssignable.Category</a>
+    </div>
+    <div>
+      <a class="xref" href="Virial.Assignable.DefinedCategorizedAssignable.html#Virial_Assignable_DefinedCategorizedAssignable_DisplayShort">DefinedCategorizedAssignable.DisplayShort</a>
+    </div>
+    <div>
+      <a class="xref" href="Virial.Assignable.DefinedCategorizedAssignable.html#Virial_Assignable_DefinedCategorizedAssignable_DisplayColoredShort">DefinedCategorizedAssignable.DisplayColoredShort</a>
+    </div>
+    <div>
+      <a class="xref" href="Virial.Assignable.DefinedAssignable.html#Virial_Assignable_DefinedAssignable_LocalizedName">DefinedAssignable.LocalizedName</a>
+    </div>
+    <div>
+      <a class="xref" href="Virial.Assignable.DefinedAssignable.html#Virial_Assignable_DefinedAssignable_ShowOnHelpScreen">DefinedAssignable.ShowOnHelpScreen</a>
+    </div>
+    <div>
+      <a class="xref" href="Virial.Assignable.DefinedAssignable.html#Virial_Assignable_DefinedAssignable_ShowOnFreeplayScreen">DefinedAssignable.ShowOnFreeplayScreen</a>
+    </div>
+    <div>
+      <a class="xref" href="Virial.Assignable.DefinedAssignable.html#Virial_Assignable_DefinedAssignable_InternalName">DefinedAssignable.InternalName</a>
+    </div>
+    <div>
+      <a class="xref" href="Virial.Assignable.DefinedAssignable.html#Virial_Assignable_DefinedAssignable_DisplayName">DefinedAssignable.DisplayName</a>
+    </div>
+    <div>
+      <a class="xref" href="Virial.Assignable.DefinedAssignable.html#Virial_Assignable_DefinedAssignable_DisplayColoredName">DefinedAssignable.DisplayColoredName</a>
+    </div>
+    <div>
+      <a class="xref" href="Virial.Assignable.DefinedAssignable.html#Virial_Assignable_DefinedAssignable_GeneralBlurb">DefinedAssignable.GeneralBlurb</a>
+    </div>
+    <div>
+      <a class="xref" href="Virial.Assignable.DefinedAssignable.html#Virial_Assignable_DefinedAssignable_GeneralColoredBlurb">DefinedAssignable.GeneralColoredBlurb</a>
+    </div>
+    <div>
+      <a class="xref" href="Virial.Assignable.DefinedAssignable.html#Virial_Assignable_DefinedAssignable_Color">DefinedAssignable.Color</a>
+    </div>
+    <div>
+      <a class="xref" href="Virial.Assignable.DefinedAssignable.html#Virial_Assignable_DefinedAssignable_ConfigurationHolder">DefinedAssignable.ConfigurationHolder</a>
+    </div>
+    <div>
+      <a class="xref" href="Virial.Assignable.DefinedAssignable.html#Virial_Assignable_DefinedAssignable_AchievementGroups">DefinedAssignable.AchievementGroups</a>
+    </div>
+    <div>
+      <a class="xref" href="Virial.Assignable.IRoleID.html#Virial_Assignable_IRoleID_Id">IRoleID.Id</a>
+    </div>
+    <div>
+      <a class="xref" href="Virial.Assignable.ISpawnable.html#Virial_Assignable_ISpawnable_IsSpawnable">ISpawnable.IsSpawnable</a>
+    </div>
+    <div>
+      <a class="xref" href="Virial.Assignable.IGuessed.html#Virial_Assignable_IGuessed_CanBeGuessDefault">IGuessed.CanBeGuessDefault</a>
+    </div>
+    <div>
+      <a class="xref" href="Virial.Assignable.IGuessed.html#Virial_Assignable_IGuessed_CanBeGuess">IGuessed.CanBeGuess</a>
+    </div>
+    <div>
+      <a class="xref" href="Virial.Assignable.IGuessed.html#Virial_Assignable_IGuessed_CanBeGuessVariable">IGuessed.CanBeGuessVariable</a>
+    </div>
+    <div>
+      <a class="xref" href="Virial.Assignable.AssignableFilterHolder.html#Virial_Assignable_AssignableFilterHolder_ModifierFilter">AssignableFilterHolder.ModifierFilter</a>
+    </div>
+    <div>
+      <a class="xref" href="Virial.Assignable.AssignableFilterHolder.html#Virial_Assignable_AssignableFilterHolder_GhostRoleFilter">AssignableFilterHolder.GhostRoleFilter</a>
+    </div>
+    <div>
+      <a class="xref" href="Virial.Assignable.AssignableFilterHolder.html#Virial_Assignable_AssignableFilterHolder_CanLoadDefault_Virial_Assignable_DefinedAssignable_">AssignableFilterHolder.CanLoadDefault(DefinedAssignable)</a>
+    </div>
+    <div>
+      <a class="xref" href="Virial.Assignable.AssignableFilterHolder.html#Virial_Assignable_AssignableFilterHolder_CanLoad_Virial_Assignable_DefinedAssignable_">AssignableFilterHolder.CanLoad(DefinedAssignable)</a>
+    </div>
+    <div>
+      <a class="xref" href="Virial.Assignable.RuntimeAssignableGenerator-1.html#Virial_Assignable_RuntimeAssignableGenerator_1_CreateInstance_Virial_Game_Player_System_Int32___">RuntimeAssignableGenerator&lt;RuntimeRole&gt;.CreateInstance(Player, int[])</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="Virial_Assignable_DefinedSingleAbilityRole_1_CreateAbility_" data-uid="Virial.Assignable.DefinedSingleAbilityRole`1.CreateAbility*"></a>
+
+  <h3 id="Virial_Assignable_DefinedSingleAbilityRole_1_CreateAbility_Virial_Game_Player_System_Int32___" data-uid="Virial.Assignable.DefinedSingleAbilityRole`1.CreateAbility(Virial.Game.Player,System.Int32[])">
+  CreateAbility(Player, int[])
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Assignable/Role.cs/#L455"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>役職の能力を生成します。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Ability CreateAbility(Player player, int[] arguments)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>player</code> <a class="xref" href="Virial.Game.Player.html">Player</a></dt>
+    <dd><p>割り当て対象のプレイヤー。</p>
+</dd>
+    <dt><code>arguments</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>[]</dt>
+    <dd><p>割り当てのパラメータ。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Ability</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Virial_Assignable_DefinedSingleAbilityRole_1_GetDisplayAbilityName_" data-uid="Virial.Assignable.DefinedSingleAbilityRole`1.GetDisplayAbilityName*"></a>
+
+  <h3 id="Virial_Assignable_DefinedSingleAbilityRole_1_GetDisplayAbilityName__0_" data-uid="Virial.Assignable.DefinedSingleAbilityRole`1.GetDisplayAbilityName(`0)">
+  GetDisplayAbilityName(Ability)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Assignable/Role.cs/#L465"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>能力から役職の表示名を取得します。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">string? GetDisplayAbilityName(Ability ability)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>ability</code> <span class="xref">Ability</span></dt>
+    <dd><p>能力</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

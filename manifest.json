@@ -2836,7 +2836,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Virial.Events.Player.PlayerCheckPlayFootSoundEvent",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/Virial.Events.Player.PlayerCheckPlayFootSoundEvent.yml\" sourcestartlinenumber=\"1\">足跡を再生しようとするときに発火します。足跡の再生を拒否できます。</p>\n"
     },
     {
       "type": "ManagedReference",

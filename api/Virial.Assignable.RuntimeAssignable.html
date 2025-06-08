@@ -1,0 +1,739 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Interface RuntimeAssignable | Virial </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Interface RuntimeAssignable | Virial ">
+      
+      <meta name="description" content="役職実体です。 プレイヤーに実際に割り当てられた役職やモディファイアのコンテナです。">
+      <link rel="icon" href="../images/icon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/Dolly1016/Nebula-Public/new/master/apiSpec/new?filename=Virial_Assignable_RuntimeAssignable.md&amp;value=---%0Auid%3A%20Virial.Assignable.RuntimeAssignable%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../images/logo.png" alt="Virial">
+            Virial
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="Virial.Assignable.RuntimeAssignable">
+
+
+
+  <h1 id="Virial_Assignable_RuntimeAssignable" data-uid="Virial.Assignable.RuntimeAssignable" class="text-break">
+Interface RuntimeAssignable  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Assignable/Role.cs/#L534"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="Virial.html">Virial</a>.<a class="xref" href="Virial.Assignable.html">Assignable</a></dd></dl>
+  
+  </div>
+
+  <div class="markdown summary"><p>役職実体です。
+プレイヤーに実際に割り当てられた役職やモディファイアのコンテナです。</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public interface RuntimeAssignable : ILifespan, IBindPlayer, IGameOperator, IReleasable</code></pre>
+  </div>
+
+
+
+
+
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="Virial.ILifespan.html#Virial_ILifespan_IsDeadObject">ILifespan.IsDeadObject</a>
+    </div>
+    <div>
+      <a class="xref" href="Virial.ILifespan.html#Virial_ILifespan_IsAliveObject">ILifespan.IsAliveObject</a>
+    </div>
+    <div>
+      <a class="xref" href="Virial.Game.IBindPlayer.html#Virial_Game_IBindPlayer_MyPlayer">IBindPlayer.MyPlayer</a>
+    </div>
+    <div>
+      <a class="xref" href="Virial.Game.IBindPlayer.html#Virial_Game_IBindPlayer_AmOwner">IBindPlayer.AmOwner</a>
+    </div>
+    <div>
+      <a class="xref" href="Virial.Game.IGameOperator.html#Virial_Game_IGameOperator_OnReleased">IGameOperator.OnReleased()</a>
+    </div>
+    <div>
+      <a class="xref" href="Virial.IReleasable.html#Virial_IReleasable_Release">IReleasable.Release()</a>
+    </div>
+  </dd></dl>
+
+  <dl class="typelist extensionMethods">
+    <dt>Extension Methods</dt>
+    <dd>
+  <div>
+      <a class="xref" href="Virial.Game.GameEntityExtension.html#Virial_Game_GameEntityExtension_Register__1___0_Virial_ILifespan_">GameEntityExtension.Register&lt;Entity&gt;(Entity, ILifespan)</a>
+  </div>
+  </dd></dl>
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="Virial_Assignable_RuntimeAssignable_Assignable_" data-uid="Virial.Assignable.RuntimeAssignable.Assignable*"></a>
+
+  <h3 id="Virial_Assignable_RuntimeAssignable_Assignable" data-uid="Virial.Assignable.RuntimeAssignable.Assignable">
+  Assignable
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Assignable/Role.cs/#L539"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>役職定義。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">DefinedAssignable Assignable { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Virial.Assignable.DefinedAssignable.html">DefinedAssignable</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Virial_Assignable_RuntimeAssignable_AssignableOnHelp_" data-uid="Virial.Assignable.RuntimeAssignable.AssignableOnHelp*"></a>
+
+  <h3 id="Virial_Assignable_RuntimeAssignable_AssignableOnHelp" data-uid="Virial.Assignable.RuntimeAssignable.AssignableOnHelp">
+  AssignableOnHelp
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Assignable/Role.cs/#L581"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>ヘルプ画面上での表示に使用する役職です。
+CanBeAwareAssignmentがfalseの場合、この値は使用されません。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IEnumerable&lt;DefinedAssignable&gt; AssignableOnHelp { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="Virial.Assignable.DefinedAssignable.html">DefinedAssignable</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Virial_Assignable_RuntimeAssignable_CanBeAwareAssignment_" data-uid="Virial.Assignable.RuntimeAssignable.CanBeAwareAssignment*"></a>
+
+  <h3 id="Virial_Assignable_RuntimeAssignable_CanBeAwareAssignment" data-uid="Virial.Assignable.RuntimeAssignable.CanBeAwareAssignment">
+  CanBeAwareAssignment
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Assignable/Role.cs/#L558"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>割り当てられていることを自覚できる場合trueを返します。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool CanBeAwareAssignment { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Virial_Assignable_RuntimeAssignable_CanCallEmergencyMeeting_" data-uid="Virial.Assignable.RuntimeAssignable.CanCallEmergencyMeeting*"></a>
+
+  <h3 id="Virial_Assignable_RuntimeAssignable_CanCallEmergencyMeeting" data-uid="Virial.Assignable.RuntimeAssignable.CanCallEmergencyMeeting">
+  CanCallEmergencyMeeting
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Assignable/Role.cs/#L586"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>緊急ボタンを押すことができる場合trueを返します。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;役職の振る舞いはIPlayerAbilityに移動しています。このプロパティは将来的な廃止が見込まれています。&quot;)]
+bool CanCallEmergencyMeeting { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Virial_Assignable_RuntimeAssignable_CanFixComm_" data-uid="Virial.Assignable.RuntimeAssignable.CanFixComm*"></a>
+
+  <h3 id="Virial_Assignable_RuntimeAssignable_CanFixComm" data-uid="Virial.Assignable.RuntimeAssignable.CanFixComm">
+  CanFixComm
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Assignable/Role.cs/#L546"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>通信障害を修理できる場合trueを返します。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;役職の振る舞いはIPlayerAbilityに移動しています。このプロパティは将来的な廃止が見込まれています。&quot;)]
+bool CanFixComm { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Virial_Assignable_RuntimeAssignable_CanFixLight_" data-uid="Virial.Assignable.RuntimeAssignable.CanFixLight*"></a>
+
+  <h3 id="Virial_Assignable_RuntimeAssignable_CanFixLight" data-uid="Virial.Assignable.RuntimeAssignable.CanFixLight">
+  CanFixLight
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Assignable/Role.cs/#L552"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>通信障害を修理できる場合trueを返します。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;役職の振る舞いはIPlayerAbilityに移動しています。このプロパティは将来的な廃止が見込まれています。&quot;)]
+bool CanFixLight { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Virial_Assignable_RuntimeAssignable_CanReport_" data-uid="Virial.Assignable.RuntimeAssignable.CanReport*"></a>
+
+  <h3 id="Virial_Assignable_RuntimeAssignable_CanReport" data-uid="Virial.Assignable.RuntimeAssignable.CanReport">
+  CanReport
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Assignable/Role.cs/#L592"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>通報できる場合trueを返します。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;役職の振る舞いはIPlayerAbilityに移動しています。このプロパティは将来的な廃止が見込まれています。&quot;)]
+bool CanReport { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Virial_Assignable_RuntimeAssignable_DisplayColoredName_" data-uid="Virial.Assignable.RuntimeAssignable.DisplayColoredName*"></a>
+
+  <h3 id="Virial_Assignable_RuntimeAssignable_DisplayColoredName" data-uid="Virial.Assignable.RuntimeAssignable.DisplayColoredName">
+  DisplayColoredName
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Assignable/Role.cs/#L611"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>役職の表示名です。リッチテキストタグを用いて色を付けています。特に指定しない場合、役職定義の表示名をそのまま使用します。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">string DisplayColoredName { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Virial_Assignable_RuntimeAssignable_DisplayName_" data-uid="Virial.Assignable.RuntimeAssignable.DisplayName*"></a>
+
+  <h3 id="Virial_Assignable_RuntimeAssignable_DisplayName" data-uid="Virial.Assignable.RuntimeAssignable.DisplayName">
+  DisplayName
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Assignable/Role.cs/#L607"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>役職の表示名です。特に指定しない場合、役職定義の表示名をそのまま使用します。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">string DisplayName { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Virial_Assignable_RuntimeAssignable_MyAbilities_" data-uid="Virial.Assignable.RuntimeAssignable.MyAbilities*"></a>
+
+  <h3 id="Virial_Assignable_RuntimeAssignable_MyAbilities" data-uid="Virial.Assignable.RuntimeAssignable.MyAbilities">
+  MyAbilities
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Assignable/Role.cs/#L564"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>自身の能力が追加するアビリティを取得します。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IEnumerable&lt;IPlayerAbility?&gt; MyAbilities { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="Virial.Game.IPlayerAbility.html">IPlayerAbility</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Virial_Assignable_RuntimeAssignable_RoleArguments_" data-uid="Virial.Assignable.RuntimeAssignable.RoleArguments*"></a>
+
+  <h3 id="Virial_Assignable_RuntimeAssignable_RoleArguments" data-uid="Virial.Assignable.RuntimeAssignable.RoleArguments">
+  RoleArguments
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Assignable/Role.cs/#L616"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>割り当てのパラメータを取得します。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">int[]? RoleArguments { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="Virial_Assignable_RuntimeAssignable_CanKill_" data-uid="Virial.Assignable.RuntimeAssignable.CanKill*"></a>
+
+  <h3 id="Virial_Assignable_RuntimeAssignable_CanKill_Virial_Game_Player_" data-uid="Virial.Assignable.RuntimeAssignable.CanKill(Virial.Game.Player)">
+  CanKill(Player)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Assignable/Role.cs/#L647"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>プレイヤーをキルできるか調べます。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool CanKill(Player player)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>player</code> <a class="xref" href="Virial.Game.Player.html">Player</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Virial_Assignable_RuntimeAssignable_DecorateNameConstantly_" data-uid="Virial.Assignable.RuntimeAssignable.DecorateNameConstantly*"></a>
+
+  <h3 id="Virial_Assignable_RuntimeAssignable_DecorateNameConstantly_System_String__System_Boolean_" data-uid="Virial.Assignable.RuntimeAssignable.DecorateNameConstantly(System.String@,System.Boolean)">
+  DecorateNameConstantly(ref string, bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Assignable/Role.cs/#L640"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>名前のテキストを恒常的に書き換えます。
+状態に依らない書き換えが推奨されます。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void DecorateNameConstantly(ref string name, bool canSeeAllInfo)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>name</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>canSeeAllInfo</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Virial_Assignable_RuntimeAssignable_GetAbility_" data-uid="Virial.Assignable.RuntimeAssignable.GetAbility*"></a>
+
+  <h3 id="Virial_Assignable_RuntimeAssignable_GetAbility__1" data-uid="Virial.Assignable.RuntimeAssignable.GetAbility``1">
+  GetAbility&lt;Ability&gt;()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Assignable/Role.cs/#L571"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>アビリティを取得します。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Ability? GetAbility&lt;Ability&gt;() where Ability : class, IPlayerAbility</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Ability</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>Ability</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="Virial_Assignable_RuntimeAssignable_OnActivated_" data-uid="Virial.Assignable.RuntimeAssignable.OnActivated*"></a>
+
+  <h3 id="Virial_Assignable_RuntimeAssignable_OnActivated" data-uid="Virial.Assignable.RuntimeAssignable.OnActivated">
+  OnActivated()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Assignable/Role.cs/#L621"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>役職の割り当て時に呼び出されます。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void OnActivated()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Virial_Assignable_RuntimeAssignable_OnInactivated_" data-uid="Virial.Assignable.RuntimeAssignable.OnInactivated*"></a>
+
+  <h3 id="Virial_Assignable_RuntimeAssignable_OnInactivated" data-uid="Virial.Assignable.RuntimeAssignable.OnInactivated">
+  OnInactivated()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Assignable/Role.cs/#L626"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>役職が失わる時に呼び出されます。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void OnInactivated()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Virial_Assignable_RuntimeAssignable_OverrideRoleName_" data-uid="Virial.Assignable.RuntimeAssignable.OverrideRoleName*"></a>
+
+  <h3 id="Virial_Assignable_RuntimeAssignable_OverrideRoleName_System_String_System_Boolean_" data-uid="Virial.Assignable.RuntimeAssignable.OverrideRoleName(System.String,System.Boolean)">
+  OverrideRoleName(string, bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Assignable/Role.cs/#L602"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>役職が、元の役職名を書き換える場合に呼び出されます。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">string? OverrideRoleName(string lastRoleName, bool isShort)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>lastRoleName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>isShort</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
