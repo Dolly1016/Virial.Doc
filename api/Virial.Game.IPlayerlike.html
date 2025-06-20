@@ -6,7 +6,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta name="title" content="Interface IPlayerlike | Virial ">
       
-      
+      <meta name="description" content="プレイヤーのような対象を表します。">
       <link rel="icon" href="../images/icon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -89,7 +89,7 @@
 
 
   <h1 id="Virial_Game_IPlayerlike" data-uid="Virial.Game.IPlayerlike" class="text-break">
-Interface IPlayerlike  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Game/Playerlike.cs/#L9"><i class="bi bi-code-slash"></i></a>
+Interface IPlayerlike  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Game/Playerlike.cs/#L53"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -97,11 +97,12 @@ Interface IPlayerlike  <a class="header-action link-secondary" title="View sourc
   
   </div>
 
-  <div class="markdown summary"></div>
+  <div class="markdown summary"><p>プレイヤーのような対象を表します。</p>
+</div>
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public interface IPlayerlike : IGameObject</code></pre>
+    <pre><code class="lang-csharp hljs">public interface IPlayerlike : IModuleContainer, IGameObject</code></pre>
   </div>
 
 
@@ -113,6 +114,9 @@ Interface IPlayerlike  <a class="header-action link-secondary" title="View sourc
   <dl class="typelist inheritedMembers">
     <dt>Inherited Members</dt>
     <dd>
+    <div>
+      <a class="xref" href="Virial.DI.IModuleContainer.html#Virial_DI_IModuleContainer_GetModule__1">IModuleContainer.GetModule&lt;T&gt;()</a>
+    </div>
     <div>
       <a class="xref" href="Virial.Game.IGameObject.html#Virial_Game_IGameObject_Position">IGameObject.Position</a>
     </div>
@@ -127,18 +131,310 @@ Interface IPlayerlike  <a class="header-action link-secondary" title="View sourc
 </h2>
 
 
+  <a id="Virial_Game_IPlayerlike_AllPlayerlikes_" data-uid="Virial.Game.IPlayerlike.AllPlayerlikes*"></a>
+
+  <h3 id="Virial_Game_IPlayerlike_AllPlayerlikes" data-uid="Virial.Game.IPlayerlike.AllPlayerlikes">
+  AllPlayerlikes
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Game/Playerlike.cs/#L117"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>全てのプレイヤーのような対象を取得します。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IEnumerable&lt;IPlayerlike&gt; AllPlayerlikes { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="Virial.Game.IPlayerlike.html">IPlayerlike</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Virial_Game_IPlayerlike_AmController_" data-uid="Virial.Game.IPlayerlike.AmController*"></a>
+
+  <h3 id="Virial_Game_IPlayerlike_AmController" data-uid="Virial.Game.IPlayerlike.AmController">
+  AmController
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Game/Playerlike.cs/#L101"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>自身が主たる操作主であればtrueを返します。
+Playerでない限り、falseを返します。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool AmController { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Virial_Game_IPlayerlike_AmOwner_" data-uid="Virial.Game.IPlayerlike.AmOwner*"></a>
+
+  <h3 id="Virial_Game_IPlayerlike_AmOwner" data-uid="Virial.Game.IPlayerlike.AmOwner">
+  AmOwner
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Game/Playerlike.cs/#L106"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>このオブジェクトの管理主であればtrueを返します。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool AmOwner { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Virial_Game_IPlayerlike_CanBeTarget_" data-uid="Virial.Game.IPlayerlike.CanBeTarget*"></a>
+
+  <h3 id="Virial_Game_IPlayerlike_CanBeTarget" data-uid="Virial.Game.IPlayerlike.CanBeTarget">
+  CanBeTarget
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Game/Playerlike.cs/#L90"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>インタラクトの対象になりうるかを返します。
+このプロパティはプレイヤーの可視性などを考慮しません。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool CanBeTarget { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Virial_Game_IPlayerlike_IsActive_" data-uid="Virial.Game.IPlayerlike.IsActive*"></a>
+
+  <h3 id="Virial_Game_IPlayerlike_IsActive" data-uid="Virial.Game.IPlayerlike.IsActive">
+  IsActive
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Game/Playerlike.cs/#L79"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>オブジェクトが有効なとき、Trueを返します。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool IsActive { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Virial_Game_IPlayerlike_IsDead_" data-uid="Virial.Game.IPlayerlike.IsDead*"></a>
+
+  <h3 id="Virial_Game_IPlayerlike_IsDead" data-uid="Virial.Game.IPlayerlike.IsDead">
+  IsDead
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Game/Playerlike.cs/#L74"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>死亡しているとき、Trueを返します。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool IsDead { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Virial_Game_IPlayerlike_KillCharacteristics_" data-uid="Virial.Game.IPlayerlike.KillCharacteristics*"></a>
+
+  <h3 id="Virial_Game_IPlayerlike_KillCharacteristics" data-uid="Virial.Game.IPlayerlike.KillCharacteristics">
+  KillCharacteristics
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Game/Playerlike.cs/#L84"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>キルの特性を表します。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">KillCharacteristics KillCharacteristics { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Virial.Game.KillCharacteristics.html">KillCharacteristics</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Virial_Game_IPlayerlike_Name_" data-uid="Virial.Game.IPlayerlike.Name*"></a>
+
+  <h3 id="Virial_Game_IPlayerlike_Name" data-uid="Virial.Game.IPlayerlike.Name">
+  Name
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Game/Playerlike.cs/#L69"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>プレイヤーの名前を返します。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">string Name { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Virial_Game_IPlayerlike_PlayerlikeId_" data-uid="Virial.Game.IPlayerlike.PlayerlikeId*"></a>
+
+  <h3 id="Virial_Game_IPlayerlike_PlayerlikeId" data-uid="Virial.Game.IPlayerlike.PlayerlikeId">
+  PlayerlikeId
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Game/Playerlike.cs/#L59"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>プレイヤーのような対象としての一意なIDを返します。
+実際のプレイヤーの場合はプレイヤーIDと一致します。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">int PlayerlikeId { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
   <a id="Virial_Game_IPlayerlike_RealPlayer_" data-uid="Virial.Game.IPlayerlike.RealPlayer*"></a>
 
   <h3 id="Virial_Game_IPlayerlike_RealPlayer" data-uid="Virial.Game.IPlayerlike.RealPlayer">
   RealPlayer
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Game/Playerlike.cs/#L11"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Game/Playerlike.cs/#L64"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>紐づくプレイヤーを表します。</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">Player? RealPlayer { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">Player RealPlayer { get; }</code></pre>
   </div>
 
 
@@ -158,18 +454,19 @@ Interface IPlayerlike  <a class="header-action link-secondary" title="View sourc
 
 
 
-  <a id="Virial_Game_IPlayerlike_VisualPlayer_" data-uid="Virial.Game.IPlayerlike.VisualPlayer*"></a>
+  <a id="Virial_Game_IPlayerlike_TruePosition_" data-uid="Virial.Game.IPlayerlike.TruePosition*"></a>
 
-  <h3 id="Virial_Game_IPlayerlike_VisualPlayer" data-uid="Virial.Game.IPlayerlike.VisualPlayer">
-  VisualPlayer
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Game/Playerlike.cs/#L12"><i class="bi bi-code-slash"></i></a>
+  <h3 id="Virial_Game_IPlayerlike_TruePosition" data-uid="Virial.Game.IPlayerlike.TruePosition">
+  TruePosition
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Game/Playerlike.cs/#L95"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>プレイヤーの足元の位置を返します。</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">Player? VisualPlayer { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">Vector2 TruePosition { get; }</code></pre>
   </div>
 
 
@@ -178,9 +475,51 @@ Interface IPlayerlike  <a class="header-action link-secondary" title="View sourc
 
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="Virial.Game.Player.html">Player</a></dt>
+    <dt><a class="xref" href="Virial.Compat.Vector2.html">Vector2</a></dt>
     <dd></dd>
   </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="Virial_Game_IPlayerlike_GetPlayer_" data-uid="Virial.Game.IPlayerlike.GetPlayer*"></a>
+
+  <h3 id="Virial_Game_IPlayerlike_GetPlayer_System_Int32_" data-uid="Virial.Game.IPlayerlike.GetPlayer(System.Int32)">
+  GetPlayer(int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Game/Playerlike.cs/#L123"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>プレイヤーのような対象を取得します。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IPlayerlike? GetPlayer(int playerlikeId)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>playerlikeId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>プレイヤーID</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Virial.Game.IPlayerlike.html">IPlayerlike</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
 
 
 

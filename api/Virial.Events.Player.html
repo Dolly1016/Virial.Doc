@@ -125,7 +125,8 @@ Classes
     </dl>
     <dl class="jumplist">
       <dt><a class="xref" href="Virial.Events.Player.PlayerCheckKilledEvent.html">PlayerCheckKilledEvent</a></dt>
-      <dd><p>このイベントはキラーのクライアント上でのみ発火します。
+      <dd><p>キルによってプレイヤーが死亡する際に発火します。プレイヤーが実際に死亡しない場合(偽物が死亡する場合など)は呼び出されません。
+このイベントはキラーのクライアント上でのみ発火します。
 計算のために必要な値はあらかじめ共有しておく必要があり、値の更新がある場合は更新も共有する必要があります。</p>
 </dd>
     </dl>
@@ -181,6 +182,10 @@ Classes
     </dl>
     <dl class="jumplist">
       <dt><a class="xref" href="Virial.Events.Player.PlayerGuardEvent.html">PlayerGuardEvent</a></dt>
+      <dd></dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="Virial.Events.Player.PlayerKillFakePlayerEvent.html">PlayerKillFakePlayerEvent</a></dt>
       <dd></dd>
     </dl>
     <dl class="jumplist">

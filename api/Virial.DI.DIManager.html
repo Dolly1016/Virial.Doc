@@ -198,7 +198,7 @@ Class DIManager  <a class="header-action link-secondary" title="View source" hre
 
   <h3 id="Virial_DI_DIManager_RegisterContainer__1_System_Func___0__" data-uid="Virial.DI.DIManager.RegisterContainer``1(System.Func{``0})">
   RegisterContainer&lt;ContainerImpl&gt;(Func&lt;ContainerImpl&gt;)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/DI/ModuleContainer.cs/#L143"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/DI/ModuleContainer.cs/#L147"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -233,15 +233,15 @@ Class DIManager  <a class="header-action link-secondary" title="View source" hre
   <a id="Virial_DI_DIManager_RegisterGeneralModule_" data-uid="Virial.DI.DIManager.RegisterGeneralModule*"></a>
 
   <h3 id="Virial_DI_DIManager_RegisterGeneralModule__1_System_Func_Virial_DI_IModule__" data-uid="Virial.DI.DIManager.RegisterGeneralModule``1(System.Func{Virial.DI.IModule})">
-  RegisterGeneralModule&lt;Container&gt;(Func&lt;IModule&gt;)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/DI/ModuleContainer.cs/#L134"><i class="bi bi-code-slash"></i></a>
+  RegisterGeneralModule&lt;Container&gt;(Func&lt;IModule?&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/DI/ModuleContainer.cs/#L138"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool RegisterGeneralModule&lt;Container&gt;(Func&lt;IModule&gt; supplier)</code></pre>
+    <pre><code class="lang-csharp hljs">public bool RegisterGeneralModule&lt;Container&gt;(Func&lt;IModule?&gt; supplier)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -274,15 +274,15 @@ Class DIManager  <a class="header-action link-secondary" title="View source" hre
   <a id="Virial_DI_DIManager_RegisterModule_" data-uid="Virial.DI.DIManager.RegisterModule*"></a>
 
   <h3 id="Virial_DI_DIManager_RegisterModule__1_System_Func_Virial_DI_IGenericModule___0___" data-uid="Virial.DI.DIManager.RegisterModule``1(System.Func{Virial.DI.IGenericModule{``0}})">
-  RegisterModule&lt;Container&gt;(Func&lt;IGenericModule&lt;Container&gt;&gt;)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/DI/ModuleContainer.cs/#L132"><i class="bi bi-code-slash"></i></a>
+  RegisterModule&lt;Container&gt;(Func&lt;IGenericModule&lt;Container&gt;?&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/DI/ModuleContainer.cs/#L136"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool RegisterModule&lt;Container&gt;(Func&lt;IGenericModule&lt;Container&gt;&gt; supplier)</code></pre>
+    <pre><code class="lang-csharp hljs">public bool RegisterModule&lt;Container&gt;(Func&lt;IGenericModule&lt;Container&gt;?&gt; supplier)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>

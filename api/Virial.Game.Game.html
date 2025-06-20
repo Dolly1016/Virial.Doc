@@ -147,7 +147,7 @@ Interface Game  <a class="header-action link-secondary" title="View source" href
 
   <h3 id="Virial_Game_Game_KillButtonLikeHandler" data-uid="Virial.Game.Game.KillButtonLikeHandler">
   KillButtonLikeHandler
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Game/Game.cs/#L31"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Game/Game.cs/#L40"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -178,11 +178,11 @@ Interface Game  <a class="header-action link-secondary" title="View source" href
 
   <h3 id="Virial_Game_Game_LocalPlayer" data-uid="Virial.Game.Game.LocalPlayer">
   LocalPlayer
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Game/Game.cs/#L22"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Game/Game.cs/#L29"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>自身が操作するプレイヤー。
-即ちこのプレイヤーの<a class="xref" href="Virial.Game.Player.html#Virial_Game_Player_AmOwner">AmOwner</a>がtrueであることを意味します。</p>
+即ちこのプレイヤーのPlayer.AmOwnerがtrueであることを意味します。</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -215,7 +215,7 @@ Interface Game  <a class="header-action link-secondary" title="View source" href
 
   <h3 id="Virial_Game_Game_GetAllOrderedPlayers" data-uid="Virial.Game.Game.GetAllOrderedPlayers">
   GetAllOrderedPlayers()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Game/Game.cs/#L29"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Game/Game.cs/#L36"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -242,11 +242,42 @@ Interface Game  <a class="header-action link-secondary" title="View source" href
 
 
 
+  <a id="Virial_Game_Game_GetAllPlayerlikes_" data-uid="Virial.Game.Game.GetAllPlayerlikes*"></a>
+
+  <h3 id="Virial_Game_Game_GetAllPlayerlikes" data-uid="Virial.Game.Game.GetAllPlayerlikes">
+  GetAllPlayerlikes()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Game/Game.cs/#L38"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IEnumerable&lt;IPlayerlike&gt; GetAllPlayerlikes()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="Virial.Game.IPlayerlike.html">IPlayerlike</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
   <a id="Virial_Game_Game_GetAllPlayers_" data-uid="Virial.Game.Game.GetAllPlayers*"></a>
 
   <h3 id="Virial_Game_Game_GetAllPlayers" data-uid="Virial.Game.Game.GetAllPlayers">
   GetAllPlayers()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Game/Game.cs/#L28"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Game/Game.cs/#L35"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>ゲーム中の全プレイヤーを取得します。</p>
@@ -314,11 +345,50 @@ Interface Game  <a class="header-action link-secondary" title="View source" href
 
 
 
+  <a id="Virial_Game_Game_GetPlayerlike_" data-uid="Virial.Game.Game.GetPlayerlike*"></a>
+
+  <h3 id="Virial_Game_Game_GetPlayerlike_System_Int32_" data-uid="Virial.Game.Game.GetPlayerlike(System.Int32)">
+  GetPlayerlike(int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Game/Game.cs/#L23"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>プレイヤーのような対象を取得します。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IPlayerlike? GetPlayerlike(int playerlikeId)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>playerlikeId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>プレイヤーのような対象のID</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Virial.Game.IPlayerlike.html">IPlayerlike</a></dt>
+    <dd><p>IDが一致するプレイヤー 存在しない場合はnull</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
   <a id="Virial_Game_Game_RequestGameEnd_" data-uid="Virial.Game.Game.RequestGameEnd*"></a>
 
   <h3 id="Virial_Game_Game_RequestGameEnd_Virial_Game_GameEnd_Virial_BitMask_Virial_Game_Player__" data-uid="Virial.Game.Game.RequestGameEnd(Virial.Game.GameEnd,Virial.BitMask{Virial.Game.Player})">
   RequestGameEnd(GameEnd, BitMask&lt;Player&gt;)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Game/Game.cs/#L50"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Game/Game.cs/#L59"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>ゲーム終了のトリガーをホストに依頼します。
@@ -353,7 +423,7 @@ Interface Game  <a class="header-action link-secondary" title="View source" href
 
   <h3 id="Virial_Game_Game_TriggerGameEnd_Virial_Game_GameEnd_Virial_Game_GameEndReason_Virial_EditableBitMask_Virial_Game_Player__" data-uid="Virial.Game.Game.TriggerGameEnd(Virial.Game.GameEnd,Virial.Game.GameEndReason,Virial.EditableBitMask{Virial.Game.Player})">
   TriggerGameEnd(GameEnd, GameEndReason, EditableBitMask&lt;Player&gt;?)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Game/Game.cs/#L42"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Game/Game.cs/#L51"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>ゲーム終了をトリガーします。

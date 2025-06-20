@@ -8418,13 +8418,13 @@ references:
   fullName: Virial.DI.DIManager.RegisterGeneralModule
   nameWithType: DIManager.RegisterGeneralModule
 - uid: Virial.DI.DIManager.RegisterGeneralModule``1(System.Func{Virial.DI.IModule})
-  name: RegisterGeneralModule<Container>(Func<IModule>)
+  name: RegisterGeneralModule<Container>(Func<IModule?>)
   href: api/Virial.DI.DIManager.html#Virial_DI_DIManager_RegisterGeneralModule__1_System_Func_Virial_DI_IModule__
   commentId: M:Virial.DI.DIManager.RegisterGeneralModule``1(System.Func{Virial.DI.IModule})
   name.vb: RegisterGeneralModule(Of Container)(Func(Of IModule))
-  fullName: Virial.DI.DIManager.RegisterGeneralModule<Container>(System.Func<Virial.DI.IModule>)
+  fullName: Virial.DI.DIManager.RegisterGeneralModule<Container>(System.Func<Virial.DI.IModule?>)
   fullName.vb: Virial.DI.DIManager.RegisterGeneralModule(Of Container)(System.Func(Of Virial.DI.IModule))
-  nameWithType: DIManager.RegisterGeneralModule<Container>(Func<IModule>)
+  nameWithType: DIManager.RegisterGeneralModule<Container>(Func<IModule?>)
   nameWithType.vb: DIManager.RegisterGeneralModule(Of Container)(Func(Of IModule))
 - uid: Virial.DI.DIManager.RegisterModule*
   name: RegisterModule
@@ -8434,13 +8434,13 @@ references:
   fullName: Virial.DI.DIManager.RegisterModule
   nameWithType: DIManager.RegisterModule
 - uid: Virial.DI.DIManager.RegisterModule``1(System.Func{Virial.DI.IGenericModule{``0}})
-  name: RegisterModule<Container>(Func<IGenericModule<Container>>)
+  name: RegisterModule<Container>(Func<IGenericModule<Container>?>)
   href: api/Virial.DI.DIManager.html#Virial_DI_DIManager_RegisterModule__1_System_Func_Virial_DI_IGenericModule___0___
   commentId: M:Virial.DI.DIManager.RegisterModule``1(System.Func{Virial.DI.IGenericModule{``0}})
   name.vb: RegisterModule(Of Container)(Func(Of IGenericModule(Of Container)))
-  fullName: Virial.DI.DIManager.RegisterModule<Container>(System.Func<Virial.DI.IGenericModule<Container>>)
+  fullName: Virial.DI.DIManager.RegisterModule<Container>(System.Func<Virial.DI.IGenericModule<Container>?>)
   fullName.vb: Virial.DI.DIManager.RegisterModule(Of Container)(System.Func(Of Virial.DI.IGenericModule(Of Container)))
-  nameWithType: DIManager.RegisterModule<Container>(Func<IGenericModule<Container>>)
+  nameWithType: DIManager.RegisterModule<Container>(Func<IGenericModule<Container>?>)
   nameWithType.vb: DIManager.RegisterModule(Of Container)(Func(Of IGenericModule(Of Container)))
 - uid: Virial.DI.IGenericModule`1
   name: IGenericModule<Container>
@@ -8668,6 +8668,19 @@ references:
   commentId: T:Virial.Events.Game.DeadBodyInstantiateEvent
   fullName: Virial.Events.Game.DeadBodyInstantiateEvent
   nameWithType: DeadBodyInstantiateEvent
+- uid: Virial.Events.Game.DeadBodyInstantiateEvent.DeadBody
+  name: DeadBody
+  href: api/Virial.Events.Game.DeadBodyInstantiateEvent.html#Virial_Events_Game_DeadBodyInstantiateEvent_DeadBody
+  commentId: P:Virial.Events.Game.DeadBodyInstantiateEvent.DeadBody
+  fullName: Virial.Events.Game.DeadBodyInstantiateEvent.DeadBody
+  nameWithType: DeadBodyInstantiateEvent.DeadBody
+- uid: Virial.Events.Game.DeadBodyInstantiateEvent.DeadBody*
+  name: DeadBody
+  href: api/Virial.Events.Game.DeadBodyInstantiateEvent.html#Virial_Events_Game_DeadBodyInstantiateEvent_DeadBody_
+  commentId: Overload:Virial.Events.Game.DeadBodyInstantiateEvent.DeadBody
+  isSpec: "True"
+  fullName: Virial.Events.Game.DeadBodyInstantiateEvent.DeadBody
+  nameWithType: DeadBodyInstantiateEvent.DeadBody
 - uid: Virial.Events.Game.DeadBodyInstantiateEvent.Player
   name: Player
   href: api/Virial.Events.Game.DeadBodyInstantiateEvent.html#Virial_Events_Game_DeadBodyInstantiateEvent_Player
@@ -10133,6 +10146,38 @@ references:
   isSpec: "True"
   fullName: Virial.Events.Player.PlayerGuardEvent.Murderer
   nameWithType: PlayerGuardEvent.Murderer
+- uid: Virial.Events.Player.PlayerKillFakePlayerEvent
+  name: PlayerKillFakePlayerEvent
+  href: api/Virial.Events.Player.PlayerKillFakePlayerEvent.html
+  commentId: T:Virial.Events.Player.PlayerKillFakePlayerEvent
+  fullName: Virial.Events.Player.PlayerKillFakePlayerEvent
+  nameWithType: PlayerKillFakePlayerEvent
+- uid: Virial.Events.Player.PlayerKillFakePlayerEvent.Killer
+  name: Killer
+  href: api/Virial.Events.Player.PlayerKillFakePlayerEvent.html#Virial_Events_Player_PlayerKillFakePlayerEvent_Killer
+  commentId: P:Virial.Events.Player.PlayerKillFakePlayerEvent.Killer
+  fullName: Virial.Events.Player.PlayerKillFakePlayerEvent.Killer
+  nameWithType: PlayerKillFakePlayerEvent.Killer
+- uid: Virial.Events.Player.PlayerKillFakePlayerEvent.Killer*
+  name: Killer
+  href: api/Virial.Events.Player.PlayerKillFakePlayerEvent.html#Virial_Events_Player_PlayerKillFakePlayerEvent_Killer_
+  commentId: Overload:Virial.Events.Player.PlayerKillFakePlayerEvent.Killer
+  isSpec: "True"
+  fullName: Virial.Events.Player.PlayerKillFakePlayerEvent.Killer
+  nameWithType: PlayerKillFakePlayerEvent.Killer
+- uid: Virial.Events.Player.PlayerKillFakePlayerEvent.Target
+  name: Target
+  href: api/Virial.Events.Player.PlayerKillFakePlayerEvent.html#Virial_Events_Player_PlayerKillFakePlayerEvent_Target
+  commentId: P:Virial.Events.Player.PlayerKillFakePlayerEvent.Target
+  fullName: Virial.Events.Player.PlayerKillFakePlayerEvent.Target
+  nameWithType: PlayerKillFakePlayerEvent.Target
+- uid: Virial.Events.Player.PlayerKillFakePlayerEvent.Target*
+  name: Target
+  href: api/Virial.Events.Player.PlayerKillFakePlayerEvent.html#Virial_Events_Player_PlayerKillFakePlayerEvent_Target_
+  commentId: Overload:Virial.Events.Player.PlayerKillFakePlayerEvent.Target
+  isSpec: "True"
+  fullName: Virial.Events.Player.PlayerKillFakePlayerEvent.Target
+  nameWithType: PlayerKillFakePlayerEvent.Target
 - uid: Virial.Events.Player.PlayerKillPlayerEvent
   name: PlayerKillPlayerEvent
   href: api/Virial.Events.Player.PlayerKillPlayerEvent.html
@@ -10826,6 +10871,77 @@ references:
   isSpec: "True"
   fullName: Virial.Game.ArchivedColor.VisorColor
   nameWithType: ArchivedColor.VisorColor
+- uid: Virial.Game.DeadBody
+  name: DeadBody
+  href: api/Virial.Game.DeadBody.html
+  commentId: T:Virial.Game.DeadBody
+  fullName: Virial.Game.DeadBody
+  nameWithType: DeadBody
+- uid: Virial.Game.DeadBody.CurrentHolder
+  name: CurrentHolder
+  href: api/Virial.Game.DeadBody.html#Virial_Game_DeadBody_CurrentHolder
+  commentId: P:Virial.Game.DeadBody.CurrentHolder
+  fullName: Virial.Game.DeadBody.CurrentHolder
+  nameWithType: DeadBody.CurrentHolder
+- uid: Virial.Game.DeadBody.CurrentHolder*
+  name: CurrentHolder
+  href: api/Virial.Game.DeadBody.html#Virial_Game_DeadBody_CurrentHolder_
+  commentId: Overload:Virial.Game.DeadBody.CurrentHolder
+  isSpec: "True"
+  fullName: Virial.Game.DeadBody.CurrentHolder
+  nameWithType: DeadBody.CurrentHolder
+- uid: Virial.Game.DeadBody.IsActive
+  name: IsActive
+  href: api/Virial.Game.DeadBody.html#Virial_Game_DeadBody_IsActive
+  commentId: P:Virial.Game.DeadBody.IsActive
+  fullName: Virial.Game.DeadBody.IsActive
+  nameWithType: DeadBody.IsActive
+- uid: Virial.Game.DeadBody.IsActive*
+  name: IsActive
+  href: api/Virial.Game.DeadBody.html#Virial_Game_DeadBody_IsActive_
+  commentId: Overload:Virial.Game.DeadBody.IsActive
+  isSpec: "True"
+  fullName: Virial.Game.DeadBody.IsActive
+  nameWithType: DeadBody.IsActive
+- uid: Virial.Game.DeadBody.Player
+  name: Player
+  href: api/Virial.Game.DeadBody.html#Virial_Game_DeadBody_Player
+  commentId: P:Virial.Game.DeadBody.Player
+  fullName: Virial.Game.DeadBody.Player
+  nameWithType: DeadBody.Player
+- uid: Virial.Game.DeadBody.Player*
+  name: Player
+  href: api/Virial.Game.DeadBody.html#Virial_Game_DeadBody_Player_
+  commentId: Overload:Virial.Game.DeadBody.Player
+  isSpec: "True"
+  fullName: Virial.Game.DeadBody.Player
+  nameWithType: DeadBody.Player
+- uid: Virial.Game.DeadBody.Position
+  name: Position
+  href: api/Virial.Game.DeadBody.html#Virial_Game_DeadBody_Position
+  commentId: P:Virial.Game.DeadBody.Position
+  fullName: Virial.Game.DeadBody.Position
+  nameWithType: DeadBody.Position
+- uid: Virial.Game.DeadBody.Position*
+  name: Position
+  href: api/Virial.Game.DeadBody.html#Virial_Game_DeadBody_Position_
+  commentId: Overload:Virial.Game.DeadBody.Position
+  isSpec: "True"
+  fullName: Virial.Game.DeadBody.Position
+  nameWithType: DeadBody.Position
+- uid: Virial.Game.DeadBody.TruePosition
+  name: TruePosition
+  href: api/Virial.Game.DeadBody.html#Virial_Game_DeadBody_TruePosition
+  commentId: P:Virial.Game.DeadBody.TruePosition
+  fullName: Virial.Game.DeadBody.TruePosition
+  nameWithType: DeadBody.TruePosition
+- uid: Virial.Game.DeadBody.TruePosition*
+  name: TruePosition
+  href: api/Virial.Game.DeadBody.html#Virial_Game_DeadBody_TruePosition_
+  commentId: Overload:Virial.Game.DeadBody.TruePosition
+  isSpec: "True"
+  fullName: Virial.Game.DeadBody.TruePosition
+  nameWithType: DeadBody.TruePosition
 - uid: Virial.Game.EndState
   name: EndState
   href: api/Virial.Game.EndState.html
@@ -11061,6 +11177,19 @@ references:
   isSpec: "True"
   fullName: Virial.Game.Game.GetAllOrderedPlayers
   nameWithType: Game.GetAllOrderedPlayers
+- uid: Virial.Game.Game.GetAllPlayerlikes
+  name: GetAllPlayerlikes()
+  href: api/Virial.Game.Game.html#Virial_Game_Game_GetAllPlayerlikes
+  commentId: M:Virial.Game.Game.GetAllPlayerlikes
+  fullName: Virial.Game.Game.GetAllPlayerlikes()
+  nameWithType: Game.GetAllPlayerlikes()
+- uid: Virial.Game.Game.GetAllPlayerlikes*
+  name: GetAllPlayerlikes
+  href: api/Virial.Game.Game.html#Virial_Game_Game_GetAllPlayerlikes_
+  commentId: Overload:Virial.Game.Game.GetAllPlayerlikes
+  isSpec: "True"
+  fullName: Virial.Game.Game.GetAllPlayerlikes
+  nameWithType: Game.GetAllPlayerlikes
 - uid: Virial.Game.Game.GetAllPlayers
   name: GetAllPlayers()
   href: api/Virial.Game.Game.html#Virial_Game_Game_GetAllPlayers
@@ -11090,6 +11219,22 @@ references:
   isSpec: "True"
   fullName: Virial.Game.Game.GetPlayer
   nameWithType: Game.GetPlayer
+- uid: Virial.Game.Game.GetPlayerlike(System.Int32)
+  name: GetPlayerlike(int)
+  href: api/Virial.Game.Game.html#Virial_Game_Game_GetPlayerlike_System_Int32_
+  commentId: M:Virial.Game.Game.GetPlayerlike(System.Int32)
+  name.vb: GetPlayerlike(Integer)
+  fullName: Virial.Game.Game.GetPlayerlike(int)
+  fullName.vb: Virial.Game.Game.GetPlayerlike(Integer)
+  nameWithType: Game.GetPlayerlike(int)
+  nameWithType.vb: Game.GetPlayerlike(Integer)
+- uid: Virial.Game.Game.GetPlayerlike*
+  name: GetPlayerlike
+  href: api/Virial.Game.Game.html#Virial_Game_Game_GetPlayerlike_
+  commentId: Overload:Virial.Game.Game.GetPlayerlike
+  isSpec: "True"
+  fullName: Virial.Game.Game.GetPlayerlike
+  nameWithType: Game.GetPlayerlike
 - uid: Virial.Game.Game.KillButtonLikeHandler
   name: KillButtonLikeHandler
   href: api/Virial.Game.Game.html#Virial_Game_Game_KillButtonLikeHandler
@@ -12232,6 +12377,12 @@ references:
   isSpec: "True"
   fullName: Virial.Game.IBindPlayer.MyPlayer
   nameWithType: IBindPlayer.MyPlayer
+- uid: Virial.Game.IFakePlayer
+  name: IFakePlayer
+  href: api/Virial.Game.IFakePlayer.html
+  commentId: T:Virial.Game.IFakePlayer
+  fullName: Virial.Game.IFakePlayer
+  nameWithType: IFakePlayer
 - uid: Virial.Game.IGameModeFreePlay
   name: IGameModeFreePlay
   href: api/Virial.Game.IGameModeFreePlay.html
@@ -12493,6 +12644,139 @@ references:
   commentId: T:Virial.Game.IPlayerlike
   fullName: Virial.Game.IPlayerlike
   nameWithType: IPlayerlike
+- uid: Virial.Game.IPlayerlike.AllPlayerlikes
+  name: AllPlayerlikes
+  href: api/Virial.Game.IPlayerlike.html#Virial_Game_IPlayerlike_AllPlayerlikes
+  commentId: P:Virial.Game.IPlayerlike.AllPlayerlikes
+  fullName: Virial.Game.IPlayerlike.AllPlayerlikes
+  nameWithType: IPlayerlike.AllPlayerlikes
+- uid: Virial.Game.IPlayerlike.AllPlayerlikes*
+  name: AllPlayerlikes
+  href: api/Virial.Game.IPlayerlike.html#Virial_Game_IPlayerlike_AllPlayerlikes_
+  commentId: Overload:Virial.Game.IPlayerlike.AllPlayerlikes
+  isSpec: "True"
+  fullName: Virial.Game.IPlayerlike.AllPlayerlikes
+  nameWithType: IPlayerlike.AllPlayerlikes
+- uid: Virial.Game.IPlayerlike.AmController
+  name: AmController
+  href: api/Virial.Game.IPlayerlike.html#Virial_Game_IPlayerlike_AmController
+  commentId: P:Virial.Game.IPlayerlike.AmController
+  fullName: Virial.Game.IPlayerlike.AmController
+  nameWithType: IPlayerlike.AmController
+- uid: Virial.Game.IPlayerlike.AmController*
+  name: AmController
+  href: api/Virial.Game.IPlayerlike.html#Virial_Game_IPlayerlike_AmController_
+  commentId: Overload:Virial.Game.IPlayerlike.AmController
+  isSpec: "True"
+  fullName: Virial.Game.IPlayerlike.AmController
+  nameWithType: IPlayerlike.AmController
+- uid: Virial.Game.IPlayerlike.AmOwner
+  name: AmOwner
+  href: api/Virial.Game.IPlayerlike.html#Virial_Game_IPlayerlike_AmOwner
+  commentId: P:Virial.Game.IPlayerlike.AmOwner
+  fullName: Virial.Game.IPlayerlike.AmOwner
+  nameWithType: IPlayerlike.AmOwner
+- uid: Virial.Game.IPlayerlike.AmOwner*
+  name: AmOwner
+  href: api/Virial.Game.IPlayerlike.html#Virial_Game_IPlayerlike_AmOwner_
+  commentId: Overload:Virial.Game.IPlayerlike.AmOwner
+  isSpec: "True"
+  fullName: Virial.Game.IPlayerlike.AmOwner
+  nameWithType: IPlayerlike.AmOwner
+- uid: Virial.Game.IPlayerlike.CanBeTarget
+  name: CanBeTarget
+  href: api/Virial.Game.IPlayerlike.html#Virial_Game_IPlayerlike_CanBeTarget
+  commentId: P:Virial.Game.IPlayerlike.CanBeTarget
+  fullName: Virial.Game.IPlayerlike.CanBeTarget
+  nameWithType: IPlayerlike.CanBeTarget
+- uid: Virial.Game.IPlayerlike.CanBeTarget*
+  name: CanBeTarget
+  href: api/Virial.Game.IPlayerlike.html#Virial_Game_IPlayerlike_CanBeTarget_
+  commentId: Overload:Virial.Game.IPlayerlike.CanBeTarget
+  isSpec: "True"
+  fullName: Virial.Game.IPlayerlike.CanBeTarget
+  nameWithType: IPlayerlike.CanBeTarget
+- uid: Virial.Game.IPlayerlike.GetPlayer(System.Int32)
+  name: GetPlayer(int)
+  href: api/Virial.Game.IPlayerlike.html#Virial_Game_IPlayerlike_GetPlayer_System_Int32_
+  commentId: M:Virial.Game.IPlayerlike.GetPlayer(System.Int32)
+  name.vb: GetPlayer(Integer)
+  fullName: Virial.Game.IPlayerlike.GetPlayer(int)
+  fullName.vb: Virial.Game.IPlayerlike.GetPlayer(Integer)
+  nameWithType: IPlayerlike.GetPlayer(int)
+  nameWithType.vb: IPlayerlike.GetPlayer(Integer)
+- uid: Virial.Game.IPlayerlike.GetPlayer*
+  name: GetPlayer
+  href: api/Virial.Game.IPlayerlike.html#Virial_Game_IPlayerlike_GetPlayer_
+  commentId: Overload:Virial.Game.IPlayerlike.GetPlayer
+  isSpec: "True"
+  fullName: Virial.Game.IPlayerlike.GetPlayer
+  nameWithType: IPlayerlike.GetPlayer
+- uid: Virial.Game.IPlayerlike.IsActive
+  name: IsActive
+  href: api/Virial.Game.IPlayerlike.html#Virial_Game_IPlayerlike_IsActive
+  commentId: P:Virial.Game.IPlayerlike.IsActive
+  fullName: Virial.Game.IPlayerlike.IsActive
+  nameWithType: IPlayerlike.IsActive
+- uid: Virial.Game.IPlayerlike.IsActive*
+  name: IsActive
+  href: api/Virial.Game.IPlayerlike.html#Virial_Game_IPlayerlike_IsActive_
+  commentId: Overload:Virial.Game.IPlayerlike.IsActive
+  isSpec: "True"
+  fullName: Virial.Game.IPlayerlike.IsActive
+  nameWithType: IPlayerlike.IsActive
+- uid: Virial.Game.IPlayerlike.IsDead
+  name: IsDead
+  href: api/Virial.Game.IPlayerlike.html#Virial_Game_IPlayerlike_IsDead
+  commentId: P:Virial.Game.IPlayerlike.IsDead
+  fullName: Virial.Game.IPlayerlike.IsDead
+  nameWithType: IPlayerlike.IsDead
+- uid: Virial.Game.IPlayerlike.IsDead*
+  name: IsDead
+  href: api/Virial.Game.IPlayerlike.html#Virial_Game_IPlayerlike_IsDead_
+  commentId: Overload:Virial.Game.IPlayerlike.IsDead
+  isSpec: "True"
+  fullName: Virial.Game.IPlayerlike.IsDead
+  nameWithType: IPlayerlike.IsDead
+- uid: Virial.Game.IPlayerlike.KillCharacteristics
+  name: KillCharacteristics
+  href: api/Virial.Game.IPlayerlike.html#Virial_Game_IPlayerlike_KillCharacteristics
+  commentId: P:Virial.Game.IPlayerlike.KillCharacteristics
+  fullName: Virial.Game.IPlayerlike.KillCharacteristics
+  nameWithType: IPlayerlike.KillCharacteristics
+- uid: Virial.Game.IPlayerlike.KillCharacteristics*
+  name: KillCharacteristics
+  href: api/Virial.Game.IPlayerlike.html#Virial_Game_IPlayerlike_KillCharacteristics_
+  commentId: Overload:Virial.Game.IPlayerlike.KillCharacteristics
+  isSpec: "True"
+  fullName: Virial.Game.IPlayerlike.KillCharacteristics
+  nameWithType: IPlayerlike.KillCharacteristics
+- uid: Virial.Game.IPlayerlike.Name
+  name: Name
+  href: api/Virial.Game.IPlayerlike.html#Virial_Game_IPlayerlike_Name
+  commentId: P:Virial.Game.IPlayerlike.Name
+  fullName: Virial.Game.IPlayerlike.Name
+  nameWithType: IPlayerlike.Name
+- uid: Virial.Game.IPlayerlike.Name*
+  name: Name
+  href: api/Virial.Game.IPlayerlike.html#Virial_Game_IPlayerlike_Name_
+  commentId: Overload:Virial.Game.IPlayerlike.Name
+  isSpec: "True"
+  fullName: Virial.Game.IPlayerlike.Name
+  nameWithType: IPlayerlike.Name
+- uid: Virial.Game.IPlayerlike.PlayerlikeId
+  name: PlayerlikeId
+  href: api/Virial.Game.IPlayerlike.html#Virial_Game_IPlayerlike_PlayerlikeId
+  commentId: P:Virial.Game.IPlayerlike.PlayerlikeId
+  fullName: Virial.Game.IPlayerlike.PlayerlikeId
+  nameWithType: IPlayerlike.PlayerlikeId
+- uid: Virial.Game.IPlayerlike.PlayerlikeId*
+  name: PlayerlikeId
+  href: api/Virial.Game.IPlayerlike.html#Virial_Game_IPlayerlike_PlayerlikeId_
+  commentId: Overload:Virial.Game.IPlayerlike.PlayerlikeId
+  isSpec: "True"
+  fullName: Virial.Game.IPlayerlike.PlayerlikeId
+  nameWithType: IPlayerlike.PlayerlikeId
 - uid: Virial.Game.IPlayerlike.RealPlayer
   name: RealPlayer
   href: api/Virial.Game.IPlayerlike.html#Virial_Game_IPlayerlike_RealPlayer
@@ -12506,19 +12790,19 @@ references:
   isSpec: "True"
   fullName: Virial.Game.IPlayerlike.RealPlayer
   nameWithType: IPlayerlike.RealPlayer
-- uid: Virial.Game.IPlayerlike.VisualPlayer
-  name: VisualPlayer
-  href: api/Virial.Game.IPlayerlike.html#Virial_Game_IPlayerlike_VisualPlayer
-  commentId: P:Virial.Game.IPlayerlike.VisualPlayer
-  fullName: Virial.Game.IPlayerlike.VisualPlayer
-  nameWithType: IPlayerlike.VisualPlayer
-- uid: Virial.Game.IPlayerlike.VisualPlayer*
-  name: VisualPlayer
-  href: api/Virial.Game.IPlayerlike.html#Virial_Game_IPlayerlike_VisualPlayer_
-  commentId: Overload:Virial.Game.IPlayerlike.VisualPlayer
+- uid: Virial.Game.IPlayerlike.TruePosition
+  name: TruePosition
+  href: api/Virial.Game.IPlayerlike.html#Virial_Game_IPlayerlike_TruePosition
+  commentId: P:Virial.Game.IPlayerlike.TruePosition
+  fullName: Virial.Game.IPlayerlike.TruePosition
+  nameWithType: IPlayerlike.TruePosition
+- uid: Virial.Game.IPlayerlike.TruePosition*
+  name: TruePosition
+  href: api/Virial.Game.IPlayerlike.html#Virial_Game_IPlayerlike_TruePosition_
+  commentId: Overload:Virial.Game.IPlayerlike.TruePosition
   isSpec: "True"
-  fullName: Virial.Game.IPlayerlike.VisualPlayer
-  nameWithType: IPlayerlike.VisualPlayer
+  fullName: Virial.Game.IPlayerlike.TruePosition
+  nameWithType: IPlayerlike.TruePosition
 - uid: Virial.Game.IUsurpableAbility
   name: IUsurpableAbility
   href: api/Virial.Game.IUsurpableAbility.html
@@ -12599,6 +12883,54 @@ references:
   isSpec: "True"
   fullName: Virial.Game.KillButtonLikeHandler.StartCooldown
   nameWithType: KillButtonLikeHandler.StartCooldown
+- uid: Virial.Game.KillCharacteristics
+  name: KillCharacteristics
+  href: api/Virial.Game.KillCharacteristics.html
+  commentId: T:Virial.Game.KillCharacteristics
+  fullName: Virial.Game.KillCharacteristics
+  nameWithType: KillCharacteristics
+- uid: Virial.Game.KillCharacteristics.Disappear
+  name: Disappear
+  href: api/Virial.Game.KillCharacteristics.html#Virial_Game_KillCharacteristics_Disappear
+  commentId: F:Virial.Game.KillCharacteristics.Disappear
+  fullName: Virial.Game.KillCharacteristics.Disappear
+  nameWithType: KillCharacteristics.Disappear
+- uid: Virial.Game.KillCharacteristics.FlagKillRealPlayer
+  name: FlagKillRealPlayer
+  href: api/Virial.Game.KillCharacteristics.html#Virial_Game_KillCharacteristics_FlagKillRealPlayer
+  commentId: F:Virial.Game.KillCharacteristics.FlagKillRealPlayer
+  fullName: Virial.Game.KillCharacteristics.FlagKillRealPlayer
+  nameWithType: KillCharacteristics.FlagKillRealPlayer
+- uid: Virial.Game.KillCharacteristics.FlagLeftDeadBody
+  name: FlagLeftDeadBody
+  href: api/Virial.Game.KillCharacteristics.html#Virial_Game_KillCharacteristics_FlagLeftDeadBody
+  commentId: F:Virial.Game.KillCharacteristics.FlagLeftDeadBody
+  fullName: Virial.Game.KillCharacteristics.FlagLeftDeadBody
+  nameWithType: KillCharacteristics.FlagLeftDeadBody
+- uid: Virial.Game.KillCharacteristics.FlagLeftRealDeadBody
+  name: FlagLeftRealDeadBody
+  href: api/Virial.Game.KillCharacteristics.html#Virial_Game_KillCharacteristics_FlagLeftRealDeadBody
+  commentId: F:Virial.Game.KillCharacteristics.FlagLeftRealDeadBody
+  fullName: Virial.Game.KillCharacteristics.FlagLeftRealDeadBody
+  nameWithType: KillCharacteristics.FlagLeftRealDeadBody
+- uid: Virial.Game.KillCharacteristics.KillAllAndLeaveBodyOne
+  name: KillAllAndLeaveBodyOne
+  href: api/Virial.Game.KillCharacteristics.html#Virial_Game_KillCharacteristics_KillAllAndLeaveBodyOne
+  commentId: F:Virial.Game.KillCharacteristics.KillAllAndLeaveBodyOne
+  fullName: Virial.Game.KillCharacteristics.KillAllAndLeaveBodyOne
+  nameWithType: KillCharacteristics.KillAllAndLeaveBodyOne
+- uid: Virial.Game.KillCharacteristics.KillAndLeaveBodyAll
+  name: KillAndLeaveBodyAll
+  href: api/Virial.Game.KillCharacteristics.html#Virial_Game_KillCharacteristics_KillAndLeaveBodyAll
+  commentId: F:Virial.Game.KillCharacteristics.KillAndLeaveBodyAll
+  fullName: Virial.Game.KillCharacteristics.KillAndLeaveBodyAll
+  nameWithType: KillCharacteristics.KillAndLeaveBodyAll
+- uid: Virial.Game.KillCharacteristics.KillOne
+  name: KillOne
+  href: api/Virial.Game.KillCharacteristics.html#Virial_Game_KillCharacteristics_KillOne
+  commentId: F:Virial.Game.KillCharacteristics.KillOne
+  fullName: Virial.Game.KillCharacteristics.KillOne
+  nameWithType: KillCharacteristics.KillOne
 - uid: Virial.Game.KillCondition
   name: KillCondition
   href: api/Virial.Game.KillCondition.html
@@ -13282,19 +13614,6 @@ references:
   isSpec: "True"
   fullName: Virial.Game.Player.AmHost
   nameWithType: Player.AmHost
-- uid: Virial.Game.Player.AmOwner
-  name: AmOwner
-  href: api/Virial.Game.Player.html#Virial_Game_Player_AmOwner
-  commentId: P:Virial.Game.Player.AmOwner
-  fullName: Virial.Game.Player.AmOwner
-  nameWithType: Player.AmOwner
-- uid: Virial.Game.Player.AmOwner*
-  name: AmOwner
-  href: api/Virial.Game.Player.html#Virial_Game_Player_AmOwner_
-  commentId: Overload:Virial.Game.Player.AmOwner
-  isSpec: "True"
-  fullName: Virial.Game.Player.AmOwner
-  nameWithType: Player.AmOwner
 - uid: Virial.Game.Player.AttemptedGhostAssignment
   name: AttemptedGhostAssignment
   href: api/Virial.Game.Player.html#Virial_Game_Player_AttemptedGhostAssignment
@@ -13594,15 +13913,15 @@ references:
   isSpec: "True"
   fullName: Virial.Game.Player.HasAttribute
   nameWithType: Player.HasAttribute
-- uid: Virial.Game.Player.HoldDeadBody(Virial.Game.Player)
-  name: HoldDeadBody(Player?)
-  href: api/Virial.Game.Player.html#Virial_Game_Player_HoldDeadBody_Virial_Game_Player_
-  commentId: M:Virial.Game.Player.HoldDeadBody(Virial.Game.Player)
-  name.vb: HoldDeadBody(Player)
-  fullName: Virial.Game.Player.HoldDeadBody(Virial.Game.Player?)
-  fullName.vb: Virial.Game.Player.HoldDeadBody(Virial.Game.Player)
-  nameWithType: Player.HoldDeadBody(Player?)
-  nameWithType.vb: Player.HoldDeadBody(Player)
+- uid: Virial.Game.Player.HoldDeadBody(Virial.Game.DeadBody)
+  name: HoldDeadBody(DeadBody?)
+  href: api/Virial.Game.Player.html#Virial_Game_Player_HoldDeadBody_Virial_Game_DeadBody_
+  commentId: M:Virial.Game.Player.HoldDeadBody(Virial.Game.DeadBody)
+  name.vb: HoldDeadBody(DeadBody)
+  fullName: Virial.Game.Player.HoldDeadBody(Virial.Game.DeadBody?)
+  fullName.vb: Virial.Game.Player.HoldDeadBody(Virial.Game.DeadBody)
+  nameWithType: Player.HoldDeadBody(DeadBody?)
+  nameWithType.vb: Player.HoldDeadBody(DeadBody)
 - uid: Virial.Game.Player.HoldDeadBody*
   name: HoldDeadBody
   href: api/Virial.Game.Player.html#Virial_Game_Player_HoldDeadBody_
@@ -13704,19 +14023,6 @@ references:
   isSpec: "True"
   fullName: Virial.Game.Player.IsCrewmate
   nameWithType: Player.IsCrewmate
-- uid: Virial.Game.Player.IsDead
-  name: IsDead
-  href: api/Virial.Game.Player.html#Virial_Game_Player_IsDead
-  commentId: P:Virial.Game.Player.IsDead
-  fullName: Virial.Game.Player.IsDead
-  nameWithType: Player.IsDead
-- uid: Virial.Game.Player.IsDead*
-  name: IsDead
-  href: api/Virial.Game.Player.html#Virial_Game_Player_IsDead_
-  commentId: Overload:Virial.Game.Player.IsDead
-  isSpec: "True"
-  fullName: Virial.Game.Player.IsDead
-  nameWithType: Player.IsDead
 - uid: Virial.Game.Player.IsDisconnected
   name: IsDisconnected
   href: api/Virial.Game.Player.html#Virial_Game_Player_IsDisconnected
@@ -13834,24 +14140,24 @@ references:
   isSpec: "True"
   fullName: Virial.Game.Player.Modifiers
   nameWithType: Player.Modifiers
-- uid: Virial.Game.Player.MurderPlayer(Virial.Game.Player,Virial.Text.CommunicableTextTag,Virial.Text.CommunicableTextTag,Virial.Game.KillParameter,System.Action{Virial.Game.KillResult})
-  name: MurderPlayer(Player, CommunicableTextTag, CommunicableTextTag?, KillParameter, Action<KillResult>?)
-  href: api/Virial.Game.Player.html#Virial_Game_Player_MurderPlayer_Virial_Game_Player_Virial_Text_CommunicableTextTag_Virial_Text_CommunicableTextTag_Virial_Game_KillParameter_System_Action_Virial_Game_KillResult__
-  commentId: M:Virial.Game.Player.MurderPlayer(Virial.Game.Player,Virial.Text.CommunicableTextTag,Virial.Text.CommunicableTextTag,Virial.Game.KillParameter,System.Action{Virial.Game.KillResult})
-  name.vb: MurderPlayer(Player, CommunicableTextTag, CommunicableTextTag, KillParameter, Action(Of KillResult))
-  fullName: Virial.Game.Player.MurderPlayer(Virial.Game.Player, Virial.Text.CommunicableTextTag, Virial.Text.CommunicableTextTag?, Virial.Game.KillParameter, System.Action<Virial.Game.KillResult>?)
-  fullName.vb: Virial.Game.Player.MurderPlayer(Virial.Game.Player, Virial.Text.CommunicableTextTag, Virial.Text.CommunicableTextTag, Virial.Game.KillParameter, System.Action(Of Virial.Game.KillResult))
-  nameWithType: Player.MurderPlayer(Player, CommunicableTextTag, CommunicableTextTag?, KillParameter, Action<KillResult>?)
-  nameWithType.vb: Player.MurderPlayer(Player, CommunicableTextTag, CommunicableTextTag, KillParameter, Action(Of KillResult))
-- uid: Virial.Game.Player.MurderPlayer(Virial.Game.Player,Virial.Text.CommunicableTextTag,Virial.Text.CommunicableTextTag,Virial.Game.KillParameter,Virial.Game.KillCondition,System.Action{Virial.Game.KillResult})
-  name: MurderPlayer(Player, CommunicableTextTag, CommunicableTextTag?, KillParameter, KillCondition, Action<KillResult>?)
-  href: api/Virial.Game.Player.html#Virial_Game_Player_MurderPlayer_Virial_Game_Player_Virial_Text_CommunicableTextTag_Virial_Text_CommunicableTextTag_Virial_Game_KillParameter_Virial_Game_KillCondition_System_Action_Virial_Game_KillResult__
-  commentId: M:Virial.Game.Player.MurderPlayer(Virial.Game.Player,Virial.Text.CommunicableTextTag,Virial.Text.CommunicableTextTag,Virial.Game.KillParameter,Virial.Game.KillCondition,System.Action{Virial.Game.KillResult})
-  name.vb: MurderPlayer(Player, CommunicableTextTag, CommunicableTextTag, KillParameter, KillCondition, Action(Of KillResult))
-  fullName: Virial.Game.Player.MurderPlayer(Virial.Game.Player, Virial.Text.CommunicableTextTag, Virial.Text.CommunicableTextTag?, Virial.Game.KillParameter, Virial.Game.KillCondition, System.Action<Virial.Game.KillResult>?)
-  fullName.vb: Virial.Game.Player.MurderPlayer(Virial.Game.Player, Virial.Text.CommunicableTextTag, Virial.Text.CommunicableTextTag, Virial.Game.KillParameter, Virial.Game.KillCondition, System.Action(Of Virial.Game.KillResult))
-  nameWithType: Player.MurderPlayer(Player, CommunicableTextTag, CommunicableTextTag?, KillParameter, KillCondition, Action<KillResult>?)
-  nameWithType.vb: Player.MurderPlayer(Player, CommunicableTextTag, CommunicableTextTag, KillParameter, KillCondition, Action(Of KillResult))
+- uid: Virial.Game.Player.MurderPlayer(Virial.Game.IPlayerlike,Virial.Text.CommunicableTextTag,Virial.Text.CommunicableTextTag,Virial.Game.KillParameter,System.Action{Virial.Game.KillResult})
+  name: MurderPlayer(IPlayerlike, CommunicableTextTag, CommunicableTextTag?, KillParameter, Action<KillResult>?)
+  href: api/Virial.Game.Player.html#Virial_Game_Player_MurderPlayer_Virial_Game_IPlayerlike_Virial_Text_CommunicableTextTag_Virial_Text_CommunicableTextTag_Virial_Game_KillParameter_System_Action_Virial_Game_KillResult__
+  commentId: M:Virial.Game.Player.MurderPlayer(Virial.Game.IPlayerlike,Virial.Text.CommunicableTextTag,Virial.Text.CommunicableTextTag,Virial.Game.KillParameter,System.Action{Virial.Game.KillResult})
+  name.vb: MurderPlayer(IPlayerlike, CommunicableTextTag, CommunicableTextTag, KillParameter, Action(Of KillResult))
+  fullName: Virial.Game.Player.MurderPlayer(Virial.Game.IPlayerlike, Virial.Text.CommunicableTextTag, Virial.Text.CommunicableTextTag?, Virial.Game.KillParameter, System.Action<Virial.Game.KillResult>?)
+  fullName.vb: Virial.Game.Player.MurderPlayer(Virial.Game.IPlayerlike, Virial.Text.CommunicableTextTag, Virial.Text.CommunicableTextTag, Virial.Game.KillParameter, System.Action(Of Virial.Game.KillResult))
+  nameWithType: Player.MurderPlayer(IPlayerlike, CommunicableTextTag, CommunicableTextTag?, KillParameter, Action<KillResult>?)
+  nameWithType.vb: Player.MurderPlayer(IPlayerlike, CommunicableTextTag, CommunicableTextTag, KillParameter, Action(Of KillResult))
+- uid: Virial.Game.Player.MurderPlayer(Virial.Game.IPlayerlike,Virial.Text.CommunicableTextTag,Virial.Text.CommunicableTextTag,Virial.Game.KillParameter,Virial.Game.KillCondition,System.Action{Virial.Game.KillResult})
+  name: MurderPlayer(IPlayerlike, CommunicableTextTag, CommunicableTextTag?, KillParameter, KillCondition, Action<KillResult>?)
+  href: api/Virial.Game.Player.html#Virial_Game_Player_MurderPlayer_Virial_Game_IPlayerlike_Virial_Text_CommunicableTextTag_Virial_Text_CommunicableTextTag_Virial_Game_KillParameter_Virial_Game_KillCondition_System_Action_Virial_Game_KillResult__
+  commentId: M:Virial.Game.Player.MurderPlayer(Virial.Game.IPlayerlike,Virial.Text.CommunicableTextTag,Virial.Text.CommunicableTextTag,Virial.Game.KillParameter,Virial.Game.KillCondition,System.Action{Virial.Game.KillResult})
+  name.vb: MurderPlayer(IPlayerlike, CommunicableTextTag, CommunicableTextTag, KillParameter, KillCondition, Action(Of KillResult))
+  fullName: Virial.Game.Player.MurderPlayer(Virial.Game.IPlayerlike, Virial.Text.CommunicableTextTag, Virial.Text.CommunicableTextTag?, Virial.Game.KillParameter, Virial.Game.KillCondition, System.Action<Virial.Game.KillResult>?)
+  fullName.vb: Virial.Game.Player.MurderPlayer(Virial.Game.IPlayerlike, Virial.Text.CommunicableTextTag, Virial.Text.CommunicableTextTag, Virial.Game.KillParameter, Virial.Game.KillCondition, System.Action(Of Virial.Game.KillResult))
+  nameWithType: Player.MurderPlayer(IPlayerlike, CommunicableTextTag, CommunicableTextTag?, KillParameter, KillCondition, Action<KillResult>?)
+  nameWithType.vb: Player.MurderPlayer(IPlayerlike, CommunicableTextTag, CommunicableTextTag, KillParameter, KillCondition, Action(Of KillResult))
 - uid: Virial.Game.Player.MurderPlayer*
   name: MurderPlayer
   href: api/Virial.Game.Player.html#Virial_Game_Player_MurderPlayer_
@@ -13872,32 +14178,6 @@ references:
   isSpec: "True"
   fullName: Virial.Game.Player.MyKiller
   nameWithType: Player.MyKiller
-- uid: Virial.Game.Player.Name
-  name: Name
-  href: api/Virial.Game.Player.html#Virial_Game_Player_Name
-  commentId: P:Virial.Game.Player.Name
-  fullName: Virial.Game.Player.Name
-  nameWithType: Player.Name
-- uid: Virial.Game.Player.Name*
-  name: Name
-  href: api/Virial.Game.Player.html#Virial_Game_Player_Name_
-  commentId: Overload:Virial.Game.Player.Name
-  isSpec: "True"
-  fullName: Virial.Game.Player.Name
-  nameWithType: Player.Name
-- uid: Virial.Game.Player.PlayerId
-  name: PlayerId
-  href: api/Virial.Game.Player.html#Virial_Game_Player_PlayerId
-  commentId: P:Virial.Game.Player.PlayerId
-  fullName: Virial.Game.Player.PlayerId
-  nameWithType: Player.PlayerId
-- uid: Virial.Game.Player.PlayerId*
-  name: PlayerId
-  href: api/Virial.Game.Player.html#Virial_Game_Player_PlayerId_
-  commentId: Overload:Virial.Game.Player.PlayerId
-  isSpec: "True"
-  fullName: Virial.Game.Player.PlayerId
-  nameWithType: Player.PlayerId
 - uid: Virial.Game.Player.PlayerState
   name: PlayerState
   href: api/Virial.Game.Player.html#Virial_Game_Player_PlayerState
@@ -14092,19 +14372,6 @@ references:
   isSpec: "True"
   fullName: Virial.Game.Player.TeamKillCooldown
   nameWithType: Player.TeamKillCooldown
-- uid: Virial.Game.Player.TruePosition
-  name: TruePosition
-  href: api/Virial.Game.Player.html#Virial_Game_Player_TruePosition
-  commentId: P:Virial.Game.Player.TruePosition
-  fullName: Virial.Game.Player.TruePosition
-  nameWithType: Player.TruePosition
-- uid: Virial.Game.Player.TruePosition*
-  name: TruePosition
-  href: api/Virial.Game.Player.html#Virial_Game_Player_TruePosition_
-  commentId: Overload:Virial.Game.Player.TruePosition
-  isSpec: "True"
-  fullName: Virial.Game.Player.TruePosition
-  nameWithType: Player.TruePosition
 - uid: Virial.Game.Player.TryGetAbility*
   name: TryGetAbility
   href: api/Virial.Game.Player.html#Virial_Game_Player_TryGetAbility_
@@ -14894,15 +15161,6 @@ references:
   isSpec: "True"
   fullName: Virial.IModuleFactory.EffectButton
   nameWithType: IModuleFactory.EffectButton
-- uid: Virial.IModuleFactory.InteractButton(Virial.ILifespan,Virial.Game.Player,Virial.Components.ObjectTracker{Virial.Game.Player},Virial.Compat.VirtualKeyInput,System.String,System.Single,System.String,Virial.Media.Image,System.Action{Virial.Game.Player,Virial.Components.ModAbilityButton},System.Func{Virial.Components.ModAbilityButton,System.Boolean},System.Func{Virial.Components.ModAbilityButton,System.Boolean},System.Boolean)
-  name: InteractButton(ILifespan, Player, ObjectTracker<Player>, VirtualKeyInput, string?, float, string, Image, Action<Player, ModAbilityButton>, Func<ModAbilityButton, bool>?, Func<ModAbilityButton, bool>?, bool)
-  href: api/Virial.IModuleFactory.html#Virial_IModuleFactory_InteractButton_Virial_ILifespan_Virial_Game_Player_Virial_Components_ObjectTracker_Virial_Game_Player__Virial_Compat_VirtualKeyInput_System_String_System_Single_System_String_Virial_Media_Image_System_Action_Virial_Game_Player_Virial_Components_ModAbilityButton__System_Func_Virial_Components_ModAbilityButton_System_Boolean__System_Func_Virial_Components_ModAbilityButton_System_Boolean__System_Boolean_
-  commentId: M:Virial.IModuleFactory.InteractButton(Virial.ILifespan,Virial.Game.Player,Virial.Components.ObjectTracker{Virial.Game.Player},Virial.Compat.VirtualKeyInput,System.String,System.Single,System.String,Virial.Media.Image,System.Action{Virial.Game.Player,Virial.Components.ModAbilityButton},System.Func{Virial.Components.ModAbilityButton,System.Boolean},System.Func{Virial.Components.ModAbilityButton,System.Boolean},System.Boolean)
-  name.vb: InteractButton(ILifespan, Player, ObjectTracker(Of Player), VirtualKeyInput, String, Single, String, Image, Action(Of Player, ModAbilityButton), Func(Of ModAbilityButton, Boolean), Func(Of ModAbilityButton, Boolean), Boolean)
-  fullName: Virial.IModuleFactory.InteractButton(Virial.ILifespan, Virial.Game.Player, Virial.Components.ObjectTracker<Virial.Game.Player>, Virial.Compat.VirtualKeyInput, string?, float, string, Virial.Media.Image, System.Action<Virial.Game.Player, Virial.Components.ModAbilityButton>, System.Func<Virial.Components.ModAbilityButton, bool>?, System.Func<Virial.Components.ModAbilityButton, bool>?, bool)
-  fullName.vb: Virial.IModuleFactory.InteractButton(Virial.ILifespan, Virial.Game.Player, Virial.Components.ObjectTracker(Of Virial.Game.Player), Virial.Compat.VirtualKeyInput, String, Single, String, Virial.Media.Image, System.Action(Of Virial.Game.Player, Virial.Components.ModAbilityButton), System.Func(Of Virial.Components.ModAbilityButton, Boolean), System.Func(Of Virial.Components.ModAbilityButton, Boolean), Boolean)
-  nameWithType: IModuleFactory.InteractButton(ILifespan, Player, ObjectTracker<Player>, VirtualKeyInput, string?, float, string, Image, Action<Player, ModAbilityButton>, Func<ModAbilityButton, bool>?, Func<ModAbilityButton, bool>?, bool)
-  nameWithType.vb: IModuleFactory.InteractButton(ILifespan, Player, ObjectTracker(Of Player), VirtualKeyInput, String, Single, String, Image, Action(Of Player, ModAbilityButton), Func(Of ModAbilityButton, Boolean), Func(Of ModAbilityButton, Boolean), Boolean)
 - uid: Virial.IModuleFactory.InteractButton*
   name: InteractButton
   href: api/Virial.IModuleFactory.html#Virial_IModuleFactory_InteractButton_
@@ -14910,6 +15168,15 @@ references:
   isSpec: "True"
   fullName: Virial.IModuleFactory.InteractButton
   nameWithType: IModuleFactory.InteractButton
+- uid: Virial.IModuleFactory.InteractButton``1(Virial.ILifespan,Virial.Game.Player,Virial.Components.ObjectTracker{``0},Virial.Compat.VirtualKeyInput,System.String,System.Single,System.String,Virial.Media.Image,System.Action{``0,Virial.Components.ModAbilityButton},System.Func{Virial.Components.ModAbilityButton,System.Boolean},System.Func{Virial.Components.ModAbilityButton,System.Boolean},System.Boolean)
+  name: InteractButton<P>(ILifespan, Player, ObjectTracker<P>, VirtualKeyInput, string?, float, string, Image, Action<P, ModAbilityButton>, Func<ModAbilityButton, bool>?, Func<ModAbilityButton, bool>?, bool)
+  href: api/Virial.IModuleFactory.html#Virial_IModuleFactory_InteractButton__1_Virial_ILifespan_Virial_Game_Player_Virial_Components_ObjectTracker___0__Virial_Compat_VirtualKeyInput_System_String_System_Single_System_String_Virial_Media_Image_System_Action___0_Virial_Components_ModAbilityButton__System_Func_Virial_Components_ModAbilityButton_System_Boolean__System_Func_Virial_Components_ModAbilityButton_System_Boolean__System_Boolean_
+  commentId: M:Virial.IModuleFactory.InteractButton``1(Virial.ILifespan,Virial.Game.Player,Virial.Components.ObjectTracker{``0},Virial.Compat.VirtualKeyInput,System.String,System.Single,System.String,Virial.Media.Image,System.Action{``0,Virial.Components.ModAbilityButton},System.Func{Virial.Components.ModAbilityButton,System.Boolean},System.Func{Virial.Components.ModAbilityButton,System.Boolean},System.Boolean)
+  name.vb: InteractButton(Of P)(ILifespan, Player, ObjectTracker(Of P), VirtualKeyInput, String, Single, String, Image, Action(Of P, ModAbilityButton), Func(Of ModAbilityButton, Boolean), Func(Of ModAbilityButton, Boolean), Boolean)
+  fullName: Virial.IModuleFactory.InteractButton<P>(Virial.ILifespan, Virial.Game.Player, Virial.Components.ObjectTracker<P>, Virial.Compat.VirtualKeyInput, string?, float, string, Virial.Media.Image, System.Action<P, Virial.Components.ModAbilityButton>, System.Func<Virial.Components.ModAbilityButton, bool>?, System.Func<Virial.Components.ModAbilityButton, bool>?, bool)
+  fullName.vb: Virial.IModuleFactory.InteractButton(Of P)(Virial.ILifespan, Virial.Game.Player, Virial.Components.ObjectTracker(Of P), Virial.Compat.VirtualKeyInput, String, Single, String, Virial.Media.Image, System.Action(Of P, Virial.Components.ModAbilityButton), System.Func(Of Virial.Components.ModAbilityButton, Boolean), System.Func(Of Virial.Components.ModAbilityButton, Boolean), Boolean)
+  nameWithType: IModuleFactory.InteractButton<P>(ILifespan, Player, ObjectTracker<P>, VirtualKeyInput, string?, float, string, Image, Action<P, ModAbilityButton>, Func<ModAbilityButton, bool>?, Func<ModAbilityButton, bool>?, bool)
+  nameWithType.vb: IModuleFactory.InteractButton(Of P)(ILifespan, Player, ObjectTracker(Of P), VirtualKeyInput, String, Single, String, Image, Action(Of P, ModAbilityButton), Func(Of ModAbilityButton, Boolean), Func(Of ModAbilityButton, Boolean), Boolean)
 - uid: Virial.IModuleFactory.KillButton(Virial.ILifespan,Virial.Game.Player,System.Boolean,Virial.Compat.VirtualKeyInput,System.Single,System.String,Virial.Components.ModAbilityButton.LabelType,Virial.Media.Image,System.Action{Virial.Game.Player,Virial.Components.ModAbilityButton},System.Func{Virial.Game.Player,System.Boolean},System.Func{Virial.Components.ModAbilityButton,System.Boolean},System.Func{Virial.Components.ModAbilityButton,System.Boolean})
   name: KillButton(ILifespan, Player, bool, VirtualKeyInput, float, string, LabelType, Image?, Action<Player, ModAbilityButton>, Func<Player, bool>?, Func<ModAbilityButton, bool>?, Func<ModAbilityButton, bool>?)
   href: api/Virial.IModuleFactory.html#Virial_IModuleFactory_KillButton_Virial_ILifespan_Virial_Game_Player_System_Boolean_Virial_Compat_VirtualKeyInput_System_Single_System_String_Virial_Components_ModAbilityButton_LabelType_Virial_Media_Image_System_Action_Virial_Game_Player_Virial_Components_ModAbilityButton__System_Func_Virial_Game_Player_System_Boolean__System_Func_Virial_Components_ModAbilityButton_System_Boolean__System_Func_Virial_Components_ModAbilityButton_System_Boolean__
@@ -14967,6 +15234,54 @@ references:
   isSpec: "True"
   fullName: Virial.IModuleFactory.PlayerTracker
   nameWithType: IModuleFactory.PlayerTracker
+- uid: Virial.IModuleFactory.PlayerlikeKillButton(Virial.ILifespan,Virial.Game.Player,System.Boolean,Virial.Compat.VirtualKeyInput,System.String,System.Single,System.String,Virial.Components.ModAbilityButton.LabelType,Virial.Media.Image,System.Action{Virial.Game.IPlayerlike,Virial.Components.ModAbilityButton},System.Func{Virial.Game.IPlayerlike,System.Boolean},System.Func{Virial.Components.ModAbilityButton,System.Boolean},System.Func{Virial.Components.ModAbilityButton,System.Boolean},System.Func{Virial.Game.IPlayerlike,System.Boolean})
+  name: PlayerlikeKillButton(ILifespan, Player, bool, VirtualKeyInput, string?, float, string, LabelType, Image?, Action<IPlayerlike, ModAbilityButton>, Func<IPlayerlike, bool>?, Func<ModAbilityButton, bool>?, Func<ModAbilityButton, bool>?, Func<IPlayerlike, bool>?)
+  href: api/Virial.IModuleFactory.html#Virial_IModuleFactory_PlayerlikeKillButton_Virial_ILifespan_Virial_Game_Player_System_Boolean_Virial_Compat_VirtualKeyInput_System_String_System_Single_System_String_Virial_Components_ModAbilityButton_LabelType_Virial_Media_Image_System_Action_Virial_Game_IPlayerlike_Virial_Components_ModAbilityButton__System_Func_Virial_Game_IPlayerlike_System_Boolean__System_Func_Virial_Components_ModAbilityButton_System_Boolean__System_Func_Virial_Components_ModAbilityButton_System_Boolean__System_Func_Virial_Game_IPlayerlike_System_Boolean__
+  commentId: M:Virial.IModuleFactory.PlayerlikeKillButton(Virial.ILifespan,Virial.Game.Player,System.Boolean,Virial.Compat.VirtualKeyInput,System.String,System.Single,System.String,Virial.Components.ModAbilityButton.LabelType,Virial.Media.Image,System.Action{Virial.Game.IPlayerlike,Virial.Components.ModAbilityButton},System.Func{Virial.Game.IPlayerlike,System.Boolean},System.Func{Virial.Components.ModAbilityButton,System.Boolean},System.Func{Virial.Components.ModAbilityButton,System.Boolean},System.Func{Virial.Game.IPlayerlike,System.Boolean})
+  name.vb: PlayerlikeKillButton(ILifespan, Player, Boolean, VirtualKeyInput, String, Single, String, LabelType, Image, Action(Of IPlayerlike, ModAbilityButton), Func(Of IPlayerlike, Boolean), Func(Of ModAbilityButton, Boolean), Func(Of ModAbilityButton, Boolean), Func(Of IPlayerlike, Boolean))
+  fullName: Virial.IModuleFactory.PlayerlikeKillButton(Virial.ILifespan, Virial.Game.Player, bool, Virial.Compat.VirtualKeyInput, string?, float, string, Virial.Components.ModAbilityButton.LabelType, Virial.Media.Image?, System.Action<Virial.Game.IPlayerlike, Virial.Components.ModAbilityButton>, System.Func<Virial.Game.IPlayerlike, bool>?, System.Func<Virial.Components.ModAbilityButton, bool>?, System.Func<Virial.Components.ModAbilityButton, bool>?, System.Func<Virial.Game.IPlayerlike, bool>?)
+  fullName.vb: Virial.IModuleFactory.PlayerlikeKillButton(Virial.ILifespan, Virial.Game.Player, Boolean, Virial.Compat.VirtualKeyInput, String, Single, String, Virial.Components.ModAbilityButton.LabelType, Virial.Media.Image, System.Action(Of Virial.Game.IPlayerlike, Virial.Components.ModAbilityButton), System.Func(Of Virial.Game.IPlayerlike, Boolean), System.Func(Of Virial.Components.ModAbilityButton, Boolean), System.Func(Of Virial.Components.ModAbilityButton, Boolean), System.Func(Of Virial.Game.IPlayerlike, Boolean))
+  nameWithType: IModuleFactory.PlayerlikeKillButton(ILifespan, Player, bool, VirtualKeyInput, string?, float, string, ModAbilityButton.LabelType, Image?, Action<IPlayerlike, ModAbilityButton>, Func<IPlayerlike, bool>?, Func<ModAbilityButton, bool>?, Func<ModAbilityButton, bool>?, Func<IPlayerlike, bool>?)
+  nameWithType.vb: IModuleFactory.PlayerlikeKillButton(ILifespan, Player, Boolean, VirtualKeyInput, String, Single, String, ModAbilityButton.LabelType, Image, Action(Of IPlayerlike, ModAbilityButton), Func(Of IPlayerlike, Boolean), Func(Of ModAbilityButton, Boolean), Func(Of ModAbilityButton, Boolean), Func(Of IPlayerlike, Boolean))
+- uid: Virial.IModuleFactory.PlayerlikeKillButton*
+  name: PlayerlikeKillButton
+  href: api/Virial.IModuleFactory.html#Virial_IModuleFactory_PlayerlikeKillButton_
+  commentId: Overload:Virial.IModuleFactory.PlayerlikeKillButton
+  isSpec: "True"
+  fullName: Virial.IModuleFactory.PlayerlikeKillButton
+  nameWithType: IModuleFactory.PlayerlikeKillButton
+- uid: Virial.IModuleFactory.PlayerlikeKillTracker(Virial.ILifespan,Virial.Game.Player,System.Func{Virial.Game.IPlayerlike,System.Boolean},System.Func{Virial.Game.IPlayerlike,System.Boolean})
+  name: PlayerlikeKillTracker(ILifespan, Player, Func<IPlayerlike, bool>?, Func<IPlayerlike, bool>?)
+  href: api/Virial.IModuleFactory.html#Virial_IModuleFactory_PlayerlikeKillTracker_Virial_ILifespan_Virial_Game_Player_System_Func_Virial_Game_IPlayerlike_System_Boolean__System_Func_Virial_Game_IPlayerlike_System_Boolean__
+  commentId: M:Virial.IModuleFactory.PlayerlikeKillTracker(Virial.ILifespan,Virial.Game.Player,System.Func{Virial.Game.IPlayerlike,System.Boolean},System.Func{Virial.Game.IPlayerlike,System.Boolean})
+  name.vb: PlayerlikeKillTracker(ILifespan, Player, Func(Of IPlayerlike, Boolean), Func(Of IPlayerlike, Boolean))
+  fullName: Virial.IModuleFactory.PlayerlikeKillTracker(Virial.ILifespan, Virial.Game.Player, System.Func<Virial.Game.IPlayerlike, bool>?, System.Func<Virial.Game.IPlayerlike, bool>?)
+  fullName.vb: Virial.IModuleFactory.PlayerlikeKillTracker(Virial.ILifespan, Virial.Game.Player, System.Func(Of Virial.Game.IPlayerlike, Boolean), System.Func(Of Virial.Game.IPlayerlike, Boolean))
+  nameWithType: IModuleFactory.PlayerlikeKillTracker(ILifespan, Player, Func<IPlayerlike, bool>?, Func<IPlayerlike, bool>?)
+  nameWithType.vb: IModuleFactory.PlayerlikeKillTracker(ILifespan, Player, Func(Of IPlayerlike, Boolean), Func(Of IPlayerlike, Boolean))
+- uid: Virial.IModuleFactory.PlayerlikeKillTracker*
+  name: PlayerlikeKillTracker
+  href: api/Virial.IModuleFactory.html#Virial_IModuleFactory_PlayerlikeKillTracker_
+  commentId: Overload:Virial.IModuleFactory.PlayerlikeKillTracker
+  isSpec: "True"
+  fullName: Virial.IModuleFactory.PlayerlikeKillTracker
+  nameWithType: IModuleFactory.PlayerlikeKillTracker
+- uid: Virial.IModuleFactory.PlayerlikeTracker(Virial.ILifespan,Virial.Game.Player,System.Func{Virial.Game.IPlayerlike,System.Boolean},System.Func{Virial.Game.IPlayerlike,System.Boolean})
+  name: PlayerlikeTracker(ILifespan, Player, Func<IPlayerlike, bool>?, Func<IPlayerlike, bool>?)
+  href: api/Virial.IModuleFactory.html#Virial_IModuleFactory_PlayerlikeTracker_Virial_ILifespan_Virial_Game_Player_System_Func_Virial_Game_IPlayerlike_System_Boolean__System_Func_Virial_Game_IPlayerlike_System_Boolean__
+  commentId: M:Virial.IModuleFactory.PlayerlikeTracker(Virial.ILifespan,Virial.Game.Player,System.Func{Virial.Game.IPlayerlike,System.Boolean},System.Func{Virial.Game.IPlayerlike,System.Boolean})
+  name.vb: PlayerlikeTracker(ILifespan, Player, Func(Of IPlayerlike, Boolean), Func(Of IPlayerlike, Boolean))
+  fullName: Virial.IModuleFactory.PlayerlikeTracker(Virial.ILifespan, Virial.Game.Player, System.Func<Virial.Game.IPlayerlike, bool>?, System.Func<Virial.Game.IPlayerlike, bool>?)
+  fullName.vb: Virial.IModuleFactory.PlayerlikeTracker(Virial.ILifespan, Virial.Game.Player, System.Func(Of Virial.Game.IPlayerlike, Boolean), System.Func(Of Virial.Game.IPlayerlike, Boolean))
+  nameWithType: IModuleFactory.PlayerlikeTracker(ILifespan, Player, Func<IPlayerlike, bool>?, Func<IPlayerlike, bool>?)
+  nameWithType.vb: IModuleFactory.PlayerlikeTracker(ILifespan, Player, Func(Of IPlayerlike, Boolean), Func(Of IPlayerlike, Boolean))
+- uid: Virial.IModuleFactory.PlayerlikeTracker*
+  name: PlayerlikeTracker
+  href: api/Virial.IModuleFactory.html#Virial_IModuleFactory_PlayerlikeTracker_
+  commentId: Overload:Virial.IModuleFactory.PlayerlikeTracker
+  isSpec: "True"
+  fullName: Virial.IModuleFactory.PlayerlikeTracker
+  nameWithType: IModuleFactory.PlayerlikeTracker
 - uid: Virial.IModuleFactory.Timer(Virial.ILifespan,System.Single)
   name: Timer(ILifespan, float)
   href: api/Virial.IModuleFactory.html#Virial_IModuleFactory_Timer_Virial_ILifespan_System_Single_
@@ -18985,6 +19300,28 @@ references:
   fullName.vb: Virial.Utilities.OrderedList(Of T, Key).Remove
   nameWithType: OrderedList<T, Key>.Remove
   nameWithType.vb: OrderedList(Of T, Key).Remove
+- uid: Virial.Utilities.Pathfinding
+  name: Pathfinding
+  href: api/Virial.Utilities.Pathfinding.html
+  commentId: T:Virial.Utilities.Pathfinding
+  fullName: Virial.Utilities.Pathfinding
+  nameWithType: Pathfinding
+- uid: Virial.Utilities.Pathfinding.FindPath(Virial.Compat.Vector2[],System.Int32[][],System.Int32,System.Int32)
+  name: FindPath(Vector2[], int[][], int, int)
+  href: api/Virial.Utilities.Pathfinding.html#Virial_Utilities_Pathfinding_FindPath_Virial_Compat_Vector2___System_Int32_____System_Int32_System_Int32_
+  commentId: M:Virial.Utilities.Pathfinding.FindPath(Virial.Compat.Vector2[],System.Int32[][],System.Int32,System.Int32)
+  name.vb: FindPath(Vector2(), Integer()(), Integer, Integer)
+  fullName: Virial.Utilities.Pathfinding.FindPath(Virial.Compat.Vector2[], int[][], int, int)
+  fullName.vb: Virial.Utilities.Pathfinding.FindPath(Virial.Compat.Vector2(), Integer()(), Integer, Integer)
+  nameWithType: Pathfinding.FindPath(Vector2[], int[][], int, int)
+  nameWithType.vb: Pathfinding.FindPath(Vector2(), Integer()(), Integer, Integer)
+- uid: Virial.Utilities.Pathfinding.FindPath*
+  name: FindPath
+  href: api/Virial.Utilities.Pathfinding.html#Virial_Utilities_Pathfinding_FindPath_
+  commentId: Overload:Virial.Utilities.Pathfinding.FindPath
+  isSpec: "True"
+  fullName: Virial.Utilities.Pathfinding.FindPath
+  nameWithType: Pathfinding.FindPath
 - uid: Virial.Utilities.SerializedDataReader
   name: SerializedDataReader
   href: api/Virial.Utilities.SerializedDataReader.html

@@ -2822,7 +2822,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Virial.Events.Player.PlayerCheckKilledEvent",
-      "Summary": "<p sourcefile=\"api/Virial.Events.Player.PlayerCheckKilledEvent.yml\" sourcestartlinenumber=\"1\">このイベントはキラーのクライアント上でのみ発火します。\n計算のために必要な値はあらかじめ共有しておく必要があり、値の更新がある場合は更新も共有する必要があります。</p>\n"
+      "Summary": "<p sourcefile=\"api/Virial.Events.Player.PlayerCheckKilledEvent.yml\" sourcestartlinenumber=\"1\">キルによってプレイヤーが死亡する際に発火します。プレイヤーが実際に死亡しない場合(偽物が死亡する場合など)は呼び出されません。\nこのイベントはキラーのクライアント上でのみ発火します。\n計算のために必要な値はあらかじめ共有しておく必要があり、値の更新がある場合は更新も共有する必要があります。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2990,6 +2990,20 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Virial.Events.Player.PlayerGuardEvent",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Events.Player.PlayerKillFakePlayerEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Events.Player.PlayerKillFakePlayerEvent.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Events.Player.PlayerKillFakePlayerEvent",
       "Summary": null
     },
     {
@@ -3344,6 +3358,20 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Game.DeadBody.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Game.DeadBody.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Game.DeadBody",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Virial.Game.EndState.yml",
       "output": {
         ".html": {
@@ -3596,6 +3624,20 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Game.IFakePlayer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Game.IFakePlayer.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Game.IFakePlayer",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Virial.Game.IGameModeFreePlay.yml",
       "output": {
         ".html": {
@@ -3718,7 +3760,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Virial.Game.IPlayerlike",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/Virial.Game.IPlayerlike.yml\" sourcestartlinenumber=\"1\">プレイヤーのような対象を表します。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -3747,6 +3789,20 @@
       "IsMRef": true,
       "Title": "Virial.Game.KillButtonLikeHandler",
       "Summary": "<p sourcefile=\"api/Virial.Game.KillButtonLikeHandler.yml\" sourcestartlinenumber=\"1\">キルボタンに類する対象を管理します。</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Game.KillCharacteristics.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Game.KillCharacteristics.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Game.KillCharacteristics",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -5048,6 +5104,20 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Virial.Utilities.OrderedList<T, Key>",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Utilities.Pathfinding.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Utilities.Pathfinding.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Utilities.Pathfinding",
       "Summary": null
     },
     {
