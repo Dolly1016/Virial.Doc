@@ -778,7 +778,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Virial.Attributes.Local",
-      "Summary": "<p sourcefile=\"api/Virial.Attributes.Local.yml\" sourcestartlinenumber=\"1\">ローカルでのみ呼び出される手続きを表します。</p>\n"
+      "Summary": "<p sourcefile=\"api/Virial.Attributes.Local.yml\" sourcestartlinenumber=\"1\">ローカルでのみ呼び出される手続きを表します。\n<xref href=\"Virial.Game.IBindPlayer\" data-throw-if-not-resolved=\"false\"></xref>を実装するクラスで定義したリスナで<xref href=\"Virial.Game.IBindPlayer.AmOwner\" data-throw-if-not-resolved=\"false\"></xref>がtrueの場合のみ実行されます。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -820,7 +820,21 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Virial.Attributes.OnlyHost",
-      "Summary": "<p sourcefile=\"api/Virial.Attributes.OnlyHost.yml\" sourcestartlinenumber=\"1\">ホストのみ呼び出される手続きを表します。</p>\n"
+      "Summary": "<p sourcefile=\"api/Virial.Attributes.OnlyHost.yml\" sourcestartlinenumber=\"1\">ホストでのみ呼び出される手続きを表します。</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Attributes.OnlyLocalPlayer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Attributes.OnlyLocalPlayer.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Attributes.OnlyLocalPlayer",
+      "Summary": "<p sourcefile=\"api/Virial.Attributes.OnlyLocalPlayer.yml\" sourcestartlinenumber=\"1\">GameOperatorに付与できる属性です。\nイベントが<xref href=\"Virial.Events.Player.AbstractPlayerEvent\" data-throw-if-not-resolved=\"false\"></xref>を継承している場合にのみ使用できます。\nイベントの<xref href=\"Virial.Events.Player.AbstractPlayerEvent.Player\" data-throw-if-not-resolved=\"false\"></xref>の<xref href=\"Virial.Game.IPlayerlike.AmOwner\" data-throw-if-not-resolved=\"false\"></xref>がtrueの場合のみ実行されます。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -834,7 +848,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Virial.Attributes.OnlyMyPlayer",
-      "Summary": "<p sourcefile=\"api/Virial.Attributes.OnlyMyPlayer.yml\" sourcestartlinenumber=\"1\">GameOperatorに付与できる属性です。\nそのクラスに紐づけられたプレイヤーに関するイベントでのみ呼び出されるよう制限されます。</p>\n"
+      "Summary": "<p sourcefile=\"api/Virial.Attributes.OnlyMyPlayer.yml\" sourcestartlinenumber=\"1\">GameOperatorに付与できる属性です。\n<xref href=\"Virial.Game.IBindPlayer\" data-throw-if-not-resolved=\"false\"></xref>を実装するクラスで定義したリスナでイベントが<xref href=\"Virial.Events.Player.AbstractPlayerEvent\" data-throw-if-not-resolved=\"false\"></xref>を継承している場合にのみ使用できます。\n<xref href=\"Virial.Game.IBindPlayer.MyPlayer\" data-throw-if-not-resolved=\"false\"></xref>とイベントの<xref href=\"Virial.Events.Player.AbstractPlayerEvent.Player\" data-throw-if-not-resolved=\"false\"></xref>が一致する場合のみ実行されます。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2742,6 +2756,20 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Events.Player.AbstractPlayerlikeEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Events.Player.AbstractPlayerlikeEvent.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Events.Player.AbstractPlayerlikeEvent",
+      "Summary": "<p sourcefile=\"api/Virial.Events.Player.AbstractPlayerlikeEvent.yml\" sourcestartlinenumber=\"1\">プレイヤーのようなオブジェクトに関するイベントを表します。</p>\n"
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Virial.Events.Player.PlayerAlphaUpdateEvent.yml",
       "output": {
         ".html": {
@@ -2991,6 +3019,48 @@
       "IsMRef": true,
       "Title": "Virial.Events.Player.PlayerGuardEvent",
       "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Events.Player.PlayerInteractParameter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Events.Player.PlayerInteractParameter.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Events.Player.PlayerInteractParameter",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Events.Player.PlayerInteractPlayerLocalEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Events.Player.PlayerInteractPlayerLocalEvent.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Events.Player.PlayerInteractPlayerLocalEvent",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Events.Player.PlayerInteractionFailedForMyFakePlayerEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Events.Player.PlayerInteractionFailedForMyFakePlayerEvent.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Events.Player.PlayerInteractionFailedForMyFakePlayerEvent",
+      "Summary": "<p sourcefile=\"api/Virial.Events.Player.PlayerInteractionFailedForMyFakePlayerEvent.yml\" sourcestartlinenumber=\"1\">誰かが自身が所有する偽のプレイヤーに失敗したインタラクトをすると発火します。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -3942,6 +4012,20 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Virial.Game.OutfitDefinition",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Game.OutfitPriority.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Game.OutfitPriority.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Game.OutfitPriority",
       "Summary": null
     },
     {
@@ -5146,6 +5230,20 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Virial.Utilities.SerializedDataWriter",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Utilities.Variable-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Utilities.Variable-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Utilities.Variable<T>",
       "Summary": null
     },
     {

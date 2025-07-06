@@ -90,7 +90,7 @@
 
 
   <h1 id="Virial_Game_KillCharacteristics" data-uid="Virial.Game.KillCharacteristics" class="text-break">
-Enum KillCharacteristics  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Game/Playerlike.cs/#L12"><i class="bi bi-code-slash"></i></a>
+Enum KillCharacteristics  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Game/Playerlike.cs/#L13"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -135,14 +135,14 @@ public enum KillCharacteristics</code></pre>
   <dd><p>実際のプレイヤーの足元に死体を発生させます。
 死体を残さないキルであればこのフラグは無視されます。</p>
 </dd>
+    <dt id="Virial_Game_KillCharacteristics_KillAllAndLeaveBodyAll"><code>KillAllAndLeaveBodyAll = KillAllAndLeaveBodyOne | FlagLeftRealDeadBody</code></dt>
+  
+  <dd><p>自身と本体もろとも死亡し、全て死体を発生させます。
+死体を発生させないキルであれば死体は発生しません。</p>
+</dd>
     <dt id="Virial_Game_KillCharacteristics_KillAllAndLeaveBodyOne"><code>KillAllAndLeaveBodyOne = FlagKillRealPlayer | FlagLeftDeadBody</code></dt>
   
   <dd><p>自身と本体もろとも死亡し、死体は自身の元にのみ残します。
-死体を発生させないキルであれば死体は発生しません。</p>
-</dd>
-    <dt id="Virial_Game_KillCharacteristics_KillAndLeaveBodyAll"><code>KillAndLeaveBodyAll = KillAllAndLeaveBodyOne | FlagLeftRealDeadBody</code></dt>
-  
-  <dd><p>自身と本体もろとも死亡し、全て死体を発生させます。
 死体を発生させないキルであれば死体は発生しません。</p>
 </dd>
     <dt id="Virial_Game_KillCharacteristics_KillOne"><code>KillOne = 4</code></dt>

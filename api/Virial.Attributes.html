@@ -106,7 +106,8 @@ Classes
     </dl>
     <dl class="jumplist">
       <dt><a class="xref" href="Virial.Attributes.Local.html">Local</a></dt>
-      <dd><p>ローカルでのみ呼び出される手続きを表します。</p>
+      <dd><p>ローカルでのみ呼び出される手続きを表します。
+<a class="xref" href="Virial.Game.IBindPlayer.html">IBindPlayer</a>を実装するクラスで定義したリスナで<a class="xref" href="Virial.Game.IBindPlayer.html#Virial_Game_IBindPlayer_AmOwner">AmOwner</a>がtrueの場合のみ実行されます。</p>
 </dd>
     </dl>
     <dl class="jumplist">
@@ -123,13 +124,21 @@ Classes
     </dl>
     <dl class="jumplist">
       <dt><a class="xref" href="Virial.Attributes.OnlyHost.html">OnlyHost</a></dt>
-      <dd><p>ホストのみ呼び出される手続きを表します。</p>
+      <dd><p>ホストでのみ呼び出される手続きを表します。</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="Virial.Attributes.OnlyLocalPlayer.html">OnlyLocalPlayer</a></dt>
+      <dd><p>GameOperatorに付与できる属性です。
+イベントが<a class="xref" href="Virial.Events.Player.AbstractPlayerEvent.html">AbstractPlayerEvent</a>を継承している場合にのみ使用できます。
+イベントの<a class="xref" href="Virial.Events.Player.AbstractPlayerEvent.html#Virial_Events_Player_AbstractPlayerEvent_Player">Player</a>の<a class="xref" href="Virial.Game.IPlayerlike.html#Virial_Game_IPlayerlike_AmOwner">AmOwner</a>がtrueの場合のみ実行されます。</p>
 </dd>
     </dl>
     <dl class="jumplist">
       <dt><a class="xref" href="Virial.Attributes.OnlyMyPlayer.html">OnlyMyPlayer</a></dt>
       <dd><p>GameOperatorに付与できる属性です。
-そのクラスに紐づけられたプレイヤーに関するイベントでのみ呼び出されるよう制限されます。</p>
+<a class="xref" href="Virial.Game.IBindPlayer.html">IBindPlayer</a>を実装するクラスで定義したリスナでイベントが<a class="xref" href="Virial.Events.Player.AbstractPlayerEvent.html">AbstractPlayerEvent</a>を継承している場合にのみ使用できます。
+<a class="xref" href="Virial.Game.IBindPlayer.html#Virial_Game_IBindPlayer_MyPlayer">MyPlayer</a>とイベントの<a class="xref" href="Virial.Events.Player.AbstractPlayerEvent.html#Virial_Events_Player_AbstractPlayerEvent_Player">Player</a>が一致する場合のみ実行されます。</p>
 </dd>
     </dl>
     <dl class="jumplist">

@@ -2,9 +2,9 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Class PlayerDoGameActionEvent | Virial </title>
+      <title>Class Variable&lt;T&gt; | Virial </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Class PlayerDoGameActionEvent | Virial ">
+      <meta name="title" content="Class Variable&lt;T&gt; | Virial ">
       
       
       <link rel="icon" href="../images/icon.ico">
@@ -16,7 +16,7 @@
       <meta name="docfx:rel" content="../">
       
       
-      <meta name="docfx:docurl" content="https://github.com/Dolly1016/Nebula-Public/new/master/apiSpec/new?filename=Virial_Events_Player_PlayerDoGameActionEvent.md&amp;value=---%0Auid%3A%20Virial.Events.Player.PlayerDoGameActionEvent%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="docfx:docurl" content="https://github.com/Dolly1016/Nebula-Public/new/master/apiSpec/new?filename=Virial_Utilities_Variable_1.md&amp;value=---%0Auid%3A%20Virial.Utilities.Variable%601%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -84,16 +84,16 @@
           <nav id="breadcrumb"></nav>
         </div>
 
-        <article data-uid="Virial.Events.Player.PlayerDoGameActionEvent">
+        <article data-uid="Virial.Utilities.Variable`1">
 
 
 
-  <h1 id="Virial_Events_Player_PlayerDoGameActionEvent" data-uid="Virial.Events.Player.PlayerDoGameActionEvent" class="text-break">
-Class PlayerDoGameActionEvent  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Events/Player/PlayerDoGameActionEvent.cs/#L10"><i class="bi bi-code-slash"></i></a>
+  <h1 id="Virial_Utilities_Variable_1" data-uid="Virial.Utilities.Variable`1" class="text-break">
+Class Variable&lt;T&gt;  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Utilities/Variable.cs/#L5"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
-    <dl><dt>Namespace</dt><dd><a class="xref" href="Virial.html">Virial</a>.<a class="xref" href="Virial.Events.html">Events</a>.<a class="xref" href="Virial.Events.Player.html">Player</a></dd></dl>
+    <dl><dt>Namespace</dt><dd><a class="xref" href="Virial.html">Virial</a>.<a class="xref" href="Virial.Utilities.html">Utilities</a></dd></dl>
   
   </div>
 
@@ -101,36 +101,30 @@ Class PlayerDoGameActionEvent  <a class="header-action link-secondary" title="Vi
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class PlayerDoGameActionEvent : AbstractPlayerEvent, Event</code></pre>
+    <pre><code class="lang-csharp hljs">public class Variable&lt;T&gt;</code></pre>
   </div>
 
 
 
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
 
   <dl class="typelist inheritance">
     <dt>Inheritance</dt>
     <dd>
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
-      <div><a class="xref" href="Virial.Events.Player.AbstractPlayerlikeEvent.html">AbstractPlayerlikeEvent</a></div>
-      <div><a class="xref" href="Virial.Events.Player.AbstractPlayerEvent.html">AbstractPlayerEvent</a></div>
-      <div><span class="xref">PlayerDoGameActionEvent</span></div>
+      <div><span class="xref">Variable&lt;T&gt;</span></div>
     </dd>
   </dl>
 
-  <dl class="typelist implements">
-    <dt>Implements</dt>
-    <dd>
-      <div><a class="xref" href="Virial.Events.Event.html">Event</a></div>
-    </dd>
-  </dl>
 
 
   <dl class="typelist inheritedMembers">
     <dt>Inherited Members</dt>
     <dd>
-    <div>
-      <a class="xref" href="Virial.Events.Player.AbstractPlayerEvent.html#Virial_Events_Player_AbstractPlayerEvent_Player">AbstractPlayerEvent.Player</a>
-    </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
     </div>
@@ -159,61 +153,22 @@ Class PlayerDoGameActionEvent  <a class="header-action link-secondary" title="Vi
 
 
 
-  <h2 class="section" id="constructors">Constructors
-</h2>
-
-
-  <a id="Virial_Events_Player_PlayerDoGameActionEvent__ctor_" data-uid="Virial.Events.Player.PlayerDoGameActionEvent.#ctor*"></a>
-
-  <h3 id="Virial_Events_Player_PlayerDoGameActionEvent__ctor_Virial_Game_Player_Virial_Game_GameActionType_Virial_Compat_Vector2_" data-uid="Virial.Events.Player.PlayerDoGameActionEvent.#ctor(Virial.Game.Player,Virial.Game.GameActionType,Virial.Compat.Vector2)">
-  PlayerDoGameActionEvent(Player, GameActionType, Vector2)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Events/Player/PlayerDoGameActionEvent.cs/#L14"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public PlayerDoGameActionEvent(Player player, GameActionType actionType, Vector2 position)</code></pre>
-  </div>
-
-  <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>player</code> <a class="xref" href="Virial.Game.Player.html">Player</a></dt>
-    <dd></dd>
-    <dt><code>actionType</code> <a class="xref" href="Virial.Game.GameActionType.html">GameActionType</a></dt>
-    <dd></dd>
-    <dt><code>position</code> <a class="xref" href="Virial.Compat.Vector2.html">Vector2</a></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
-
-
-
-
   <h2 class="section" id="properties">Properties
 </h2>
 
 
-  <a id="Virial_Events_Player_PlayerDoGameActionEvent_ActionType_" data-uid="Virial.Events.Player.PlayerDoGameActionEvent.ActionType*"></a>
+  <a id="Virial_Utilities_Variable_1_Value_" data-uid="Virial.Utilities.Variable`1.Value*"></a>
 
-  <h3 id="Virial_Events_Player_PlayerDoGameActionEvent_ActionType" data-uid="Virial.Events.Player.PlayerDoGameActionEvent.ActionType">
-  ActionType
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Events/Player/PlayerDoGameActionEvent.cs/#L12"><i class="bi bi-code-slash"></i></a>
+  <h3 id="Virial_Utilities_Variable_1_Value" data-uid="Virial.Utilities.Variable`1.Value">
+  Value
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Utilities/Variable.cs/#L7"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public GameActionType ActionType { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public T? Value { get; set; }</code></pre>
   </div>
 
 
@@ -222,7 +177,7 @@ Class PlayerDoGameActionEvent  <a class="header-action link-secondary" title="Vi
 
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="Virial.Game.GameActionType.html">GameActionType</a></dt>
+    <dt><span class="xref">T</span></dt>
     <dd></dd>
   </dl>
 
@@ -233,29 +188,105 @@ Class PlayerDoGameActionEvent  <a class="header-action link-secondary" title="Vi
 
 
 
-  <a id="Virial_Events_Player_PlayerDoGameActionEvent_Position_" data-uid="Virial.Events.Player.PlayerDoGameActionEvent.Position*"></a>
+  <h2 class="section" id="methods">Methods
+</h2>
 
-  <h3 id="Virial_Events_Player_PlayerDoGameActionEvent_Position" data-uid="Virial.Events.Player.PlayerDoGameActionEvent.Position">
-  Position
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Events/Player/PlayerDoGameActionEvent.cs/#L13"><i class="bi bi-code-slash"></i></a>
+
+  <a id="Virial_Utilities_Variable_1_Set_" data-uid="Virial.Utilities.Variable`1.Set*"></a>
+
+  <h3 id="Virial_Utilities_Variable_1_Set__0_" data-uid="Virial.Utilities.Variable`1.Set(`0)">
+  Set(T)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Utilities/Variable.cs/#L9"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Vector2 Position { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public Variable&lt;T&gt; Set(T value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <span class="xref">T</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Virial.Utilities.Variable-1.html">Variable</a>&lt;T&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Virial_Utilities_Variable_1_Update_" data-uid="Virial.Utilities.Variable`1.Update*"></a>
+
+  <h3 id="Virial_Utilities_Variable_1_Update_System_Func__0__0__" data-uid="Virial.Utilities.Variable`1.Update(System.Func{`0,`0})">
+  Update(Func&lt;T?, T?&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Utilities/Variable.cs/#L15"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Variable&lt;T&gt; Update(Func&lt;T?, T?&gt; update)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>update</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;T, T&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Virial.Utilities.Variable-1.html">Variable</a>&lt;T&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Virial_Utilities_Variable_1_Wait_" data-uid="Virial.Utilities.Variable`1.Wait*"></a>
+
+  <h3 id="Virial_Utilities_Variable_1_Wait" data-uid="Virial.Utilities.Variable`1.Wait">
+  Wait()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Utilities/Variable.cs/#L21"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IEnumerator Wait()</code></pre>
   </div>
 
 
-
-
-
-  <h4 class="section">Property Value</h4>
+  <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="Virial.Compat.Vector2.html">Vector2</a></dt>
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.ienumerator">IEnumerator</a></dt>
     <dd></dd>
   </dl>
+
+
+
 
 
 

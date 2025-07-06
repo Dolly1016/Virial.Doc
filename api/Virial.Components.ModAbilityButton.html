@@ -646,8 +646,8 @@ Interface ModAbilityButton  <a class="header-action link-secondary" title="View 
 
   <a id="Virial_Components_ModAbilityButton_BindKey_" data-uid="Virial.Components.ModAbilityButton.BindKey*"></a>
 
-  <h3 id="Virial_Components_ModAbilityButton_BindKey_Virial_Compat_VirtualKeyInput_System_String_" data-uid="Virial.Components.ModAbilityButton.BindKey(Virial.Compat.VirtualKeyInput,System.String)">
-  BindKey(VirtualKeyInput, string?)
+  <h3 id="Virial_Components_ModAbilityButton_BindKey_Virial_Compat_VirtualKeyInput_System_String_System_Boolean_" data-uid="Virial.Components.ModAbilityButton.BindKey(Virial.Compat.VirtualKeyInput,System.String,System.Boolean)">
+  BindKey(VirtualKeyInput, string?, bool)
   <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Components/ModAbilityButton.cs/#L152"><i class="bi bi-code-slash"></i></a>
   </h3>
 
@@ -656,7 +656,7 @@ Interface ModAbilityButton  <a class="header-action link-secondary" title="View 
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">ModAbilityButton BindKey(VirtualKeyInput input, string? action = null)</code></pre>
+    <pre><code class="lang-csharp hljs">ModAbilityButton BindKey(VirtualKeyInput input, string? action = null, bool holdingDown = false)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -664,6 +664,8 @@ Interface ModAbilityButton  <a class="header-action link-secondary" title="View 
     <dt><code>input</code> <a class="xref" href="Virial.Compat.VirtualKeyInput.html">VirtualKeyInput</a></dt>
     <dd></dd>
     <dt><code>action</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>holdingDown</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
     <dd></dd>
   </dl>
 

@@ -6,7 +6,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta name="title" content="Class OnlyMyPlayer | Virial ">
       
-      <meta name="description" content="GameOperatorに付与できる属性です。 そのクラスに紐づけられたプレイヤーに関するイベントでのみ呼び出されるよう制限されます。">
+      <meta name="description" content="GameOperatorに付与できる属性です。 を実装するクラスで定義したリスナでイベントがを継承している場合にのみ使用できます。 とイベントのが一致する場合のみ実行されます。">
       <link rel="icon" href="../images/icon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -89,7 +89,7 @@
 
 
   <h1 id="Virial_Attributes_OnlyMyPlayer" data-uid="Virial.Attributes.OnlyMyPlayer" class="text-break">
-Class OnlyMyPlayer  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Attributes/NebulaAttribute.cs/#L114"><i class="bi bi-code-slash"></i></a>
+Class OnlyMyPlayer  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Attributes/NebulaAttribute.cs/#L115"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -98,7 +98,8 @@ Class OnlyMyPlayer  <a class="header-action link-secondary" title="View source" 
   </div>
 
   <div class="markdown summary"><p>GameOperatorに付与できる属性です。
-そのクラスに紐づけられたプレイヤーに関するイベントでのみ呼び出されるよう制限されます。</p>
+<a class="xref" href="Virial.Game.IBindPlayer.html">IBindPlayer</a>を実装するクラスで定義したリスナでイベントが<a class="xref" href="Virial.Events.Player.AbstractPlayerEvent.html">AbstractPlayerEvent</a>を継承している場合にのみ使用できます。
+<a class="xref" href="Virial.Game.IBindPlayer.html#Virial_Game_IBindPlayer_MyPlayer">MyPlayer</a>とイベントの<a class="xref" href="Virial.Events.Player.AbstractPlayerEvent.html#Virial_Events_Player_AbstractPlayerEvent_Player">Player</a>が一致する場合のみ実行されます。</p>
 </div>
   <div class="markdown conceptual"></div>
 

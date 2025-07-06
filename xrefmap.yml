@@ -3022,6 +3022,12 @@ references:
   commentId: T:Virial.Attributes.OnlyHost
   fullName: Virial.Attributes.OnlyHost
   nameWithType: OnlyHost
+- uid: Virial.Attributes.OnlyLocalPlayer
+  name: OnlyLocalPlayer
+  href: api/Virial.Attributes.OnlyLocalPlayer.html
+  commentId: T:Virial.Attributes.OnlyLocalPlayer
+  fullName: Virial.Attributes.OnlyLocalPlayer
+  nameWithType: OnlyLocalPlayer
 - uid: Virial.Attributes.OnlyMyPlayer
   name: OnlyMyPlayer
   href: api/Virial.Attributes.OnlyMyPlayer.html
@@ -5856,6 +5862,22 @@ references:
   fullName.vb: Virial.Compat.Vector2.New
   nameWithType: Vector2.Vector2
   nameWithType.vb: Vector2.New
+- uid: Virial.Compat.Vector2.AsVector3(System.Single)
+  name: AsVector3(float)
+  href: api/Virial.Compat.Vector2.html#Virial_Compat_Vector2_AsVector3_System_Single_
+  commentId: M:Virial.Compat.Vector2.AsVector3(System.Single)
+  name.vb: AsVector3(Single)
+  fullName: Virial.Compat.Vector2.AsVector3(float)
+  fullName.vb: Virial.Compat.Vector2.AsVector3(Single)
+  nameWithType: Vector2.AsVector3(float)
+  nameWithType.vb: Vector2.AsVector3(Single)
+- uid: Virial.Compat.Vector2.AsVector3*
+  name: AsVector3
+  href: api/Virial.Compat.Vector2.html#Virial_Compat_Vector2_AsVector3_
+  commentId: Overload:Virial.Compat.Vector2.AsVector3
+  isSpec: "True"
+  fullName: Virial.Compat.Vector2.AsVector3
+  nameWithType: Vector2.AsVector3
 - uid: Virial.Compat.Vector2.Distance(Virial.Compat.Vector2)
   name: Distance(Vector2)
   href: api/Virial.Compat.Vector2.html#Virial_Compat_Vector2_Distance_Virial_Compat_Vector2_
@@ -6473,15 +6495,15 @@ references:
   isSpec: "True"
   fullName: Virial.Components.ModAbilityButton.Availability
   nameWithType: ModAbilityButton.Availability
-- uid: Virial.Components.ModAbilityButton.BindKey(Virial.Compat.VirtualKeyInput,System.String)
-  name: BindKey(VirtualKeyInput, string?)
-  href: api/Virial.Components.ModAbilityButton.html#Virial_Components_ModAbilityButton_BindKey_Virial_Compat_VirtualKeyInput_System_String_
-  commentId: M:Virial.Components.ModAbilityButton.BindKey(Virial.Compat.VirtualKeyInput,System.String)
-  name.vb: BindKey(VirtualKeyInput, String)
-  fullName: Virial.Components.ModAbilityButton.BindKey(Virial.Compat.VirtualKeyInput, string?)
-  fullName.vb: Virial.Components.ModAbilityButton.BindKey(Virial.Compat.VirtualKeyInput, String)
-  nameWithType: ModAbilityButton.BindKey(VirtualKeyInput, string?)
-  nameWithType.vb: ModAbilityButton.BindKey(VirtualKeyInput, String)
+- uid: Virial.Components.ModAbilityButton.BindKey(Virial.Compat.VirtualKeyInput,System.String,System.Boolean)
+  name: BindKey(VirtualKeyInput, string?, bool)
+  href: api/Virial.Components.ModAbilityButton.html#Virial_Components_ModAbilityButton_BindKey_Virial_Compat_VirtualKeyInput_System_String_System_Boolean_
+  commentId: M:Virial.Components.ModAbilityButton.BindKey(Virial.Compat.VirtualKeyInput,System.String,System.Boolean)
+  name.vb: BindKey(VirtualKeyInput, String, Boolean)
+  fullName: Virial.Components.ModAbilityButton.BindKey(Virial.Compat.VirtualKeyInput, string?, bool)
+  fullName.vb: Virial.Components.ModAbilityButton.BindKey(Virial.Compat.VirtualKeyInput, String, Boolean)
+  nameWithType: ModAbilityButton.BindKey(VirtualKeyInput, string?, bool)
+  nameWithType.vb: ModAbilityButton.BindKey(VirtualKeyInput, String, Boolean)
 - uid: Virial.Components.ModAbilityButton.BindKey*
   name: BindKey
   href: api/Virial.Components.ModAbilityButton.html#Virial_Components_ModAbilityButton_BindKey_
@@ -9449,6 +9471,25 @@ references:
   isSpec: "True"
   fullName: Virial.Events.Player.AbstractPlayerEvent.Player
   nameWithType: AbstractPlayerEvent.Player
+- uid: Virial.Events.Player.AbstractPlayerlikeEvent
+  name: AbstractPlayerlikeEvent
+  href: api/Virial.Events.Player.AbstractPlayerlikeEvent.html
+  commentId: T:Virial.Events.Player.AbstractPlayerlikeEvent
+  fullName: Virial.Events.Player.AbstractPlayerlikeEvent
+  nameWithType: AbstractPlayerlikeEvent
+- uid: Virial.Events.Player.AbstractPlayerlikeEvent.Player
+  name: Player
+  href: api/Virial.Events.Player.AbstractPlayerlikeEvent.html#Virial_Events_Player_AbstractPlayerlikeEvent_Player
+  commentId: P:Virial.Events.Player.AbstractPlayerlikeEvent.Player
+  fullName: Virial.Events.Player.AbstractPlayerlikeEvent.Player
+  nameWithType: AbstractPlayerlikeEvent.Player
+- uid: Virial.Events.Player.AbstractPlayerlikeEvent.Player*
+  name: Player
+  href: api/Virial.Events.Player.AbstractPlayerlikeEvent.html#Virial_Events_Player_AbstractPlayerlikeEvent_Player_
+  commentId: Overload:Virial.Events.Player.AbstractPlayerlikeEvent.Player
+  isSpec: "True"
+  fullName: Virial.Events.Player.AbstractPlayerlikeEvent.Player
+  nameWithType: AbstractPlayerlikeEvent.Player
 - uid: Virial.Events.Player.PlayerAlphaUpdateEvent
   name: PlayerAlphaUpdateEvent
   href: api/Virial.Events.Player.PlayerAlphaUpdateEvent.html
@@ -10146,6 +10187,160 @@ references:
   isSpec: "True"
   fullName: Virial.Events.Player.PlayerGuardEvent.Murderer
   nameWithType: PlayerGuardEvent.Murderer
+- uid: Virial.Events.Player.PlayerInteractParameter
+  name: PlayerInteractParameter
+  href: api/Virial.Events.Player.PlayerInteractParameter.html
+  commentId: T:Virial.Events.Player.PlayerInteractParameter
+  fullName: Virial.Events.Player.PlayerInteractParameter
+  nameWithType: PlayerInteractParameter
+- uid: Virial.Events.Player.PlayerInteractParameter.#ctor(System.Boolean,System.Boolean,System.Boolean)
+  name: PlayerInteractParameter(bool, bool, bool)
+  href: api/Virial.Events.Player.PlayerInteractParameter.html#Virial_Events_Player_PlayerInteractParameter__ctor_System_Boolean_System_Boolean_System_Boolean_
+  commentId: M:Virial.Events.Player.PlayerInteractParameter.#ctor(System.Boolean,System.Boolean,System.Boolean)
+  name.vb: New(Boolean, Boolean, Boolean)
+  fullName: Virial.Events.Player.PlayerInteractParameter.PlayerInteractParameter(bool, bool, bool)
+  fullName.vb: Virial.Events.Player.PlayerInteractParameter.New(Boolean, Boolean, Boolean)
+  nameWithType: PlayerInteractParameter.PlayerInteractParameter(bool, bool, bool)
+  nameWithType.vb: PlayerInteractParameter.New(Boolean, Boolean, Boolean)
+- uid: Virial.Events.Player.PlayerInteractParameter.#ctor*
+  name: PlayerInteractParameter
+  href: api/Virial.Events.Player.PlayerInteractParameter.html#Virial_Events_Player_PlayerInteractParameter__ctor_
+  commentId: Overload:Virial.Events.Player.PlayerInteractParameter.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Virial.Events.Player.PlayerInteractParameter.PlayerInteractParameter
+  fullName.vb: Virial.Events.Player.PlayerInteractParameter.New
+  nameWithType: PlayerInteractParameter.PlayerInteractParameter
+  nameWithType.vb: PlayerInteractParameter.New
+- uid: Virial.Events.Player.PlayerInteractParameter.IsKillInteraction
+  name: IsKillInteraction
+  href: api/Virial.Events.Player.PlayerInteractParameter.html#Virial_Events_Player_PlayerInteractParameter_IsKillInteraction
+  commentId: P:Virial.Events.Player.PlayerInteractParameter.IsKillInteraction
+  fullName: Virial.Events.Player.PlayerInteractParameter.IsKillInteraction
+  nameWithType: PlayerInteractParameter.IsKillInteraction
+- uid: Virial.Events.Player.PlayerInteractParameter.IsKillInteraction*
+  name: IsKillInteraction
+  href: api/Virial.Events.Player.PlayerInteractParameter.html#Virial_Events_Player_PlayerInteractParameter_IsKillInteraction_
+  commentId: Overload:Virial.Events.Player.PlayerInteractParameter.IsKillInteraction
+  isSpec: "True"
+  fullName: Virial.Events.Player.PlayerInteractParameter.IsKillInteraction
+  nameWithType: PlayerInteractParameter.IsKillInteraction
+- uid: Virial.Events.Player.PlayerInteractParameter.RealPlayerOnly
+  name: RealPlayerOnly
+  href: api/Virial.Events.Player.PlayerInteractParameter.html#Virial_Events_Player_PlayerInteractParameter_RealPlayerOnly
+  commentId: P:Virial.Events.Player.PlayerInteractParameter.RealPlayerOnly
+  fullName: Virial.Events.Player.PlayerInteractParameter.RealPlayerOnly
+  nameWithType: PlayerInteractParameter.RealPlayerOnly
+- uid: Virial.Events.Player.PlayerInteractParameter.RealPlayerOnly*
+  name: RealPlayerOnly
+  href: api/Virial.Events.Player.PlayerInteractParameter.html#Virial_Events_Player_PlayerInteractParameter_RealPlayerOnly_
+  commentId: Overload:Virial.Events.Player.PlayerInteractParameter.RealPlayerOnly
+  isSpec: "True"
+  fullName: Virial.Events.Player.PlayerInteractParameter.RealPlayerOnly
+  nameWithType: PlayerInteractParameter.RealPlayerOnly
+- uid: Virial.Events.Player.PlayerInteractParameter.ResetCooldownEvenIfFailed
+  name: ResetCooldownEvenIfFailed
+  href: api/Virial.Events.Player.PlayerInteractParameter.html#Virial_Events_Player_PlayerInteractParameter_ResetCooldownEvenIfFailed
+  commentId: P:Virial.Events.Player.PlayerInteractParameter.ResetCooldownEvenIfFailed
+  fullName: Virial.Events.Player.PlayerInteractParameter.ResetCooldownEvenIfFailed
+  nameWithType: PlayerInteractParameter.ResetCooldownEvenIfFailed
+- uid: Virial.Events.Player.PlayerInteractParameter.ResetCooldownEvenIfFailed*
+  name: ResetCooldownEvenIfFailed
+  href: api/Virial.Events.Player.PlayerInteractParameter.html#Virial_Events_Player_PlayerInteractParameter_ResetCooldownEvenIfFailed_
+  commentId: Overload:Virial.Events.Player.PlayerInteractParameter.ResetCooldownEvenIfFailed
+  isSpec: "True"
+  fullName: Virial.Events.Player.PlayerInteractParameter.ResetCooldownEvenIfFailed
+  nameWithType: PlayerInteractParameter.ResetCooldownEvenIfFailed
+- uid: Virial.Events.Player.PlayerInteractPlayerLocalEvent
+  name: PlayerInteractPlayerLocalEvent
+  href: api/Virial.Events.Player.PlayerInteractPlayerLocalEvent.html
+  commentId: T:Virial.Events.Player.PlayerInteractPlayerLocalEvent
+  fullName: Virial.Events.Player.PlayerInteractPlayerLocalEvent
+  nameWithType: PlayerInteractPlayerLocalEvent
+- uid: Virial.Events.Player.PlayerInteractPlayerLocalEvent.IsCanceled
+  name: IsCanceled
+  href: api/Virial.Events.Player.PlayerInteractPlayerLocalEvent.html#Virial_Events_Player_PlayerInteractPlayerLocalEvent_IsCanceled
+  commentId: P:Virial.Events.Player.PlayerInteractPlayerLocalEvent.IsCanceled
+  fullName: Virial.Events.Player.PlayerInteractPlayerLocalEvent.IsCanceled
+  nameWithType: PlayerInteractPlayerLocalEvent.IsCanceled
+- uid: Virial.Events.Player.PlayerInteractPlayerLocalEvent.IsCanceled*
+  name: IsCanceled
+  href: api/Virial.Events.Player.PlayerInteractPlayerLocalEvent.html#Virial_Events_Player_PlayerInteractPlayerLocalEvent_IsCanceled_
+  commentId: Overload:Virial.Events.Player.PlayerInteractPlayerLocalEvent.IsCanceled
+  isSpec: "True"
+  fullName: Virial.Events.Player.PlayerInteractPlayerLocalEvent.IsCanceled
+  nameWithType: PlayerInteractPlayerLocalEvent.IsCanceled
+- uid: Virial.Events.Player.PlayerInteractPlayerLocalEvent.Parameters
+  name: Parameters
+  href: api/Virial.Events.Player.PlayerInteractPlayerLocalEvent.html#Virial_Events_Player_PlayerInteractPlayerLocalEvent_Parameters
+  commentId: P:Virial.Events.Player.PlayerInteractPlayerLocalEvent.Parameters
+  fullName: Virial.Events.Player.PlayerInteractPlayerLocalEvent.Parameters
+  nameWithType: PlayerInteractPlayerLocalEvent.Parameters
+- uid: Virial.Events.Player.PlayerInteractPlayerLocalEvent.Parameters*
+  name: Parameters
+  href: api/Virial.Events.Player.PlayerInteractPlayerLocalEvent.html#Virial_Events_Player_PlayerInteractPlayerLocalEvent_Parameters_
+  commentId: Overload:Virial.Events.Player.PlayerInteractPlayerLocalEvent.Parameters
+  isSpec: "True"
+  fullName: Virial.Events.Player.PlayerInteractPlayerLocalEvent.Parameters
+  nameWithType: PlayerInteractPlayerLocalEvent.Parameters
+- uid: Virial.Events.Player.PlayerInteractPlayerLocalEvent.Target
+  name: Target
+  href: api/Virial.Events.Player.PlayerInteractPlayerLocalEvent.html#Virial_Events_Player_PlayerInteractPlayerLocalEvent_Target
+  commentId: P:Virial.Events.Player.PlayerInteractPlayerLocalEvent.Target
+  fullName: Virial.Events.Player.PlayerInteractPlayerLocalEvent.Target
+  nameWithType: PlayerInteractPlayerLocalEvent.Target
+- uid: Virial.Events.Player.PlayerInteractPlayerLocalEvent.Target*
+  name: Target
+  href: api/Virial.Events.Player.PlayerInteractPlayerLocalEvent.html#Virial_Events_Player_PlayerInteractPlayerLocalEvent_Target_
+  commentId: Overload:Virial.Events.Player.PlayerInteractPlayerLocalEvent.Target
+  isSpec: "True"
+  fullName: Virial.Events.Player.PlayerInteractPlayerLocalEvent.Target
+  nameWithType: PlayerInteractPlayerLocalEvent.Target
+- uid: Virial.Events.Player.PlayerInteractPlayerLocalEvent.User
+  name: User
+  href: api/Virial.Events.Player.PlayerInteractPlayerLocalEvent.html#Virial_Events_Player_PlayerInteractPlayerLocalEvent_User
+  commentId: P:Virial.Events.Player.PlayerInteractPlayerLocalEvent.User
+  fullName: Virial.Events.Player.PlayerInteractPlayerLocalEvent.User
+  nameWithType: PlayerInteractPlayerLocalEvent.User
+- uid: Virial.Events.Player.PlayerInteractPlayerLocalEvent.User*
+  name: User
+  href: api/Virial.Events.Player.PlayerInteractPlayerLocalEvent.html#Virial_Events_Player_PlayerInteractPlayerLocalEvent_User_
+  commentId: Overload:Virial.Events.Player.PlayerInteractPlayerLocalEvent.User
+  isSpec: "True"
+  fullName: Virial.Events.Player.PlayerInteractPlayerLocalEvent.User
+  nameWithType: PlayerInteractPlayerLocalEvent.User
+- uid: Virial.Events.Player.PlayerInteractionFailedForMyFakePlayerEvent
+  name: PlayerInteractionFailedForMyFakePlayerEvent
+  href: api/Virial.Events.Player.PlayerInteractionFailedForMyFakePlayerEvent.html
+  commentId: T:Virial.Events.Player.PlayerInteractionFailedForMyFakePlayerEvent
+  fullName: Virial.Events.Player.PlayerInteractionFailedForMyFakePlayerEvent
+  nameWithType: PlayerInteractionFailedForMyFakePlayerEvent
+- uid: Virial.Events.Player.PlayerInteractionFailedForMyFakePlayerEvent.Target
+  name: Target
+  href: api/Virial.Events.Player.PlayerInteractionFailedForMyFakePlayerEvent.html#Virial_Events_Player_PlayerInteractionFailedForMyFakePlayerEvent_Target
+  commentId: P:Virial.Events.Player.PlayerInteractionFailedForMyFakePlayerEvent.Target
+  fullName: Virial.Events.Player.PlayerInteractionFailedForMyFakePlayerEvent.Target
+  nameWithType: PlayerInteractionFailedForMyFakePlayerEvent.Target
+- uid: Virial.Events.Player.PlayerInteractionFailedForMyFakePlayerEvent.Target*
+  name: Target
+  href: api/Virial.Events.Player.PlayerInteractionFailedForMyFakePlayerEvent.html#Virial_Events_Player_PlayerInteractionFailedForMyFakePlayerEvent_Target_
+  commentId: Overload:Virial.Events.Player.PlayerInteractionFailedForMyFakePlayerEvent.Target
+  isSpec: "True"
+  fullName: Virial.Events.Player.PlayerInteractionFailedForMyFakePlayerEvent.Target
+  nameWithType: PlayerInteractionFailedForMyFakePlayerEvent.Target
+- uid: Virial.Events.Player.PlayerInteractionFailedForMyFakePlayerEvent.User
+  name: User
+  href: api/Virial.Events.Player.PlayerInteractionFailedForMyFakePlayerEvent.html#Virial_Events_Player_PlayerInteractionFailedForMyFakePlayerEvent_User
+  commentId: P:Virial.Events.Player.PlayerInteractionFailedForMyFakePlayerEvent.User
+  fullName: Virial.Events.Player.PlayerInteractionFailedForMyFakePlayerEvent.User
+  nameWithType: PlayerInteractionFailedForMyFakePlayerEvent.User
+- uid: Virial.Events.Player.PlayerInteractionFailedForMyFakePlayerEvent.User*
+  name: User
+  href: api/Virial.Events.Player.PlayerInteractionFailedForMyFakePlayerEvent.html#Virial_Events_Player_PlayerInteractionFailedForMyFakePlayerEvent_User_
+  commentId: Overload:Virial.Events.Player.PlayerInteractionFailedForMyFakePlayerEvent.User
+  isSpec: "True"
+  fullName: Virial.Events.Player.PlayerInteractionFailedForMyFakePlayerEvent.User
+  nameWithType: PlayerInteractionFailedForMyFakePlayerEvent.User
 - uid: Virial.Events.Player.PlayerKillFakePlayerEvent
   name: PlayerKillFakePlayerEvent
   href: api/Virial.Events.Player.PlayerKillFakePlayerEvent.html
@@ -12644,6 +12839,19 @@ references:
   commentId: T:Virial.Game.IPlayerlike
   fullName: Virial.Game.IPlayerlike
   nameWithType: IPlayerlike
+- uid: Virial.Game.IPlayerlike.AllOwningFakePlayers
+  name: AllOwningFakePlayers
+  href: api/Virial.Game.IPlayerlike.html#Virial_Game_IPlayerlike_AllOwningFakePlayers
+  commentId: P:Virial.Game.IPlayerlike.AllOwningFakePlayers
+  fullName: Virial.Game.IPlayerlike.AllOwningFakePlayers
+  nameWithType: IPlayerlike.AllOwningFakePlayers
+- uid: Virial.Game.IPlayerlike.AllOwningFakePlayers*
+  name: AllOwningFakePlayers
+  href: api/Virial.Game.IPlayerlike.html#Virial_Game_IPlayerlike_AllOwningFakePlayers_
+  commentId: Overload:Virial.Game.IPlayerlike.AllOwningFakePlayers
+  isSpec: "True"
+  fullName: Virial.Game.IPlayerlike.AllOwningFakePlayers
+  nameWithType: IPlayerlike.AllOwningFakePlayers
 - uid: Virial.Game.IPlayerlike.AllPlayerlikes
   name: AllPlayerlikes
   href: api/Virial.Game.IPlayerlike.html#Virial_Game_IPlayerlike_AllPlayerlikes
@@ -12696,6 +12904,19 @@ references:
   isSpec: "True"
   fullName: Virial.Game.IPlayerlike.CanBeTarget
   nameWithType: IPlayerlike.CanBeTarget
+- uid: Virial.Game.IPlayerlike.CurrentOutfit
+  name: CurrentOutfit
+  href: api/Virial.Game.IPlayerlike.html#Virial_Game_IPlayerlike_CurrentOutfit
+  commentId: P:Virial.Game.IPlayerlike.CurrentOutfit
+  fullName: Virial.Game.IPlayerlike.CurrentOutfit
+  nameWithType: IPlayerlike.CurrentOutfit
+- uid: Virial.Game.IPlayerlike.CurrentOutfit*
+  name: CurrentOutfit
+  href: api/Virial.Game.IPlayerlike.html#Virial_Game_IPlayerlike_CurrentOutfit_
+  commentId: Overload:Virial.Game.IPlayerlike.CurrentOutfit
+  isSpec: "True"
+  fullName: Virial.Game.IPlayerlike.CurrentOutfit
+  nameWithType: IPlayerlike.CurrentOutfit
 - uid: Virial.Game.IPlayerlike.GetPlayer(System.Int32)
   name: GetPlayer(int)
   href: api/Virial.Game.IPlayerlike.html#Virial_Game_IPlayerlike_GetPlayer_System_Int32_
@@ -12725,6 +12946,19 @@ references:
   isSpec: "True"
   fullName: Virial.Game.IPlayerlike.IsActive
   nameWithType: IPlayerlike.IsActive
+- uid: Virial.Game.IPlayerlike.IsBlown
+  name: IsBlown
+  href: api/Virial.Game.IPlayerlike.html#Virial_Game_IPlayerlike_IsBlown
+  commentId: P:Virial.Game.IPlayerlike.IsBlown
+  fullName: Virial.Game.IPlayerlike.IsBlown
+  nameWithType: IPlayerlike.IsBlown
+- uid: Virial.Game.IPlayerlike.IsBlown*
+  name: IsBlown
+  href: api/Virial.Game.IPlayerlike.html#Virial_Game_IPlayerlike_IsBlown_
+  commentId: Overload:Virial.Game.IPlayerlike.IsBlown
+  isSpec: "True"
+  fullName: Virial.Game.IPlayerlike.IsBlown
+  nameWithType: IPlayerlike.IsBlown
 - uid: Virial.Game.IPlayerlike.IsDead
   name: IsDead
   href: api/Virial.Game.IPlayerlike.html#Virial_Game_IPlayerlike_IsDead
@@ -12738,6 +12972,45 @@ references:
   isSpec: "True"
   fullName: Virial.Game.IPlayerlike.IsDead
   nameWithType: IPlayerlike.IsDead
+- uid: Virial.Game.IPlayerlike.IsDived
+  name: IsDived
+  href: api/Virial.Game.IPlayerlike.html#Virial_Game_IPlayerlike_IsDived
+  commentId: P:Virial.Game.IPlayerlike.IsDived
+  fullName: Virial.Game.IPlayerlike.IsDived
+  nameWithType: IPlayerlike.IsDived
+- uid: Virial.Game.IPlayerlike.IsDived*
+  name: IsDived
+  href: api/Virial.Game.IPlayerlike.html#Virial_Game_IPlayerlike_IsDived_
+  commentId: Overload:Virial.Game.IPlayerlike.IsDived
+  isSpec: "True"
+  fullName: Virial.Game.IPlayerlike.IsDived
+  nameWithType: IPlayerlike.IsDived
+- uid: Virial.Game.IPlayerlike.IsInvisible
+  name: IsInvisible
+  href: api/Virial.Game.IPlayerlike.html#Virial_Game_IPlayerlike_IsInvisible
+  commentId: P:Virial.Game.IPlayerlike.IsInvisible
+  fullName: Virial.Game.IPlayerlike.IsInvisible
+  nameWithType: IPlayerlike.IsInvisible
+- uid: Virial.Game.IPlayerlike.IsInvisible*
+  name: IsInvisible
+  href: api/Virial.Game.IPlayerlike.html#Virial_Game_IPlayerlike_IsInvisible_
+  commentId: Overload:Virial.Game.IPlayerlike.IsInvisible
+  isSpec: "True"
+  fullName: Virial.Game.IPlayerlike.IsInvisible
+  nameWithType: IPlayerlike.IsInvisible
+- uid: Virial.Game.IPlayerlike.IsTeleporting
+  name: IsTeleporting
+  href: api/Virial.Game.IPlayerlike.html#Virial_Game_IPlayerlike_IsTeleporting
+  commentId: P:Virial.Game.IPlayerlike.IsTeleporting
+  fullName: Virial.Game.IPlayerlike.IsTeleporting
+  nameWithType: IPlayerlike.IsTeleporting
+- uid: Virial.Game.IPlayerlike.IsTeleporting*
+  name: IsTeleporting
+  href: api/Virial.Game.IPlayerlike.html#Virial_Game_IPlayerlike_IsTeleporting_
+  commentId: Overload:Virial.Game.IPlayerlike.IsTeleporting
+  isSpec: "True"
+  fullName: Virial.Game.IPlayerlike.IsTeleporting
+  nameWithType: IPlayerlike.IsTeleporting
 - uid: Virial.Game.IPlayerlike.KillCharacteristics
   name: KillCharacteristics
   href: api/Virial.Game.IPlayerlike.html#Virial_Game_IPlayerlike_KillCharacteristics
@@ -12803,6 +13076,19 @@ references:
   isSpec: "True"
   fullName: Virial.Game.IPlayerlike.TruePosition
   nameWithType: IPlayerlike.TruePosition
+- uid: Virial.Game.IPlayerlike.WillDie
+  name: WillDie
+  href: api/Virial.Game.IPlayerlike.html#Virial_Game_IPlayerlike_WillDie
+  commentId: P:Virial.Game.IPlayerlike.WillDie
+  fullName: Virial.Game.IPlayerlike.WillDie
+  nameWithType: IPlayerlike.WillDie
+- uid: Virial.Game.IPlayerlike.WillDie*
+  name: WillDie
+  href: api/Virial.Game.IPlayerlike.html#Virial_Game_IPlayerlike_WillDie_
+  commentId: Overload:Virial.Game.IPlayerlike.WillDie
+  isSpec: "True"
+  fullName: Virial.Game.IPlayerlike.WillDie
+  nameWithType: IPlayerlike.WillDie
 - uid: Virial.Game.IUsurpableAbility
   name: IUsurpableAbility
   href: api/Virial.Game.IUsurpableAbility.html
@@ -12913,18 +13199,18 @@ references:
   commentId: F:Virial.Game.KillCharacteristics.FlagLeftRealDeadBody
   fullName: Virial.Game.KillCharacteristics.FlagLeftRealDeadBody
   nameWithType: KillCharacteristics.FlagLeftRealDeadBody
+- uid: Virial.Game.KillCharacteristics.KillAllAndLeaveBodyAll
+  name: KillAllAndLeaveBodyAll
+  href: api/Virial.Game.KillCharacteristics.html#Virial_Game_KillCharacteristics_KillAllAndLeaveBodyAll
+  commentId: F:Virial.Game.KillCharacteristics.KillAllAndLeaveBodyAll
+  fullName: Virial.Game.KillCharacteristics.KillAllAndLeaveBodyAll
+  nameWithType: KillCharacteristics.KillAllAndLeaveBodyAll
 - uid: Virial.Game.KillCharacteristics.KillAllAndLeaveBodyOne
   name: KillAllAndLeaveBodyOne
   href: api/Virial.Game.KillCharacteristics.html#Virial_Game_KillCharacteristics_KillAllAndLeaveBodyOne
   commentId: F:Virial.Game.KillCharacteristics.KillAllAndLeaveBodyOne
   fullName: Virial.Game.KillCharacteristics.KillAllAndLeaveBodyOne
   nameWithType: KillCharacteristics.KillAllAndLeaveBodyOne
-- uid: Virial.Game.KillCharacteristics.KillAndLeaveBodyAll
-  name: KillAndLeaveBodyAll
-  href: api/Virial.Game.KillCharacteristics.html#Virial_Game_KillCharacteristics_KillAndLeaveBodyAll
-  commentId: F:Virial.Game.KillCharacteristics.KillAndLeaveBodyAll
-  fullName: Virial.Game.KillCharacteristics.KillAndLeaveBodyAll
-  nameWithType: KillCharacteristics.KillAndLeaveBodyAll
 - uid: Virial.Game.KillCharacteristics.KillOne
   name: KillOne
   href: api/Virial.Game.KillCharacteristics.html#Virial_Game_KillCharacteristics_KillOne
@@ -13440,6 +13726,60 @@ references:
   isSpec: "True"
   fullName: Virial.Game.OutfitDefinition.VisorArgument
   nameWithType: OutfitDefinition.VisorArgument
+- uid: Virial.Game.OutfitPriority
+  name: OutfitPriority
+  href: api/Virial.Game.OutfitPriority.html
+  commentId: T:Virial.Game.OutfitPriority
+  fullName: Virial.Game.OutfitPriority
+  nameWithType: OutfitPriority
+- uid: Virial.Game.OutfitPriority.Camouflage
+  name: Camouflage
+  href: api/Virial.Game.OutfitPriority.html#Virial_Game_OutfitPriority_Camouflage
+  commentId: F:Virial.Game.OutfitPriority.Camouflage
+  fullName: Virial.Game.OutfitPriority.Camouflage
+  nameWithType: OutfitPriority.Camouflage
+- uid: Virial.Game.OutfitPriority.Confused
+  name: Confused
+  href: api/Virial.Game.OutfitPriority.html#Virial_Game_OutfitPriority_Confused
+  commentId: F:Virial.Game.OutfitPriority.Confused
+  fullName: Virial.Game.OutfitPriority.Confused
+  nameWithType: OutfitPriority.Confused
+- uid: Virial.Game.OutfitPriority.Default
+  name: Default
+  href: api/Virial.Game.OutfitPriority.html#Virial_Game_OutfitPriority_Default
+  commentId: F:Virial.Game.OutfitPriority.Default
+  fullName: Virial.Game.OutfitPriority.Default
+  nameWithType: OutfitPriority.Default
+- uid: Virial.Game.OutfitPriority.FakeSpecialOutfit
+  name: FakeSpecialOutfit
+  href: api/Virial.Game.OutfitPriority.html#Virial_Game_OutfitPriority_FakeSpecialOutfit
+  commentId: F:Virial.Game.OutfitPriority.FakeSpecialOutfit
+  fullName: Virial.Game.OutfitPriority.FakeSpecialOutfit
+  nameWithType: OutfitPriority.FakeSpecialOutfit
+- uid: Virial.Game.OutfitPriority.Morph
+  name: Morph
+  href: api/Virial.Game.OutfitPriority.html#Virial_Game_OutfitPriority_Morph
+  commentId: F:Virial.Game.OutfitPriority.Morph
+  fullName: Virial.Game.OutfitPriority.Morph
+  nameWithType: OutfitPriority.Morph
+- uid: Virial.Game.OutfitPriority.OriginalThrethold
+  name: OriginalThrethold
+  href: api/Virial.Game.OutfitPriority.html#Virial_Game_OutfitPriority_OriginalThrethold
+  commentId: F:Virial.Game.OutfitPriority.OriginalThrethold
+  fullName: Virial.Game.OutfitPriority.OriginalThrethold
+  nameWithType: OutfitPriority.OriginalThrethold
+- uid: Virial.Game.OutfitPriority.Paint
+  name: Paint
+  href: api/Virial.Game.OutfitPriority.html#Virial_Game_OutfitPriority_Paint
+  commentId: F:Virial.Game.OutfitPriority.Paint
+  fullName: Virial.Game.OutfitPriority.Paint
+  nameWithType: OutfitPriority.Paint
+- uid: Virial.Game.OutfitPriority.TransformedThrethold
+  name: TransformedThrethold
+  href: api/Virial.Game.OutfitPriority.html#Virial_Game_OutfitPriority_TransformedThrethold
+  commentId: F:Virial.Game.OutfitPriority.TransformedThrethold
+  fullName: Virial.Game.OutfitPriority.TransformedThrethold
+  nameWithType: OutfitPriority.TransformedThrethold
 - uid: Virial.Game.OutfitTag
   name: OutfitTag
   href: api/Virial.Game.OutfitTag.html
@@ -13666,19 +14006,6 @@ references:
   isSpec: "True"
   fullName: Virial.Game.Player.CurrentDiving
   nameWithType: Player.CurrentDiving
-- uid: Virial.Game.Player.CurrentOutfit
-  name: CurrentOutfit
-  href: api/Virial.Game.Player.html#Virial_Game_Player_CurrentOutfit
-  commentId: P:Virial.Game.Player.CurrentOutfit
-  fullName: Virial.Game.Player.CurrentOutfit
-  nameWithType: Player.CurrentOutfit
-- uid: Virial.Game.Player.CurrentOutfit*
-  name: CurrentOutfit
-  href: api/Virial.Game.Player.html#Virial_Game_Player_CurrentOutfit_
-  commentId: Overload:Virial.Game.Player.CurrentOutfit
-  isSpec: "True"
-  fullName: Virial.Game.Player.CurrentOutfit
-  nameWithType: Player.CurrentOutfit
 - uid: Virial.Game.Player.DeathTime
   name: DeathTime
   href: api/Virial.Game.Player.html#Virial_Game_Player_DeathTime
@@ -13864,6 +14191,15 @@ references:
   fullName.vb: Virial.Game.Player.GetOutfit(Integer)
   nameWithType: Player.GetOutfit(int)
   nameWithType.vb: Player.GetOutfit(Integer)
+- uid: Virial.Game.Player.GetOutfit(System.Nullable{System.Int32},System.Int32)
+  name: GetOutfit(int?, int)
+  href: api/Virial.Game.Player.html#Virial_Game_Player_GetOutfit_System_Nullable_System_Int32__System_Int32_
+  commentId: M:Virial.Game.Player.GetOutfit(System.Nullable{System.Int32},System.Int32)
+  name.vb: GetOutfit(Integer?, Integer)
+  fullName: Virial.Game.Player.GetOutfit(int?, int)
+  fullName.vb: Virial.Game.Player.GetOutfit(Integer?, Integer)
+  nameWithType: Player.GetOutfit(int?, int)
+  nameWithType.vb: Player.GetOutfit(Integer?, Integer)
 - uid: Virial.Game.Player.GetOutfit*
   name: GetOutfit
   href: api/Virial.Game.Player.html#Virial_Game_Player_GetOutfit_
@@ -13997,19 +14333,6 @@ references:
   isSpec: "True"
   fullName: Virial.Game.Player.HoldingPlayer
   nameWithType: Player.HoldingPlayer
-- uid: Virial.Game.Player.IsBlown
-  name: IsBlown
-  href: api/Virial.Game.Player.html#Virial_Game_Player_IsBlown
-  commentId: P:Virial.Game.Player.IsBlown
-  fullName: Virial.Game.Player.IsBlown
-  nameWithType: Player.IsBlown
-- uid: Virial.Game.Player.IsBlown*
-  name: IsBlown
-  href: api/Virial.Game.Player.html#Virial_Game_Player_IsBlown_
-  commentId: Overload:Virial.Game.Player.IsBlown
-  isSpec: "True"
-  fullName: Virial.Game.Player.IsBlown
-  nameWithType: Player.IsBlown
 - uid: Virial.Game.Player.IsCrewmate
   name: IsCrewmate
   href: api/Virial.Game.Player.html#Virial_Game_Player_IsCrewmate
@@ -14036,19 +14359,6 @@ references:
   isSpec: "True"
   fullName: Virial.Game.Player.IsDisconnected
   nameWithType: Player.IsDisconnected
-- uid: Virial.Game.Player.IsDived
-  name: IsDived
-  href: api/Virial.Game.Player.html#Virial_Game_Player_IsDived
-  commentId: P:Virial.Game.Player.IsDived
-  fullName: Virial.Game.Player.IsDived
-  nameWithType: Player.IsDived
-- uid: Virial.Game.Player.IsDived*
-  name: IsDived
-  href: api/Virial.Game.Player.html#Virial_Game_Player_IsDived_
-  commentId: Overload:Virial.Game.Player.IsDived
-  isSpec: "True"
-  fullName: Virial.Game.Player.IsDived
-  nameWithType: Player.IsDived
 - uid: Virial.Game.Player.IsImpostor
   name: IsImpostor
   href: api/Virial.Game.Player.html#Virial_Game_Player_IsImpostor
@@ -14062,19 +14372,6 @@ references:
   isSpec: "True"
   fullName: Virial.Game.Player.IsImpostor
   nameWithType: Player.IsImpostor
-- uid: Virial.Game.Player.IsInvisible
-  name: IsInvisible
-  href: api/Virial.Game.Player.html#Virial_Game_Player_IsInvisible
-  commentId: P:Virial.Game.Player.IsInvisible
-  fullName: Virial.Game.Player.IsInvisible
-  nameWithType: Player.IsInvisible
-- uid: Virial.Game.Player.IsInvisible*
-  name: IsInvisible
-  href: api/Virial.Game.Player.html#Virial_Game_Player_IsInvisible_
-  commentId: Overload:Virial.Game.Player.IsInvisible
-  isSpec: "True"
-  fullName: Virial.Game.Player.IsInvisible
-  nameWithType: Player.IsInvisible
 - uid: Virial.Game.Player.IsMadmate
   name: IsMadmate
   href: api/Virial.Game.Player.html#Virial_Game_Player_IsMadmate
@@ -14088,19 +14385,6 @@ references:
   isSpec: "True"
   fullName: Virial.Game.Player.IsMadmate
   nameWithType: Player.IsMadmate
-- uid: Virial.Game.Player.IsTeleporting
-  name: IsTeleporting
-  href: api/Virial.Game.Player.html#Virial_Game_Player_IsTeleporting
-  commentId: P:Virial.Game.Player.IsTeleporting
-  fullName: Virial.Game.Player.IsTeleporting
-  nameWithType: Player.IsTeleporting
-- uid: Virial.Game.Player.IsTeleporting*
-  name: IsTeleporting
-  href: api/Virial.Game.Player.html#Virial_Game_Player_IsTeleporting_
-  commentId: Overload:Virial.Game.Player.IsTeleporting
-  isSpec: "True"
-  fullName: Virial.Game.Player.IsTeleporting
-  nameWithType: Player.IsTeleporting
 - uid: Virial.Game.Player.IsTrueCrewmate
   name: IsTrueCrewmate
   href: api/Virial.Game.Player.html#Virial_Game_Player_IsTrueCrewmate
@@ -14404,19 +14688,6 @@ references:
   fullName.vb: Virial.Game.Player.TryGetModifier(Of Modifier)(Modifier)
   nameWithType: Player.TryGetModifier<Modifier>(out Modifier)
   nameWithType.vb: Player.TryGetModifier(Of Modifier)(Modifier)
-- uid: Virial.Game.Player.WillDie
-  name: WillDie
-  href: api/Virial.Game.Player.html#Virial_Game_Player_WillDie
-  commentId: P:Virial.Game.Player.WillDie
-  fullName: Virial.Game.Player.WillDie
-  nameWithType: Player.WillDie
-- uid: Virial.Game.Player.WillDie*
-  name: WillDie
-  href: api/Virial.Game.Player.html#Virial_Game_Player_WillDie_
-  commentId: Overload:Virial.Game.Player.WillDie
-  isSpec: "True"
-  fullName: Virial.Game.Player.WillDie
-  nameWithType: Player.WillDie
 - uid: Virial.Game.PlayerAttributes
   name: PlayerAttributes
   href: api/Virial.Game.PlayerAttributes.html
@@ -15177,6 +15448,24 @@ references:
   fullName.vb: Virial.IModuleFactory.InteractButton(Of P)(Virial.ILifespan, Virial.Game.Player, Virial.Components.ObjectTracker(Of P), Virial.Compat.VirtualKeyInput, String, Single, String, Virial.Media.Image, System.Action(Of P, Virial.Components.ModAbilityButton), System.Func(Of Virial.Components.ModAbilityButton, Boolean), System.Func(Of Virial.Components.ModAbilityButton, Boolean), Boolean)
   nameWithType: IModuleFactory.InteractButton<P>(ILifespan, Player, ObjectTracker<P>, VirtualKeyInput, string?, float, string, Image, Action<P, ModAbilityButton>, Func<ModAbilityButton, bool>?, Func<ModAbilityButton, bool>?, bool)
   nameWithType.vb: IModuleFactory.InteractButton(Of P)(ILifespan, Player, ObjectTracker(Of P), VirtualKeyInput, String, Single, String, Image, Action(Of P, ModAbilityButton), Func(Of ModAbilityButton, Boolean), Func(Of ModAbilityButton, Boolean), Boolean)
+- uid: Virial.IModuleFactory.InteractButton``1(Virial.ILifespan,Virial.Game.Player,Virial.Components.ObjectTracker{``0},Virial.Events.Player.PlayerInteractParameter,System.Boolean,System.Boolean,Virial.Compat.VirtualKeyInput,System.String,System.Single,System.String,Virial.Media.Image,System.Action{``0,Virial.Components.ModAbilityButton},System.Func{Virial.Components.ModAbilityButton,System.Boolean},System.Func{Virial.Components.ModAbilityButton,System.Boolean},System.Boolean)
+  name: InteractButton<P>(ILifespan, Player, ObjectTracker<P>, PlayerInteractParameter, bool, bool, VirtualKeyInput, string?, float, string, Image, Action<P, ModAbilityButton>, Func<ModAbilityButton, bool>?, Func<ModAbilityButton, bool>?, bool)
+  href: api/Virial.IModuleFactory.html#Virial_IModuleFactory_InteractButton__1_Virial_ILifespan_Virial_Game_Player_Virial_Components_ObjectTracker___0__Virial_Events_Player_PlayerInteractParameter_System_Boolean_System_Boolean_Virial_Compat_VirtualKeyInput_System_String_System_Single_System_String_Virial_Media_Image_System_Action___0_Virial_Components_ModAbilityButton__System_Func_Virial_Components_ModAbilityButton_System_Boolean__System_Func_Virial_Components_ModAbilityButton_System_Boolean__System_Boolean_
+  commentId: M:Virial.IModuleFactory.InteractButton``1(Virial.ILifespan,Virial.Game.Player,Virial.Components.ObjectTracker{``0},Virial.Events.Player.PlayerInteractParameter,System.Boolean,System.Boolean,Virial.Compat.VirtualKeyInput,System.String,System.Single,System.String,Virial.Media.Image,System.Action{``0,Virial.Components.ModAbilityButton},System.Func{Virial.Components.ModAbilityButton,System.Boolean},System.Func{Virial.Components.ModAbilityButton,System.Boolean},System.Boolean)
+  name.vb: InteractButton(Of P)(ILifespan, Player, ObjectTracker(Of P), PlayerInteractParameter, Boolean, Boolean, VirtualKeyInput, String, Single, String, Image, Action(Of P, ModAbilityButton), Func(Of ModAbilityButton, Boolean), Func(Of ModAbilityButton, Boolean), Boolean)
+  fullName: Virial.IModuleFactory.InteractButton<P>(Virial.ILifespan, Virial.Game.Player, Virial.Components.ObjectTracker<P>, Virial.Events.Player.PlayerInteractParameter, bool, bool, Virial.Compat.VirtualKeyInput, string?, float, string, Virial.Media.Image, System.Action<P, Virial.Components.ModAbilityButton>, System.Func<Virial.Components.ModAbilityButton, bool>?, System.Func<Virial.Components.ModAbilityButton, bool>?, bool)
+  fullName.vb: Virial.IModuleFactory.InteractButton(Of P)(Virial.ILifespan, Virial.Game.Player, Virial.Components.ObjectTracker(Of P), Virial.Events.Player.PlayerInteractParameter, Boolean, Boolean, Virial.Compat.VirtualKeyInput, String, Single, String, Virial.Media.Image, System.Action(Of P, Virial.Components.ModAbilityButton), System.Func(Of Virial.Components.ModAbilityButton, Boolean), System.Func(Of Virial.Components.ModAbilityButton, Boolean), Boolean)
+  nameWithType: IModuleFactory.InteractButton<P>(ILifespan, Player, ObjectTracker<P>, PlayerInteractParameter, bool, bool, VirtualKeyInput, string?, float, string, Image, Action<P, ModAbilityButton>, Func<ModAbilityButton, bool>?, Func<ModAbilityButton, bool>?, bool)
+  nameWithType.vb: IModuleFactory.InteractButton(Of P)(ILifespan, Player, ObjectTracker(Of P), PlayerInteractParameter, Boolean, Boolean, VirtualKeyInput, String, Single, String, Image, Action(Of P, ModAbilityButton), Func(Of ModAbilityButton, Boolean), Func(Of ModAbilityButton, Boolean), Boolean)
+- uid: Virial.IModuleFactory.InteractButton``1(Virial.ILifespan,Virial.Game.Player,Virial.Components.ObjectTracker{``0},Virial.Events.Player.PlayerInteractParameter,Virial.Compat.VirtualKeyInput,System.String,System.Single,System.String,Virial.Media.Image,System.Action{``0,Virial.Components.ModAbilityButton},System.Func{Virial.Components.ModAbilityButton,System.Boolean},System.Func{Virial.Components.ModAbilityButton,System.Boolean},System.Boolean)
+  name: InteractButton<P>(ILifespan, Player, ObjectTracker<P>, PlayerInteractParameter, VirtualKeyInput, string?, float, string, Image, Action<P, ModAbilityButton>, Func<ModAbilityButton, bool>?, Func<ModAbilityButton, bool>?, bool)
+  href: api/Virial.IModuleFactory.html#Virial_IModuleFactory_InteractButton__1_Virial_ILifespan_Virial_Game_Player_Virial_Components_ObjectTracker___0__Virial_Events_Player_PlayerInteractParameter_Virial_Compat_VirtualKeyInput_System_String_System_Single_System_String_Virial_Media_Image_System_Action___0_Virial_Components_ModAbilityButton__System_Func_Virial_Components_ModAbilityButton_System_Boolean__System_Func_Virial_Components_ModAbilityButton_System_Boolean__System_Boolean_
+  commentId: M:Virial.IModuleFactory.InteractButton``1(Virial.ILifespan,Virial.Game.Player,Virial.Components.ObjectTracker{``0},Virial.Events.Player.PlayerInteractParameter,Virial.Compat.VirtualKeyInput,System.String,System.Single,System.String,Virial.Media.Image,System.Action{``0,Virial.Components.ModAbilityButton},System.Func{Virial.Components.ModAbilityButton,System.Boolean},System.Func{Virial.Components.ModAbilityButton,System.Boolean},System.Boolean)
+  name.vb: InteractButton(Of P)(ILifespan, Player, ObjectTracker(Of P), PlayerInteractParameter, VirtualKeyInput, String, Single, String, Image, Action(Of P, ModAbilityButton), Func(Of ModAbilityButton, Boolean), Func(Of ModAbilityButton, Boolean), Boolean)
+  fullName: Virial.IModuleFactory.InteractButton<P>(Virial.ILifespan, Virial.Game.Player, Virial.Components.ObjectTracker<P>, Virial.Events.Player.PlayerInteractParameter, Virial.Compat.VirtualKeyInput, string?, float, string, Virial.Media.Image, System.Action<P, Virial.Components.ModAbilityButton>, System.Func<Virial.Components.ModAbilityButton, bool>?, System.Func<Virial.Components.ModAbilityButton, bool>?, bool)
+  fullName.vb: Virial.IModuleFactory.InteractButton(Of P)(Virial.ILifespan, Virial.Game.Player, Virial.Components.ObjectTracker(Of P), Virial.Events.Player.PlayerInteractParameter, Virial.Compat.VirtualKeyInput, String, Single, String, Virial.Media.Image, System.Action(Of P, Virial.Components.ModAbilityButton), System.Func(Of Virial.Components.ModAbilityButton, Boolean), System.Func(Of Virial.Components.ModAbilityButton, Boolean), Boolean)
+  nameWithType: IModuleFactory.InteractButton<P>(ILifespan, Player, ObjectTracker<P>, PlayerInteractParameter, VirtualKeyInput, string?, float, string, Image, Action<P, ModAbilityButton>, Func<ModAbilityButton, bool>?, Func<ModAbilityButton, bool>?, bool)
+  nameWithType.vb: IModuleFactory.InteractButton(Of P)(ILifespan, Player, ObjectTracker(Of P), PlayerInteractParameter, VirtualKeyInput, String, Single, String, Image, Action(Of P, ModAbilityButton), Func(Of ModAbilityButton, Boolean), Func(Of ModAbilityButton, Boolean), Boolean)
 - uid: Virial.IModuleFactory.KillButton(Virial.ILifespan,Virial.Game.Player,System.Boolean,Virial.Compat.VirtualKeyInput,System.Single,System.String,Virial.Components.ModAbilityButton.LabelType,Virial.Media.Image,System.Action{Virial.Game.Player,Virial.Components.ModAbilityButton},System.Func{Virial.Game.Player,System.Boolean},System.Func{Virial.Components.ModAbilityButton,System.Boolean},System.Func{Virial.Components.ModAbilityButton,System.Boolean})
   name: KillButton(ILifespan, Player, bool, VirtualKeyInput, float, string, LabelType, Image?, Action<Player, ModAbilityButton>, Func<Player, bool>?, Func<ModAbilityButton, bool>?, Func<ModAbilityButton, bool>?)
   href: api/Virial.IModuleFactory.html#Virial_IModuleFactory_KillButton_Virial_ILifespan_Virial_Game_Player_System_Boolean_Virial_Compat_VirtualKeyInput_System_Single_System_String_Virial_Components_ModAbilityButton_LabelType_Virial_Media_Image_System_Action_Virial_Game_Player_Virial_Components_ModAbilityButton__System_Func_Virial_Game_Player_System_Boolean__System_Func_Virial_Components_ModAbilityButton_System_Boolean__System_Func_Virial_Components_ModAbilityButton_System_Boolean__
@@ -15195,6 +15484,15 @@ references:
   fullName.vb: Virial.IModuleFactory.KillButton(Virial.ILifespan, Virial.Game.Player, Boolean, Virial.Compat.VirtualKeyInput, String, Single, String, Virial.Components.ModAbilityButton.LabelType, Virial.Media.Image, System.Action(Of Virial.Game.Player, Virial.Components.ModAbilityButton), System.Func(Of Virial.Game.Player, Boolean), System.Func(Of Virial.Components.ModAbilityButton, Boolean), System.Func(Of Virial.Components.ModAbilityButton, Boolean), System.Func(Of Virial.Game.Player, Boolean))
   nameWithType: IModuleFactory.KillButton(ILifespan, Player, bool, VirtualKeyInput, string?, float, string, ModAbilityButton.LabelType, Image?, Action<Player, ModAbilityButton>, Func<Player, bool>?, Func<ModAbilityButton, bool>?, Func<ModAbilityButton, bool>?, Func<Player, bool>?)
   nameWithType.vb: IModuleFactory.KillButton(ILifespan, Player, Boolean, VirtualKeyInput, String, Single, String, ModAbilityButton.LabelType, Image, Action(Of Player, ModAbilityButton), Func(Of Player, Boolean), Func(Of ModAbilityButton, Boolean), Func(Of ModAbilityButton, Boolean), Func(Of Player, Boolean))
+- uid: Virial.IModuleFactory.KillButton(Virial.ILifespan,Virial.Game.Player,Virial.Events.Player.PlayerInteractParameter,System.Boolean,Virial.Compat.VirtualKeyInput,System.String,System.Single,System.String,Virial.Components.ModAbilityButton.LabelType,Virial.Media.Image,System.Action{Virial.Game.Player,Virial.Components.ModAbilityButton},System.Func{Virial.Game.Player,System.Boolean},System.Func{Virial.Components.ModAbilityButton,System.Boolean},System.Func{Virial.Components.ModAbilityButton,System.Boolean},System.Func{Virial.Game.Player,System.Boolean})
+  name: KillButton(ILifespan, Player, PlayerInteractParameter, bool, VirtualKeyInput, string?, float, string, LabelType, Image?, Action<Player, ModAbilityButton>, Func<Player, bool>?, Func<ModAbilityButton, bool>?, Func<ModAbilityButton, bool>?, Func<Player, bool>?)
+  href: api/Virial.IModuleFactory.html#Virial_IModuleFactory_KillButton_Virial_ILifespan_Virial_Game_Player_Virial_Events_Player_PlayerInteractParameter_System_Boolean_Virial_Compat_VirtualKeyInput_System_String_System_Single_System_String_Virial_Components_ModAbilityButton_LabelType_Virial_Media_Image_System_Action_Virial_Game_Player_Virial_Components_ModAbilityButton__System_Func_Virial_Game_Player_System_Boolean__System_Func_Virial_Components_ModAbilityButton_System_Boolean__System_Func_Virial_Components_ModAbilityButton_System_Boolean__System_Func_Virial_Game_Player_System_Boolean__
+  commentId: M:Virial.IModuleFactory.KillButton(Virial.ILifespan,Virial.Game.Player,Virial.Events.Player.PlayerInteractParameter,System.Boolean,Virial.Compat.VirtualKeyInput,System.String,System.Single,System.String,Virial.Components.ModAbilityButton.LabelType,Virial.Media.Image,System.Action{Virial.Game.Player,Virial.Components.ModAbilityButton},System.Func{Virial.Game.Player,System.Boolean},System.Func{Virial.Components.ModAbilityButton,System.Boolean},System.Func{Virial.Components.ModAbilityButton,System.Boolean},System.Func{Virial.Game.Player,System.Boolean})
+  name.vb: KillButton(ILifespan, Player, PlayerInteractParameter, Boolean, VirtualKeyInput, String, Single, String, LabelType, Image, Action(Of Player, ModAbilityButton), Func(Of Player, Boolean), Func(Of ModAbilityButton, Boolean), Func(Of ModAbilityButton, Boolean), Func(Of Player, Boolean))
+  fullName: Virial.IModuleFactory.KillButton(Virial.ILifespan, Virial.Game.Player, Virial.Events.Player.PlayerInteractParameter, bool, Virial.Compat.VirtualKeyInput, string?, float, string, Virial.Components.ModAbilityButton.LabelType, Virial.Media.Image?, System.Action<Virial.Game.Player, Virial.Components.ModAbilityButton>, System.Func<Virial.Game.Player, bool>?, System.Func<Virial.Components.ModAbilityButton, bool>?, System.Func<Virial.Components.ModAbilityButton, bool>?, System.Func<Virial.Game.Player, bool>?)
+  fullName.vb: Virial.IModuleFactory.KillButton(Virial.ILifespan, Virial.Game.Player, Virial.Events.Player.PlayerInteractParameter, Boolean, Virial.Compat.VirtualKeyInput, String, Single, String, Virial.Components.ModAbilityButton.LabelType, Virial.Media.Image, System.Action(Of Virial.Game.Player, Virial.Components.ModAbilityButton), System.Func(Of Virial.Game.Player, Boolean), System.Func(Of Virial.Components.ModAbilityButton, Boolean), System.Func(Of Virial.Components.ModAbilityButton, Boolean), System.Func(Of Virial.Game.Player, Boolean))
+  nameWithType: IModuleFactory.KillButton(ILifespan, Player, PlayerInteractParameter, bool, VirtualKeyInput, string?, float, string, ModAbilityButton.LabelType, Image?, Action<Player, ModAbilityButton>, Func<Player, bool>?, Func<ModAbilityButton, bool>?, Func<ModAbilityButton, bool>?, Func<Player, bool>?)
+  nameWithType.vb: IModuleFactory.KillButton(ILifespan, Player, PlayerInteractParameter, Boolean, VirtualKeyInput, String, Single, String, ModAbilityButton.LabelType, Image, Action(Of Player, ModAbilityButton), Func(Of Player, Boolean), Func(Of ModAbilityButton, Boolean), Func(Of ModAbilityButton, Boolean), Func(Of Player, Boolean))
 - uid: Virial.IModuleFactory.KillButton*
   name: KillButton
   href: api/Virial.IModuleFactory.html#Virial_IModuleFactory_KillButton_
@@ -15243,6 +15541,15 @@ references:
   fullName.vb: Virial.IModuleFactory.PlayerlikeKillButton(Virial.ILifespan, Virial.Game.Player, Boolean, Virial.Compat.VirtualKeyInput, String, Single, String, Virial.Components.ModAbilityButton.LabelType, Virial.Media.Image, System.Action(Of Virial.Game.IPlayerlike, Virial.Components.ModAbilityButton), System.Func(Of Virial.Game.IPlayerlike, Boolean), System.Func(Of Virial.Components.ModAbilityButton, Boolean), System.Func(Of Virial.Components.ModAbilityButton, Boolean), System.Func(Of Virial.Game.IPlayerlike, Boolean))
   nameWithType: IModuleFactory.PlayerlikeKillButton(ILifespan, Player, bool, VirtualKeyInput, string?, float, string, ModAbilityButton.LabelType, Image?, Action<IPlayerlike, ModAbilityButton>, Func<IPlayerlike, bool>?, Func<ModAbilityButton, bool>?, Func<ModAbilityButton, bool>?, Func<IPlayerlike, bool>?)
   nameWithType.vb: IModuleFactory.PlayerlikeKillButton(ILifespan, Player, Boolean, VirtualKeyInput, String, Single, String, ModAbilityButton.LabelType, Image, Action(Of IPlayerlike, ModAbilityButton), Func(Of IPlayerlike, Boolean), Func(Of ModAbilityButton, Boolean), Func(Of ModAbilityButton, Boolean), Func(Of IPlayerlike, Boolean))
+- uid: Virial.IModuleFactory.PlayerlikeKillButton(Virial.ILifespan,Virial.Game.Player,Virial.Events.Player.PlayerInteractParameter,System.Boolean,Virial.Compat.VirtualKeyInput,System.String,System.Single,System.String,Virial.Components.ModAbilityButton.LabelType,Virial.Media.Image,System.Action{Virial.Game.IPlayerlike,Virial.Components.ModAbilityButton},System.Func{Virial.Game.IPlayerlike,System.Boolean},System.Func{Virial.Components.ModAbilityButton,System.Boolean},System.Func{Virial.Components.ModAbilityButton,System.Boolean},System.Func{Virial.Game.IPlayerlike,System.Boolean})
+  name: PlayerlikeKillButton(ILifespan, Player, PlayerInteractParameter, bool, VirtualKeyInput, string?, float, string, LabelType, Image?, Action<IPlayerlike, ModAbilityButton>, Func<IPlayerlike, bool>?, Func<ModAbilityButton, bool>?, Func<ModAbilityButton, bool>?, Func<IPlayerlike, bool>?)
+  href: api/Virial.IModuleFactory.html#Virial_IModuleFactory_PlayerlikeKillButton_Virial_ILifespan_Virial_Game_Player_Virial_Events_Player_PlayerInteractParameter_System_Boolean_Virial_Compat_VirtualKeyInput_System_String_System_Single_System_String_Virial_Components_ModAbilityButton_LabelType_Virial_Media_Image_System_Action_Virial_Game_IPlayerlike_Virial_Components_ModAbilityButton__System_Func_Virial_Game_IPlayerlike_System_Boolean__System_Func_Virial_Components_ModAbilityButton_System_Boolean__System_Func_Virial_Components_ModAbilityButton_System_Boolean__System_Func_Virial_Game_IPlayerlike_System_Boolean__
+  commentId: M:Virial.IModuleFactory.PlayerlikeKillButton(Virial.ILifespan,Virial.Game.Player,Virial.Events.Player.PlayerInteractParameter,System.Boolean,Virial.Compat.VirtualKeyInput,System.String,System.Single,System.String,Virial.Components.ModAbilityButton.LabelType,Virial.Media.Image,System.Action{Virial.Game.IPlayerlike,Virial.Components.ModAbilityButton},System.Func{Virial.Game.IPlayerlike,System.Boolean},System.Func{Virial.Components.ModAbilityButton,System.Boolean},System.Func{Virial.Components.ModAbilityButton,System.Boolean},System.Func{Virial.Game.IPlayerlike,System.Boolean})
+  name.vb: PlayerlikeKillButton(ILifespan, Player, PlayerInteractParameter, Boolean, VirtualKeyInput, String, Single, String, LabelType, Image, Action(Of IPlayerlike, ModAbilityButton), Func(Of IPlayerlike, Boolean), Func(Of ModAbilityButton, Boolean), Func(Of ModAbilityButton, Boolean), Func(Of IPlayerlike, Boolean))
+  fullName: Virial.IModuleFactory.PlayerlikeKillButton(Virial.ILifespan, Virial.Game.Player, Virial.Events.Player.PlayerInteractParameter, bool, Virial.Compat.VirtualKeyInput, string?, float, string, Virial.Components.ModAbilityButton.LabelType, Virial.Media.Image?, System.Action<Virial.Game.IPlayerlike, Virial.Components.ModAbilityButton>, System.Func<Virial.Game.IPlayerlike, bool>?, System.Func<Virial.Components.ModAbilityButton, bool>?, System.Func<Virial.Components.ModAbilityButton, bool>?, System.Func<Virial.Game.IPlayerlike, bool>?)
+  fullName.vb: Virial.IModuleFactory.PlayerlikeKillButton(Virial.ILifespan, Virial.Game.Player, Virial.Events.Player.PlayerInteractParameter, Boolean, Virial.Compat.VirtualKeyInput, String, Single, String, Virial.Components.ModAbilityButton.LabelType, Virial.Media.Image, System.Action(Of Virial.Game.IPlayerlike, Virial.Components.ModAbilityButton), System.Func(Of Virial.Game.IPlayerlike, Boolean), System.Func(Of Virial.Components.ModAbilityButton, Boolean), System.Func(Of Virial.Components.ModAbilityButton, Boolean), System.Func(Of Virial.Game.IPlayerlike, Boolean))
+  nameWithType: IModuleFactory.PlayerlikeKillButton(ILifespan, Player, PlayerInteractParameter, bool, VirtualKeyInput, string?, float, string, ModAbilityButton.LabelType, Image?, Action<IPlayerlike, ModAbilityButton>, Func<IPlayerlike, bool>?, Func<ModAbilityButton, bool>?, Func<ModAbilityButton, bool>?, Func<IPlayerlike, bool>?)
+  nameWithType.vb: IModuleFactory.PlayerlikeKillButton(ILifespan, Player, PlayerInteractParameter, Boolean, VirtualKeyInput, String, Single, String, ModAbilityButton.LabelType, Image, Action(Of IPlayerlike, ModAbilityButton), Func(Of IPlayerlike, Boolean), Func(Of ModAbilityButton, Boolean), Func(Of ModAbilityButton, Boolean), Func(Of IPlayerlike, Boolean))
 - uid: Virial.IModuleFactory.PlayerlikeKillButton*
   name: PlayerlikeKillButton
   href: api/Virial.IModuleFactory.html#Virial_IModuleFactory_PlayerlikeKillButton_
@@ -19474,6 +19781,84 @@ references:
   isSpec: "True"
   fullName: Virial.Utilities.SerializedDataWriter.Write
   nameWithType: SerializedDataWriter.Write
+- uid: Virial.Utilities.Variable`1
+  name: Variable<T>
+  href: api/Virial.Utilities.Variable-1.html
+  commentId: T:Virial.Utilities.Variable`1
+  name.vb: Variable(Of T)
+  fullName: Virial.Utilities.Variable<T>
+  fullName.vb: Virial.Utilities.Variable(Of T)
+  nameWithType: Variable<T>
+  nameWithType.vb: Variable(Of T)
+- uid: Virial.Utilities.Variable`1.Set(`0)
+  name: Set(T)
+  href: api/Virial.Utilities.Variable-1.html#Virial_Utilities_Variable_1_Set__0_
+  commentId: M:Virial.Utilities.Variable`1.Set(`0)
+  fullName: Virial.Utilities.Variable<T>.Set(T)
+  fullName.vb: Virial.Utilities.Variable(Of T).Set(T)
+  nameWithType: Variable<T>.Set(T)
+  nameWithType.vb: Variable(Of T).Set(T)
+- uid: Virial.Utilities.Variable`1.Set*
+  name: Set
+  href: api/Virial.Utilities.Variable-1.html#Virial_Utilities_Variable_1_Set_
+  commentId: Overload:Virial.Utilities.Variable`1.Set
+  isSpec: "True"
+  fullName: Virial.Utilities.Variable<T>.Set
+  fullName.vb: Virial.Utilities.Variable(Of T).Set
+  nameWithType: Variable<T>.Set
+  nameWithType.vb: Variable(Of T).Set
+- uid: Virial.Utilities.Variable`1.Update(System.Func{`0,`0})
+  name: Update(Func<T?, T?>)
+  href: api/Virial.Utilities.Variable-1.html#Virial_Utilities_Variable_1_Update_System_Func__0__0__
+  commentId: M:Virial.Utilities.Variable`1.Update(System.Func{`0,`0})
+  name.vb: Update(Func(Of T, T))
+  fullName: Virial.Utilities.Variable<T>.Update(System.Func<T?, T?>)
+  fullName.vb: Virial.Utilities.Variable(Of T).Update(System.Func(Of T, T))
+  nameWithType: Variable<T>.Update(Func<T?, T?>)
+  nameWithType.vb: Variable(Of T).Update(Func(Of T, T))
+- uid: Virial.Utilities.Variable`1.Update*
+  name: Update
+  href: api/Virial.Utilities.Variable-1.html#Virial_Utilities_Variable_1_Update_
+  commentId: Overload:Virial.Utilities.Variable`1.Update
+  isSpec: "True"
+  fullName: Virial.Utilities.Variable<T>.Update
+  fullName.vb: Virial.Utilities.Variable(Of T).Update
+  nameWithType: Variable<T>.Update
+  nameWithType.vb: Variable(Of T).Update
+- uid: Virial.Utilities.Variable`1.Value
+  name: Value
+  href: api/Virial.Utilities.Variable-1.html#Virial_Utilities_Variable_1_Value
+  commentId: P:Virial.Utilities.Variable`1.Value
+  fullName: Virial.Utilities.Variable<T>.Value
+  fullName.vb: Virial.Utilities.Variable(Of T).Value
+  nameWithType: Variable<T>.Value
+  nameWithType.vb: Variable(Of T).Value
+- uid: Virial.Utilities.Variable`1.Value*
+  name: Value
+  href: api/Virial.Utilities.Variable-1.html#Virial_Utilities_Variable_1_Value_
+  commentId: Overload:Virial.Utilities.Variable`1.Value
+  isSpec: "True"
+  fullName: Virial.Utilities.Variable<T>.Value
+  fullName.vb: Virial.Utilities.Variable(Of T).Value
+  nameWithType: Variable<T>.Value
+  nameWithType.vb: Variable(Of T).Value
+- uid: Virial.Utilities.Variable`1.Wait
+  name: Wait()
+  href: api/Virial.Utilities.Variable-1.html#Virial_Utilities_Variable_1_Wait
+  commentId: M:Virial.Utilities.Variable`1.Wait
+  fullName: Virial.Utilities.Variable<T>.Wait()
+  fullName.vb: Virial.Utilities.Variable(Of T).Wait()
+  nameWithType: Variable<T>.Wait()
+  nameWithType.vb: Variable(Of T).Wait()
+- uid: Virial.Utilities.Variable`1.Wait*
+  name: Wait
+  href: api/Virial.Utilities.Variable-1.html#Virial_Utilities_Variable_1_Wait_
+  commentId: Overload:Virial.Utilities.Variable`1.Wait
+  isSpec: "True"
+  fullName: Virial.Utilities.Variable<T>.Wait
+  fullName.vb: Virial.Utilities.Variable(Of T).Wait
+  nameWithType: Variable<T>.Wait
+  nameWithType.vb: Variable(Of T).Wait
 - uid: Virial.VisualProgramming
   name: Virial.VisualProgramming
   href: api/Virial.VisualProgramming.html

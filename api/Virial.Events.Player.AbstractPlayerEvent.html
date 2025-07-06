@@ -103,7 +103,7 @@ Class AbstractPlayerEvent  <a class="header-action link-secondary" title="View s
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class AbstractPlayerEvent : Event</code></pre>
+    <pre><code class="lang-csharp hljs">public class AbstractPlayerEvent : AbstractPlayerlikeEvent, Event</code></pre>
   </div>
 
 
@@ -113,6 +113,7 @@ Class AbstractPlayerEvent  <a class="header-action link-secondary" title="View s
     <dt>Inheritance</dt>
     <dd>
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><a class="xref" href="Virial.Events.Player.AbstractPlayerlikeEvent.html">AbstractPlayerlikeEvent</a></div>
       <div><span class="xref">AbstractPlayerEvent</span></div>
     </dd>
   </dl>
@@ -146,6 +147,8 @@ Class AbstractPlayerEvent  <a class="header-action link-secondary" title="View s
       <div><a class="xref" href="Virial.Events.Player.PlayerDoGameActionEvent.html">PlayerDoGameActionEvent</a></div>
       <div><a class="xref" href="Virial.Events.Player.PlayerFixVoteHostEvent.html">PlayerFixVoteHostEvent</a></div>
       <div><a class="xref" href="Virial.Events.Player.PlayerGuardEvent.html">PlayerGuardEvent</a></div>
+      <div><a class="xref" href="Virial.Events.Player.PlayerInteractPlayerLocalEvent.html">PlayerInteractPlayerLocalEvent</a></div>
+      <div><a class="xref" href="Virial.Events.Player.PlayerInteractionFailedForMyFakePlayerEvent.html">PlayerInteractionFailedForMyFakePlayerEvent</a></div>
       <div><a class="xref" href="Virial.Events.Player.PlayerKillPlayerEvent.html">PlayerKillPlayerEvent</a></div>
       <div><a class="xref" href="Virial.Events.Player.PlayerModifierRemoveEvent.html">PlayerModifierRemoveEvent</a></div>
       <div><a class="xref" href="Virial.Events.Player.PlayerModifierSetEvent.html">PlayerModifierSetEvent</a></div>
