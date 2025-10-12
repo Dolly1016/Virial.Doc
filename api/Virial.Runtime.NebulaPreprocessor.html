@@ -111,6 +111,13 @@ Interface NebulaPreprocessor  <a class="header-action link-secondary" title="Vie
 
 
 
+  <dl class="typelist extensionMethods">
+    <dt>Extension Methods</dt>
+    <dd>
+  <div>
+      <a class="xref" href="Virial.Helpers.EnumerableHelper.html#Virial_Helpers_EnumerableHelper_DoIf__1___0_System_Action___0__">EnumerableHelper.DoIf&lt;T&gt;(T?, Action&lt;T&gt;)</a>
+  </div>
+  </dd></dl>
 
 
 
@@ -155,7 +162,7 @@ Interface NebulaPreprocessor  <a class="header-action link-secondary" title="Vie
 
   <h3 id="Virial_Runtime_NebulaPreprocessor_FinishPreprocess" data-uid="Virial.Runtime.NebulaPreprocessor.FinishPreprocess">
   FinishPreprocess
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Runtime/Runtime.cs/#L85"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Runtime/Runtime.cs/#L86"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -425,6 +432,52 @@ Interface NebulaPreprocessor  <a class="header-action link-secondary" title="Vie
     <dd></dd>
   </dl>
 
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Virial_Runtime_NebulaPreprocessor_RegisterAssignmentType_" data-uid="Virial.Runtime.NebulaPreprocessor.RegisterAssignmentType*"></a>
+
+  <h3 id="Virial_Runtime_NebulaPreprocessor_RegisterAssignmentType_System_Func_Virial_Assignable_DefinedRole__System_Func_System_Int32___Virial_Assignable_DefinedRole_System_Int32____System_String_System_Nullable_Virial_Color__System_Func_Virial_Assignable_AbilityAssignmentStatus_Virial_Assignable_DefinedRole_System_Boolean__System_Func_System_Boolean__" data-uid="Virial.Runtime.NebulaPreprocessor.RegisterAssignmentType(System.Func{Virial.Assignable.DefinedRole},System.Func{System.Int32[],Virial.Assignable.DefinedRole,System.Int32[]},System.String,System.Nullable{Virial.Color},System.Func{Virial.Assignable.AbilityAssignmentStatus,Virial.Assignable.DefinedRole,System.Boolean},System.Func{System.Boolean})">
+  RegisterAssignmentType(Func&lt;DefinedRole&gt;, Func&lt;int[], DefinedRole, int[]&gt;, string, Color?, Func&lt;AbilityAssignmentStatus, DefinedRole, bool&gt;, Func&lt;bool&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Runtime/Runtime.cs/#L84"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">AssignmentType RegisterAssignmentType(Func&lt;DefinedRole&gt; relatedRole, Func&lt;int[], DefinedRole, int[]&gt; argumentEditor, string postfix, Color? color, Func&lt;AbilityAssignmentStatus, DefinedRole, bool&gt; predicate, Func&lt;bool&gt; isActive)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>relatedRole</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-1">Func</a>&lt;<a class="xref" href="Virial.Assignable.DefinedRole.html">DefinedRole</a>&gt;</dt>
+    <dd></dd>
+    <dt><code>argumentEditor</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-3">Func</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>[], <a class="xref" href="Virial.Assignable.DefinedRole.html">DefinedRole</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>[]&gt;</dt>
+    <dd></dd>
+    <dt><code>postfix</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>color</code> <a class="xref" href="Virial.Color.html">Color</a>?</dt>
+    <dd></dd>
+    <dt><code>predicate</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-3">Func</a>&lt;<a class="xref" href="Virial.Assignable.AbilityAssignmentStatus.html">AbilityAssignmentStatus</a>, <a class="xref" href="Virial.Assignable.DefinedRole.html">DefinedRole</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>&gt;</dt>
+    <dd></dd>
+    <dt><code>isActive</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-1">Func</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Virial.Assignable.AssignmentType.html">AssignmentType</a></dt>
+    <dd></dd>
+  </dl>
 
 
 

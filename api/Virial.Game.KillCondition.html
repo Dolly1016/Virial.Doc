@@ -116,6 +116,13 @@ public enum KillCondition</code></pre>
 
 
 
+  <dl class="typelist extensionMethods">
+    <dt>Extension Methods</dt>
+    <dd>
+  <div>
+      <a class="xref" href="Virial.Helpers.EnumerableHelper.html#Virial_Helpers_EnumerableHelper_DoIf__1___0_System_Action___0__">EnumerableHelper.DoIf&lt;T&gt;(T?, Action&lt;T&gt;)</a>
+  </div>
+  </dd></dl>
 
   <h2 id="fields">Fields
 </h2>
@@ -123,10 +130,16 @@ public enum KillCondition</code></pre>
     <dt id="Virial_Game_KillCondition_BothAlive"><code>BothAlive = KillerAlive | TargetAlive</code></dt>
   
   <dd></dd>
+    <dt id="Virial_Game_KillCondition_InTaskPhase"><code>InTaskPhase = 16</code></dt>
+  
+  <dd></dd>
     <dt id="Virial_Game_KillCondition_KillerAlive"><code>KillerAlive = 1</code></dt>
   
   <dd></dd>
     <dt id="Virial_Game_KillCondition_NoCondition"><code>NoCondition = 0</code></dt>
+  
+  <dd></dd>
+    <dt id="Virial_Game_KillCondition_NormalKill"><code>NormalKill = BothAlive | InTaskPhase</code></dt>
   
   <dd></dd>
     <dt id="Virial_Game_KillCondition_TargetAlive"><code>TargetAlive = 2</code></dt>

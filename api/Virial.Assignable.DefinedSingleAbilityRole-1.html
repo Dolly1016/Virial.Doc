@@ -89,7 +89,7 @@
 
 
   <h1 id="Virial_Assignable_DefinedSingleAbilityRole_1" data-uid="Virial.Assignable.DefinedSingleAbilityRole`1" class="text-break">
-Interface DefinedSingleAbilityRole&lt;Ability&gt;  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Assignable/Role.cs/#L468"><i class="bi bi-code-slash"></i></a>
+Interface DefinedSingleAbilityRole&lt;Ability&gt;  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Assignable/Role.cs/#L495"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -124,22 +124,19 @@ Interface DefinedSingleAbilityRole&lt;Ability&gt;  <a class="header-action link-
       <a class="xref" href="Virial.Assignable.DefinedRole.html#Virial_Assignable_DefinedRole_DisplayIntroBlurb">DefinedRole.DisplayIntroBlurb</a>
     </div>
     <div>
-      <a class="xref" href="Virial.Assignable.DefinedRole.html#Virial_Assignable_DefinedRole_IsJackalizable">DefinedRole.IsJackalizable</a>
+      <a class="xref" href="Virial.Assignable.DefinedRole.html#Virial_Assignable_DefinedRole_AssignmentStatus">DefinedRole.AssignmentStatus</a>
     </div>
     <div>
-      <a class="xref" href="Virial.Assignable.DefinedRole.html#Virial_Assignable_DefinedRole_GetJackalizedAbility_Virial_Game_Player_System_Int32___">DefinedRole.GetJackalizedAbility(Player, int[])</a>
-    </div>
-    <div>
-      <a class="xref" href="Virial.Assignable.DefinedRole.html#Virial_Assignable_DefinedRole_IsLoadableToMadmate">DefinedRole.IsLoadableToMadmate</a>
-    </div>
-    <div>
-      <a class="xref" href="Virial.Assignable.DefinedRole.html#Virial_Assignable_DefinedRole_GetMaddenAbility_Virial_Game_Player_System_Int32___">DefinedRole.GetMaddenAbility(Player, int[])</a>
+      <a class="xref" href="Virial.Assignable.DefinedRole.html#Virial_Assignable_DefinedRole_GetAbilityOnRole_Virial_Game_Player_Virial_Assignable_AbilityAssignmentStatus_System_Int32___">DefinedRole.GetAbilityOnRole(Player, AbilityAssignmentStatus, int[])</a>
     </div>
     <div>
       <a class="xref" href="Virial.Assignable.DefinedRole.html#Virial_Assignable_DefinedRole_GetUsurpedAbility_Virial_Game_Player_System_Int32___">DefinedRole.GetUsurpedAbility(Player, int[])</a>
     </div>
     <div>
       <a class="xref" href="Virial.Assignable.DefinedRole.html#Virial_Assignable_DefinedRole_IsMadmate">DefinedRole.IsMadmate</a>
+    </div>
+    <div>
+      <a class="xref" href="Virial.Assignable.DefinedRole.html#Virial_Assignable_DefinedRole_IsKiller">DefinedRole.IsKiller</a>
     </div>
     <div>
       <a class="xref" href="Virial.Assignable.DefinedRole.html#Virial_Assignable_DefinedRole_AdditionalRoles">DefinedRole.AdditionalRoles</a>
@@ -157,10 +154,7 @@ Interface DefinedSingleAbilityRole&lt;Ability&gt;  <a class="header-action link-
       <a class="xref" href="Virial.Assignable.DefinedSingleAssignable.html#Virial_Assignable_DefinedSingleAssignable_AllocationParameters">DefinedSingleAssignable.AllocationParameters</a>
     </div>
     <div>
-      <a class="xref" href="Virial.Assignable.DefinedSingleAssignable.html#Virial_Assignable_DefinedSingleAssignable_JackalAllocationParameters">DefinedSingleAssignable.JackalAllocationParameters</a>
-    </div>
-    <div>
-      <a class="xref" href="Virial.Assignable.DefinedSingleAssignable.html#Virial_Assignable_DefinedSingleAssignable_MadmateAllocationParameters">DefinedSingleAssignable.MadmateAllocationParameters</a>
+      <a class="xref" href="Virial.Assignable.DefinedSingleAssignable.html#Virial_Assignable_DefinedSingleAssignable_GetCustomAllocationParameters_Virial_Assignable_AssignmentType_">DefinedSingleAssignable.GetCustomAllocationParameters(AssignmentType)</a>
     </div>
     <div>
       <a class="xref" href="Virial.Assignable.DefinedCategorizedAssignable.html#Virial_Assignable_DefinedCategorizedAssignable_Category">DefinedCategorizedAssignable.Category</a>
@@ -236,6 +230,13 @@ Interface DefinedSingleAbilityRole&lt;Ability&gt;  <a class="header-action link-
     </div>
   </dd></dl>
 
+  <dl class="typelist extensionMethods">
+    <dt>Extension Methods</dt>
+    <dd>
+  <div>
+      <a class="xref" href="Virial.Helpers.EnumerableHelper.html#Virial_Helpers_EnumerableHelper_DoIf__1___0_System_Action___0__">EnumerableHelper.DoIf&lt;T&gt;(T?, Action&lt;T&gt;)</a>
+  </div>
+  </dd></dl>
 
 
 
@@ -249,7 +250,7 @@ Interface DefinedSingleAbilityRole&lt;Ability&gt;  <a class="header-action link-
 
   <h3 id="Virial_Assignable_DefinedSingleAbilityRole_1_CreateAbility_Virial_Game_Player_System_Int32___" data-uid="Virial.Assignable.DefinedSingleAbilityRole`1.CreateAbility(Virial.Game.Player,System.Int32[])">
   CreateAbility(Player, int[])
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Assignable/Role.cs/#L476"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Assignable/Role.cs/#L503"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>役職の能力を生成します。</p>
@@ -273,80 +274,6 @@ Interface DefinedSingleAbilityRole&lt;Ability&gt;  <a class="header-action link-
   <h4 class="section">Returns</h4>
   <dl class="parameters">
     <dt><span class="xref">Ability</span></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
-
-
-
-  <a id="Virial_Assignable_DefinedSingleAbilityRole_1_GetDisplayAbilityName_" data-uid="Virial.Assignable.DefinedSingleAbilityRole`1.GetDisplayAbilityName*"></a>
-
-  <h3 id="Virial_Assignable_DefinedSingleAbilityRole_1_GetDisplayAbilityName__0_" data-uid="Virial.Assignable.DefinedSingleAbilityRole`1.GetDisplayAbilityName(`0)">
-  GetDisplayAbilityName(Ability)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Assignable/Role.cs/#L487"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"><p>能力から役職の表示名を取得します。</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">string? GetDisplayAbilityName(Ability ability)</code></pre>
-  </div>
-
-  <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>ability</code> <span class="xref">Ability</span></dt>
-    <dd><p>能力</p>
-</dd>
-  </dl>
-
-  <h4 class="section">Returns</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
-
-
-
-  <a id="Virial_Assignable_DefinedSingleAbilityRole_1_GetDisplayAbilityShort_" data-uid="Virial.Assignable.DefinedSingleAbilityRole`1.GetDisplayAbilityShort*"></a>
-
-  <h3 id="Virial_Assignable_DefinedSingleAbilityRole_1_GetDisplayAbilityShort__0_" data-uid="Virial.Assignable.DefinedSingleAbilityRole`1.GetDisplayAbilityShort(`0)">
-  GetDisplayAbilityShort(Ability)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Assignable/Role.cs/#L497"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">string? GetDisplayAbilityShort(Ability ability)</code></pre>
-  </div>
-
-  <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>ability</code> <span class="xref">Ability</span></dt>
-    <dd></dd>
-  </dl>
-
-  <h4 class="section">Returns</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
     <dd></dd>
   </dl>
 

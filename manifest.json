@@ -40,6 +40,20 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Assignable.AbilityAssignmentStatus.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Assignable.AbilityAssignmentStatus.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Assignable.AbilityAssignmentStatus",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Virial.Assignable.AllocationParameters.ExtraAssignment.yml",
       "output": {
         ".html": {
@@ -93,6 +107,20 @@
       "IsMRef": true,
       "Title": "Virial.Assignable.AssignableFilterHolder",
       "Summary": "<p sourcefile=\"api/Virial.Assignable.AssignableFilterHolder.yml\" sourcestartlinenumber=\"1\">モディファイアおよび幽霊役職の割り当てフィルタを持つ対象を表します。</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Assignable.AssignmentType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Assignable.AssignmentType.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Assignable.AssignmentType",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1398,6 +1426,20 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Common.Permissions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Common.Permissions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Common.Permissions",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Virial.Common.VariablePermissionHolder.yml",
       "output": {
         ".html": {
@@ -1577,6 +1619,20 @@
       "IsMRef": true,
       "Title": "Virial.Compat.VirtualKeyInput",
       "Summary": "<p sourcefile=\"api/Virial.Compat.VirtualKeyInput.yml\" sourcestartlinenumber=\"1\">入力の種類を表します。\n実際のキーバインドに言及する必要はありません。</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Compat.Wrapping-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Compat.Wrapping-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Compat.Wrapping<T>",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -3274,6 +3330,20 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Events.Player.PlayerTryToChangeRoleEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Events.Player.PlayerTryToChangeRoleEvent.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Events.Player.PlayerTryToChangeRoleEvent",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Virial.Events.Player.PlayerTryVanillaKillLocalEventAbstractPlayerEvent.yml",
       "output": {
         ".html": {
@@ -3340,6 +3410,90 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Virial.Events.Player",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Events.Role.RoleAllocatorSetRoleEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Events.Role.RoleAllocatorSetRoleEvent.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Events.Role.RoleAllocatorSetRoleEvent",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Events.Role.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Events.Role.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Events.Role",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Events.VoiceChat.AbstractFixVCPositionEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Events.VoiceChat.AbstractFixVCPositionEvent.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Events.VoiceChat.AbstractFixVCPositionEvent",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Events.VoiceChat.FixMicPositionEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Events.VoiceChat.FixMicPositionEvent.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Events.VoiceChat.FixMicPositionEvent",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Events.VoiceChat.FixSpeakerPositionEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Events.VoiceChat.FixSpeakerPositionEvent.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Events.VoiceChat.FixSpeakerPositionEvent",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Events.VoiceChat.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Events.VoiceChat.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Events.VoiceChat",
       "Summary": null
     },
     {
@@ -3550,6 +3704,20 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Virial.Game.GameEndReason",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Game.GameEndReasonHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Game.GameEndReasonHelper.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Game.GameEndReasonHelper",
       "Summary": null
     },
     {
@@ -4082,6 +4250,20 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Virial.Game.PlayerAttributes",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Game.PlayerDeathPosition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Game.PlayerDeathPosition.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Game.PlayerDeathPosition",
       "Summary": null
     },
     {

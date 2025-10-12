@@ -154,9 +154,9 @@ Class GameEntityExtension  <a class="header-action link-secondary" title="View s
 
   <a id="Virial_Game_GameEntityExtension_Register_" data-uid="Virial.Game.GameEntityExtension.Register*"></a>
 
-  <h3 id="Virial_Game_GameEntityExtension_Register__1___0_Virial_ILifespan_" data-uid="Virial.Game.GameEntityExtension.Register``1(``0,Virial.ILifespan)">
-  Register&lt;Entity&gt;(Entity, ILifespan)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Game/GameComponent.cs/#L44"><i class="bi bi-code-slash"></i></a>
+  <h3 id="Virial_Game_GameEntityExtension_Register__1___0_Virial_ILifespan_System_Action___0__" data-uid="Virial.Game.GameEntityExtension.Register``1(``0,Virial.ILifespan,System.Action{``0})">
+  Register&lt;Entity&gt;(Entity, ILifespan, Action&lt;Entity&gt;?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Game/GameComponent.cs/#L45"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Entityを現在のゲームに追加します。</p>
@@ -164,7 +164,7 @@ Class GameEntityExtension  <a class="header-action link-secondary" title="View s
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static Entity Register&lt;Entity&gt;(this Entity gameEntity, ILifespan lifespan) where Entity : IGameOperator</code></pre>
+    <pre><code class="lang-csharp hljs">public static Entity Register&lt;Entity&gt;(this Entity gameEntity, ILifespan lifespan, Action&lt;Entity&gt;? onSubscribed = null) where Entity : IGameOperator</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -173,6 +173,9 @@ Class GameEntityExtension  <a class="header-action link-secondary" title="View s
     <dd></dd>
     <dt><code>lifespan</code> <a class="xref" href="Virial.ILifespan.html">ILifespan</a></dt>
     <dd></dd>
+    <dt><code>onSubscribed</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;Entity&gt;</dt>
+    <dd><p>ゲーム作用素は、実際にはこの関数の呼び出しから僅かに後のタイミングで追加されます。実際に追加したタイミングに処理を差し込む場合はこのデリゲートを使用します。</p>
+</dd>
   </dl>
 
   <h4 class="section">Returns</h4>
