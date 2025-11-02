@@ -2856,6 +2856,19 @@ references:
   isSpec: "True"
   fullName: Virial.Assignable.RuntimeRole.VentDuration
   nameWithType: RuntimeRole.VentDuration
+- uid: Virial.Assignable.RuntimeRole.WinningOpportunity
+  name: WinningOpportunity
+  href: api/Virial.Assignable.RuntimeRole.html#Virial_Assignable_RuntimeRole_WinningOpportunity
+  commentId: P:Virial.Assignable.RuntimeRole.WinningOpportunity
+  fullName: Virial.Assignable.RuntimeRole.WinningOpportunity
+  nameWithType: RuntimeRole.WinningOpportunity
+- uid: Virial.Assignable.RuntimeRole.WinningOpportunity*
+  name: WinningOpportunity
+  href: api/Virial.Assignable.RuntimeRole.html#Virial_Assignable_RuntimeRole_WinningOpportunity_
+  commentId: Overload:Virial.Assignable.RuntimeRole.WinningOpportunity
+  isSpec: "True"
+  fullName: Virial.Assignable.RuntimeRole.WinningOpportunity
+  nameWithType: RuntimeRole.WinningOpportunity
 - uid: Virial.Assignable.RuntimeSingleAbilityAssignable`1
   name: RuntimeSingleAbilityAssignable<Ability>
   href: api/Virial.Assignable.RuntimeSingleAbilityAssignable-1.html
@@ -6583,6 +6596,77 @@ references:
   isSpec: "True"
   fullName: Virial.Components.GameTimer.SetTime
   nameWithType: GameTimer.SetTime
+- uid: Virial.Components.IHudContent
+  name: IHudContent
+  href: api/Virial.Components.IHudContent.html
+  commentId: T:Virial.Components.IHudContent
+  fullName: Virial.Components.IHudContent
+  nameWithType: IHudContent
+- uid: Virial.Components.IHudContent.IsKillButtonContent
+  name: IsKillButtonContent
+  href: api/Virial.Components.IHudContent.html#Virial_Components_IHudContent_IsKillButtonContent
+  commentId: P:Virial.Components.IHudContent.IsKillButtonContent
+  fullName: Virial.Components.IHudContent.IsKillButtonContent
+  nameWithType: IHudContent.IsKillButtonContent
+- uid: Virial.Components.IHudContent.IsKillButtonContent*
+  name: IsKillButtonContent
+  href: api/Virial.Components.IHudContent.html#Virial_Components_IHudContent_IsKillButtonContent_
+  commentId: Overload:Virial.Components.IHudContent.IsKillButtonContent
+  isSpec: "True"
+  fullName: Virial.Components.IHudContent.IsKillButtonContent
+  nameWithType: IHudContent.IsKillButtonContent
+- uid: Virial.Components.IHudContent.IsLeftSide
+  name: IsLeftSide
+  href: api/Virial.Components.IHudContent.html#Virial_Components_IHudContent_IsLeftSide
+  commentId: P:Virial.Components.IHudContent.IsLeftSide
+  fullName: Virial.Components.IHudContent.IsLeftSide
+  nameWithType: IHudContent.IsLeftSide
+- uid: Virial.Components.IHudContent.IsLeftSide*
+  name: IsLeftSide
+  href: api/Virial.Components.IHudContent.html#Virial_Components_IHudContent_IsLeftSide_
+  commentId: Overload:Virial.Components.IHudContent.IsLeftSide
+  isSpec: "True"
+  fullName: Virial.Components.IHudContent.IsLeftSide
+  nameWithType: IHudContent.IsLeftSide
+- uid: Virial.Components.IHudContent.IsRightSide
+  name: IsRightSide
+  href: api/Virial.Components.IHudContent.html#Virial_Components_IHudContent_IsRightSide
+  commentId: P:Virial.Components.IHudContent.IsRightSide
+  fullName: Virial.Components.IHudContent.IsRightSide
+  nameWithType: IHudContent.IsRightSide
+- uid: Virial.Components.IHudContent.IsRightSide*
+  name: IsRightSide
+  href: api/Virial.Components.IHudContent.html#Virial_Components_IHudContent_IsRightSide_
+  commentId: Overload:Virial.Components.IHudContent.IsRightSide
+  isSpec: "True"
+  fullName: Virial.Components.IHudContent.IsRightSide
+  nameWithType: IHudContent.IsRightSide
+- uid: Virial.Components.IHudContent.IsStaticContent
+  name: IsStaticContent
+  href: api/Virial.Components.IHudContent.html#Virial_Components_IHudContent_IsStaticContent
+  commentId: P:Virial.Components.IHudContent.IsStaticContent
+  fullName: Virial.Components.IHudContent.IsStaticContent
+  nameWithType: IHudContent.IsStaticContent
+- uid: Virial.Components.IHudContent.IsStaticContent*
+  name: IsStaticContent
+  href: api/Virial.Components.IHudContent.html#Virial_Components_IHudContent_IsStaticContent_
+  commentId: Overload:Virial.Components.IHudContent.IsStaticContent
+  isSpec: "True"
+  fullName: Virial.Components.IHudContent.IsStaticContent
+  nameWithType: IHudContent.IsStaticContent
+- uid: Virial.Components.IHudContent.Priority
+  name: Priority
+  href: api/Virial.Components.IHudContent.html#Virial_Components_IHudContent_Priority
+  commentId: P:Virial.Components.IHudContent.Priority
+  fullName: Virial.Components.IHudContent.Priority
+  nameWithType: IHudContent.Priority
+- uid: Virial.Components.IHudContent.Priority*
+  name: Priority
+  href: api/Virial.Components.IHudContent.html#Virial_Components_IHudContent_Priority_
+  commentId: Overload:Virial.Components.IHudContent.Priority
+  isSpec: "True"
+  fullName: Virial.Components.IHudContent.Priority
+  nameWithType: IHudContent.Priority
 - uid: Virial.Components.IKillButtonLike
   name: IKillButtonLike
   href: api/Virial.Components.IKillButtonLike.html
@@ -9100,6 +9184,64 @@ references:
   isSpec: "True"
   fullName: Virial.Events.Game.EndCriteriaMetEvent.Winners
   nameWithType: EndCriteriaMetEvent.Winners
+- uid: Virial.Events.Game.EndCriteriaPreMetEvent
+  name: EndCriteriaPreMetEvent
+  href: api/Virial.Events.Game.EndCriteriaPreMetEvent.html
+  commentId: T:Virial.Events.Game.EndCriteriaPreMetEvent
+  fullName: Virial.Events.Game.EndCriteriaPreMetEvent
+  nameWithType: EndCriteriaPreMetEvent
+- uid: Virial.Events.Game.EndCriteriaPreMetEvent.EndReason
+  name: EndReason
+  href: api/Virial.Events.Game.EndCriteriaPreMetEvent.html#Virial_Events_Game_EndCriteriaPreMetEvent_EndReason
+  commentId: P:Virial.Events.Game.EndCriteriaPreMetEvent.EndReason
+  fullName: Virial.Events.Game.EndCriteriaPreMetEvent.EndReason
+  nameWithType: EndCriteriaPreMetEvent.EndReason
+- uid: Virial.Events.Game.EndCriteriaPreMetEvent.EndReason*
+  name: EndReason
+  href: api/Virial.Events.Game.EndCriteriaPreMetEvent.html#Virial_Events_Game_EndCriteriaPreMetEvent_EndReason_
+  commentId: Overload:Virial.Events.Game.EndCriteriaPreMetEvent.EndReason
+  isSpec: "True"
+  fullName: Virial.Events.Game.EndCriteriaPreMetEvent.EndReason
+  nameWithType: EndCriteriaPreMetEvent.EndReason
+- uid: Virial.Events.Game.EndCriteriaPreMetEvent.GameEnd
+  name: GameEnd
+  href: api/Virial.Events.Game.EndCriteriaPreMetEvent.html#Virial_Events_Game_EndCriteriaPreMetEvent_GameEnd
+  commentId: P:Virial.Events.Game.EndCriteriaPreMetEvent.GameEnd
+  fullName: Virial.Events.Game.EndCriteriaPreMetEvent.GameEnd
+  nameWithType: EndCriteriaPreMetEvent.GameEnd
+- uid: Virial.Events.Game.EndCriteriaPreMetEvent.GameEnd*
+  name: GameEnd
+  href: api/Virial.Events.Game.EndCriteriaPreMetEvent.html#Virial_Events_Game_EndCriteriaPreMetEvent_GameEnd_
+  commentId: Overload:Virial.Events.Game.EndCriteriaPreMetEvent.GameEnd
+  isSpec: "True"
+  fullName: Virial.Events.Game.EndCriteriaPreMetEvent.GameEnd
+  nameWithType: EndCriteriaPreMetEvent.GameEnd
+- uid: Virial.Events.Game.EndCriteriaPreMetEvent.IsBlocked
+  name: IsBlocked
+  href: api/Virial.Events.Game.EndCriteriaPreMetEvent.html#Virial_Events_Game_EndCriteriaPreMetEvent_IsBlocked
+  commentId: P:Virial.Events.Game.EndCriteriaPreMetEvent.IsBlocked
+  fullName: Virial.Events.Game.EndCriteriaPreMetEvent.IsBlocked
+  nameWithType: EndCriteriaPreMetEvent.IsBlocked
+- uid: Virial.Events.Game.EndCriteriaPreMetEvent.IsBlocked*
+  name: IsBlocked
+  href: api/Virial.Events.Game.EndCriteriaPreMetEvent.html#Virial_Events_Game_EndCriteriaPreMetEvent_IsBlocked_
+  commentId: Overload:Virial.Events.Game.EndCriteriaPreMetEvent.IsBlocked
+  isSpec: "True"
+  fullName: Virial.Events.Game.EndCriteriaPreMetEvent.IsBlocked
+  nameWithType: EndCriteriaPreMetEvent.IsBlocked
+- uid: Virial.Events.Game.EndCriteriaPreMetEvent.Reject
+  name: Reject()
+  href: api/Virial.Events.Game.EndCriteriaPreMetEvent.html#Virial_Events_Game_EndCriteriaPreMetEvent_Reject
+  commentId: M:Virial.Events.Game.EndCriteriaPreMetEvent.Reject
+  fullName: Virial.Events.Game.EndCriteriaPreMetEvent.Reject()
+  nameWithType: EndCriteriaPreMetEvent.Reject()
+- uid: Virial.Events.Game.EndCriteriaPreMetEvent.Reject*
+  name: Reject
+  href: api/Virial.Events.Game.EndCriteriaPreMetEvent.html#Virial_Events_Game_EndCriteriaPreMetEvent_Reject_
+  commentId: Overload:Virial.Events.Game.EndCriteriaPreMetEvent.Reject
+  isSpec: "True"
+  fullName: Virial.Events.Game.EndCriteriaPreMetEvent.Reject
+  nameWithType: EndCriteriaPreMetEvent.Reject
 - uid: Virial.Events.Game.GameEndEvent
   name: GameEndEvent
   href: api/Virial.Events.Game.GameEndEvent.html
@@ -11205,6 +11347,34 @@ references:
   commentId: T:Virial.FlexibleLifespan
   fullName: Virial.FlexibleLifespan
   nameWithType: FlexibleLifespan
+- uid: Virial.FlexibleLifespan.#ctor
+  name: FlexibleLifespan()
+  href: api/Virial.FlexibleLifespan.html#Virial_FlexibleLifespan__ctor
+  commentId: M:Virial.FlexibleLifespan.#ctor
+  name.vb: New()
+  fullName: Virial.FlexibleLifespan.FlexibleLifespan()
+  fullName.vb: Virial.FlexibleLifespan.New()
+  nameWithType: FlexibleLifespan.FlexibleLifespan()
+  nameWithType.vb: FlexibleLifespan.New()
+- uid: Virial.FlexibleLifespan.#ctor(Virial.ILifespan)
+  name: FlexibleLifespan(ILifespan)
+  href: api/Virial.FlexibleLifespan.html#Virial_FlexibleLifespan__ctor_Virial_ILifespan_
+  commentId: M:Virial.FlexibleLifespan.#ctor(Virial.ILifespan)
+  name.vb: New(ILifespan)
+  fullName: Virial.FlexibleLifespan.FlexibleLifespan(Virial.ILifespan)
+  fullName.vb: Virial.FlexibleLifespan.New(Virial.ILifespan)
+  nameWithType: FlexibleLifespan.FlexibleLifespan(ILifespan)
+  nameWithType.vb: FlexibleLifespan.New(ILifespan)
+- uid: Virial.FlexibleLifespan.#ctor*
+  name: FlexibleLifespan
+  href: api/Virial.FlexibleLifespan.html#Virial_FlexibleLifespan__ctor_
+  commentId: Overload:Virial.FlexibleLifespan.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Virial.FlexibleLifespan.FlexibleLifespan
+  fullName.vb: Virial.FlexibleLifespan.New
+  nameWithType: FlexibleLifespan.FlexibleLifespan
+  nameWithType.vb: FlexibleLifespan.New
 - uid: Virial.FlexibleLifespan.IsDeadObject
   name: IsDeadObject
   href: api/Virial.FlexibleLifespan.html#Virial_FlexibleLifespan_IsDeadObject
@@ -13596,6 +13766,57 @@ references:
   isSpec: "True"
   fullName: Virial.Game.IUsurpableAbility.Usurp
   nameWithType: IUsurpableAbility.Usurp
+- uid: Virial.Game.IWinningOpportunity
+  name: IWinningOpportunity
+  href: api/Virial.Game.IWinningOpportunity.html
+  commentId: T:Virial.Game.IWinningOpportunity
+  fullName: Virial.Game.IWinningOpportunity
+  nameWithType: IWinningOpportunity
+- uid: Virial.Game.IWinningOpportunity.GetOpportunity(Virial.Assignable.RoleTeam)
+  name: GetOpportunity(RoleTeam)
+  href: api/Virial.Game.IWinningOpportunity.html#Virial_Game_IWinningOpportunity_GetOpportunity_Virial_Assignable_RoleTeam_
+  commentId: M:Virial.Game.IWinningOpportunity.GetOpportunity(Virial.Assignable.RoleTeam)
+  fullName: Virial.Game.IWinningOpportunity.GetOpportunity(Virial.Assignable.RoleTeam)
+  nameWithType: IWinningOpportunity.GetOpportunity(RoleTeam)
+- uid: Virial.Game.IWinningOpportunity.GetOpportunity*
+  name: GetOpportunity
+  href: api/Virial.Game.IWinningOpportunity.html#Virial_Game_IWinningOpportunity_GetOpportunity_
+  commentId: Overload:Virial.Game.IWinningOpportunity.GetOpportunity
+  isSpec: "True"
+  fullName: Virial.Game.IWinningOpportunity.GetOpportunity
+  nameWithType: IWinningOpportunity.GetOpportunity
+- uid: Virial.Game.IWinningOpportunity.RpcSetOpportunity(Virial.Assignable.RoleTeam,System.Single,System.Boolean)
+  name: RpcSetOpportunity(RoleTeam, float, bool)
+  href: api/Virial.Game.IWinningOpportunity.html#Virial_Game_IWinningOpportunity_RpcSetOpportunity_Virial_Assignable_RoleTeam_System_Single_System_Boolean_
+  commentId: M:Virial.Game.IWinningOpportunity.RpcSetOpportunity(Virial.Assignable.RoleTeam,System.Single,System.Boolean)
+  name.vb: RpcSetOpportunity(RoleTeam, Single, Boolean)
+  fullName: Virial.Game.IWinningOpportunity.RpcSetOpportunity(Virial.Assignable.RoleTeam, float, bool)
+  fullName.vb: Virial.Game.IWinningOpportunity.RpcSetOpportunity(Virial.Assignable.RoleTeam, Single, Boolean)
+  nameWithType: IWinningOpportunity.RpcSetOpportunity(RoleTeam, float, bool)
+  nameWithType.vb: IWinningOpportunity.RpcSetOpportunity(RoleTeam, Single, Boolean)
+- uid: Virial.Game.IWinningOpportunity.RpcSetOpportunity*
+  name: RpcSetOpportunity
+  href: api/Virial.Game.IWinningOpportunity.html#Virial_Game_IWinningOpportunity_RpcSetOpportunity_
+  commentId: Overload:Virial.Game.IWinningOpportunity.RpcSetOpportunity
+  isSpec: "True"
+  fullName: Virial.Game.IWinningOpportunity.RpcSetOpportunity
+  nameWithType: IWinningOpportunity.RpcSetOpportunity
+- uid: Virial.Game.IWinningOpportunity.SetOpportunity(Virial.Assignable.RoleTeam,System.Single,System.Boolean)
+  name: SetOpportunity(RoleTeam, float, bool)
+  href: api/Virial.Game.IWinningOpportunity.html#Virial_Game_IWinningOpportunity_SetOpportunity_Virial_Assignable_RoleTeam_System_Single_System_Boolean_
+  commentId: M:Virial.Game.IWinningOpportunity.SetOpportunity(Virial.Assignable.RoleTeam,System.Single,System.Boolean)
+  name.vb: SetOpportunity(RoleTeam, Single, Boolean)
+  fullName: Virial.Game.IWinningOpportunity.SetOpportunity(Virial.Assignable.RoleTeam, float, bool)
+  fullName.vb: Virial.Game.IWinningOpportunity.SetOpportunity(Virial.Assignable.RoleTeam, Single, Boolean)
+  nameWithType: IWinningOpportunity.SetOpportunity(RoleTeam, float, bool)
+  nameWithType.vb: IWinningOpportunity.SetOpportunity(RoleTeam, Single, Boolean)
+- uid: Virial.Game.IWinningOpportunity.SetOpportunity*
+  name: SetOpportunity
+  href: api/Virial.Game.IWinningOpportunity.html#Virial_Game_IWinningOpportunity_SetOpportunity_
+  commentId: Overload:Virial.Game.IWinningOpportunity.SetOpportunity
+  isSpec: "True"
+  fullName: Virial.Game.IWinningOpportunity.SetOpportunity
+  nameWithType: IWinningOpportunity.SetOpportunity
 - uid: Virial.Game.KillButtonLikeHandler
   name: KillButtonLikeHandler
   href: api/Virial.Game.KillButtonLikeHandler.html

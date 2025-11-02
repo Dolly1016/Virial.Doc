@@ -1664,6 +1664,20 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Components.IHudContent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Components.IHudContent.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Components.IHudContent",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Virial.Components.IKillButtonLike.yml",
       "output": {
         ".html": {
@@ -2263,6 +2277,20 @@
       "IsMRef": true,
       "Title": "Virial.Events.Game.EndCriteriaMetEvent",
       "Summary": "<p sourcefile=\"api/Virial.Events.Game.EndCriteriaMetEvent.yml\" sourcestartlinenumber=\"1\">ゲーム終了が決定したときに呼び出されます。\nゲーム終了理由を書き換えられます。</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Events.Game.EndCriteriaPreMetEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Events.Game.EndCriteriaPreMetEvent.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Events.Game.EndCriteriaPreMetEvent",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -4012,6 +4040,20 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Virial.Game.IUsurpableAbility",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Game.IWinningOpportunity.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Game.IWinningOpportunity.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Game.IWinningOpportunity",
       "Summary": null
     },
     {

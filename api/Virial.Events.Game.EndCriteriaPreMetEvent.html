@@ -2,11 +2,11 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Class FlexibleLifespan | Virial </title>
+      <title>Class EndCriteriaPreMetEvent | Virial </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Class FlexibleLifespan | Virial ">
+      <meta name="title" content="Class EndCriteriaPreMetEvent | Virial ">
       
-      <meta name="description" content="注入された寿命オブジェクトの寿命が尽きるか、Release操作によってキルできます。">
+      
       <link rel="icon" href="../images/icon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -16,7 +16,7 @@
       <meta name="docfx:rel" content="../">
       
       
-      <meta name="docfx:docurl" content="https://github.com/Dolly1016/Nebula-Public/new/master/apiSpec/new?filename=Virial_FlexibleLifespan.md&amp;value=---%0Auid%3A%20Virial.FlexibleLifespan%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="docfx:docurl" content="https://github.com/Dolly1016/Nebula-Public/new/master/apiSpec/new?filename=Virial_Events_Game_EndCriteriaPreMetEvent.md&amp;value=---%0Auid%3A%20Virial.Events.Game.EndCriteriaPreMetEvent%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -84,25 +84,24 @@
           <nav id="breadcrumb"></nav>
         </div>
 
-        <article data-uid="Virial.FlexibleLifespan">
+        <article data-uid="Virial.Events.Game.EndCriteriaPreMetEvent">
 
 
 
-  <h1 id="Virial_FlexibleLifespan" data-uid="Virial.FlexibleLifespan" class="text-break">
-Class FlexibleLifespan  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Common/Lifespan.cs/#L127"><i class="bi bi-code-slash"></i></a>
+  <h1 id="Virial_Events_Game_EndCriteriaPreMetEvent" data-uid="Virial.Events.Game.EndCriteriaPreMetEvent" class="text-break">
+Class EndCriteriaPreMetEvent  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Events/Game/EndCriteriaPreMetEvent.cs/#L10"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
-    <dl><dt>Namespace</dt><dd><a class="xref" href="Virial.html">Virial</a></dd></dl>
+    <dl><dt>Namespace</dt><dd><a class="xref" href="Virial.html">Virial</a>.<a class="xref" href="Virial.Events.html">Events</a>.<a class="xref" href="Virial.Events.Game.html">Game</a></dd></dl>
   
   </div>
 
-  <div class="markdown summary"><p>注入された寿命オブジェクトの寿命が尽きるか、Release操作によってキルできます。</p>
-</div>
+  <div class="markdown summary"></div>
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class FlexibleLifespan : DependentLifespan, INestedLifespan, ILifespan, IReleasable</code></pre>
+    <pre><code class="lang-csharp hljs">public class EndCriteriaPreMetEvent : Event</code></pre>
   </div>
 
 
@@ -112,17 +111,14 @@ Class FlexibleLifespan  <a class="header-action link-secondary" title="View sour
     <dt>Inheritance</dt>
     <dd>
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
-      <div><a class="xref" href="Virial.DependentLifespan.html">DependentLifespan</a></div>
-      <div><span class="xref">FlexibleLifespan</span></div>
+      <div><span class="xref">EndCriteriaPreMetEvent</span></div>
     </dd>
   </dl>
 
   <dl class="typelist implements">
     <dt>Implements</dt>
     <dd>
-      <div><a class="xref" href="Virial.INestedLifespan.html">INestedLifespan</a></div>
-      <div><a class="xref" href="Virial.ILifespan.html">ILifespan</a></div>
-      <div><a class="xref" href="Virial.IReleasable.html">IReleasable</a></div>
+      <div><a class="xref" href="Virial.Events.Event.html">Event</a></div>
     </dd>
   </dl>
 
@@ -130,9 +126,6 @@ Class FlexibleLifespan  <a class="header-action link-secondary" title="View sour
   <dl class="typelist inheritedMembers">
     <dt>Inherited Members</dt>
     <dd>
-    <div>
-      <a class="xref" href="Virial.DependentLifespan.html#Virial_DependentLifespan_Bind_Virial_ILifespan_">DependentLifespan.Bind(ILifespan)</a>
-    </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
     </div>
@@ -168,53 +161,32 @@ Class FlexibleLifespan  <a class="header-action link-secondary" title="View sour
 
 
 
-  <h2 class="section" id="constructors">Constructors
+  <h2 class="section" id="properties">Properties
 </h2>
 
 
-  <a id="Virial_FlexibleLifespan__ctor_" data-uid="Virial.FlexibleLifespan.#ctor*"></a>
+  <a id="Virial_Events_Game_EndCriteriaPreMetEvent_EndReason_" data-uid="Virial.Events.Game.EndCriteriaPreMetEvent.EndReason*"></a>
 
-  <h3 id="Virial_FlexibleLifespan__ctor" data-uid="Virial.FlexibleLifespan.#ctor">
-  FlexibleLifespan()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Common/Lifespan.cs/#L136"><i class="bi bi-code-slash"></i></a>
+  <h3 id="Virial_Events_Game_EndCriteriaPreMetEvent_EndReason" data-uid="Virial.Events.Game.EndCriteriaPreMetEvent.EndReason">
+  EndReason
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Events/Game/EndCriteriaPreMetEvent.cs/#L20"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>終了条件を満たした理由。</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public FlexibleLifespan()</code></pre>
+    <pre><code class="lang-csharp hljs">public GameEndReason EndReason { get; }</code></pre>
   </div>
 
 
 
 
 
-
-
-
-
-
-
-
-
-  <a id="Virial_FlexibleLifespan__ctor_" data-uid="Virial.FlexibleLifespan.#ctor*"></a>
-
-  <h3 id="Virial_FlexibleLifespan__ctor_Virial_ILifespan_" data-uid="Virial.FlexibleLifespan.#ctor(Virial.ILifespan)">
-  FlexibleLifespan(ILifespan)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Common/Lifespan.cs/#L137"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public FlexibleLifespan(ILifespan parentLifespan)</code></pre>
-  </div>
-
-  <h4 class="section">Parameters</h4>
+  <h4 class="section">Property Value</h4>
   <dl class="parameters">
-    <dt><code>parentLifespan</code> <a class="xref" href="Virial.ILifespan.html">ILifespan</a></dt>
+    <dt><a class="xref" href="Virial.Game.GameEndReason.html">GameEndReason</a></dt>
     <dd></dd>
   </dl>
 
@@ -225,27 +197,50 @@ Class FlexibleLifespan  <a class="header-action link-secondary" title="View sour
 
 
 
+  <a id="Virial_Events_Game_EndCriteriaPreMetEvent_GameEnd_" data-uid="Virial.Events.Game.EndCriteriaPreMetEvent.GameEnd*"></a>
 
-
-
-
-  <h2 class="section" id="properties">Properties
-</h2>
-
-
-  <a id="Virial_FlexibleLifespan_IsDeadObject_" data-uid="Virial.FlexibleLifespan.IsDeadObject*"></a>
-
-  <h3 id="Virial_FlexibleLifespan_IsDeadObject" data-uid="Virial.FlexibleLifespan.IsDeadObject">
-  IsDeadObject
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Common/Lifespan.cs/#L130"><i class="bi bi-code-slash"></i></a>
+  <h3 id="Virial_Events_Game_EndCriteriaPreMetEvent_GameEnd" data-uid="Virial.Events.Game.EndCriteriaPreMetEvent.GameEnd">
+  GameEnd
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Events/Game/EndCriteriaPreMetEvent.cs/#L15"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>寿命の尽きたオブジェクトは<code>true</code>を返します。</p>
+  <div class="markdown level1 summary"><p>終了条件を満たしたエンディング。</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool IsDeadObject { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public GameEnd GameEnd { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Virial.Game.GameEnd.html">GameEnd</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Virial_Events_Game_EndCriteriaPreMetEvent_IsBlocked_" data-uid="Virial.Events.Game.EndCriteriaPreMetEvent.IsBlocked*"></a>
+
+  <h3 id="Virial_Events_Game_EndCriteriaPreMetEvent_IsBlocked" data-uid="Virial.Events.Game.EndCriteriaPreMetEvent.IsBlocked">
+  IsBlocked
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Events/Game/EndCriteriaPreMetEvent.cs/#L22"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsBlocked { get; }</code></pre>
   </div>
 
 
@@ -269,21 +264,26 @@ Class FlexibleLifespan  <a class="header-action link-secondary" title="View sour
 </h2>
 
 
-  <a id="Virial_FlexibleLifespan_Release_" data-uid="Virial.FlexibleLifespan.Release*"></a>
+  <a id="Virial_Events_Game_EndCriteriaPreMetEvent_Reject_" data-uid="Virial.Events.Game.EndCriteriaPreMetEvent.Reject*"></a>
 
-  <h3 id="Virial_FlexibleLifespan_Release" data-uid="Virial.FlexibleLifespan.Release">
-  Release()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Common/Lifespan.cs/#L131"><i class="bi bi-code-slash"></i></a>
+  <h3 id="Virial_Events_Game_EndCriteriaPreMetEvent_Reject" data-uid="Virial.Events.Game.EndCriteriaPreMetEvent.Reject">
+  Reject()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Events/Game/EndCriteriaPreMetEvent.cs/#L23"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void Release()</code></pre>
+    <pre><code class="lang-csharp hljs">public bool Reject()</code></pre>
   </div>
 
 
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
 
 
 
