@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>SuperNewRoles.Tests — Unity/IL2CPP dependencies | Virial </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="SuperNewRoles.Tests — Unity/IL2CPP dependencies | Virial ">
+      
+      
+      <link rel="icon" href="../../images/icon.ico">
+      <link rel="stylesheet" href="../../public/docfx.min.css">
+      <link rel="stylesheet" href="../../public/main.css">
+      <meta name="docfx:navrel" content="../../toc.html">
+      <meta name="docfx:tocrel" content="../../toc.html">
+      
+      <meta name="docfx:rel" content="../../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/Dolly1016/SuperNewRoles/blob/master/SuperNewRoles.Tests/README.md/#L1">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../../index.html">
+            <img id="logo" class="svg" src="../../images/logo.png" alt="Virial">
+            Virial
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+
+      <div class="content">
+        <div class="actionbar">
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+<h1 id="supernewrolestests--unityil2cpp-dependencies">SuperNewRoles.Tests — Unity/IL2CPP dependencies</h1>
+
+<p>このテストプロジェクトは .NET 8 (xUnit) で実行され、製品本体 (net6.0) の一部ロジックを検証します。Among Us 本体や Unity/IL2CPP の実行環境を立ち上げずに、管理対象のスタブ DLL を参照してビルド・実行する方針です。</p>
+<ul>
+<li>参照するのは「管理対象のスタブ DLL」のみです。
+<ul>
+<li><code>Assembly-CSharp.dll</code>, <code>UnityEngine*.dll</code>, <code>Il2CppSystem.dll</code>, <code>Il2Cppmscorlib.dll</code>, <code>BepInEx.Core.dll</code>, <code>Il2CppInterop.Runtime.dll</code> 等の“managed” DLL を参照します。</li>
+<li>ネイティブの <code>GameAssembly.dll</code> は .NET の参照対象ではなく、テスト実行にも不要です。参照させても解決になりません。</li>
+</ul>
+</li>
+<li>実行時の安全策
+<ul>
+<li>ロガーはプラグイン未初期化時に Console にフォールバックします。</li>
+<li><code>CustomOption</code> は <code>AmongUsClient</code> アクセスを try/catch で安全化しており、テスト環境ではローカル扱いで動作します。</li>
+<li><code>BaseDirectory</code> は BepInEx 未設定時に <code>AppContext.BaseDirectory</code> を使用します。</li>
+</ul>
+</li>
+<li>IL2CPP/Unity に依存する重い経路（Harmony パッチ、ClassInjector、実ゲームオブジェクト操作）にはテストから到達しないようにしています。</li>
+</ul>
+<h2 id="実行方法-ローカル">実行方法 (ローカル)</h2>
+<p>一般的な開発環境では、製品のビルド要件と同様にシステム環境変数 <code>AmongUs</code> が既に設定されています。この場合、追加の <code>extracted_lib</code> は不要で、Debug/Release どちらでもテストを実行できます。</p>
+<pre><code># AmongUs 環境変数が設定済みの場合
+dotnet test -c Debug
+# もしくは
+dotnet test -c Release
+</code></pre>
+<p>テストプロジェクトは <code>AmongUs</code> のパスから自動で <code>$(AmongUs)/BepInEx</code> を検出し、必要な managed DLL を参照します。</p>
+<p>環境変数が用意できない最小構成（CI など）では、従来通り <code>-p:Build=/path/to/BepInEx</code> を明示指定してください。</p>
+<pre><code>dotnet test -c Release -p:Build=/absolute/path/to/BepInEx
+</code></pre>
+<ul>
+<li>参照するのは managed DLL のみで、<code>GameAssembly.dll</code> の配置・参照は不要です。</li>
+</ul>
+<h2 id="よくある質問">よくある質問</h2>
+<ul>
+<li>Q: GameAssembly を参照すれば解決しますか？
+<ul>
+<li>A: いいえ。<code>GameAssembly.dll</code> はネイティブ (IL2CPP) バイナリのため .NET の参照対象ではありません。テストは managed スタブ DLL への参照で十分です。</li>
+</ul>
+</li>
+<li>Q: IL2CPP ランタイムが無いと失敗しませんか？
+<ul>
+<li>A: テストはランタイム依存経路を避け、必要な型解決を managed スタブで満たす構成にしてあります。ユニットテストが触れる範囲では IL2CPP の初期化は不要です。さらに、<code>ModHelpers.IsAndroid()</code> などプラットフォーム判定は例外を握りつぶして安全にフォールバックするよう防御実装しています。</li>
+</ul>
+</li>
+</ul>
+
+</article>
+
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

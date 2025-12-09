@@ -89,7 +89,7 @@
 
 
   <h1 id="Virial_Assignable_RuntimeModifier" data-uid="Virial.Assignable.RuntimeModifier" class="text-break">
-Interface RuntimeModifier  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Assignable/Role.cs/#L813"><i class="bi bi-code-slash"></i></a>
+Interface RuntimeModifier  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Assignable/Role.cs/#L859"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -142,7 +142,7 @@ Interface RuntimeModifier  <a class="header-action link-secondary" title="View s
       <a class="xref" href="Virial.Assignable.RuntimeAssignable.html#Virial_Assignable_RuntimeAssignable_CanReport">RuntimeAssignable.CanReport</a>
     </div>
     <div>
-      <a class="xref" href="Virial.Assignable.RuntimeAssignable.html#Virial_Assignable_RuntimeAssignable_OverrideRoleName_System_String_System_Boolean_">RuntimeAssignable.OverrideRoleName(string, bool)</a>
+      <a class="xref" href="Virial.Assignable.RuntimeAssignable.html#Virial_Assignable_RuntimeAssignable_OverrideRoleName_System_String_System_Boolean_System_Boolean_">RuntimeAssignable.OverrideRoleName(string, bool, bool)</a>
     </div>
     <div>
       <a class="xref" href="Virial.Assignable.RuntimeAssignable.html#Virial_Assignable_RuntimeAssignable_DisplayName">RuntimeAssignable.DisplayName</a>
@@ -164,6 +164,15 @@ Interface RuntimeModifier  <a class="header-action link-secondary" title="View s
     </div>
     <div>
       <a class="xref" href="Virial.Assignable.RuntimeAssignable.html#Virial_Assignable_RuntimeAssignable_CanKill_Virial_Game_Player_">RuntimeAssignable.CanKill(Player)</a>
+    </div>
+    <div>
+      <a class="xref" href="Virial.Assignable.RuntimeAssignable.html#Virial_Assignable_RuntimeAssignable_InvalidateCrewmateTask">RuntimeAssignable.InvalidateCrewmateTask</a>
+    </div>
+    <div>
+      <a class="xref" href="Virial.Assignable.RuntimeAssignable.html#Virial_Assignable_RuntimeAssignable_MyCrewmateTaskIsIgnored">RuntimeAssignable.MyCrewmateTaskIsIgnored</a>
+    </div>
+    <div>
+      <a class="xref" href="Virial.Assignable.RuntimeAssignable.html#Virial_Assignable_RuntimeAssignable_ProgressWidget">RuntimeAssignable.ProgressWidget</a>
     </div>
     <div>
       <a class="xref" href="Virial.ILifespan.html#Virial_ILifespan_IsDeadObject">ILifespan.IsDeadObject</a>
@@ -189,6 +198,12 @@ Interface RuntimeModifier  <a class="header-action link-secondary" title="View s
     <dt>Extension Methods</dt>
     <dd>
   <div>
+      <a class="xref" href="Virial.Game.GameEntityExtension.html#Virial_Game_GameEntityExtension_RegisterPermanently__1___0_System_Action___0__">GameEntityExtension.RegisterPermanently&lt;Entity&gt;(Entity, Action&lt;Entity&gt;?)</a>
+  </div>
+  <div>
+      <a class="xref" href="Virial.Game.GameEntityExtension.html#Virial_Game_GameEntityExtension_RegisterSelf__1___0_System_Action___0__">GameEntityExtension.RegisterSelf&lt;Entity&gt;(Entity, Action&lt;Entity&gt;?)</a>
+  </div>
+  <div>
       <a class="xref" href="Virial.Game.GameEntityExtension.html#Virial_Game_GameEntityExtension_Register__1___0_Virial_ILifespan_System_Action___0__">GameEntityExtension.Register&lt;Entity&gt;(Entity, ILifespan, Action&lt;Entity&gt;?)</a>
   </div>
   <div>
@@ -208,7 +223,7 @@ Interface RuntimeModifier  <a class="header-action link-secondary" title="View s
 
   <h3 id="Virial_Assignable_RuntimeModifier_DisplayIntroBlurb" data-uid="Virial.Assignable.RuntimeModifier.DisplayIntroBlurb">
   DisplayIntroBlurb
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Assignable/Role.cs/#L824"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Assignable/Role.cs/#L870"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>ゲーム開始時に割り当てられているとき、役職開示画面で表示されます。</p>
@@ -236,43 +251,11 @@ Interface RuntimeModifier  <a class="header-action link-secondary" title="View s
 
 
 
-  <a id="Virial_Assignable_RuntimeModifier_InvalidateCrewmateTask_" data-uid="Virial.Assignable.RuntimeModifier.InvalidateCrewmateTask*"></a>
-
-  <h3 id="Virial_Assignable_RuntimeModifier_InvalidateCrewmateTask" data-uid="Virial.Assignable.RuntimeModifier.InvalidateCrewmateTask">
-  InvalidateCrewmateTask
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Assignable/Role.cs/#L829"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"><p>クルーメイトタスクを持っていた場合、明示的に無効化する場合はtrue</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">bool InvalidateCrewmateTask { get; }</code></pre>
-  </div>
-
-
-
-
-
-  <h4 class="section">Property Value</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
   <a id="Virial_Assignable_RuntimeModifier_Modifier_" data-uid="Virial.Assignable.RuntimeModifier.Modifier*"></a>
 
   <h3 id="Virial_Assignable_RuntimeModifier_Modifier" data-uid="Virial.Assignable.RuntimeModifier.Modifier">
   Modifier
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Assignable/Role.cs/#L818"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Assignable/Role.cs/#L864"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>追加役職の定義</p>
@@ -290,38 +273,6 @@ Interface RuntimeModifier  <a class="header-action link-secondary" title="View s
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="Virial.Assignable.DefinedModifier.html">DefinedModifier</a></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
-  <a id="Virial_Assignable_RuntimeModifier_MyCrewmateTaskIsIgnored_" data-uid="Virial.Assignable.RuntimeModifier.MyCrewmateTaskIsIgnored*"></a>
-
-  <h3 id="Virial_Assignable_RuntimeModifier_MyCrewmateTaskIsIgnored" data-uid="Virial.Assignable.RuntimeModifier.MyCrewmateTaskIsIgnored">
-  MyCrewmateTaskIsIgnored
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Assignable/Role.cs/#L834"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"><p>クルーメイトタスクを持っていたとしても、クルーメイトタスクの総数に計上されない場合はtrue</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">bool MyCrewmateTaskIsIgnored { get; }</code></pre>
-  </div>
-
-
-
-
-
-  <h4 class="section">Property Value</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
     <dd></dd>
   </dl>
 

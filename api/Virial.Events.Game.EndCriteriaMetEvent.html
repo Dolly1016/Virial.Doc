@@ -270,7 +270,7 @@ Class EndCriteriaMetEvent  <a class="header-action link-secondary" title="View s
 
   <h3 id="Virial_Events_Game_EndCriteriaMetEvent_Overwritten" data-uid="Virial.Events.Game.EndCriteriaMetEvent.Overwritten">
   Overwritten
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Events/Game/EndCriteriaMetEvent.cs/#L61"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Events/Game/EndCriteriaMetEvent.cs/#L62"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>ゲーム終了理由が上書きされた場合は<code>true</code>を返します。</p>
@@ -302,7 +302,7 @@ Class EndCriteriaMetEvent  <a class="header-action link-secondary" title="View s
 
   <h3 id="Virial_Events_Game_EndCriteriaMetEvent_OverwrittenEndReason" data-uid="Virial.Events.Game.EndCriteriaMetEvent.OverwrittenEndReason">
   OverwrittenEndReason
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Events/Game/EndCriteriaMetEvent.cs/#L57"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Events/Game/EndCriteriaMetEvent.cs/#L58"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>乗っ取りの末に実際に至るエンディングの終了理由。
@@ -402,9 +402,51 @@ Class EndCriteriaMetEvent  <a class="header-action link-secondary" title="View s
 
   <a id="Virial_Events_Game_EndCriteriaMetEvent_TryOverwriteEnd_" data-uid="Virial.Events.Game.EndCriteriaMetEvent.TryOverwriteEnd*"></a>
 
+  <h3 id="Virial_Events_Game_EndCriteriaMetEvent_TryOverwriteEnd_Virial_Game_GameEnd_System_Int32_Virial_Game_GameEndReason_System_Int32_" data-uid="Virial.Events.Game.EndCriteriaMetEvent.TryOverwriteEnd(Virial.Game.GameEnd,System.Int32,Virial.Game.GameEndReason,System.Int32)">
+  TryOverwriteEnd(GameEnd, int, GameEndReason, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Events/Game/EndCriteriaMetEvent.cs/#L74"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool TryOverwriteEnd(GameEnd end, int priority, GameEndReason reason, int preWinners = 0)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>end</code> <a class="xref" href="Virial.Game.GameEnd.html">GameEnd</a></dt>
+    <dd></dd>
+    <dt><code>priority</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>reason</code> <a class="xref" href="Virial.Game.GameEndReason.html">GameEndReason</a></dt>
+    <dd></dd>
+    <dt><code>preWinners</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Virial_Events_Game_EndCriteriaMetEvent_TryOverwriteEnd_" data-uid="Virial.Events.Game.EndCriteriaMetEvent.TryOverwriteEnd*"></a>
+
   <h3 id="Virial_Events_Game_EndCriteriaMetEvent_TryOverwriteEnd_Virial_Game_GameEnd_Virial_Game_GameEndReason_System_Int32_" data-uid="Virial.Events.Game.EndCriteriaMetEvent.TryOverwriteEnd(Virial.Game.GameEnd,Virial.Game.GameEndReason,System.Int32)">
   TryOverwriteEnd(GameEnd, GameEndReason, int)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Events/Game/EndCriteriaMetEvent.cs/#L71"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Events/Game/EndCriteriaMetEvent.cs/#L72"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>ゲーム終了理由の上書きを試行します。

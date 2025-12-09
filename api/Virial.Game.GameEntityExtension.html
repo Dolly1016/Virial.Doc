@@ -152,6 +152,93 @@ Class GameEntityExtension  <a class="header-action link-secondary" title="View s
 </h2>
 
 
+  <a id="Virial_Game_GameEntityExtension_RegisterPermanently_" data-uid="Virial.Game.GameEntityExtension.RegisterPermanently*"></a>
+
+  <h3 id="Virial_Game_GameEntityExtension_RegisterPermanently__1___0_System_Action___0__" data-uid="Virial.Game.GameEntityExtension.RegisterPermanently``1(``0,System.Action{``0})">
+  RegisterPermanently&lt;Entity&gt;(Entity, Action&lt;Entity&gt;?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Game/GameComponent.cs/#L58"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Entityをゲームに追加します。ゲーム終了まで作用素は削除されません。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Entity RegisterPermanently&lt;Entity&gt;(this Entity gameEntity, Action&lt;Entity&gt;? onSubscribed = null) where Entity : IGameOperator</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>gameEntity</code> <span class="xref">Entity</span></dt>
+    <dd></dd>
+    <dt><code>onSubscribed</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;Entity&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Entity</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>Entity</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="Virial_Game_GameEntityExtension_RegisterSelf_" data-uid="Virial.Game.GameEntityExtension.RegisterSelf*"></a>
+
+  <h3 id="Virial_Game_GameEntityExtension_RegisterSelf__1___0_System_Action___0__" data-uid="Virial.Game.GameEntityExtension.RegisterSelf``1(``0,System.Action{``0})">
+  RegisterSelf&lt;Entity&gt;(Entity, Action&lt;Entity&gt;?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Game/GameComponent.cs/#L60"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Entity RegisterSelf&lt;Entity&gt;(this Entity gameEntity, Action&lt;Entity&gt;? onSubscribed = null) where Entity : IGameOperator, ILifespan</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>gameEntity</code> <span class="xref">Entity</span></dt>
+    <dd></dd>
+    <dt><code>onSubscribed</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;Entity&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Entity</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>Entity</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
   <a id="Virial_Game_GameEntityExtension_Register_" data-uid="Virial.Game.GameEntityExtension.Register*"></a>
 
   <h3 id="Virial_Game_GameEntityExtension_Register__1___0_Virial_ILifespan_System_Action___0__" data-uid="Virial.Game.GameEntityExtension.Register``1(``0,Virial.ILifespan,System.Action{``0})">

@@ -89,7 +89,7 @@
 
 
   <h1 id="Virial_Assignable_RuntimeRole" data-uid="Virial.Assignable.RuntimeRole" class="text-break">
-Interface RuntimeRole  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Assignable/Role.cs/#L691"><i class="bi bi-code-slash"></i></a>
+Interface RuntimeRole  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Assignable/Role.cs/#L735"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -142,7 +142,7 @@ Interface RuntimeRole  <a class="header-action link-secondary" title="View sourc
       <a class="xref" href="Virial.Assignable.RuntimeAssignable.html#Virial_Assignable_RuntimeAssignable_CanReport">RuntimeAssignable.CanReport</a>
     </div>
     <div>
-      <a class="xref" href="Virial.Assignable.RuntimeAssignable.html#Virial_Assignable_RuntimeAssignable_OverrideRoleName_System_String_System_Boolean_">RuntimeAssignable.OverrideRoleName(string, bool)</a>
+      <a class="xref" href="Virial.Assignable.RuntimeAssignable.html#Virial_Assignable_RuntimeAssignable_OverrideRoleName_System_String_System_Boolean_System_Boolean_">RuntimeAssignable.OverrideRoleName(string, bool, bool)</a>
     </div>
     <div>
       <a class="xref" href="Virial.Assignable.RuntimeAssignable.html#Virial_Assignable_RuntimeAssignable_DisplayName">RuntimeAssignable.DisplayName</a>
@@ -164,6 +164,15 @@ Interface RuntimeRole  <a class="header-action link-secondary" title="View sourc
     </div>
     <div>
       <a class="xref" href="Virial.Assignable.RuntimeAssignable.html#Virial_Assignable_RuntimeAssignable_CanKill_Virial_Game_Player_">RuntimeAssignable.CanKill(Player)</a>
+    </div>
+    <div>
+      <a class="xref" href="Virial.Assignable.RuntimeAssignable.html#Virial_Assignable_RuntimeAssignable_InvalidateCrewmateTask">RuntimeAssignable.InvalidateCrewmateTask</a>
+    </div>
+    <div>
+      <a class="xref" href="Virial.Assignable.RuntimeAssignable.html#Virial_Assignable_RuntimeAssignable_MyCrewmateTaskIsIgnored">RuntimeAssignable.MyCrewmateTaskIsIgnored</a>
+    </div>
+    <div>
+      <a class="xref" href="Virial.Assignable.RuntimeAssignable.html#Virial_Assignable_RuntimeAssignable_ProgressWidget">RuntimeAssignable.ProgressWidget</a>
     </div>
     <div>
       <a class="xref" href="Virial.ILifespan.html#Virial_ILifespan_IsDeadObject">ILifespan.IsDeadObject</a>
@@ -189,6 +198,12 @@ Interface RuntimeRole  <a class="header-action link-secondary" title="View sourc
     <dt>Extension Methods</dt>
     <dd>
   <div>
+      <a class="xref" href="Virial.Game.GameEntityExtension.html#Virial_Game_GameEntityExtension_RegisterPermanently__1___0_System_Action___0__">GameEntityExtension.RegisterPermanently&lt;Entity&gt;(Entity, Action&lt;Entity&gt;?)</a>
+  </div>
+  <div>
+      <a class="xref" href="Virial.Game.GameEntityExtension.html#Virial_Game_GameEntityExtension_RegisterSelf__1___0_System_Action___0__">GameEntityExtension.RegisterSelf&lt;Entity&gt;(Entity, Action&lt;Entity&gt;?)</a>
+  </div>
+  <div>
       <a class="xref" href="Virial.Game.GameEntityExtension.html#Virial_Game_GameEntityExtension_Register__1___0_Virial_ILifespan_System_Action___0__">GameEntityExtension.Register&lt;Entity&gt;(Entity, ILifespan, Action&lt;Entity&gt;?)</a>
   </div>
   <div>
@@ -208,7 +223,7 @@ Interface RuntimeRole  <a class="header-action link-secondary" title="View sourc
 
   <h3 id="Virial_Assignable_RuntimeRole_CanInvokeSabotage" data-uid="Virial.Assignable.RuntimeRole.CanInvokeSabotage">
   CanInvokeSabotage
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Assignable/Role.cs/#L708"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Assignable/Role.cs/#L752"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>サボタージュを起こすことができる場合trueを返します。</p>
@@ -240,7 +255,7 @@ Interface RuntimeRole  <a class="header-action link-secondary" title="View sourc
 
   <h3 id="Virial_Assignable_RuntimeRole_CanMoveInVent" data-uid="Virial.Assignable.RuntimeRole.CanMoveInVent">
   CanMoveInVent
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Assignable/Role.cs/#L738"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Assignable/Role.cs/#L782"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>ベント間の移動ができる場合はtrueを返します。
@@ -273,7 +288,7 @@ Interface RuntimeRole  <a class="header-action link-secondary" title="View sourc
 
   <h3 id="Virial_Assignable_RuntimeRole_CanSeeOthersFakeSabotage" data-uid="Virial.Assignable.RuntimeRole.CanSeeOthersFakeSabotage">
   CanSeeOthersFakeSabotage
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Assignable/Role.cs/#L758"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Assignable/Role.cs/#L802"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>他人のフェイクサボタージュが確認できる場合はtrueを返します。</p>
@@ -305,7 +320,7 @@ Interface RuntimeRole  <a class="header-action link-secondary" title="View sourc
 
   <h3 id="Virial_Assignable_RuntimeRole_CanUseVent" data-uid="Virial.Assignable.RuntimeRole.CanUseVent">
   CanUseVent
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Assignable/Role.cs/#L718"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Assignable/Role.cs/#L762"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>ベントを使用できる場合はtrueを返します。</p>
@@ -337,7 +352,7 @@ Interface RuntimeRole  <a class="header-action link-secondary" title="View sourc
 
   <h3 id="Virial_Assignable_RuntimeRole_DisplayColoredShort" data-uid="Virial.Assignable.RuntimeRole.DisplayColoredShort">
   DisplayColoredShort
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Assignable/Role.cs/#L769"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Assignable/Role.cs/#L813"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -368,7 +383,7 @@ Interface RuntimeRole  <a class="header-action link-secondary" title="View sourc
 
   <h3 id="Virial_Assignable_RuntimeRole_DisplayIntroBlurb" data-uid="Virial.Assignable.RuntimeRole.DisplayIntroBlurb">
   DisplayIntroBlurb
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Assignable/Role.cs/#L773"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Assignable/Role.cs/#L817"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -399,7 +414,7 @@ Interface RuntimeRole  <a class="header-action link-secondary" title="View sourc
 
   <h3 id="Virial_Assignable_RuntimeRole_DisplayIntroRoleName" data-uid="Virial.Assignable.RuntimeRole.DisplayIntroRoleName">
   DisplayIntroRoleName
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Assignable/Role.cs/#L774"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Assignable/Role.cs/#L818"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -430,7 +445,7 @@ Interface RuntimeRole  <a class="header-action link-secondary" title="View sourc
 
   <h3 id="Virial_Assignable_RuntimeRole_DisplayShort" data-uid="Virial.Assignable.RuntimeRole.DisplayShort">
   DisplayShort
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Assignable/Role.cs/#L768"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Assignable/Role.cs/#L812"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>役職の省略名です。</p>
@@ -462,7 +477,7 @@ Interface RuntimeRole  <a class="header-action link-secondary" title="View sourc
 
   <h3 id="Virial_Assignable_RuntimeRole_ExternalRecognitionRole" data-uid="Virial.Assignable.RuntimeRole.ExternalRecognitionRole">
   ExternalRecognitionRole
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Assignable/Role.cs/#L700"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Assignable/Role.cs/#L744"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>対外的な認識の役職定義</p>
@@ -494,7 +509,7 @@ Interface RuntimeRole  <a class="header-action link-secondary" title="View sourc
 
   <h3 id="Virial_Assignable_RuntimeRole_EyesightIgnoreWalls" data-uid="Virial.Assignable.RuntimeRole.EyesightIgnoreWalls">
   EyesightIgnoreWalls
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Assignable/Role.cs/#L753"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Assignable/Role.cs/#L797"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>視界が壁を無視する場合はtrueを返します。</p>
@@ -526,7 +541,7 @@ Interface RuntimeRole  <a class="header-action link-secondary" title="View sourc
 
   <h3 id="Virial_Assignable_RuntimeRole_HasImpostorVision" data-uid="Virial.Assignable.RuntimeRole.HasImpostorVision">
   HasImpostorVision
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Assignable/Role.cs/#L743"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Assignable/Role.cs/#L787"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>インポスターの視界を持つ場合はtrueを返します。</p>
@@ -558,7 +573,7 @@ Interface RuntimeRole  <a class="header-action link-secondary" title="View sourc
 
   <h3 id="Virial_Assignable_RuntimeRole_HasVanillaKillButton" data-uid="Virial.Assignable.RuntimeRole.HasVanillaKillButton">
   HasVanillaKillButton
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Assignable/Role.cs/#L713"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Assignable/Role.cs/#L757"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>バニラのキルボタンを使用できる場合trueを返します。</p>
@@ -590,7 +605,7 @@ Interface RuntimeRole  <a class="header-action link-secondary" title="View sourc
 
   <h3 id="Virial_Assignable_RuntimeRole_IgnoreBlackout" data-uid="Virial.Assignable.RuntimeRole.IgnoreBlackout">
   IgnoreBlackout
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Assignable/Role.cs/#L748"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Assignable/Role.cs/#L792"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>停電の影響を受ける場合はtrueを返します。</p>
@@ -622,7 +637,7 @@ Interface RuntimeRole  <a class="header-action link-secondary" title="View sourc
 
   <h3 id="Virial_Assignable_RuntimeRole_IgnoreNoisemakerNotification" data-uid="Virial.Assignable.RuntimeRole.IgnoreNoisemakerNotification">
   IgnoreNoisemakerNotification
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Assignable/Role.cs/#L763"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Assignable/Role.cs/#L807"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>ノイズメーカーの通知を拒否する場合はtrueを返します。</p>
@@ -654,7 +669,7 @@ Interface RuntimeRole  <a class="header-action link-secondary" title="View sourc
 
   <h3 id="Virial_Assignable_RuntimeRole_PreventUsingVent" data-uid="Virial.Assignable.RuntimeRole.PreventUsingVent">
   PreventUsingVent
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Assignable/Role.cs/#L722"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Assignable/Role.cs/#L766"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>ベントの使用を一時的に阻むときにtrueを返します。</p>
@@ -686,7 +701,7 @@ Interface RuntimeRole  <a class="header-action link-secondary" title="View sourc
 
   <h3 id="Virial_Assignable_RuntimeRole_Role" data-uid="Virial.Assignable.RuntimeRole.Role">
   Role
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Assignable/Role.cs/#L696"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Assignable/Role.cs/#L740"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>役職の定義</p>
@@ -718,7 +733,7 @@ Interface RuntimeRole  <a class="header-action link-secondary" title="View sourc
 
   <h3 id="Virial_Assignable_RuntimeRole_TaskType" data-uid="Virial.Assignable.RuntimeRole.TaskType">
   TaskType
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Assignable/Role.cs/#L771"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Assignable/Role.cs/#L815"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -749,7 +764,7 @@ Interface RuntimeRole  <a class="header-action link-secondary" title="View sourc
 
   <h3 id="Virial_Assignable_RuntimeRole_UsurpedAbilityArguments" data-uid="Virial.Assignable.RuntimeRole.UsurpedAbilityArguments">
   UsurpedAbilityArguments
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Assignable/Role.cs/#L785"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Assignable/Role.cs/#L829"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>現在の状態を簒奪可能能力の引数に変換します。</p>
@@ -781,7 +796,7 @@ Interface RuntimeRole  <a class="header-action link-secondary" title="View sourc
 
   <h3 id="Virial_Assignable_RuntimeRole_VentCoolDown" data-uid="Virial.Assignable.RuntimeRole.VentCoolDown">
   VentCoolDown
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Assignable/Role.cs/#L727"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Assignable/Role.cs/#L771"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>ベントの使用にクールダウンを設けます。</p>
@@ -813,7 +828,7 @@ Interface RuntimeRole  <a class="header-action link-secondary" title="View sourc
 
   <h3 id="Virial_Assignable_RuntimeRole_VentDuration" data-uid="Virial.Assignable.RuntimeRole.VentDuration">
   VentDuration
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Assignable/Role.cs/#L732"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Assignable/Role.cs/#L776"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>ベントの潜伏時間に制限を設けます。</p>
@@ -845,7 +860,7 @@ Interface RuntimeRole  <a class="header-action link-secondary" title="View sourc
 
   <h3 id="Virial_Assignable_RuntimeRole_WinningOpportunity" data-uid="Virial.Assignable.RuntimeRole.WinningOpportunity">
   WinningOpportunity
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Assignable/Role.cs/#L790"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Assignable/Role.cs/#L834"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>勝機を取得します。</p>
@@ -877,11 +892,47 @@ Interface RuntimeRole  <a class="header-action link-secondary" title="View sourc
 </h2>
 
 
+  <a id="Virial_Assignable_RuntimeRole_CheckGuessAbility_" data-uid="Virial.Assignable.RuntimeRole.CheckGuessAbility*"></a>
+
+  <h3 id="Virial_Assignable_RuntimeRole_CheckGuessAbility_Virial_Assignable_DefinedRole_" data-uid="Virial.Assignable.RuntimeRole.CheckGuessAbility(Virial.Assignable.DefinedRole)">
+  CheckGuessAbility(DefinedRole)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Assignable/Role.cs/#L836"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool CheckGuessAbility(DefinedRole abilityRole)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>abilityRole</code> <a class="xref" href="Virial.Assignable.DefinedRole.html">DefinedRole</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
   <a id="Virial_Assignable_RuntimeRole_Usurp_" data-uid="Virial.Assignable.RuntimeRole.Usurp*"></a>
 
   <h3 id="Virial_Assignable_RuntimeRole_Usurp" data-uid="Virial.Assignable.RuntimeRole.Usurp">
   Usurp()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Assignable/Role.cs/#L780"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Assignable/Role.cs/#L824"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>能力を簒奪します。RPCを送って全クライアントでUsurpを実行する必要があります。</p>

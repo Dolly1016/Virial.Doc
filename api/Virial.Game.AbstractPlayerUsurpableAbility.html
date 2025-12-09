@@ -89,7 +89,7 @@
 
 
   <h1 id="Virial_Game_AbstractPlayerUsurpableAbility" data-uid="Virial.Game.AbstractPlayerUsurpableAbility" class="text-break">
-Class AbstractPlayerUsurpableAbility  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Game/PlayerAbility.cs/#L32"><i class="bi bi-code-slash"></i></a>
+Class AbstractPlayerUsurpableAbility  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Game/PlayerAbility.cs/#L37"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -165,6 +165,12 @@ Class AbstractPlayerUsurpableAbility  <a class="header-action link-secondary" ti
     <dt>Extension Methods</dt>
     <dd>
   <div>
+      <a class="xref" href="Virial.Game.GameEntityExtension.html#Virial_Game_GameEntityExtension_RegisterPermanently__1___0_System_Action___0__">GameEntityExtension.RegisterPermanently&lt;Entity&gt;(Entity, Action&lt;Entity&gt;?)</a>
+  </div>
+  <div>
+      <a class="xref" href="Virial.Game.GameEntityExtension.html#Virial_Game_GameEntityExtension_RegisterSelf__1___0_System_Action___0__">GameEntityExtension.RegisterSelf&lt;Entity&gt;(Entity, Action&lt;Entity&gt;?)</a>
+  </div>
+  <div>
       <a class="xref" href="Virial.Game.GameEntityExtension.html#Virial_Game_GameEntityExtension_Register__1___0_Virial_ILifespan_System_Action___0__">GameEntityExtension.Register&lt;Entity&gt;(Entity, ILifespan, Action&lt;Entity&gt;?)</a>
   </div>
   <div>
@@ -184,7 +190,7 @@ Class AbstractPlayerUsurpableAbility  <a class="header-action link-secondary" ti
 
   <h3 id="Virial_Game_AbstractPlayerUsurpableAbility__ctor_Virial_Game_Player_System_Boolean_" data-uid="Virial.Game.AbstractPlayerUsurpableAbility.#ctor(Virial.Game.Player,System.Boolean)">
   AbstractPlayerUsurpableAbility(Player, bool)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Game/PlayerAbility.cs/#L44"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Game/PlayerAbility.cs/#L49"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -221,7 +227,7 @@ Class AbstractPlayerUsurpableAbility  <a class="header-action link-secondary" ti
 
   <h3 id="Virial_Game_AbstractPlayerUsurpableAbility_AmOwner" data-uid="Virial.Game.AbstractPlayerUsurpableAbility.AmOwner">
   AmOwner
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Game/PlayerAbility.cs/#L35"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Game/PlayerAbility.cs/#L40"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>自身が所有者であることを表します。</p>
@@ -253,7 +259,7 @@ Class AbstractPlayerUsurpableAbility  <a class="header-action link-secondary" ti
 
   <h3 id="Virial_Game_AbstractPlayerUsurpableAbility_IsUsurped" data-uid="Virial.Game.AbstractPlayerUsurpableAbility.IsUsurped">
   IsUsurped
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Game/PlayerAbility.cs/#L36"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Game/PlayerAbility.cs/#L41"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -284,7 +290,7 @@ Class AbstractPlayerUsurpableAbility  <a class="header-action link-secondary" ti
 
   <h3 id="Virial_Game_AbstractPlayerUsurpableAbility_MyPlayer" data-uid="Virial.Game.AbstractPlayerUsurpableAbility.MyPlayer">
   MyPlayer
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Game/PlayerAbility.cs/#L34"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Game/PlayerAbility.cs/#L39"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>このEntityを所有するプレイヤーを表します。
@@ -321,14 +327,14 @@ Class AbstractPlayerUsurpableAbility  <a class="header-action link-secondary" ti
 
   <h3 id="Virial_Game_AbstractPlayerUsurpableAbility_Usurp" data-uid="Virial.Game.AbstractPlayerUsurpableAbility.Usurp">
   Usurp()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Game/PlayerAbility.cs/#L37"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Game/PlayerAbility.cs/#L42"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool Usurp()</code></pre>
+    <pre><code class="lang-csharp hljs">public virtual bool Usurp()</code></pre>
   </div>
 
 

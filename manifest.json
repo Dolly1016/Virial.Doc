@@ -11,6 +11,66 @@
       }
     },
     {
+      "type": "Conceptual",
+      "source_relative_path": "SuperNewRoles/CONTRIBUTE.md",
+      "output": {
+        ".html": {
+          "relative_path": "SuperNewRoles/CONTRIBUTE.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "SuperNewRoles/README.md",
+      "output": {
+        ".html": {
+          "relative_path": "SuperNewRoles/README.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "SuperNewRoles/README_en.md",
+      "output": {
+        ".html": {
+          "relative_path": "SuperNewRoles/README_en.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "SuperNewRoles/READMEs/README_en_old.md",
+      "output": {
+        ".html": {
+          "relative_path": "SuperNewRoles/READMEs/README_en_old.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "SuperNewRoles/READMEs/README_jp_old.md",
+      "output": {
+        ".html": {
+          "relative_path": "SuperNewRoles/READMEs/README_jp_old.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "SuperNewRoles/SuperNewRoles.Tests/README.md",
+      "output": {
+        ".html": {
+          "relative_path": "SuperNewRoles/SuperNewRoles.Tests/README.html"
+        }
+      },
+      "version": ""
+    },
+    {
       "type": "ManagedReference",
       "source_relative_path": "api/Virial.Accessibility.OverlayHolder.yml",
       "output": {
@@ -36,6 +96,34 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Virial.Accessibility",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Achievements.ITitlesRegister.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Achievements.ITitlesRegister.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Achievements.ITitlesRegister",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Achievements.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Achievements.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Achievements",
       "Summary": null
     },
     {
@@ -107,6 +195,34 @@
       "IsMRef": true,
       "Title": "Virial.Assignable.AssignableFilterHolder",
       "Summary": "<p sourcefile=\"api/Virial.Assignable.AssignableFilterHolder.yml\" sourcestartlinenumber=\"1\">モディファイアおよび幽霊役職の割り当てフィルタを持つ対象を表します。</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Assignable.AssignableHelpers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Assignable.AssignableHelpers.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Assignable.AssignableHelpers",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Assignable.AssignmentCandidate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Assignable.AssignmentCandidate.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Assignable.AssignmentCandidate",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -488,6 +604,20 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Assignable.IExclusiveAssignmentRule.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Assignable.IExclusiveAssignmentRule.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Assignable.IExclusiveAssignmentRule",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Virial.Assignable.IGuessed.yml",
       "output": {
         ".html": {
@@ -527,6 +657,20 @@
       "IsMRef": true,
       "Title": "Virial.Assignable.IRoleAllocator",
       "Summary": "<p sourcefile=\"api/Virial.Assignable.IRoleAllocator.yml\" sourcestartlinenumber=\"1\">役職の割り当て器です。\nゲーム開始時に生成され、ゲーム終了まで同じ割り当て器が使用されます。</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Assignable.IRoleDraftAllocator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Assignable.IRoleDraftAllocator.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Assignable.IRoleDraftAllocator",
+      "Summary": "<p sourcefile=\"api/Virial.Assignable.IRoleDraftAllocator.yml\" sourcestartlinenumber=\"1\">ドラフト形式で役職を割り当てます。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -572,6 +716,20 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Assignable.MultipleAssignmentType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Assignable.MultipleAssignmentType.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Assignable.MultipleAssignmentType",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Virial.Assignable.NebulaTeams.yml",
       "output": {
         ".html": {
@@ -582,6 +740,34 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Virial.Assignable.NebulaTeams",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Assignable.ProgressGUI.OneLineTextElement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Assignable.ProgressGUI.OneLineTextElement.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Assignable.ProgressGUI.OneLineTextElement",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Assignable.ProgressGUI.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Assignable.ProgressGUI.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Assignable.ProgressGUI",
       "Summary": null
     },
     {
@@ -792,7 +978,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Virial.Attributes.EventPriority",
-      "Summary": "<p sourcefile=\"api/Virial.Attributes.EventPriority.yml\" sourcestartlinenumber=\"1\">リスナに優先度を設定します。デフォルトの優先度は100で、値が大きいほど優先して実行されます。</p>\n"
+      "Summary": "<p sourcefile=\"api/Virial.Attributes.EventPriority.yml\" sourcestartlinenumber=\"1\">リスナに優先度を設定します。デフォルトの優先度は0で、値が大きいほど優先して実行されます。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2364,6 +2550,20 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Events.Game.GameShowIntroLocalEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Events.Game.GameShowIntroLocalEvent.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Events.Game.GameShowIntroLocalEvent",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Virial.Events.Game.GameStartEvent.yml",
       "output": {
         ".html": {
@@ -2389,6 +2589,20 @@
       "IsMRef": true,
       "Title": "Virial.Events.Game.GameUpdateEvent",
       "Summary": "<p sourcefile=\"api/Virial.Events.Game.GameUpdateEvent.yml\" sourcestartlinenumber=\"1\">ゲーム中に毎ティック発火します。</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Events.Game.KillerTeamCallback.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Events.Game.KillerTeamCallback.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Events.Game.KillerTeamCallback",
+      "Summary": "<p sourcefile=\"api/Virial.Events.Game.KillerTeamCallback.yml\" sourcestartlinenumber=\"1\">特定の陣営を除いたキル陣営が生き残っているかどうかの問いに答えます。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -3260,6 +3474,34 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Events.Player.PlayerRoleSwapEvent.SwapType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Events.Player.PlayerRoleSwapEvent.SwapType.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Events.Player.PlayerRoleSwapEvent.SwapType",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Events.Player.PlayerRoleSwapEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Events.Player.PlayerRoleSwapEvent.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Events.Player.PlayerRoleSwapEvent",
+      "Summary": "<p sourcefile=\"api/Virial.Events.Player.PlayerRoleSwapEvent.yml\" sourcestartlinenumber=\"1\">PlayerRoleSetEventが発火するタイミングとの関係は未定義です。</p>\n"
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Virial.Events.Player.PlayerSabotageTaskAddLocalEvent.yml",
       "output": {
         ".html": {
@@ -3386,6 +3628,20 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Events.Player.PlayerUpdateCrewRecognitionEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Events.Player.PlayerUpdateCrewRecognitionEvent.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Events.Player.PlayerUpdateCrewRecognitionEvent",
+      "Summary": "<p sourcefile=\"api/Virial.Events.Player.PlayerUpdateCrewRecognitionEvent.yml\" sourcestartlinenumber=\"1\">プレイヤーの陣営認識が更新されうるときに発火します。\nまったく変化していない場合もあります。</p>\n"
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Virial.Events.Player.PlayerVentEnterEvent.yml",
       "output": {
         ".html": {
@@ -3508,6 +3764,20 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Virial.Events.VoiceChat.FixSpeakerPositionEvent",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Events.VoiceChat.VoiceUpdateEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Events.VoiceChat.VoiceUpdateEvent.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Events.VoiceChat.VoiceUpdateEvent",
       "Summary": null
     },
     {
@@ -3901,6 +4171,20 @@
       "IsMRef": true,
       "Title": "Virial.Game.IFakePlayer",
       "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Game.IGameModeAeroGuesser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Game.IGameModeAeroGuesser.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Game.IGameModeAeroGuesser",
+      "Summary": "<p sourcefile=\"api/Virial.Game.IGameModeAeroGuesser.yml\" sourcestartlinenumber=\"1\">アモゲッサーモードのゲームで生成されるモジュールです。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -5398,6 +5682,20 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Virial.Utilities.IHasher",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Utilities.IObserver-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Utilities.IObserver-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Utilities.IObserver<T>",
       "Summary": null
     },
     {

@@ -6,7 +6,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta name="title" content="Class EventPriority | Virial ">
       
-      <meta name="description" content="リスナに優先度を設定します。デフォルトの優先度は100で、値が大きいほど優先して実行されます。">
+      <meta name="description" content="リスナに優先度を設定します。デフォルトの優先度は0で、値が大きいほど優先して実行されます。">
       <link rel="icon" href="../images/icon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -97,7 +97,7 @@ Class EventPriority  <a class="header-action link-secondary" title="View source"
   
   </div>
 
-  <div class="markdown summary"><p>リスナに優先度を設定します。デフォルトの優先度は100で、値が大きいほど優先して実行されます。</p>
+  <div class="markdown summary"><p>リスナに優先度を設定します。デフォルトの優先度は0で、値が大きいほど優先して実行されます。</p>
 </div>
   <div class="markdown conceptual"></div>
 
@@ -278,7 +278,7 @@ public class EventPriority : Attribute</code></pre>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public EventPriority(int priority = 100)</code></pre>
+    <pre><code class="lang-csharp hljs">public EventPriority(int priority = 0)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -289,6 +289,130 @@ public class EventPriority : Attribute</code></pre>
 
 
 
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="fields">Fields
+</h2>
+
+
+
+  <h3 id="Virial_Attributes_EventPriority_High" data-uid="Virial.Attributes.EventPriority.High">
+  High
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Attributes/NebulaAttribute.cs/#L166"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int High = 100</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Virial_Attributes_EventPriority_Low" data-uid="Virial.Attributes.EventPriority.Low">
+  Low
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Attributes/NebulaAttribute.cs/#L167"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int Low = -100</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Virial_Attributes_EventPriority_VeryHigh" data-uid="Virial.Attributes.EventPriority.VeryHigh">
+  VeryHigh
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Attributes/NebulaAttribute.cs/#L165"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int VeryHigh = 1000</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Virial_Attributes_EventPriority_VeryLow" data-uid="Virial.Attributes.EventPriority.VeryLow">
+  VeryLow
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Attributes/NebulaAttribute.cs/#L168"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int VeryLow = -1000</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
 
 
 

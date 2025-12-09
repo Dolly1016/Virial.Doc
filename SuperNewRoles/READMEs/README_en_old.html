@@ -1,0 +1,2939 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>SuperNewRoles | Virial </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="SuperNewRoles | Virial ">
+      
+      
+      <link rel="icon" href="../../images/icon.ico">
+      <link rel="stylesheet" href="../../public/docfx.min.css">
+      <link rel="stylesheet" href="../../public/main.css">
+      <meta name="docfx:navrel" content="../../toc.html">
+      <meta name="docfx:tocrel" content="../../toc.html">
+      
+      <meta name="docfx:rel" content="../../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/Dolly1016/SuperNewRoles/blob/master/READMEs/README_en_old.md/#L1">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../../index.html">
+            <img id="logo" class="svg" src="../../images/logo.png" alt="Virial">
+            Virial
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+
+      <div class="content">
+        <div class="actionbar">
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+<h1 id="supernewroles">SuperNewRoles</h1>
+
+<p><img src="/images/SNRImage.png" alt="SNRImage"></p>
+<center>
+This mod is not affiliated with Among Us or Innersloth LLC, and the content contained therein is not endorsed or otherwise sponsored by Innersloth LLC. Portions of the materials contained herein are property of Innersloth LLC. c Innersloth LLC.
+</center><br>
+<h2 id="readmes-in-other-languages">READMEs in other languages</h2>
+<p><a href="https://github.com/ykundesu/SuperNewRoles/blob/master/README.md">English←</a></p>
+<p><a href="https://github.com/ykundesu/SuperNewRoles/blob/master/READMEs/README_jp.md">日本語</a></p>
+<h1 id="support">Support</h1>
+<h2 id="accepted-at-fanbox">Accepted at <a href="https://supernewroles.fanbox.cc">FANBOX</a>!</h2>
+<h2 id="httpssupernewrolesfanboxcc"><a href="https://supernewroles.fanbox.cc">https://supernewroles.fanbox.cc</a></h2>
+<h1 id="features-of-this-mod">Features of this mod</h1>
+<h2 id="controller-compatible">Controller Compatible</h2>
+<p>Controllers can be used for button use!</p>
+<h2 id="multiple-people-can-be-set-up">Multiple people can be set up</h2>
+<p>All crewmates can also be used as sheriffs, etc.!<br>
+In SHR mode, &quot;everyone's sheriff&quot; is not supported due to the specification that the sheriff replaces the Impostor.<br>
+After the match starts, the crewmate is immediately judged the winner of the task.<br>
+(No one with a task = 0 tasks left for Crew.)<br>
+Please include one Team Crewposition that has a task.<br>
+(Adding a Madmate, JackalFriends, or Home Security Guard not help.)<br></p>
+<h2 id="equipment-settings">Equipment settings</h2>
+<p>You can set up the admin, vitals, and other settings.<br>
+In normal mode, time settings are also available.<br>
+The [ykundesuBeplnEx] setting is also included!<br>
+Currently, in SHR mode, you can only use the available/unavailable settings.<br></p>
+<h2 id="multiple-people-can-be-set-up-in-one-position">Multiple people can be set up in one position.</h2>
+<p>All crewmates can also be Sheriffs, etc.!<br></p>
+<ul>
+<li>Note: SHR mode
+<ul>
+<li>Due to the specification of Sheriff replacing Impostor, &quot;Sheriff for all&quot; is not supported with [Task Win] in the Crew win condition.
+<ul>
+<li>After the match starts, the Crew is immediately judged to have won the task. (No one with a task = 0 task remaining for Crew)</li>
+<li>Please include one person in the Crew team position who has a task. (Adding a Madmate, Jackal Friends, or Home Guard will not help).</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>However, if &quot;Duplicate Mode/No Task Wins Mode&quot; is turned on, it is possible to set &quot;All Crewmates are Sheriffs&quot; in SHR mode.
+<ul>
+<li>Crew win conditions in this setting
+<ul>
+<li>Eradication of Impostor, Jackal, or other single victorious third team with a Sheriff kill.</li>
+<li>Hang up the Impostor, Jackal, or other single victorious third camp.</li>
+<li>The Impostor-Jackal is defeated by the Impostor-Jackal, and the single victorious third camp is killed by the Impostor-Jackal.</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p>Translated with <a href="http://www.DeepL.com/Translator">www.DeepL.com/Translator</a> (free version)</p>
+<h2 id="map-modification">Map Modification</h2>
+<p>There is a setting to modify the map.<br>
+<br></p>
+<h3 id="mirahq">MiraHQ</h3>
+<p>・Add Vitals<br>
+・Add venting ([Lab-Admin-Yventing])<br></p>
+<h3 id="polus">Polus</h3>
+<p>・Add vent ([Specimenroom-Vitals-Weapon])<br></p>
+<h3 id="airship">AirShip</h3>
+<p>・Add secret room!<br>
+・Add vent ([main upper left private room - infirmary - lounge],[security - elec - shower])
+・Remove elevators<br>
+・Move switchboard ([cargo -&gt; vault task], [elevator -&gt; back of meeting])<br>
+・Add wiring task<br></p>
+<h2 id="modes">Modes.</h2>
+<p>[Hide and Seek mode], etc. have been added, apart from the normal ones.</p>
+<h2 id="support-for-some-hosts-to-be-able-to-go-there-only">Support for some hosts to be able to go there only!</h2>
+<p>Some of the modes and positions are available for everyone, just by having the host enter!<br>
+Some positions are listed as [SHR-compatible] and [SuperHostRoles-compatible].<br>
+If the host includes this mod, the position will be available to all!<br></p>
+<h2 id="credits">Credits.</h2>
+<p><a href="https://github.com/Eisbison/TheOtherRoles">TheOtherRoles</a> Thanks for the help in making the mod. <strong>Thanks to Eisbison</strong>!</p>
+<p><a href="https://github.com/yukinogatari/TheOtherRoles-GM">TheOtherRolesGM</a> For the source code of the options and buttons. **Thanks to <strong>yukinogatari</strong>!</p>
+<p><a href="https://github.com/DorCoMaNdO/Reactor-Essentials">Essentials</a> - Custom game options
+<strong>DorCoMaNdO</strong>:</p>
+<ul>
+<li>Prior to v1.6: used default Essentials release</li>
+<li>v1.6-v1.8: Made some changes to the default Essentials. Changes This branch has a fork.</li>
+<li>Since v2.0.0: No longer uses Reactor, but uses its own implementation inspired by it. <strong>DorCoMaNdO</strong>.</li>
+</ul>
+<p>(from TheOtherRoles &amp; from Google Translate)</p>
+<p><a href="https://github.com/BepInEx">BepInEx</a> - I used it to apply the mod.<br>
+<a href="https://www.twitch.tv/dhalucard">Jackal and Sidekick</a> - Original idea came from <strong>Dhalucard</strong> (from TheOtherRoles).<br>
+<a href="https://github.com/tukasa0001/TownOfHost">Town Of Host</a> - Used for CustomRPCSender, used for debugging, CustomRPCSenderand allowed me to use DEBUG mode. Thanks to <strong>tukasa0001</strong>!<br>
+<a href="https://github.com/Maartii/Jester">Jester</a> - The idea for Jester (Teruteru) came from <strong>Maartii</strong>. (Taken from TheOtherRoles)<br>
+<a href="https://github.com/Woodi-dev/Among-Us-Love-Couple-Mod">Among-Us-Love-Couple-Mod</a> - Idea for the Lovers role comes from <strong>Woodi-dev</strong><br>
+<a href="https://github.com/Woodi-dev/Among-Us-Sheriff-Mod">Among-Us-Sheriff-Mod</a> - The idea for Sheriff comes from <strong>Woodi-dev</strong>. (Taken from TheOtherRoles)<br>
+<a href="https://au.libhalt.net">au.libhalt.net</a> - Nice Nekomata/Ivil Nekomata idea came from <strong>au.libhalt.net</strong>.<br>
+[TheOtherRolesGMHaoming]<!--(https://github.com/haoming37/TheOtherRoles-GM-Haoming)--> - Used for Add Vents , Remove Lift , AddWireTasks and move vital. Thanks to <strong>haoming37</strong>!<br>
+<a href="https://github.com/yukieiji/ExtremeRoles">ExtremeRoles</a> - Used fix task in map,The idea for Assassin and Merine. Thanks to <strong>yukieiji</strong>！<br>
+<a href="https://github.com/tugaru1975/TownOfPlus">Town Of Plus</a> - I have referred to the process of displaying the crew color name and making the text color the crew color, etc. Thanks to <strong>tugaru1975</strong>!<br>
+<a href="https://github.com/Devs-Us/Cursed-Among-Us">Cursed-Among-Us</a> - I have referred to the task idea and processing part of the curse mode. Thanks you <strong>Devs-Us</strong>!<br>
+<a href="https://soundeffect-lab.info/">効果音ラボ</a> - Some sound effects are used. The audio files for these sound effects are licensed under the terms of this site.<br>
+<br>
+<a href="https://github.com/ykundesu/SuperNewRoles/wiki/%E5%BD%B9%E8%81%B7%E4%B8%80%E8%A6%A7#%E4%BB%96%E3%81%AEmod%E3%81%8B%E3%82%89%E7%A7%BB%E6%A4%8D-%E5%8F%88%E3%81%AF%E5%8F%82%E8%80%83%E3%81%AB%E3%81%97%E3%81%9F%E5%BD%B9%E8%81%B7">SNRGithubWiki 役職一覧#他のmodから他のmodから移植, 又は参考にした役職</a> - The details of the ported Roles and the Roles of other mods that were used as references when creating SNR's original Roles are listed here.<br>
+<br></p>
+<h2 id="used-custom-cosmetics">Used custom cosmetics</h2>
+<ul>
+<li><a href="https://github.com/ykundesu/SuperNewNamePlates">SuperNewNamePlates</a>(SNR)
+<ul>
+<li>(Licences relating to costumes held independently by SNR are listed in this repository.)<br><br></li>
+</ul>
+</li>
+<li><a href="https://github.com/hinakkyu/TheOtherHats">TheOtherHats</a>(Me-Me-MuraSkins)Thanks to <strong>hinakkyu</strong>！</li>
+<li><a href="https://github.com/Ujet222/TOPHats">TOPHats</a>(TOP、YJ)Thanks to <strong>tugaru1975</strong>and<strong>Ujet222</strong>(Sakura_White)！</li>
+<li><a href="https://github.com/catudon1276/Mememura-Hats">Mememura-Hats</a> and <a href="https://github.com/catudon1276/CatudonCostume">CatudonCostume</a>(Mememura Hats, Catudon Costume SEL) Thanks to <strong>catudon1276</strong>(catudon)！</li>
+</ul>
+<h2 id="developers">Developers</h2>
+<ul>
+<li>Developer #1 : <a href="https://github.com/ykundesu">Yoking</a> (<a href="https://misskey.io/@yoking">Misskey</a>) (<a href="https://twitter.com/ReYYYYoking">𝕏 ( Old Twitter )</a>)</li>
+<li>Developer #4 : <a href="https://github.com/UKON256">UKON people</a></li>
+<li>Developer #7 : <a href="https://github.com/Kurato-Tsukishiro">Kurato_Tsukishiro</a> (<a href="https://misskey.io/@Kurato_SNR7">Misskey</a>) (<a href="https://twitter.com/Kurato_SNR7">𝕏 ( Old Twitter )</a>)</li>
+<li>Developer #9 : <a href="https://github.com/Kuki12345">Kuki</a></li>
+<li>Developer #11 : <a href="https://github.com/Glaceon-471">Glaceon</a> (<a href="https://misskey.io/@GlaceonSNR11">Misskey</a>) (<a href="https://twitter.com/Glaceon_SNR11">𝕏 ( Old Twitter )</a>)</li>
+<li>Developer #12 : <a href="https://github.com/Seono968">Seono</a> (<a href="https://twitter.com/Rinforzando_960">𝕏 ( Old Twitter )</a>)</li>
+<li>Developer #13 : <a href="https://github.com/root-sbh">root-sbh</a><br><br></li>
+<li>Developer #10 : <a href="https://github.com/Sakurander"><del>Sakurander</del></a></li>
+</ul>
+<h2 id="supporter">Supporter</h2>
+<ul>
+<li><br>
+</li>
+</ul>
+<h2 id="translators">Translators</h2>
+<ul>
+<li>Mx.ZeMingoh233 (SChinese)</li>
+<li>Mx.Jim137 (TChinese)</li>
+</ul>
+<h2 id="about-contact">About Contact</h2>
+<p>Please use the Discord server:<a href="https://discord.gg/Cqfwx82ynN">Discord server</a></p>
+<h2 id="list-of-roles">List of Roles</h2>
+<ul>
+<li>Migrating to Githubwiki (a table of positions that are already supported in SuperHostRoles mode is listed here).</li>
+<li>If there are differences between ReadMe and Githubwiki, the information on Githubwiki is the most up-to-date.</li>
+<li><a href="https://github.com/ykundesu/SuperNewRoles/wiki/%E5%BD%B9%E8%81%B7%E4%B8%80%E8%A6%A7">Githubwiki_Roles_List</a></li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Impostor</th>
+<th>Crewmate</th>
+<th>Neutral</th>
+<th>Redundant Camps</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="#Teleporter">Teleporter</a></td>
+<td><a href="#Lighter">Lighter</a></td>
+<td><a href="#Jester">Jester</a></td>
+<td><a href="#Quarreled">Quarreled</a></td>
+</tr>
+<tr>
+<td><a href="#EvilSpeedBooster">EvilSpeedBooster</a></td>
+<td><a href="#Sheriff">Sheriff</a></td>
+<td><a href="#Opportunist">Opportunist</a></td>
+<td><a href="#Lovers">Lovers</a></td>
+</tr>
+<tr>
+<td><a href="#EvilDoorr">EvilDoorr</a></td>
+<td><a href="#SpeedBooster">SpeedBooster</a></td>
+<td><a href="#Jackal">Jackal</a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="#EvilGambler">EvilGambler</a></td>
+<td><a href="#Doorr">Doorr</a></td>
+<td><a href="#Sidekick">Sidekick</a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="#SelfBomber">SelfBomber</a></td>
+<td><a href="#Clergyman">Clergyman</a></td>
+<td><a href="#God">God</a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="#EvilNekomata">EvilNekomata</a></td>
+<td><a href="#Madmate">Madmate</a></td>
+<td><a href="#Egoist">Egoist</a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="#CountChanger">CountChanger</a></td>
+<td><a href="#Bait">Bait</a></td>
+<td><a href="#WorkPerson">Work Person</a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="#Pursuer">Pursuer</a></td>
+<td><a href="#HomeSecurityGuard">Home Security Guard</a></td>
+<td><a href="#TrueLover">True Lover</a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="#EvilScientist">EvilScientist</a></td>
+<td><a href="#Stuntman">Stuntman</a></td>
+<td><a href="#Amnesiac">Amnesiac</a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="#Hawk">Hawk</a></td>
+<td><a href="#Moving">Moving</a></td>
+<td><a href="#JackalFriends">Jackal Friends</a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="#Minimalist">Minimalist</a></td>
+<td><a href="#BestFalseCharge">Best False Charge</a></td>
+<td><a href="#FalseCharges">FalseCharges</a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="#Magaziner">Magaziner</a></td>
+<td><a href="#NiceNekomata">Nice Nekomata</a></td>
+<td><a href="#Fox">Fox</a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="#SerialKiller">SerialKiller</a></td>
+<td><a href="#Doctor">Doctor</a></td>
+<td><a href="#TeleportingJackal">TeleportingJackal</a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="#EvilEraser">EvilEraser</a></td>
+<td><a href="#MeetingSheriff">MeetingSheriff</a></td>
+<td><a href="#Demon">Demon</a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="#OverKiller">OverKiller</a></td>
+<td><a href="#NicScientist">NicScientist</a></td>
+<td><a href="#JackalSeer">JackalSeer</a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="#EvilMoving">EvilMoving</a></td>
+<td><a href="#NiceRedRidingHood">NiceRedRidingHood</a></td>
+<td><a href="#SidekickSeer">Sidekick(Seer)</a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="#Levelinger">Levelinger</a></td>
+<td><a href="#Mayor">Mayor</a></td>
+<td><a href="#Arsonist">Arsonist</a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="#SideKiller">SideKiller</a></td>
+<td><a href="#Technician">Technician</a></td>
+<td><a href="#Neet">Neet</a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="#Survivor">Survivor</a></td>
+<td><a href="#Diviner">Diviner</a></td>
+<td><a href="#Safecracker">Safecracker</a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="#EvilSeer">EvilSeer</a></td>
+<td><a href="#SpiritMedium">Spirit Medium</a></td>
+<td><a href="#FireFox">Fire Fox</a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="#DarkKiller">DarkKiller</a></td>
+<td><a href="#MadMayor">MadMayor</a></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="#Vampire">Vampire</a></td>
+<td><a href="#NiceHawk">NiceHawk</a></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="#AssassinAndMarlin">AssassinAndMarlin</a></td>
+<td><a href="#MadStuntman">MadStuntman</a></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="#Cleaner">Cleaner</a></td>
+<td><a href="#MadHawk">MadHawk</a></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="#Samurai">Samurai</a></td>
+<td><a href="#Bakery">Bakery</a></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="#VentMaker">VentMaker</a></td>
+<td><a href="#MadJester">MadJester</a></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="#EvilHacker">EvilHacker</a></td>
+<td><a href="#%5BNiceTeleporter">NiceTeleporter</a></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="#PositionSwapper">PositionSwapper</a></td>
+<td><a href="#Celebrity">Celebrity</a></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="#Mafia">Mafia</a></td>
+<td><a href="#Nocturnality">Nocturnality</a></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="#SuicideWisher">SuicideWisher</a></td>
+<td><a href="#Observer">Observer</a></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="#FastMaker">Fast Maker</a></td>
+<td><a href="#Seer">Seer</a></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="#Kunoichi">Kunoichi</a></td>
+<td><a href="#MadSeer">MadSeer</a></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="#DoubleKiller">DoubleKiller</a></td>
+<td><a href="#RemoteSheriff">RemoteSheriff</a></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="#Smasher">Smasher</a></td>
+<td><a href="#TaskManager">TaskManager</a></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="#SecretlyKiller">Secretly Killer</a></td>
+<td><a href="#MadMaker">MadMaker</a></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td><a href="#Chief">Chief</a></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td><a href="#MadCleaner">MadCleaner</a></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td><a href="#MayorFriends">MayorFriends</a></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td><a href="#HauntedWolf">HauntedWolf</a></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td><a href="#BlackCat">BlackCat</a></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td><a href="#Spy">Spy</a></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td><a href="#GhostMechanic">GhostMechanic</a></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td><a href="#ToiletFan">ToiletFan</a></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td><a href="#Knight">Knight</a></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td><a href="#Squid">Squid</a></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td><a href="#DyingMessenger">Dying Messenger</a></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h1 id="position-details">Position Details</h1>
+<h2 id="attention">Attention.</h2>
+<p>The number of people is omitted from the setup.</p>
+<h2 id="teleporter">Teleporter</h2>
+<h3 id="team-impostor">Team Impostor</h3>
+<p>By pressing the teleport button, the
+Teleport everyone to one randomly selected person.</p>
+<h3 id="game-settings">Game Settings</h3>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th style="text-align: center;">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Cooldown</td>
+<td style="text-align: center;">Button Cooldown.</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2 id="evilspeedbooster">EvilSpeedBooster</h2>
+<h3 id="team-impostor-1">Team Impostor</h3>
+<p>By pressing the Speed Boost button, the
+You can speed up your own speed for a certain period of time.</p>
+<h3 id="game-settings-1">Game Settings</h3>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th style="text-align: center;">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Cooldown</td>
+<td style="text-align: center;">Button Cooldown.</td>
+</tr>
+<tr>
+<td>Duration Time</td>
+<td style="text-align: center;">Speed Boost Duration.</td>
+</tr>
+<tr>
+<td>Double the speed</td>
+<td style="text-align: center;">Speed during boosting.</td>
+</tr>
+<tr>
+<td>If this position is selected, the speed booster will not be selected.</td>
+<td style="text-align: center;"></td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2 id="evildoorr">EvilDoorr</h2>
+<h3 id="team-impostor-2">Team Impostor</h3>
+<p>Subscribe to DeepL Pro to edit this document.
+Visit <a href="http://www.DeepL.com/profor">www.DeepL.com/profor</a> more information.
+By clicking on the door button, the
+The door can be opened and closed. There is a cool time.</p>
+<h3 id="game-settings-2">Game Settings</h3>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th style="text-align: center;">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Door Cool Time</td>
+<td style="text-align: center;">Button Cooldown.</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2 id="evilgambler">EvilGambler</h2>
+<h3 id="team-impostor-3">Team Impostor</h3>
+<p>When a kill is made, success or failure is determined by a set probability. <br>
+If it becomes a success, to the successful kill cooldown of the setting,<br>
+Failure will result in a kill cooldown on the failure of the setup. <br>
+It is recommended to set a short cool for success and a long cool for failure. <br></p>
+<h3 id="game-settings-3">Game Settings</h3>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th style="text-align: center;">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Kill cool time on success</td>
+<td style="text-align: center;">It is kill-cool time for success.</td>
+</tr>
+<tr>
+<td>Kill Cool Time on Failure</td>
+<td style="text-align: center;">It's kill-cool time for failure.</td>
+</tr>
+<tr>
+<td>Success probability</td>
+<td style="text-align: center;">The probability of successful gambling.</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2 id="selfbomber">SelfBomber</h2>
+<h3 id="team-impostor-4">Team Impostor</h3>
+<p>Press the self-destruct button.
+People around you and yourself will die. <br>
+Note that another Impostor will also be selected as a target.</p>
+<h3 id="game-settings-4">Game Settings</h3>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th style="text-align: center;">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Range (radius)</td>
+<td style="text-align: center;">The range of the self-destruct.</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2 id="evilnekomata">EvilNekomata</h2>
+<h3 id="team-impostor-5">Team Impostor</h3>
+<p>When I am expelled from a meeting, .<br>
+We will take one of them on the road, regardless of their position. <br>
+Whether or not Nekomata are chained together can be changed by the Nice Nekomata. <br></p>
+<h3 id="game-settings-5">Game Settings</h3>
+<h2 id="-name-----------------------------------------------------------------description--------------------------------------------------------------------------------------------------------------------------------------------------not-taking-the-impostor-off-the-road--excludes-the-impostor-from-being-taken-as-a-companion-when-heshe-is-hung-">| Name                                 |                                Description                                 |
+| ------------------------------------ | :------------------------------------------------------------------------: |
+| Not taking the Impostor off the road | Excludes the Impostor from being taken as a companion when he/she is hung. |</h2>
+<h2 id="countchanger">CountChanger</h2>
+<h3 id="team-impostor-6">Team Impostor</h3>
+<p>You can change the decision of the opponent and the position. .<br>
+If the opponent exchanges with a crewmate, he will not die even if the sheriff suicide attacks
+him, etc..<br><br></p>
+<h3 id="game-settings-6">Game Settings</h3>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th style="text-align: center;">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Maximum count</td>
+<td style="text-align: center;">You can set the number of times the capability can be used.</td>
+</tr>
+<tr>
+<td>Reflected in next turn</td>
+<td style="text-align: center;">You can set whether the decision is exchanged on the next turn after the ability is used.</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2 id="pursuer">Pursuer</h2>
+<h3 id="team-impostor-7">Team Impostor</h3>
+<p>Arrows will be displayed to the location of nearby non-Team Impostorplayers.</p>
+<hr>
+<h2 id="evilscientist">EvilScientist</h2>
+<h3 id="team-impostor-8">Team Impostor</h3>
+<p>By pressing the transparency button, .<br>
+You become invisible for a certain period of time.</p>
+<h3 id="game-settings-7">Game Settings</h3>
+<h2 id="-name---------------------------------------------------------------description--------------------------------------------------------------------------------------------------------------------------------------evil-scientist-invisibility-cooldown------allows-you-to-set-the-cooldown-before-the-ability-can-be-used----evil-scientists-invisibility-duration--transparency-duration-you-can-set-the-duration-of-the-capability-">| Name                                   |                            Description                            |
+| -------------------------------------- | :---------------------------------------------------------------: |
+| Evil Scientist Invisibility Cooldown   |   Allows you to set the cooldown before the ability can be used   |
+| Evil Scientist's Invisibility Duration | Transparency Duration You can set the duration of the capability. |</h2>
+<h2 id="hawk">Hawk</h2>
+<h3 id="team-impostor-9">Team Impostor</h3>
+<p>Clicking the Hawkeye button widens the visible area for a certain period of time.</p>
+<h3 id="game-settings-8">Game Settings</h3>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th style="text-align: center;">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Cool Time</td>
+<td style="text-align: center;">You can set the cooldown before the ability can be used.</td>
+</tr>
+<tr>
+<td>Duration</td>
+<td style="text-align: center;">Duration You can set the duration of the capability.</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2 id="minimalist">Minimalist</h2>
+<h3 id="team-impostor-10">Team Impostor</h3>
+<p>This is a position with a short kill cool time instead of the absence of some buttons. <br>
+SuperHostRoles support</p>
+<h3 id="game-settings-9">Game Settings</h3>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th style="text-align: center;">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Minimalist Kill Cool Time</td>
+<td style="text-align: center;">You can set the cooldown time before the ability can be used.</td>
+</tr>
+<tr>
+<td>Use Vent</td>
+<td style="text-align: center;">You can set whether minimalists can use vents.</td>
+</tr>
+<tr>
+<td>Use Sabotage</td>
+<td style="text-align: center;">Minimalists can set whether they can use sabotage.</td>
+</tr>
+<tr>
+<td>DeadBody Report</td>
+<td style="text-align: center;">You can set whether the minimalist can report.</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2 id="magaziner">Magaziner</h2>
+<h3 id="team-impostor-11">Team Impostor</h3>
+<p>When kill cool time is accumulated, the save button becomes available. <br>
+Press the Save button to save your kills. <br>
+When saved, the kill cool time is reset. <br>
+The Use button can be used if the kill time has not been accumulated and if the number of
+kill time saved is greater than 1. <br>
+Pressing the Use button consumes the number stored and shortens the timer on the Kill
+button to the set time.</p>
+<h3 id="game-settings-10">Game Settings</h3>
+<p>| Name                              |                      Description                      |
+| --------------------------------- | :---------------------------------------------------: |
+| Kill cool time after magazine use | You can set the kill cool time after pressing the Use |
+button.</p>
+<hr>
+<h2 id="serialkiller">SerialKiller</h2>
+<h3 id="team-impostor-12">Team Impostor</h3>
+<p>Once a kill is made, the suicide timer starts running. <br>
+When the suicide timer reaches 0, it commits suicide. <br>
+Each kill resets the suicide timer. <br>
+The kill cool time is short. <br>
+SuperHostRoles support</p>
+<h3 id="game-settings-11">Game Settings</h3>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th style="text-align: center;">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Time to suicide</td>
+<td style="text-align: center;">You can set the kill cool time after you press the Use button.</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2 id="evileraser">EvilEraser</h2>
+<h3 id="team-impostor-13">Team Impostor</h3>
+<p>You can activate the ability only a specified number of times. <br>
+Can defend against baits, stuntmen, red hoods, divine victory, and clergy. <br>
+The number of times it can be used is reduced each time it is defended.</p>
+<h3 id="game-settings-12">Game Settings</h3>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th style="text-align: center;">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Max Erase Count</td>
+<td style="text-align: center;">You can set the number of times the capability can be used.</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2 id="overkiller">OverKiller</h2>
+<h3 id="team-impostor-14">Team Impostor</h3>
+<p>A set number (default: 30) of corpses will be generated (not additional)<br> when you are
+killed.
+A separate kill cool time can be set for this position.<br>
+It is recommended to use about 10 corpses because of the possibility of falling off on the
+Switch, etc. <br>
+SuperHostRoles support.</p>
+<h3 id="game-settings-13">Game Settings</h3>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th style="text-align: center;">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>OverKiller Kill Cool Time</td>
+<td style="text-align: center;">You can set the cooldown before the ability can be used.</td>
+</tr>
+<tr>
+<td>Number of bodies per</td>
+<td style="text-align: center;">Number of corpses per kill.</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2 id="evilmoving">EvilMoving</h2>
+<h3 id="team-impostor-15">Team Impostor</h3>
+<p>First, a location set button appears. <br>
+Press that button to set the move location. <br>
+After that, there is a cool time.<br>
+A button appears that allows you to teleport to the move location.</p>
+<h3 id="game-settings-14">Game Settings</h3>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th style="text-align: center;">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Teleportation Cool Time</td>
+<td style="text-align: center;">You can set the cooldown before the ability can be used.</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2 id="levelinger">Levelinger</h2>
+<h3 id="team-impostor-16">Team Impostor</h3>
+<p>When you make a kill, you gain 1 experience. .<br>
+When the experience level reaches a certain number, the level increases. <br>
+As the level increases, each Impostor's special abilities become available. <br>
+In addition, the killcools accumulate while the levelers are doing their tasks. <br></p>
+<h3 id="game-settings-15">Game Settings</h3>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th style="text-align: center;">Description</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>XP gained from kills</td>
+<td style="text-align: center;">You can set the experience gained from kills.</td>
+<td></td>
+</tr>
+<tr>
+<td>Number of experience levels gained</td>
+<td style="text-align: center;">The number of experience levels that can be raised.</td>
+<td></td>
+</tr>
+<tr>
+<td>1 Abilities gained at level</td>
+<td style="text-align: center;">You can set the abilities that can be obtained at the 1 level.</td>
+<td></td>
+</tr>
+<tr>
+<td>2 Abilities gained at level</td>
+<td style="text-align: center;">You can set the abilities that you can get at the 2 levels.</td>
+<td></td>
+</tr>
+<tr>
+<td>3 Abilities gained at level</td>
+<td style="text-align: center;">You can set the abilities that are available at the 3 levels.</td>
+<td></td>
+</tr>
+<tr>
+<td>4 Abilities gained at level</td>
+<td style="text-align: center;">You can set the abilities that you can obtain at the 4 levels.</td>
+<td></td>
+</tr>
+<tr>
+<td>5 Abilities gained at level</td>
+<td style="text-align: center;">You can set the abilities that you can get at the 5 levels.</td>
+<td></td>
+</tr>
+<tr>
+<td>Can be revived by spending XP</td>
+<td style="text-align: center;">You can set whether you can revive by spending experience.</td>
+<td></td>
+</tr>
+<tr>
+<td>Amount of XP to use</td>
+<td style="text-align: center;">Amount of experience to be used</td>
+<td>You can set the amount of experience to be used.</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2 id="sidekiller">SideKiller</h2>
+<h3 id="team-impostor-17">Team Impostor</h3>
+<p>Side killers can make mad killers. <br>
+When the sidekiller who made the mudkiller dies or exits, the mudkiller is promoted to an
+Impostor. <br>
+Before being promoted to Impostor, the crewmate decision was made and visibility is also
+crewmate,<br> but
+If you are promoted to Impostor, you will be in the Impostor's field of view in the Impostor's
+decision.<br>
+Impostor can't kill mad killer</p>
+<h3 id="game-settings-16">Game Settings</h3>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th style="text-align: center;">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>SideKiller Kill Cool Time</td>
+<td style="text-align: center;">You can set the kill cool time for the side killer.</td>
+</tr>
+<tr>
+<td>MadKiller Kill Cool Time</td>
+<td style="text-align: center;">You can set the kill cool time for the mud killer.</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2 id="survivor">Survivor</h2>
+<h3 id="team-impostor-18">Team Impostor</h3>
+<p>You must survive to win. .<br>
+Survivors can kill with n times faster than normal kill cool.</p>
+<h3 id="game-settings-17">Game Settings</h3>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th style="text-align: center;">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Kill Cool Time</td>
+<td style="text-align: center;">You can set the survivor's kill cool time.</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2 id="vampire">Vampire</h2>
+<h3 id="team-impostor-19">Team Impostor</h3>
+<p>By pressing the kill button, the kill partner dies after a set time. <br>&lt;br
+If another person is killed before the kill occurs, another person is targeted.</p>
+<h3 id="game-settings-18">Game Settings</h3>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th style="text-align: center;">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Kill Delay</td>
+<td style="text-align: center;">You can set the delay time for vampire kills.</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2 id="samurai">Samurai</h2>
+<h3 id="team-impostor-20">Team Impostor</h3>
+<p>Bent and sabo not available (can be changed in settings) killcool long (can be changed in
+settings)<br>
+Instead, it has a special move button that can be used only once during the match. <br>
+Using a special move wipes out all other players within a set area.</p>
+<h3 id="game-settings-19">Game Settings</h3>
+<p>| Name           |                Description                |
+| -------------- | :---------------------------------------: |
+| KillCoolTime   | You can set the kill time of the samurai. |
+| AttackCoolTime |   You can set the amount of time that a   |
+samurai can release a special move.
+| Use Vent | You can set whether a samurai can use a vent.
+| Use Sabotage | You can set whether the samurai can use sabotage.
+| SamuraiScope | Range of Special Moves | You can set the range of special moves.</p>
+<hr>
+<h2 id="suicidewisher">SuicideWisher</h2>
+<h3 id="team-impostor-21">Team Impostor</h3>
+<p>There is a suicide button, and at any time you like, you can. <br>
+Can commit suicide.</p>
+<h3 id="game-settings-20">Game Settings</h3>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th style="text-align: center;">Description</th>
+</tr>
+</thead>
+</table>
+<hr>
+<h2 id="fastmaker">FastMaker</h2>
+<h3 id="team-impostor-22">Team Impostor</h3>
+<p>The first kill can make a Madmate.<br>
+The second and subsequent kills are normal kills.</p>
+<h3 id="game-settings-21">Game Settings</h3>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th style="text-align: center;">Description</th>
+</tr>
+</thead>
+</table>
+<hr>
+<h2 id="kunoichi">Kunoichi</h2>
+<h3 id="team-impostor-23">Team Impostor</h3>
+<p>Use your ninjutsu to deceive the village.<br>
+You can throw kunai. A kunai can be used to kill a player after the number of hits set in the
+&quot;Number of kunai required for a kill&quot; section.<br>
+If you stand still for a certain period of time (the number of seconds set in the &quot;Time required
+for transparency&quot; section), you can make it transparent. It will be released when you do
+something.
+The F key can be used to equip a kunai. <br></p>
+<h3 id="game-settings-22">Game Settings</h3>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th style="text-align: center;">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Kunai Cool Time</td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td>Number of kunai required for a kill</td>
+<td style="text-align: center;">How many kunai are needed to get a kill?</td>
+</tr>
+<tr>
+<td>Time required for transparency</td>
+<td style="text-align: center;">Time taken from stop to transparency</td>
+</tr>
+<tr>
+<td>Can throw kunai during invisibility.</td>
+<td style="text-align: center;">You can throw a kunai during invisibility.</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2 id="secretlykiller">SecretlyKiller</h2>
+<h3 id="team-impostor-24">Team Impostor</h3>
+<p>Please be quiet during the power outage.<br>
+Normal kill button and .<br>
+Ability to kill targets remotely with no sound and no kill warp.<br></p>
+<h3 id="game-settings-23">Game Settings</h3>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th style="text-align: center;">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Same in kill buttons</td>
+<td style="text-align: center;">Is the coold time reset when using the normal kill button and the secretly kill button synchronized?</td>
+</tr>
+<tr>
+<td>Kill cool charge during power outage</td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td>Ability limit</td>
+<td style="text-align: center;"></td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2 id="smasher">Smasher</h2>
+<h3 id="team-impostor-25">Team Impostor</h3>
+<p>Let's do a series of kills.<br>
+You have two kill buttons, but the second one can only be used once during the match, instead
+of having a kill kill cooler. <br>
+To prevent kills without a first kill, the sub's kill button requires a 10 second kill cooldown
+only at the beginning of the match. <br></p>
+<h3 id="game-settings-24">Game Settings</h3>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th style="text-align: center;">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>KillCooldown</td>
+<td style="text-align: center;">You can set the kill cool time for the smasher.</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2 id="doublekiller">DoubleKiller</h2>
+<h3 id="team-impostor-26">Team Impostor</h3>
+<p>Use the independent kill button.<br>
+It has two kill buttons, each with its own cooldown. .<br>
+You can change in the settings whether you can use sabotage or not. <br></p>
+<h3 id="game-settings-25">Game Settings</h3>
+<p>| Name             |                                         Description                                          |
+| ---------------- | :------------------------------------------------------------------------------------------: |
+| MainKillCooldown | You can set the kill cool time for the main kill button, which is usually activated by the Q |
+key.
+| SubKillCooldown | You can set the kill cooldown time for the sub kill button operated by the F key.
+| Use Sabotage | You can set whether double killers can use sabotage.</p>
+<hr>
+<h2 id="lighter">Lighter</h2>
+<h3 id="team-crew">Team Crew</h3>
+<p>By pressing the light button, .<br>
+Changes to a set field of view for a set period of time</p>
+<h3 id="game-settings-26">Game Settings</h3>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th style="text-align: center;">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Lighter Cooldown</td>
+<td style="text-align: center;">You can set the cooldown before the ability can be used.</td>
+</tr>
+<tr>
+<td>Lighter Duration</td>
+<td style="text-align: center;">You can set the duration of the capability.</td>
+</tr>
+<tr>
+<td>View in light</td>
+<td style="text-align: center;">You can set the visibility while the ability is in use.</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2 id="sheriff">Sheriff</h2>
+<h3 id="team-crew-1">Team Crew</h3>
+<p>Sheriffs can kill out of person. <br>
+However, if you kill a crewmate,<br>
+The sheriff himself will die. <br>
+SuperHostRoles support</p>
+<h3 id="game-settings-27">Game Settings</h3>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th style="text-align: center;">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Kill Cooldown</td>
+<td style="text-align: center;">Individual kill cooldown time can be set.</td>
+</tr>
+<tr>
+<td>Can Kill a Neutral</td>
+<td style="text-align: center;">You can set whether you can kill the third camp.</td>
+</tr>
+<tr>
+<td>Can Kill a Lovers</td>
+<td style="text-align: center;">You can set whether Lovers can be killed.</td>
+</tr>
+<tr>
+<td>Can Kill a MadRole</td>
+<td style="text-align: center;">You can set whether you can kill MAD &amp; FRIENDS positions.</td>
+</tr>
+<tr>
+<td>Maximum number of kills</td>
+<td style="text-align: center;">You can set the number of kills a sheriff can make.</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2 id="speedbooster">SpeedBooster</h2>
+<h3 id="team-crew-2">Team Crew</h3>
+<p>By pressing the Speed Boost button,<br> the
+You can speed up your own speed for a certain amount of time. <br>
+*Note: Since this is double speed, the original speed is relevant.</p>
+<h3 id="game-settings-28">Game Settings</h3>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th style="text-align: center;">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Speed Up Cooldown</td>
+<td style="text-align: center;">You can set the cooldown before the ability can be used.</td>
+</tr>
+<tr>
+<td>Duration of speed-up</td>
+<td style="text-align: center;">You can set the duration of the capability.</td>
+</tr>
+<tr>
+<td>Double your speed</td>
+<td style="text-align: center;">Allows you to set the double speed of the speed.</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2 id="doorr">Doorr</h2>
+<h3 id="team-crew-3">Team Crew</h3>
+<p>By clicking on the door button,<br>
+The door can be opened and closed. There is a cool time.</p>
+<h3 id="game-settings-29">Game Settings</h3>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th style="text-align: center;">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Door Cool Time</td>
+<td style="text-align: center;">You can set the cooldown before the ability can be used.</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2 id="clergyman">Clergyman</h2>
+<h3 id="team-crew-4">Team Crew</h3>
+<p>It can cause a power outage for the Impostor. <br>
+The capacity is currently not functioning.</p>
+<h3 id="game-settings-30">Game Settings</h3>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th style="text-align: center;">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Cool Time</td>
+<td style="text-align: center;">You can set the cooldown before the ability can be used.</td>
+</tr>
+<tr>
+<td>Duration Time</td>
+<td style="text-align: center;">You can set the duration of the capability.</td>
+</tr>
+<tr>
+<td>Impostor Down Vision.</td>
+<td style="text-align: center;">You can set the visibility during power outage.</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2 id="madmate">Madmate</h2>
+<h3 id="team-impostor-27">Team Impostor</h3>
+<p>The verdict is in on Crewmate.
+This is a roll of the Impostor camp. <br>
+Help the Impostor. <br>
+You can check the Impostor in the settings. <br>
+You can also set whether to put in a vent.
+SuperHostRoles support</p>
+<h3 id="game-settings-31">Game Settings</h3>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th style="text-align: center;">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>You can check the Impostor.</td>
+<td style="text-align: center;">The name of the Impostor turns red after the specified task is completed.</td>
+</tr>
+<tr>
+<td>Common Tasks</td>
+<td style="text-align: center;">You can set the number of normal tasks before the Impostor can be checked.</td>
+</tr>
+<tr>
+<td>Long Tasks</td>
+<td style="text-align: center;">You can set the number of long tasks before the Impostor can be checked.</td>
+</tr>
+<tr>
+<td>Short Tasks</td>
+<td style="text-align: center;">You can set the number of short tasks before the Impostor can be checked.</td>
+</tr>
+<tr>
+<td>Amount of tasks that will be able to be checked (of all tasks)</td>
+<td style="text-align: center;">If the result of the calculation of the task amount is a fraction, it will be rounded down.</td>
+</tr>
+<tr>
+<td>Use Vent</td>
+<td style="text-align: center;">You will be able to put in a vent.</td>
+</tr>
+<tr>
+<td>Impostor Light</td>
+<td style="text-align: center;">You can set whether the view will be the same as the Impostor's view.</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2 id="bait">Bait</h2>
+<h3 id="team-crew-5">Team Crew</h3>
+<p>If killed,<br> the
+The person you kill will be made to report you. .<br>
+SuperHostRoles support</p>
+<h3 id="game-settings-32">Game Settings</h3>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th style="text-align: center;">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Time to report a call</td>
+<td style="text-align: center;"></td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2 id="homesecurityguard">HomeSecurityGuard</h2>
+<h3 id="team-crew-6">Team Crew</h3>
+<p>Crewmate with no task.
+SuperHostRoles support</p>
+<hr>
+<h2 id="stuntman">StuntMan</h2>
+<h3 id="team-crew-7">Team Crew</h3>
+<p>It prevents a specified number of unconditional kills. <br>
+However, the stuntman himself will not be notified, etc. <br> <br>
+SuperHostRoles support</p>
+<h3 id="game-settings-33">Game Settings</h3>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th style="text-align: center;">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Guard Max Count</td>
+<td style="text-align: center;">The number of times you can guard.</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2 id="moving">Moving</h2>
+<h3 id="team-crew-8">Team Crew</h3>
+<p>First, a location set button appears. <br>
+Press that button to set the move location. <br>
+After that, there is a cool time.<br>
+A button appears that allows you to teleport to the move location.</p>
+<h3 id="game-settings-34">Game Settings</h3>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th style="text-align: center;">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Teleportation Cool Time</td>
+<td style="text-align: center;">You can set the cooldown time before the ability can be used.</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2 id="best-false-charge">Best False Charge</h2>
+<h3 id="team-crew-9">Team Crew</h3>
+<p>Death at the end of the first meeting.<br>
+SuperHostRoles support</p>
+<hr>
+<h2 id="nicenekomata">NiceNekomata</h2>
+<h3 id="team-crew-10">Team Crew</h3>
+<p>When I am expelled from a meeting, .<br>
+We will take one of them on the road, regardless of their position. <br>
+SuperHostRoles support</p>
+<h3 id="game-settings-35">Game Settings</h3>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th style="text-align: center;">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>If a nekomata is taken as a companion, is it to be taken as a companion again?</td>
+<td style="text-align: center;"></td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2 id="doctor">Doctor</h2>
+<h3 id="team-crew-11">Team Crew</h3>
+<p>You can see the vitals at any time.</p>
+<hr>
+<h2 id="meetingsheriff">MeetingSheriff</h2>
+<h3 id="team-crew-12">Team Crew</h3>
+<p>Meeting Sheriffs can kill outsiders at meetings. <br>
+However, if you kill a crewmate,<br>
+The sheriff himself dies.</p>
+<h3 id="game-settings-36">Game Settings</h3>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th style="text-align: center;">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Can Kill a Neutral</td>
+<td style="text-align: center;">You can set whether you can kill the third camp.</td>
+</tr>
+<tr>
+<td>Can Kill a Lovers</td>
+<td style="text-align: center;">You can set whether Lovers can be killed.</td>
+</tr>
+<tr>
+<td>Can Kill a MadRole</td>
+<td style="text-align: center;">You can set whether you can kill MAD &amp; FRIENDS positions.</td>
+</tr>
+<tr>
+<td>Maximum number of Meeting Sheriff kills</td>
+<td style="text-align: center;">The maximum number of kills for a meeting sheriff.</td>
+</tr>
+<tr>
+<td>Can you get multiple kills in one meeting?</td>
+<td style="text-align: center;">You can set whether multiple kills are allowed in one meeting.</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2 id="nicescientist">NiceScientist</h2>
+<h3 id="team-crew-13">Team Crew</h3>
+<p>By pressing the transparency button, .<br>
+You become invisible for a certain period of time.</p>
+<h3 id="game-settings-37">Game Settings</h3>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th style="text-align: center;">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Cool Time</td>
+<td style="text-align: center;">You can set the cooldown before the ability can be used.</td>
+</tr>
+<tr>
+<td>Duration Time</td>
+<td style="text-align: center;">You can set the duration of the capability.</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2 id="niceredridinghood">NiceRedRidingHood</h2>
+<h3 id="team-crew-14">Team Crew</h3>
+<p>If the person who kills you dies, you come back to life. <br>
+All positions are not displayed at the time of death</p>
+<h3 id="game-settings-38">Game Settings</h3>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th style="text-align: center;">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Maximum number of revives</td>
+<td style="text-align: center;">You can set the maximum number of revivals.</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2 id="mayor">Mayor</h2>
+<h3 id="team-crew-15">Team Crew</h3>
+<p>You can increase the number of your own votes. <br>
+SuperHostRoles support
+Note: The vote count setting will also include the normal vote count; setting it to 1 vote will
+result in the normal vote count.</p>
+<h3 id="game-settings-39">Game Settings</h3>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th style="text-align: center;">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Mayer's vote count</td>
+<td style="text-align: center;">You can set the number of votes for Mayer.</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2 id="technician">Technician</h2>
+<h3 id="team-crew-16">Team Crew</h3>
+<p>Only during sabotage can you enter the vent.<br>
+After the saboteur is finished, he is forced to leave. <br>
+SuperHostRoles support</p>
+<hr>
+<h2 id="diviner">Diviner</h2>
+<h3 id="team-crew-17">Team Crew</h3>
+<p>A fortune teller button will appear next to the person alive during the meeting. <br>
+When you press that button, the position of the person you pressed will appear in the chat.</p>
+<h3 id="game-settings-40">Game Settings</h3>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th style="text-align: center;">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Position visibility</td>
+<td style="text-align: center;">You can set whether to show the camps or not.</td>
+</tr>
+<tr>
+<td>Number of times you can divine</td>
+<td style="text-align: center;">Number of times you can divvy up</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2 id="medium">Medium</h2>
+<h3 id="team-crew-18">Team Crew</h3>
+<p>A medium button appears next to the dead person during the meeting. <br>
+When you press that button, the position of the person you pressed will appear in the chat.</p>
+<h3 id="game-settings-41">Game Settings</h3>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th style="text-align: center;">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Position visibility</td>
+<td style="text-align: center;">You can set whether to show the camps or not.</td>
+</tr>
+<tr>
+<td>Number of times you can divine</td>
+<td style="text-align: center;">Number of times you can divvy up</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2 id="madmayor">MadMayor</h2>
+<h3 id="team-impostor-28">Team Impostor</h3>
+<p>The decision is crewmate, but.<br>
+This is a roll of the Impostor camp. <br>
+As with Mayer, you can increase the number of your votes. <br>
+Help the Impostor. <br>
+Note: The vote count setting will also include the normal vote count; setting it to 1 vote will
+result in the normal vote count. <br>
+SuperHostRoles support</p>
+<h3 id="game-settings-42">Game Settings</h3>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th style="text-align: center;">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>MadMayer's vote count</td>
+<td style="text-align: center;">You can set the number of votes for Madmaier.</td>
+</tr>
+<tr>
+<td>You can check the Impostor.</td>
+<td style="text-align: center;">The name of the Impostor turns red after the specified task is completed.</td>
+</tr>
+<tr>
+<td>Common Tasks</td>
+<td style="text-align: center;">You can set the number of normal tasks before the Impostor can be checked.</td>
+</tr>
+<tr>
+<td>Long Tasks</td>
+<td style="text-align: center;">You can set the number of long tasks before the Impostor can be checked.</td>
+</tr>
+<tr>
+<td>Short Tasks</td>
+<td style="text-align: center;">You can set the number of short tasks before the Impostor can be checked.</td>
+</tr>
+<tr>
+<td>Amount of tasks that will be able to be checked (of all tasks)</td>
+<td style="text-align: center;">If the result of the calculation of the task amount is a fraction, it will be rounded down.</td>
+</tr>
+<tr>
+<td>Use Vent</td>
+<td style="text-align: center;">You will be able to put in a vent.</td>
+</tr>
+<tr>
+<td>Impostor Light</td>
+<td style="text-align: center;">You can set whether the view will be the same as the Impostor's view.</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2 id="nicehawk">NiceHawk</h2>
+<h3 id="team-crew-19">Team Crew</h3>
+<p>Clicking the Hawkeye button widens the visible area for a certain period of time. <br>
+However, if Hawkeye is used, it will not be able to move for 10 seconds afterwards.</p>
+<h3 id="game-settings-43">Game Settings</h3>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th style="text-align: center;">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Cooldown</td>
+<td style="text-align: center;">You can set the cooldown time before the ability can be used.</td>
+</tr>
+<tr>
+<td>Duration</td>
+<td style="text-align: center;">You can set the duration of the capability.</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2 id="madhawk">MadHawk</h2>
+<h3 id="team-impostor-29">Team Impostor</h3>
+<p>Clicking the Hawkeye button widens the visible area for a certain period of time. <br>
+The decision is crewmate, but.<br>
+This is a roll of the Impostor camp. <br>
+Help the Impostor.</p>
+<h3 id="game-settings-44">Game Settings</h3>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th style="text-align: center;">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Cooldown</td>
+<td style="text-align: center;">You can set the cooldown time before the ability can be used.</td>
+</tr>
+<tr>
+<td>Duration</td>
+<td style="text-align: center;">You can set the duration of the capability.</td>
+</tr>
+<tr>
+<td>Use Vent</td>
+<td style="text-align: center;">You will be able to put in a vent.</td>
+</tr>
+<tr>
+<td>Impostor Light</td>
+<td style="text-align: center;">You can set whether the view will be the same as the Impostor's view.</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2 id="baker">Baker</h2>
+<h3 id="team-crew-20">Team Crew</h3>
+<p>If the baker is alive at the end of the meeting, the chat will say &quot;Bread has been distributed&quot;.
+<br>
+SHR compatible.<br></p>
+<hr>
+<h2 id="spy">Spy</h2>
+<h3 id="team-crew-21">Team Crew</h3>
+<p>Deceive the Impostor and lead the Cluemate camp to victory.<br>
+The spy is a crewmate, but appears to be a peer from the Impostor. <br>
+Spies are crewmates and have no special abilities. <br>
+In normal mode, an Impostor cannot cut fellow Impostors and spies.<br>
+SuperHostRoles support</p>
+<h3 id="game-settings-45">Game Settings</h3>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th style="text-align: center;">Description</th>
+</tr>
+</thead>
+</table>
+<hr>
+<h2 id="madjester">MadJester</h2>
+<h3 id="team-impostor-30">Team Impostor</h3>
+<p>If you are expelled with the task completed (even if you are not doing the task if the task win
+off), the Team Impostorwins. <br>
+SuperHostRoles support</p>
+<h3 id="game-settings-46">Game Settings</h3>
+<p>| Name                       |                              Description                              |
+| -------------------------- | :-------------------------------------------------------------------: |
+| Use Vent                   |                  You will be able to put in a vent.                   |
+| Impostor Light             | You can set whether the view will be the same as the Impostor's view. |
+| YJester was Clear Task Win |         You cannot win without doing a task. Individual task          |
+settings are available</p>
+<hr>
+<h2 id="teru-teru-teru">Teru teru teru</h2>
+<h3 id="team-third">Team Third</h3>
+<p>If you get expelled at the meeting, you win. <br>
+Sabotage and venting can be used in the settings. <br>
+SuperHostRoles support</p>
+<h3 id="game-settings-47">Game Settings</h3>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th style="text-align: center;">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>You can sabotage it.</td>
+<td style="text-align: center;">Sabotage can be used.</td>
+</tr>
+<tr>
+<td>I can put it in a vent.</td>
+<td style="text-align: center;">You can enter vents.</td>
+</tr>
+<tr>
+<td>Jester was Clear Task Win</td>
+<td style="text-align: center;">You can't win if you don't do the task.</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2 id="opportunist">Opportunist</h2>
+<h3 id="team-third-1">Team Third</h3>
+<p>If the player survives until the end of the game, he or she wins an additional victory. <br>
+You can win with any camp. .<br>
+SuperHostRoles support</p>
+<hr>
+<h2 id="jackal">Jackal</h2>
+<h3 id="team-third-2">Team Third</h3>
+<p>Can kill and vent. <br>
+Press the side kick button.<br>
+Target can be <a href="#SideKick">Sidekick</a>. <br>
+The ability to sabotage can be changed in the settings. <br>
+It is also possible to change in the settings whether a side kick can be made. <br>
+<br></p>
+<p>Note: The behavior of the settings for creating <a href="#JackalFriends">Jackal Friends</a> differs between SNR and SHR.</p>
+<ul>
+<li>SHR:
+<ul>
+<li>It can be made with a first hand kill.</li>
+<li>When the impostor is targeted,<br>
+the protective effect is triggered and the kill can be triggered thereafter At first glance,<br>
+it looks as if you have been able to make <a href="#JackalFriends">Jackal Friends</a>, but it is not.<br>
+<a href="#JackalFriends">Jackal Friends</a> has not been converted.
+<br></li>
+</ul>
+</li>
+<li>SNR:
+<ul>
+<li>It can be made with a Sidekick button.</li>
+<li>If the setting to create <a href="#Sidekick">Sidekick</a> is also enabled at the same time,<br>
+the setting to create <a href="#SideKick">SideKick</a> will not be reflected.
+<ul>
+<li>Only Jackal Friends will be able to make only.</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<br>
+<h3 id="game-settings-48">Game Settings</h3>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th style="text-align: center;">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Jackal's kill cool time</td>
+<td style="text-align: center;">Individual kill cool time can be set for each jackal.</td>
+</tr>
+<tr>
+<td>Use Vent</td>
+<td style="text-align: center;">to enter a vent.</td>
+</tr>
+<tr>
+<td>Use Sabotage</td>
+<td style="text-align: center;">Sabotage can be used.</td>
+</tr>
+<tr>
+<td>Impostor Light</td>
+<td style="text-align: center;">You can set whether the view will be the same as the Impostor's view.</td>
+</tr>
+<tr>
+<td>Can Create JackalFriends</td>
+<td style="text-align: center;">You can make <a href="#JackalFriends">JackalFriends</a></td>
+</tr>
+<tr>
+<td>Jackal can make a Sidekick</td>
+<td style="text-align: center;">Jackals can make side kicks.</td>
+</tr>
+<tr>
+<td>New jackals can make side kicks</td>
+<td style="text-align: center;">Promoted jackals can make side kicks.</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2 id="sidekick">Sidekick</h2>
+<h3 id="team-third-3">Team Third</h3>
+<p>You will not be the first to be selected. .<br>
+Being side-kicked by a <a href="#Jackal">jackal</a>.<br>
+This position. <br>
+When all jackals die, they are promoted to a side kick.</p>
+<hr>
+<h2 id="jackalfriends">JackalFriends</h2>
+<h3 id="team-third-4">Team Third</h3>
+<p>Jackals are not known from Jackal Friends (can be changed in settings),<br> and
+Jackals do not tell us who the Jackal Friends are. <br>
+Jackal Friends will be put in the vent. (Can be changed in settings).<br>
+Impostor, Jackal can kill Jackal Friends.</p>
+<h3 id="game-settings-49">Game Settings</h3>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th style="text-align: center;">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Is Check Jackal</td>
+<td style="text-align: center;">After the specified task is completed, the jackal's name turns blue. You can also see the job</td>
+</tr>
+<tr>
+<td>Common Tasks</td>
+<td style="text-align: center;">You can set the number of normal tasks until jackals can be checked.</td>
+</tr>
+<tr>
+<td>Long Tasks</td>
+<td style="text-align: center;">You can set the number of long tasks until you can see jackals.</td>
+</tr>
+<tr>
+<td>Short Tasks</td>
+<td style="text-align: center;">You can set the number of short tasks until you can check jackals.</td>
+</tr>
+<tr>
+<td>Amount of tasks that will be able to be checked (of all tasks)</td>
+<td style="text-align: center;">If the result of the calculation of the task amount is a fraction, it will be rounded down.</td>
+</tr>
+<tr>
+<td>Use Vent</td>
+<td style="text-align: center;">You will be able to put in a vent.</td>
+</tr>
+<tr>
+<td>Impostor Light</td>
+<td style="text-align: center;">You can set whether the view will be the same as the Impostor's view.</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2 id="god">God</h2>
+<h3 id="team-third-5">Team Third</h3>
+<h2 id="you-can-see-everyones-position-surviving-to-the-end-is-a-solo-victory-superhostroles-support">You can see everyone's position. <br>
+Surviving to the end is a solo victory. <br>
+SuperHostRoles support</h2>
+<h2 id="egoist">Egoist</h2>
+<h3 id="team-third-6">Team Third</h3>
+<p>A Team Thirdposition that counts as an Impostor but has different win conditions. <br>
+You will not be killed by your allies. but will be affected by sabotage. .<br>
+If you achieve an Impostor Victory after all the Impostors visible to you are gone, you override
+the Impostor Victory and achieve an Egoist Victory. <br>
+SuperHostRoles support</p>
+<hr>
+<h2 id="workperson">Workperson</h2>
+<h3 id="team-third-7">Team Third</h3>
+<p>When all tasks are completed, the game is forcibly terminated. However, it is more than a
+crew task. <br>
+SuperHostRoles support</p>
+<h3 id="game-settings-50">Game Settings</h3>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th style="text-align: center;">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Common Tasks</td>
+<td style="text-align: center;">You can set the number of normal tasks for a worker.</td>
+</tr>
+<tr>
+<td>Short Tasks</td>
+<td style="text-align: center;">You can set the number of short tasks for a worker.</td>
+</tr>
+<tr>
+<td>Long Tasks</td>
+<td style="text-align: center;">You can set the number of long tasks for a worker.</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2 id="truelover">TrueLover</h2>
+<h3 id="team-third-8">Team Third</h3>
+<p>You can become lovers with the person with whom you press the button. However, you cannot<br>
+be with someone who is already a Lovers. <br>
+SuperHostRoles support (replaced by kill button)</p>
+<hr>
+<h2 id="amnesiac">Amnesiac</h2>
+<h3 id="team-third-9">Team Third</h3>
+<p>If you report a corpse, it changes to the position of the person you report! (If you report the
+corpse of an amputee, it will not change.)</p>
+<hr>
+<h2 id="seer">Seer</h2>
+<h3 id="team-crew-22">Team Crew</h3>
+<p>Seer has two abilities [Show Death Flash] and [Show Souls]. <br>
+<br>
+Ability 1 [Show Death Flash]:.<br>
+You can tell that someone's presence has disappeared. <br>
+When someone dies somewhere, the screen glows blue. <br>
+<br>
+Ability 2 [Show Souls].<br>
+After the end of a meeting in which someone dies, a spirit appears at the death location. <br>
+If the setting &quot;Limit Soul Duration&quot; is turned off, the spirits are still bound there after
+the meeting again. <br>
+If on, the spirit will not be visible after a set amount of time has elapsed since the end of the
+meeting. <br>
+However, Ability 2 [Show Souls] is currently not available. <br></p>
+<h3 id="game-settings-51">Game Settings</h3>
+<p>| Name                |                                              Description                                              |
+| ------------------- | :---------------------------------------------------------------------------------------------------: |
+| Mode                | You can switch between three modes: [Show Death Flash + Souls] or [Show Death Flash] or [Show Souls]. |
+| Limit Soul Duration |       If off, the ghost will not disappear no matter how many times the meeting is interrupted.       |
+When on, you can set the time for the ghost to disappear from after the report meeting of the
+corpse.
+| Soul Duration | The time when the ghost is visible | The time[s] when the ghost disappears after the corpse
+report meeting.</p>
+<hr>
+<h2 id="madseer">MadSeer</h2>
+<h3 id="team-impostor-31">Team Impostor</h3>
+<p>The decision is crewmate, but.<br>
+This is a roll of the Impostor camp. <br>
+Help the Impostor. <br>
+It also has a fanatic setting.<br>
+<br>
+Mad Seer, like <a href="#Seer">Seer</a>, has two abilities [see flashes of death] and [see ghosts]. <br>
+<br>
+Ability 1 [Show Death Flash]:.<br>
+You can tell that someone's presence has disappeared. <br>
+When someone dies somewhere, the screen glows blue. <br>
+<br>
+Ability 2 [Show Souls].<br>
+After the end of a meeting in which someone dies, a spirit appears at the death location. <br>
+If the setting &quot;Limit Soul Duration&quot; is turned off, the spirits are still bound there after
+the meeting again. <br>
+If on, the spirit will not be visible after a set amount of time has elapsed since the end of the
+meeting. <br>
+However, Ability 2 [Show Souls] is currently not available. <br></p>
+<h3 id="game-settings-52">Game Settings</h3>
+<p>| Name                |                                              Description                                              |
+| ------------------- | :---------------------------------------------------------------------------------------------------: |
+| Mode                | You can switch between three modes: [Show Death Flash + Souls] or [Show Death Flash] or [Show Souls]. |
+| Limit Soul Duration |       If off, the ghost will not disappear no matter how many times the meeting is interrupted.       |
+When on, you can set the time for the ghost to disappear from after the report meeting of the
+corpse.
+| Soul Duration | The time when the ghost is visible | The time[s] when the ghost disappears after the corpse
+report meeting.
+| You can check the Impostor. | The name of the Impostor turns red after the specified task is completed.
+| Common Tasks | You can set the number of normal tasks before the Impostor can be checked.
+| Long Tasks | You can set the number of long tasks before the Impostor can be checked.
+| Short Tasks | You can set the number of short tasks before the Impostor can be checked.
+| Amount of tasks that will be able to be checked (of all tasks) | If the result of the calculation of the task amount is a fraction, it will be rounded down.
+| Use Vent | You will be able to put in a vent.
+| Impostor Light | You can set whether the view will be the same as the Impostor's view.</p>
+<hr>
+<h2 id="evilseer">EvilSeer</h2>
+<h3 id="team-impostor-32">Team Impostor</h3>
+<p>Evil Seer, like <a href="#Seer">Seer</a>, has two abilities [see flashes of death] and [see ghosts]. <br>  <br>
+<br>
+Ability 1 [Show Death Flash]:.<br>
+You can tell that someone's presence has disappeared. <br>
+When someone dies somewhere, the screen glows blue. <br>
+<br>
+Ability 2 [Show Souls].<br>
+After the end of a meeting in which someone dies, a spirit appears at the death location. <br>
+If the setting &quot;Limit Soul Duration&quot; is turned off, the spirits are still bound there after
+the meeting again. <br>
+If on, the spirit will not be visible after a set amount of time has elapsed since the end of the
+meeting. <br>
+However, Ability 2 [Show Souls] is currently not available. <br></p>
+<h3 id="game-settings-53">Game Settings</h3>
+<p>| Name                |                                              Description                                              |
+| ------------------- | :---------------------------------------------------------------------------------------------------: |
+| Mode                | You can switch between three modes: [Show Death Flash + Souls] or [Show Death Flash] or [Show Souls]. |
+| Limit Soul Duration |       If off, the ghost will not disappear no matter how many times the meeting is interrupted.       |
+When on, you can set the time for the ghost to disappear from after the report meeting of the
+corpse.
+| Soul Duration | The time when the ghost is visible | The time[s] when the ghost disappears after the corpse
+report meeting.</p>
+<hr>
+<h2 id="seerfriends">SeerFriends</h2>
+<h3 id="team-third-10">Team Third</h3>
+<p>The decision is crewmate, but.<br>
+The Team Third(jackal camp) rolls. <br>
+Let's help the jackals. <br>
+It also has a fanatic setting.<br>
+<br>
+SeerFriends, like <a href="#Seer">Seer</a>, has two abilities [see flashes of death] and [see ghosts]. <br> .
+<br>
+<br>
+Ability 1 [Show Death Flash]:.<br>
+You can tell that someone's presence has disappeared. <br>
+When someone dies somewhere, the screen glows blue. <br>
+<br>
+Ability 2 [Show Souls].<br>
+After the end of a meeting in which someone dies, a spirit appears at the death location. <br>
+If the setting &quot;Limit Soul Duration&quot; is turned off, the spirits are still bound there after
+the meeting again. <br>
+If on, the spirit will not be visible after a set amount of time has elapsed since the end of the
+meeting. <br>
+However, Ability 2 [Show Souls] is currently not available. <br></p>
+<h3 id="game-settings-54">Game Settings</h3>
+<p>| Name                |                                              Description                                              |
+| ------------------- | :---------------------------------------------------------------------------------------------------: |
+| Mode                | You can switch between three modes: [Show Death Flash + Souls] or [Show Death Flash] or [Show Souls]. |
+| Limit Soul Duration |       If off, the ghost will not disappear no matter how many times the meeting is interrupted.       |
+When on, you can set the time for the ghost to disappear from after the report meeting of the
+corpse.
+| Soul Duration | The time when the ghost is visible | The time[s] when the ghost disappears after the corpse
+report meeting.
+| Is Check Jackal | After the specified task is completed, the jackal's name turns blue. You can also see the job
+| Common Tasks | You can set the number of normal tasks until jackals can be checked.
+| Long Tasks | You can set the number of long tasks until you can see jackals.
+| Short Tasks | You can set the number of short tasks until you can check jackals.
+| Amount of tasks that will be able to be checked (of all tasks) | If the result of the calculation of the task amount is a fraction, it will be rounded down.
+| Use Vent | You will be able to put in a vent.
+| Impostor Light | You can set whether the view will be the same as the Impostor's view.</p>
+<hr>
+<h2 id="jackalseer">JackalSeer</h2>
+<h3 id="team-third-11">Team Third</h3>
+<p>Can kill and vent. <br>
+Press the side kick button.<br>
+You can <a href="#SidekickSeer">Sidekick(Seer)</a> the target. <br>
+<br>
+The ability to sabotage can be changed in the settings. <br>
+It is also possible to change in the settings whether a side kick (seer) can be made. <br>
+<br>
+Also, Jackal Seer, like <a href="#Seer">Seer</a>, has two abilities [see flashes of death] and [see ghosts]..
+<br>
+Ability 1 [Show Death Flash]:.<br>
+You can tell that someone's presence has disappeared. <br>
+When someone dies somewhere, the screen glows blue. <br>
+<br>
+Ability 2 [Show Souls].<br>
+After the end of a meeting in which someone dies, a spirit appears at the death location. <br>
+If the setting &quot;Limit Soul Duration&quot; is turned off, the spirits are still bound there after
+the meeting again. <br>
+If on, the spirit will not be visible after a set amount of time has elapsed since the end of the
+meeting. <br>
+However, Ability 2 [Show Souls] is currently not available. <br></p>
+<h3 id="game-settings-55">Game Settings</h3>
+<p>| Name                |                                              Description                                              |
+| ------------------- | :---------------------------------------------------------------------------------------------------: |
+| Mode                | You can switch between three modes: [Show Death Flash + Souls] or [Show Death Flash] or [Show Souls]. |
+| Limit Soul Duration |       If off, the ghost will not disappear no matter how many times the meeting is interrupted.       |
+When on, you can set the time for the ghost to disappear from after the report meeting of the
+corpse.
+| Soul Duration | The time when the ghost is visible | The time[s] when the ghost disappears after the corpse
+report meeting.
+| Jackal's kill cool time | Individual kill cool time can be set for each jackal.
+| Use Vent | to enter a vent.
+| Use Sabotage | Sabotage can be used.
+| Impostor Light | You can set whether the view will be the same as the Impostor's view.
+| Jackal can make a Sidekick | Jackals can make side kicks.
+| New jackals can make side kicks | Promoted jackals can make side kicks.</p>
+<hr>
+<h2 id="sidekickseer">SidekickSeer</h2>
+<h3 id="team-third-12">Team Third</h3>
+<p>You will not be the first to be selected. .<br>
+Being side-kicked by a <a href="#JackalSeer">jackalSeer</a>.<br>
+This position. <br>
+When all jackals die, they are promoted to jackal seers.</p>
+<hr>
+<h2 id="darkkiller">DarkKiller</h2>
+<h3 id="team-impostor-33">Team Impostor</h3>
+<p>The Dark Killer is an Impostor that can only be killed during a power outage. <br>
+Instead, the killcool is short. <br></p>
+<h3 id="game-settings-56">Game Settings</h3>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th style="text-align: center;">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Dark Killer's Kill Cool Time</td>
+<td style="text-align: center;">Allows you to set an individual kill cool time.</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2 id="fox">Fox</h2>
+<h3 id="team-third-13">Team Third</h3>
+<p>Team Third(fox camp).<br>
+Like God, if you survive to the end, you win alone.<br>
+Also, you will not be killed.<br>
+SHR compatible.<br>
+SHR Support</p>
+<h3 id="game-settings-57">Game Settings</h3>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th style="text-align: center;">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Use Vent</td>
+<td style="text-align: center;">You will be able to put in a vent.</td>
+</tr>
+<tr>
+<td>Impostor Light</td>
+<td style="text-align: center;">You can set whether the view will be the same as the Impostor's view.</td>
+</tr>
+<tr>
+<td>Use DeadBody Report</td>
+<td style="text-align: center;">Off to disable reporting.</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2 id="assassins--merlin">Assassins &amp; Merlin</h2>
+<h3 id="impostor--crew-camps">Impostor &amp; Crew camps</h3>
+<p>Impostor camp<br>
+<br>
+If hung, a meeting called the Assassin's Council can occur. <br>
+If the Impostor can designate Merlin to hang there, the Impostor will win.
+<br>
+～Merlin~Merlin~<br>
+Crew camp<br>
+<br>
+He knows who the Assassins are from the beginning. He cannot tell who the Impostor is
+because if he reveals his true identity, he will lose the Assassin's Conference. <br>
+<br>
+Both are SHR compatible.<br></p>
+<h3 id="game-settings-58">Game Settings</h3>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th style="text-align: center;">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Number of Assassin</td>
+<td style="text-align: center;">Number of Assassins</td>
+</tr>
+<tr>
+<td>Number of Merine</td>
+<td style="text-align: center;">Number of Marlins</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2 id="cleaner">Cleaner</h2>
+<h3 id="team-impostor-34">Team Impostor</h3>
+<p>Impostor that can make dead bodies disappear. <br>
+If the corpse is erased, the killcool is reset to the specified value. <br></p>
+<h3 id="game-settings-59">Game Settings</h3>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th style="text-align: center;">Description</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Kill Cooldown</td>
+<td style="text-align: center;">Kill Cooldown for Cleaner</td>
+<td>Allows you to set individual kill cool time.</td>
+</tr>
+<tr>
+<td>Cooldown</td>
+<td style="text-align: center;">You can set the kill cooldown time for the ability to erase corpses.</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2 id="samurai-1">Samurai</h2>
+<h3 id="team-impostor-35">Team Impostor</h3>
+<p>SHR compatible<br>
+<br>
+Bent and Sabo are not available (can be changed in the settings) and have a long killcool (can
+be changed in the settings), instead they have a special move button that can be used only
+once during the match. <br>
+When he uses his special move, he wipes out all other players within a set area. <br></p>
+<h3 id="game-settings-60">Game Settings</h3>
+<p>| Name                  |                          Description                           |
+| --------------------- | :------------------------------------------------------------: |
+| Samurai Kill Cooldown | You can set individual kill cooldown time. Cooldown for corpse |
+extinguisher
+| Special Move Cooldown |
+| Use Vent | You can set whether Samurai can use vents.
+| Use Sabotage | You can set whether the samurai can use sabotage.
+| SamuraiScope | Range of special moves</p>
+<hr>
+<h2 id="ventmaker">VentMaker</h2>
+<h3 id="team-impostor-36">Team Impostor</h3>
+<p>Let's make a vent!<br>
+A pair of vents can be made.<br></p>
+<h3 id="game-settings-61">Game Settings</h3>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th style="text-align: center;">Description</th>
+</tr>
+</thead>
+</table>
+<hr>
+<h2 id="evilhacker">EvilHacker</h2>
+<h3 id="team-impostor-37">Team Impostor</h3>
+<p>Impostor to see Admin anytime.<br>
+When looking at the admins, they cannot move and do not accumulate any kill cool time.<br>
+Possible to make side kick Madmate in settings.<br></p>
+<h3 id="game-settings-62">Game Settings</h3>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th style="text-align: center;">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Can an EvilHacker Make a Madmate</td>
+<td style="text-align: center;">Can Evil Hackers Make Madmate</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2 id="mad-stuntman">Mad stuntman</h2>
+<h3 id="team-impostor-38">Team Impostor</h3>
+<p>Madmate version of <a href="#Stuntman">Stuntman</a>.<br>
+It cannot see the Impostor, but it can unconditionally prevent kills. <br></p>
+<h3 id="game-settings-63">Game Settings</h3>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th style="text-align: center;">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Use Vent</td>
+<td style="text-align: center;">You will be able to put in a vent.</td>
+</tr>
+<tr>
+<td>Impostor Light</td>
+<td style="text-align: center;">You can set whether the view will be the same as the Impostor's view.</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2 id="nocturnality">Nocturnality</h2>
+<h3 id="team-crew-23">Team Crew</h3>
+<p>Crew camps where normal visibility is reduced and, conversely, widened during power
+outages. <br>
+SHR compatible.<br></p>
+<hr>
+<h2 id="celebrity">Celebrity</h2>
+<h3 id="team-crew-24">Team Crew</h3>
+<p>The Celebrity's name is visible in yellow to all players, so they know who the Celebrity is. <br>
+SHR compatible.<br></p>
+<hr>
+<h2 id="remote-sheriff">Remote Sheriff</h2>
+<h3 id="team-crew-25">Team Crew</h3>
+<p>A version of <a href="#Sheriff">Sheriff</a> that can do remote kills. <br>
+Able to shapeshift target to kill the shapeshifter. <br>
+SHR compatible.<br></p>
+<h3 id="game-settings-64">Game Settings</h3>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th style="text-align: center;">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Kill Cooldown</td>
+<td style="text-align: center;">Individual kill cooldown time can be set.</td>
+</tr>
+<tr>
+<td>Can Kill a Neutral</td>
+<td style="text-align: center;">You can set whether you can kill the third camp.</td>
+</tr>
+<tr>
+<td>Can Kill a Lovers</td>
+<td style="text-align: center;">You can set whether Lovers can be killed.</td>
+</tr>
+<tr>
+<td>Can Kill a MadRole</td>
+<td style="text-align: center;">You can set whether you can kill MAD &amp; FRIENDS positions.</td>
+</tr>
+<tr>
+<td>Maximum number of kills</td>
+<td style="text-align: center;">You can set the number of kills a sheriff can make.</td>
+</tr>
+<tr>
+<td>Kill Teleport</td>
+<td style="text-align: center;">You can set whether a kill warp will occur.</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2 id="task-manager">Task Manager</h2>
+<h3 id="team-crew-26">Team Crew</h3>
+<p>Finish the task and mount up!<br>
+A Crewmate that allows you to set the number of tasks individually.<br>
+SHR compatible. <br></p>
+<h3 id="game-settings-65">Game Settings</h3>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th style="text-align: center;">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Common Tasks</td>
+<td style="text-align: center;">You can set the number of individual normal tasks.</td>
+</tr>
+<tr>
+<td>Long Tasks</td>
+<td style="text-align: center;">You can set the number of individual long tasks.</td>
+</tr>
+<tr>
+<td>Short Tasks</td>
+<td style="text-align: center;">You can set the number of individual short tasks.</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2 id="mudmaker">Mudmaker</h2>
+<h3 id="team-impostor-39">Team Impostor</h3>
+<p>Mud Mate that can make Madmate.<br>
+SHR compatible.<br></p>
+<h3 id="game-settings-66">Game Settings</h3>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th style="text-align: center;">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Use Vent</td>
+<td style="text-align: center;">You will be able to put in a vent.</td>
+</tr>
+<tr>
+<td>Impostor Light</td>
+<td style="text-align: center;">You can set whether the view will be the same as the Impostor's view.</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2 id="chief">Chief</h2>
+<h3 id="team-crew-27">Team Crew</h3>
+<p>A sheriff may be appointed. <br>
+Trying to make an Impostor a sheriff is self-destructive.<br></p>
+<h3 id="game-settings-67">Game Settings</h3>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th style="text-align: center;">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Kill Cooldown</td>
+<td style="text-align: center;">Individual kill cooldown time can be set.</td>
+</tr>
+<tr>
+<td>Can Kill a Neutral</td>
+<td style="text-align: center;">You can set whether you can kill the third camp.</td>
+</tr>
+<tr>
+<td>Can Kill a Lovers</td>
+<td style="text-align: center;">You can set whether Lovers can be killed.</td>
+</tr>
+<tr>
+<td>Can Kill a MadRole</td>
+<td style="text-align: center;">You can set whether you can kill MAD &amp; FRIENDS positions.</td>
+</tr>
+<tr>
+<td>Maximum number of kills</td>
+<td style="text-align: center;">You can set the number of kills a sheriff can make.</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2 id="mud-cleaner">Mud Cleaner</h2>
+<h3 id="team-impostor-40">Team Impostor</h3>
+<p>Cleaner - Madmate version of cleaner. .<br>
+Instead of being able to make corpses disappear, it does not have the fanatic ability. <br></p>
+<h3 id="game-settings-68">Game Settings</h3>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th style="text-align: center;">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Cooldown</td>
+<td style="text-align: center;">You can set the kill cooldown time for the ability to erase corpses.</td>
+</tr>
+<tr>
+<td>Use Vent</td>
+<td style="text-align: center;">You will be able to put in a vent.</td>
+</tr>
+<tr>
+<td>Impostor Light</td>
+<td style="text-align: center;">You can set whether the view will be the same as the Impostor's view.</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2 id="mayer-friends">Mayer Friends</h2>
+<h3 id="team-third-14">Team Third</h3>
+<p>The decision is crewmate, but.<br>
+The Team Third(jackal camp) rolls. <br>
+Let's help the jackals. <br>
+It also has a fanatic setting.<br>
+<br>
+As with Mayer, you can increase the number of your votes. <br>
+Note: The vote count setting will also include the normal vote count; setting it to 1 vote will
+result in the normal vote count. <br>
+SuperHostRoles support</p>
+<h3 id="game-settings-69">Game Settings</h3>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th style="text-align: center;">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>MadMayer's vote count</td>
+<td style="text-align: center;">You can set the number of votes for Madmaier.</td>
+</tr>
+<tr>
+<td>Is Check Jackal</td>
+<td style="text-align: center;">After the specified task is completed, the jackal's name turns blue. You can also see the job</td>
+</tr>
+<tr>
+<td>Common Tasks</td>
+<td style="text-align: center;">You can set the number of normal tasks until jackals can be checked.</td>
+</tr>
+<tr>
+<td>Long Tasks</td>
+<td style="text-align: center;">You can set the number of long tasks until you can see jackals.</td>
+</tr>
+<tr>
+<td>Short Tasks</td>
+<td style="text-align: center;">You can set the number of short tasks until you can check jackals.</td>
+</tr>
+<tr>
+<td>Amount of tasks that will be able to be checked (of all tasks)</td>
+<td style="text-align: center;">If the result of the calculation of the task amount is a fraction, it will be rounded down.</td>
+</tr>
+<tr>
+<td>Use Vent</td>
+<td style="text-align: center;">You will be able to put in a vent.</td>
+</tr>
+<tr>
+<td>Impostor Light</td>
+<td style="text-align: center;">You can set whether the view will be the same as the Impostor's view.</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2 id="falsecharges">FalseCharges</h2>
+<h3 id="team-third-15">Team Third</h3>
+<h3 id="game-settings-70">Game Settings</h3>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th style="text-align: center;">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Turn of the false accusation range</td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td>Cool Time</td>
+<td style="text-align: center;">Allows you to set an individual kill cool time.</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2 id="teleportingjackal">TeleportingJackal</h2>
+<h3 id="team-third-16">Team Third</h3>
+<p>Jackal version of <a href="#Teleporter">Teleporter</a>. <br>
+Can kill and vent. <br>
+Press the side kick button.<br>
+The ability to sabotage can be changed in the settings. <br></p>
+<h3 id="game-settings-71">Game Settings</h3>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th style="text-align: center;">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Is Check Jackal</td>
+<td style="text-align: center;">After the specified task is completed, the jackal's name turns blue. You can also see the job</td>
+</tr>
+<tr>
+<td>Common Tasks</td>
+<td style="text-align: center;">You can set the number of normal tasks until jackals can be checked.</td>
+</tr>
+<tr>
+<td>Long Tasks</td>
+<td style="text-align: center;">You can set the number of long tasks until you can see jackals.</td>
+</tr>
+<tr>
+<td>Short Tasks</td>
+<td style="text-align: center;">You can set the number of short tasks until you can check jackals.</td>
+</tr>
+<tr>
+<td>Amount of tasks that will be able to be checked (of all tasks)</td>
+<td style="text-align: center;">If the result of the calculation of the task amount is a fraction, it will be rounded down.</td>
+</tr>
+<tr>
+<td>Use Vent</td>
+<td style="text-align: center;">You will be able to put in a vent.</td>
+</tr>
+<tr>
+<td>Impostor Light</td>
+<td style="text-align: center;">You can set whether the view will be the same as the Impostor's view.</td>
+</tr>
+<tr>
+<td>Cooldown</td>
+<td style="text-align: center;">Button Cooldown.</td>
+</tr>
+<tr>
+<td>Time to be teleported</td>
+<td style="text-align: center;"></td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2 id="demon">Demon</h2>
+<h3 id="team-third-17">Team Third</h3>
+<p>SHR compatible.<br>
+If the Impostor wins with all survivors cursed, he will sidestep the Impostor victory and win
+alone. <br></p>
+<h3 id="game-settings-72">Game Settings</h3>
+<p>| Name                        |                                Description                                |
+| --------------------------- | :-----------------------------------------------------------------------: |
+| Cooldown                    |          You can set the cooldown time for the ability to curse.          |
+| You can check the Impostor. | The name of the Impostor turns red after the specified task is completed. |
+a fraction, it will be rounded down.
+| Use Vent | You will be able to put in a vent.
+| You have to be alive to win. | You can set whether you can only win if you are alive or not</p>
+<hr>
+<h2 id="arsonist">Arsonist</h2>
+<h3 id="team-third-18">Team Third</h3>
+<p>If you oil and burn them all, you win alone. <br>
+Due to a glitch, we are currently only able to support one person. <br>
+<br>
+SHR compatible.<br>
+<br>
+With SHR, the kill button is used to paint,<br> and the
+Shape-shifting with everyone painted is the winner. <br></p>
+<h3 id="game-settings-73">Game Settings</h3>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th style="text-align: center;">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Cooldown</td>
+<td style="text-align: center;">You can set the cooldown before the ability can be used.</td>
+</tr>
+<tr>
+<td>Douse Duration</td>
+<td style="text-align: center;">Time required to finish oiling.</td>
+</tr>
+<tr>
+<td>Use Vent</td>
+<td style="text-align: center;">You will be able to put in a vent.</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2 id="neet">NEET</h2>
+<h3 id="team-third-19">Team Third</h3>
+<p>Use button.<br>
+Report button.<br>
+Voting rights.<br>
+There is no. <br>
+If it survives to the end, it is the Team Thirdthat wins alone, just like <a href="#God">God</a>.</p>
+<h2 id="-name----------------------------------------------------description---------------------------------------------------------------------------------------------------------------------------------------------------------------------add-win--change-the-win-condition-for-neet-if-it-is-off-it-is-a-single-win-if-it-is-on-it-is-an-additional-win-">| Name    |                                                Description                                                 |
+| ------- | :--------------------------------------------------------------------------------------------------------: |
+| Add Win | Change the win condition for NEET. If it is off, it is a single win; if it is on, it is an additional win. |</h2>
+<h2 id="hauntedwolf">HauntedWolf</h2>
+<h3 id="team-crew-28">Team Crew</h3>
+<p>It is judged as an Impostor to fortune tellers, sheriffs, etc. <br>
+Tasks, etc. are the same as regular crews. <br>
+SHR compatible.<br></p>
+<h3 id="game-settings-74">Game Settings</h3>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th style="text-align: center;">Description</th>
+</tr>
+</thead>
+</table>
+<hr>
+<h2 id="ghostmechanic">GhostMechanic</h2>
+<h3 id="team-crewghost-position">Team Crew(ghost position)</h3>
+<p>After death, the position changes,<br> and the
+It will be able to cure sabotage, like the engineer's repair of TheOtherRoles.</p>
+<h3 id="game-settings-75">Game Settings</h3>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th style="text-align: center;">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Number of times sabotage can be repaired</td>
+<td style="text-align: center;">Number of times you can use the Sabotage Repair capability.</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2 id="positionswapper">PositionSwapper</h2>
+<h3 id="team-impostor-41">Team Impostor</h3>
+<p>When using the ability, swap your position with a random player. <br>
+Just that. <br>
+It could be strong if you know how to use it. <br></p>
+<h3 id="game-settings-76">Game Settings</h3>
+<p>| Name              |                             Description                              |
+| ----------------- | :------------------------------------------------------------------: |
+| Swapping limits   |   You can set the number of times the swap capability can be used    |
+| Swapping cooltime | Allows you to set the amount of time between swapping and being able |
+to swap again</p>
+<hr>
+<h2 id="tuna">Tuna</h2>
+<h3 id="team-third-20">Team Third</h3>
+<p>Tuna need to be moving all the time to survive! <br>
+If it stops, it will kill itself! <br>
+If he survives, he wins alone! <br> &lt;br
+<br>
+After the first move button, the tuna will kill itself if it stops for a set amount of time. <br>
+SuperHostRoles support</p>
+<h3 id="game-settings-77">Game Settings</h3>
+<h2 id="-name----------------------------------------------------------description---------------------------------------------------------------------------------------------------------------------------------------------------------------------------stopping-time--use-vent--------------------------------------you-can-set-whether-maguro-can-use-the-vent---------------------------------add-win--------change-the-win-condition-for-tuna-if-it-is-off-it-is-a-single-win-if-it-is-on-it-is-an-additional-win-">| Name          |                                                Description                                                 |
+| ------------- | :--------------------------------------------------------------------------------------------------------: |
+| Stopping Time |
+| Use Vent      |                                You can set whether Maguro can use the vent.                                |
+| Add Win       | Change the win condition for Tuna. If it is off, it is a single win; if it is on, it is an additional win. |</h2>
+<h2 id="mafia">Mafia</h2>
+<h3 id="team-impostor-42">Team Impostor</h3>
+<p>When all non-Mafia Impostors are dead, they can be killed. <br>
+The kill-cool time will continue to advance while the kill is not made. <br>
+SuperHostRoles support</p>
+<h3 id="game-settings-78">Game Settings</h3>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th style="text-align: center;">Description</th>
+</tr>
+</thead>
+</table>
+<hr>
+<h2 id="blackcat">BlackCat</h2>
+<h3 id="team-impostor-43">Team Impostor</h3>
+<p>A <a href="#Madmate">Madmate</a> version of [Nice Nekomata](#Nice Nekomata).<br>
+SuperHostRoles support</p>
+<h3 id="game-settings-79">Game Settings</h3>
+<h2 id="-name----------------------------------------------------------------------------------------------------description-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------you-can-check-the-impostor----------------------------------------------the-name-of-the-impostor-turns-red-after-the-specified-task-is-completed-----------common-tasks------------------------------------------------------------you-can-set-the-number-of-normal-tasks-before-the-impostor-can-be-checked-----------long-tasks---------------------------------------------------------------you-can-set-the-number-of-long-tasks-before-the-impostor-can-be-checked------------short-tasks--------------------------------------------------------------you-can-set-the-number-of-short-tasks-before-the-impostor-can-be-checked-----------amount-of-tasks-that-will-be-able-to-be-checked-of-all-tasks--if-the-result-of-the-calculation-of-the-task-amount-is-a-fraction-it-will-be-rounded-down--use-vent------------------------------------------------------------------------------------you-will-be-able-to-put-in-a-vent-------------------------------impostor-light-------------------------------------------------------------you-can-set-whether-the-view-will-be-the-same-as-the-impostors-view-------------not-taking-the-impostor-off-the-road------------------------------------excludes-the-impostor-from-being-taken-as-a-companion-when-heshe-is-hung----------">| Name                                                           |                                         Description                                         |
+| -------------------------------------------------------------- | :-----------------------------------------------------------------------------------------: |
+| You can check the Impostor.                                    |          The name of the Impostor turns red after the specified task is completed.          |
+| Common Tasks                                                   |         You can set the number of normal tasks before the Impostor can be checked.          |
+| Long Tasks                                                     |          You can set the number of long tasks before the Impostor can be checked.           |
+| Short Tasks                                                    |          You can set the number of short tasks before the Impostor can be checked.          |
+| Amount of tasks that will be able to be checked (of all tasks) | If the result of the calculation of the task amount is a fraction, it will be rounded down. |
+| Use Vent                                                       |                             You will be able to put in a vent.                              |
+| Impostor Light                                                 |            You can set whether the view will be the same as the Impostor's view.            |
+| Not taking the Impostor off the road                           |         Excludes the Impostor from being taken as a companion when he/she is hung.          |</h2>
+<h2 id="toiletfan">ToiletFan</h2>
+<h3 id="team-crew-29">Team Crew</h3>
+<p>[A little faster...]<br>
+Airship-only positions (casting is not limited, but the ability is not activated outside of the airship). <br>
+By pressing the open/close button. Allows you to open all lounge restroom doors.<br>
+SuperHostRoles support.<br>
+in SHR mode, the door is opened and closed by shape-shifting. <br></p>
+<h3 id="game-settings-80">Game Settings</h3>
+<h2 id="-name------------------------description-------------------------------------------------------------toilet-cool-time--cool-time-for-openclose-button-">| Name             |           Description           |
+| ---------------- | :-----------------------------: |
+| Toilet Cool Time | Cool time for open/close button |</h2>
+<h2 id="knight">Knight</h2>
+<h3 id="team-crew-30">Team Crew</h3>
+<h4 id="intro">Intro</h4>
+<ul>
+<li>I will protect you according to my beliefs.</li>
+</ul>
+<h4 id="description">Description</h4>
+<ul>
+<li>During the conference phase, you can put up a shield to prevent one kill by using the protect button.
+If the protection is successful, a successful protection announcement will be played at the beginning of the next meeting phase.</li>
+</ul>
+<h4 id="ability">Ability</h4>
+<ul>
+<li>Once per meeting phase, you can put up a shield that prevents one kill.</li>
+<li>The shield disappears when a kill is prevented or at the beginning of the Conference Phase.</li>
+<li>The shield also prevents kills during the conference phase.</li>
+<li>If the same person receives both a kill and a protection in the same conference phase, priority is given to the one who declares his/her action earlier.
+(Kills are handled in real time and do not wait for the guarding ability to be selected.)</li>
+<li>If the target's kill process has already been executed after the protective ability is used, the ability will not fire but can be used again.</li>
+</ul>
+<h3 id="game-settings-81">Game Settings</h3>
+<h2 id="-name----------------------------------------------------------------------------------------------------------------------------------------------description-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------play-an-announcement-when-the-protection-is-successful-----------------------when-the-protection-is-successful-set-whether-the-announcement-of-successful-protection-will-be-played-at-the-beginning-of-the-next-meeting-phase----------------------do-you-want-to-set-a-limit-on-the-number-of-protections---------------------------allow-one-protection-to-be-used-at-all-times-during-a-meeting-with-no-upper-limit-or-set-a-limit-on-the-number-of-times-it-can-be-used----------------------------maximum-number-of-times-protection-is-possible-----------if-an-upper-limit-is-set-set-the-maximum-number-of-times-the-protection-can-be-used-this-set-number-of-times-will-be-the-number-of-times-the-protection-ability-can-be-used-in-one-match-----------------------------------------------------------">| Name                                                     |                                                                                         Description                                                                                         |
+| -------------------------------------------------------- | :-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+| Play an announcement when the protection is successful?  |                     When the protection is successful, set whether the announcement of successful protection will be played at the beginning of the next meeting phase.                     |
+| Do you want to set a limit on the number of protections? |                          Allow one protection to be used at all times during a meeting with no upper limit, or set a limit on the number of times it can be used.                           |
+| Maximum number of times protection is possible.          | If an upper limit is set, set the maximum number of times the protection can be used. This set number of times will be the number of times the protection ability can be used in one match. |
+|                                                          |</h2>
+<h2 id="safecracker">Safecracker</h2>
+<h3 id="team-third-21">Team Third</h3>
+<h4 id="intro-1">Intro</h4>
+<ul>
+<li>Open the safe, get the ability and win!</li>
+</ul>
+<h4 id="description-1">Description</h4>
+<ul>
+<li>By opening the vault, you can acquire various abilities.<br>It grants you a kill guard, an exiled guard， vent， etc.<br>Open the safe to the end and win the game.</li>
+</ul>
+<h4 id="ability-1">Ability</h4>
+<ul>
+<li>All tasks will be opening the vault.</li>
+<li>The ability can be acquired by opening the safe.</li>
+</ul>
+<h3 id="game-settings-82">Game Settings</h3>
+<h2 id="-name--description-------------------amount-of-tasks-to-be-able-to-kill-guard-of-all-tasks--if-the-result-of-the-calculation-of-the-task-amount-is-a-fraction-it-will-be-rounded-down--kill-guard-max-count---amount-of-tasks-to-be-able-to-be-able-to-exiled-guard-of-all-tasks--if-the-result-of-the-calculation-of-the-task-amount-is-a-fraction-it-will-be-rounded-down--exiled-guard-max-count---amount-of-tasks-for-which-the-vent-will-be-available-of-all-tasks--if-the-result-of-the-calculation-of-the-task-amount-is-a-fraction-it-will-be-rounded-down--amount-of-tasks-for-which-sabotage-will-be-available-of-all-tasks--if-the-result-of-the-calculation-of-the-task-amount-is-a-fraction-it-will-be-rounded-down--amount-of-tasks-for-become-an-imposters-field-of-view-of-all-tasks--if-the-result-of-the-calculation-of-the-task-amount-is-a-fraction-it-will-be-rounded-down--amount-of-tasks-that-will-allow-you-to-check-the-imposter-of-all-tasks--if-the-result-of-the-calculation-of-the-task-amount-is-a-fraction-it-will-be-rounded-down--common-tasks--you-can-set-the-number-of-normal-tasks-before-the-impostor-can-be-checked--long-tasks--you-can-set-the-number-of-long-tasks-before-the-impostor-can-be-checked--short-tasks--you-can-set-the-number-of-short-tasks-before-the-impostor-can-be-checked--replace-all-tasks-with-unlock-safe-tasks--you-can-set-whether-the-task-itself-will-be-replaced-by-opening-the-vault-">| Name | Description |
+| ---- | :---------: |
+| Amount of tasks to be able to kill guard (of all tasks) | If the result of the calculation of the task amount is a fraction, it will be rounded down. |
+| Kill guard max count | |
+| Amount of tasks to be able to be able to exiled guard (of all tasks) | If the result of the calculation of the task amount is a fraction, it will be rounded down. |
+| Exiled guard max count | |
+| Amount of tasks for which the vent will be available (of all tasks) | If the result of the calculation of the task amount is a fraction, it will be rounded down. |
+| Amount of tasks for which sabotage will be available (of all tasks) | If the result of the calculation of the task amount is a fraction, it will be rounded down. |
+| Amount of tasks for become an Imposter's field of view (of all tasks) | If the result of the calculation of the task amount is a fraction, it will be rounded down. |
+| Amount of tasks that will allow you to check the Imposter (of all tasks) | If the result of the calculation of the task amount is a fraction, it will be rounded down. |
+| Common Tasks | You can set the number of normal tasks before the Impostor can be checked. |
+| Long Tasks | You can set the number of long tasks before the Impostor can be checked. |
+| Short Tasks | You can set the number of short tasks before the Impostor can be checked. |
+| Replace all tasks with unlock safe tasks | You can set whether the task itself will be replaced by opening the vault. |</h2>
+<h2 id="firefox">FireFox</h2>
+<h3 id="team-third-22">Team Third</h3>
+<h4 id="intro-2">Intro</h4>
+<ul>
+<li>I am Fire Fox!</li>
+</ul>
+<h4 id="description-2">Description</h4>
+<ul>
+<li>It is a Fox that has been given a kill button instead of a kill guard.<br>The number of kills is limited and only certain camps can be killed.<br>If you press the kill button for a player who is not in the killable camp, your kill count will decrease without a kill.<br>Think about who to kill and contribute to the Fox's victory.</li>
+</ul>
+<h4 id="ability-2">Ability</h4>
+<ul>
+<li>It has a kill button and can kill for a specific number of times.</li>
+<li>Each kill reduces the number of kills.</li>
+<li>Not kill except for certain camps.</li>
+</ul>
+<h3 id="game-settings-83">Game Settings</h3>
+<h2 id="-name--description-------------------maximum-number-of-kills--you-can-set-the-number-of-kills-a-fire-fox-can-make--kill-cooldown--individual-kill-cooldown-time-can-be-set--can-kill-the-crewmate-camp--you-can-set-whether-you-can-kill-the-crewmate-camp--can-kill-the-imposter-camp--you-can-set-whether-you-can-kill-the-imposter-camp--can-kill-the-third-camp--you-can-set-whether-you-can-kill-the-third-camp--can-kill-the-lovers--you-can-set-whether-you-can-kill-lovers--you-can-check-the-fox--you-can-set-whether-you-can-see-the-fox--use-vent--you-will-be-able-to-put-in-a-vent--impostor-light--you-can-set-whether-the-view-will-be-the-same-as-the-impostors-view--use-deadbody-report--off-to-disable-reporting-">| Name | Description |
+| ---- | :---------: |
+| Maximum number of kills | You can set the number of kills a fire fox can make. |
+| Kill Cooldown | Individual kill cooldown time can be set. |
+| Can kill the crewmate camp | You can set whether you can kill the crewmate camp. |
+| Can kill the imposter camp | You can set whether you can kill the imposter camp. |
+| Can kill the third camp | You can set whether you can kill the third camp. |
+| Can kill the lovers | You can set whether you can kill lovers. |
+| You can check the fox | You can set whether you can see the fox. |
+| Use Vent | You will be able to put in a vent. |
+| Impostor Light | You can set whether the view will be the same as the Impostor's view. |
+| Use DeadBody Report | Off to disable reporting. |</h2>
+<h2 id="squid">Squid</h2>
+<h3 id="team-crew-31">Team Crew</h3>
+<h4 id="intro-3">Intro</h4>
+<ul>
+<li>Use ink to survive.</li>
+<li>Let's use ink to get away with it.</li>
+</ul>
+<h4 id="description-3">Description</h4>
+<ul>
+<li>You can be on alert for a certain period of time.<br>If you are about to be killed while on alert, you can prevent the kill, <br>take away your opponent's vision, and increase your own movement speed for a certain period of time.</li>
+</ul>
+<h4 id="ability-3">Ability</h4>
+<ul>
+<li>There is an vigilance button.</li>
+<li>By pressing the vigilance button, the system enters the vigilance mode.</li>
+<li>If you are kill while in vigilance mode, you can guard against the kill.</li>
+<li>If you can guard against a kill, the vigilance mode is released and your movement speed is temporarily increased. <br>(A flash will also occur.)</li>
+<li>The side whose kill is guarded will have a set value of kill cool, <br>its field of view will be lowered and squid ink will adhere to the screen.</li>
+</ul>
+<h3 id="game-settings-84">Game Settings</h3>
+<h2 id="-name--description-------------------cool-time-for-vigilance-mode--you-can-set-a-cool-time-for-the-vigilance-mode--duration-of-vigilance-mode--you-can-set-the-duration-of-the-vigilance-mode--movement-speed-on-successful-counters--you-can-set-the-duration-of-a-successful-counter--time-to-increase-movement-speed-on-successful-counters--you-can-set-the-time-to-increase-the-speed-of-movement-on-successful-counters--time-when-no-kills-can-be-made-on-successful-counters--you-can-set-the-time-that-no-kills-can-be-made-on-a-successful-counter--field-of-vision-when-vision-is-deprived--you-can-set-the-killers-field-of-view-on-a-successful-counter--time-to-take-away-the-view--you-can-set-the-time-to-change-the-field-of-view-and-the-time-to-display-squid-ink-">| Name | Description |
+| ---- | :---------: |
+| Cool time for vigilance mode | You can set a cool time for the vigilance mode. |
+| Duration of vigilance mode | You can set the duration of the vigilance mode. |
+| Movement speed on successful counters | You can set the duration of a successful counter |
+| Time to increase movement speed on successful counters | You can set the time to increase the speed of movement on successful counters. |
+| Time when no kills can be made on successful counters | You can set the time that no kills can be made on a successful counter. |
+| Field of vision when vision is deprived | You can set the killers' field of view on a successful counter. |
+| Time to take away the view | You can set the time to change the field of view and the time to display squid ink. |</h2>
+<h2 id="dyingmessenger">DyingMessenger</h2>
+<h3 id="team-crew-32">Team Crew</h3>
+<h4 id="intro-4">Intro</h4>
+<ul>
+<li>Will and testament， we will tell you.</li>
+</ul>
+<h4 id="description-4">Description</h4>
+<ul>
+<li>When you are able to report a kill within a certain amount of time after the kill.<br>You can get the information of the killers of the dead body you reported.<br>Get the information and contribute to the victory of the crew's camp.</li>
+</ul>
+<h4 id="ability-4">Ability</h4>
+<ul>
+<li>When a person is killed and is able to report it within a certain amount of time, you can get the information of the killers of the body that reported it.</li>
+<li>The acquired information is sent to only you via chat.</li>
+<li>The information that can be retrieved is the &quot;Killer's role&quot; and the &quot;Killer's light and darker&quot;.</li>
+</ul>
+<h3 id="game-settings-85">Game Settings</h3>
+<h2 id="-name--description-------------------time-to-read-the-roll-of-the-killers-from-the-corpse--you-can-set-a-time-limit-for-getting-the-killers-role-from-the-corpse--time-to-read-the-light-and-darker-colors-of-the-kill-from-the-corpse-you-can-set-a-time-limit-for-getting-the-killers-light-and-darker-from-the-corpse-">| Name | Description |
+| ---- | :---------: |
+| Time to read the roll of the killers from the corpse | You can set a time limit for getting the killers' role from the corpse. |
+| Time to read the light and darker colors of the kill from the corpse| You can set a time limit for getting the killers' light and darker from the corpse. |</h2>
+<h2 id="quarreled">Quarreled</h2>
+<h4 id="description-5">Description</h4>
+<ul>
+<li>Teams of two.</li>
+<li>If both players die, they win the game alone.</li>
+<li>If they commit suicide, they cannot win alone.</li>
+<li>Let's make up in the next life.</li>
+</ul>
+<h4 id="victory-conditions">Victory Conditions</h4>
+<ul>
+<li>If both players die, the game is won by a single player.</li>
+<li>If you live to the end, you lose.</li>
+</ul>
+<h3 id="game-settings-86">Game Settings</h3>
+<h2 id="-name----------------------------------description-----------------------------------------------------------------------------------------only-crewmate-team--clade-can-be-selected-or-not-only-for-the-clade-">| Name               |                   Description                    |
+| ------------------ | :----------------------------------------------: |
+| Only Crewmate Team | Clade can be selected or not only for the clade. |</h2>
+<h2 id="lovers">Lovers</h2>
+<h3 id="overlapping-camps">overlapping camps</h3>
+<p>This roll will be in pairs. <br>
+In the case of a solo win, the Lovers win alone if one of them survives to the end of the game.
+<br>
+Otherwise, whichever player survives to the end of the game wins. <br>
+SuperHostRoles support</p>
+<h3 id="game-settings-87">Game Settings</h3>
+<h2 id="-name-----------------------------------------------------------------------description--------------------------------------------------------------------------------------------------------------------------------------------------------------------------discharge-probability------------------------------------you-can-set-the-probability-of-getting-lovers--------------------------chosen-only-by-cluemate---------------------------------clade-can-be-selected-or-not-only-for-the-clade-------------------------single-camp--------------------------------------------------------single-camp-or-single-camp-----------------------------------ttwo-people-die-at-the-same-time------------------when-one-of-the-lovers-dies-the-other-also-commits-suicide-------------------tasks-are-counted-when-surviving--sets-whether-or-not-lovers-tasks-are-counted-in-the-overall-amount-of-tasks-for-the-crewmate-when-alive-does-not-overlap-with-quarreled--you-can-set-whether-or-not-to-duplicate-with-quarreled">| Name                             |                                          Description                                          |
+| -------------------------------- | :-------------------------------------------------------------------------------------------: |
+| Discharge probability            |                        You can set the probability of getting Lovers.                         |
+| Chosen only by Cluemate          |                       Clade can be selected or not only for the clade.                        |
+| Single camp                      |                                  single camp or single camp.                                  |
+| TTwo people die at the same time |                 When one of the Lovers dies, the other also commits suicide.                  |
+| Tasks are counted when surviving | Sets whether or not Lovers' tasks are counted in the overall amount of tasks for the crewmate |
+when alive.
+| Does not overlap with Quarreled | You can set whether or not to duplicate with Quarreled.</h2>
+
+</article>
+
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

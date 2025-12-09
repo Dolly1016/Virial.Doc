@@ -162,7 +162,7 @@ Interface NebulaPreprocessor  <a class="header-action link-secondary" title="Vie
 
   <h3 id="Virial_Runtime_NebulaPreprocessor_FinishPreprocess" data-uid="Virial.Runtime.NebulaPreprocessor.FinishPreprocess">
   FinishPreprocess
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Runtime/Runtime.cs/#L86"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Runtime/Runtime.cs/#L87"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -195,8 +195,8 @@ Interface NebulaPreprocessor  <a class="header-action link-secondary" title="Vie
 
   <a id="Virial_Runtime_NebulaPreprocessor_CreateEnd_" data-uid="Virial.Runtime.NebulaPreprocessor.CreateEnd*"></a>
 
-  <h3 id="Virial_Runtime_NebulaPreprocessor_CreateEnd_System_String_Virial_Color_System_Int32_" data-uid="Virial.Runtime.NebulaPreprocessor.CreateEnd(System.String,Virial.Color,System.Int32)">
-  CreateEnd(string, Color, int)
+  <h3 id="Virial_Runtime_NebulaPreprocessor_CreateEnd_System_String_Virial_Color_System_Int32_System_Boolean_" data-uid="Virial.Runtime.NebulaPreprocessor.CreateEnd(System.String,Virial.Color,System.Int32,System.Boolean)">
+  CreateEnd(string, Color, int, bool)
   <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Runtime/Runtime.cs/#L44"><i class="bi bi-code-slash"></i></a>
   </h3>
 
@@ -205,7 +205,7 @@ Interface NebulaPreprocessor  <a class="header-action link-secondary" title="Vie
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">GameEnd CreateEnd(string localizedName, Color color, int priority = 32)</code></pre>
+    <pre><code class="lang-csharp hljs">GameEnd CreateEnd(string localizedName, Color color, int priority = 32, bool specifyNobodyWins = true)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -219,6 +219,8 @@ Interface NebulaPreprocessor  <a class="header-action link-secondary" title="Vie
     <dt><code>priority</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
     <dd><p>勝利の優先度。この値が大きいほど優先されます。</p>
 </dd>
+    <dt><code>specifyNobodyWins</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
   </dl>
 
   <h4 class="section">Returns</h4>
@@ -239,8 +241,8 @@ Interface NebulaPreprocessor  <a class="header-action link-secondary" title="Vie
 
   <a id="Virial_Runtime_NebulaPreprocessor_CreateEnd_" data-uid="Virial.Runtime.NebulaPreprocessor.CreateEnd*"></a>
 
-  <h3 id="Virial_Runtime_NebulaPreprocessor_CreateEnd_System_String_Virial_Text_TextComponent_Virial_Color_System_Int32_" data-uid="Virial.Runtime.NebulaPreprocessor.CreateEnd(System.String,Virial.Text.TextComponent,Virial.Color,System.Int32)">
-  CreateEnd(string, TextComponent, Color, int)
+  <h3 id="Virial_Runtime_NebulaPreprocessor_CreateEnd_System_String_Virial_Text_TextComponent_Virial_Color_System_Int32_System_Boolean_" data-uid="Virial.Runtime.NebulaPreprocessor.CreateEnd(System.String,Virial.Text.TextComponent,Virial.Color,System.Int32,System.Boolean)">
+  CreateEnd(string, TextComponent, Color, int, bool)
   <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Runtime/Runtime.cs/#L53"><i class="bi bi-code-slash"></i></a>
   </h3>
 
@@ -249,7 +251,7 @@ Interface NebulaPreprocessor  <a class="header-action link-secondary" title="Vie
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">GameEnd CreateEnd(string immutableId, TextComponent displayText, Color color, int priority = 32)</code></pre>
+    <pre><code class="lang-csharp hljs">GameEnd CreateEnd(string immutableId, TextComponent displayText, Color color, int priority = 32, bool specifyNobodyWins = true)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -266,6 +268,8 @@ Interface NebulaPreprocessor  <a class="header-action link-secondary" title="Vie
     <dt><code>priority</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
     <dd><p>勝利の優先度。この値が大きいほど優先されます。</p>
 </dd>
+    <dt><code>specifyNobodyWins</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
   </dl>
 
   <h4 class="section">Returns</h4>
@@ -445,8 +449,8 @@ Interface NebulaPreprocessor  <a class="header-action link-secondary" title="Vie
 
   <a id="Virial_Runtime_NebulaPreprocessor_RegisterAssignmentType_" data-uid="Virial.Runtime.NebulaPreprocessor.RegisterAssignmentType*"></a>
 
-  <h3 id="Virial_Runtime_NebulaPreprocessor_RegisterAssignmentType_System_Func_Virial_Assignable_DefinedRole__System_Func_System_Int32___Virial_Assignable_DefinedRole_System_Int32____System_String_System_Nullable_Virial_Color__System_Func_Virial_Assignable_AbilityAssignmentStatus_Virial_Assignable_DefinedRole_System_Boolean__System_Func_System_Boolean__" data-uid="Virial.Runtime.NebulaPreprocessor.RegisterAssignmentType(System.Func{Virial.Assignable.DefinedRole},System.Func{System.Int32[],Virial.Assignable.DefinedRole,System.Int32[]},System.String,System.Nullable{Virial.Color},System.Func{Virial.Assignable.AbilityAssignmentStatus,Virial.Assignable.DefinedRole,System.Boolean},System.Func{System.Boolean})">
-  RegisterAssignmentType(Func&lt;DefinedRole&gt;, Func&lt;int[], DefinedRole, int[]&gt;, string, Color?, Func&lt;AbilityAssignmentStatus, DefinedRole, bool&gt;, Func&lt;bool&gt;)
+  <h3 id="Virial_Runtime_NebulaPreprocessor_RegisterAssignmentType_System_Func_Virial_Assignable_DefinedRole__System_Func_System_Int32___Virial_Assignable_DefinedRole_System_Int32____System_String_System_Nullable_Virial_Color__System_Func_Virial_Assignable_AbilityAssignmentStatus_Virial_Assignable_DefinedRole_System_Boolean__System_Func_System_Boolean__System_Boolean_" data-uid="Virial.Runtime.NebulaPreprocessor.RegisterAssignmentType(System.Func{Virial.Assignable.DefinedRole},System.Func{System.Int32[],Virial.Assignable.DefinedRole,System.Int32[]},System.String,System.Nullable{Virial.Color},System.Func{Virial.Assignable.AbilityAssignmentStatus,Virial.Assignable.DefinedRole,System.Boolean},System.Func{System.Boolean},System.Boolean)">
+  RegisterAssignmentType(Func&lt;DefinedRole&gt;, Func&lt;int[], DefinedRole, int[]&gt;, string, Color?, Func&lt;AbilityAssignmentStatus, DefinedRole, bool&gt;, Func&lt;bool&gt;, bool)
   <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Runtime/Runtime.cs/#L84"><i class="bi bi-code-slash"></i></a>
   </h3>
 
@@ -454,7 +458,7 @@ Interface NebulaPreprocessor  <a class="header-action link-secondary" title="Vie
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">AssignmentType RegisterAssignmentType(Func&lt;DefinedRole&gt; relatedRole, Func&lt;int[], DefinedRole, int[]&gt; argumentEditor, string postfix, Color? color, Func&lt;AbilityAssignmentStatus, DefinedRole, bool&gt; predicate, Func&lt;bool&gt; isActive)</code></pre>
+    <pre><code class="lang-csharp hljs">AssignmentType RegisterAssignmentType(Func&lt;DefinedRole&gt; relatedRole, Func&lt;int[], DefinedRole, int[]&gt; argumentEditor, string postfix, Color? color, Func&lt;AbilityAssignmentStatus, DefinedRole, bool&gt; predicate, Func&lt;bool&gt; isActive, bool canGuessAsAbility = true)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -471,6 +475,8 @@ Interface NebulaPreprocessor  <a class="header-action link-secondary" title="Vie
     <dd></dd>
     <dt><code>isActive</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-1">Func</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>&gt;</dt>
     <dd></dd>
+    <dt><code>canGuessAsAbility</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
   </dl>
 
   <h4 class="section">Returns</h4>
@@ -478,6 +484,37 @@ Interface NebulaPreprocessor  <a class="header-action link-secondary" title="Vie
     <dt><a class="xref" href="Virial.Assignable.AssignmentType.html">AssignmentType</a></dt>
     <dd></dd>
   </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Virial_Runtime_NebulaPreprocessor_RegisterExclusiveAssignmentRule_" data-uid="Virial.Runtime.NebulaPreprocessor.RegisterExclusiveAssignmentRule*"></a>
+
+  <h3 id="Virial_Runtime_NebulaPreprocessor_RegisterExclusiveAssignmentRule_Virial_Assignable_IExclusiveAssignmentRule_" data-uid="Virial.Runtime.NebulaPreprocessor.RegisterExclusiveAssignmentRule(Virial.Assignable.IExclusiveAssignmentRule)">
+  RegisterExclusiveAssignmentRule(IExclusiveAssignmentRule)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Runtime/Runtime.cs/#L85"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void RegisterExclusiveAssignmentRule(IExclusiveAssignmentRule rule)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>rule</code> <a class="xref" href="Virial.Assignable.IExclusiveAssignmentRule.html">IExclusiveAssignmentRule</a></dt>
+    <dd></dd>
+  </dl>
+
 
 
 
