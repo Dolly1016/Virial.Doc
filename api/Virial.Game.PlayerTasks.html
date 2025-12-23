@@ -447,6 +447,171 @@ Interface PlayerTasks  <a class="header-action link-secondary" title="View sourc
 
 
 
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="Virial_Game_PlayerTasks_ExemptTasks_" data-uid="Virial.Game.PlayerTasks.ExemptTasks*"></a>
+
+  <h3 id="Virial_Game_PlayerTasks_ExemptTasks_System_Int32_" data-uid="Virial.Game.PlayerTasks.ExemptTasks(System.Int32)">
+  ExemptTasks(int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Game/PlayerTasks.cs/#L68"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>タスクを免除します。ローカルプレイヤーでのみ実行できます。
+免除されたタスクはタスク一覧からは削除されません。余剰のタスクは他人の代わりにこなせます。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool ExemptTasks(int numOfTasks)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>numOfTasks</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>免除に成功した場合、true</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Virial_Game_PlayerTasks_GainExtraTasks_" data-uid="Virial.Game.PlayerTasks.GainExtraTasks*"></a>
+
+  <h3 id="Virial_Game_PlayerTasks_GainExtraTasks_System_Int32_System_Int32_System_Int32_System_Boolean_" data-uid="Virial.Game.PlayerTasks.GainExtraTasks(System.Int32,System.Int32,System.Int32,System.Boolean)">
+  GainExtraTasks(int, int, int, bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Game/PlayerTasks.cs/#L87"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>追加タスクを獲得します。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool GainExtraTasks(int commonTasks, int shortTasks, int longTasks, bool addQuota)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>commonTasks</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>shortTasks</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>longTasks</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>addQuota</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>ノルマを増加させる場合、true</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Virial_Game_PlayerTasks_ReplaceTasks_" data-uid="Virial.Game.PlayerTasks.ReplaceTasks*"></a>
+
+  <h3 id="Virial_Game_PlayerTasks_ReplaceTasks_System_Int32_System_Int32_System_Int32_" data-uid="Virial.Game.PlayerTasks.ReplaceTasks(System.Int32,System.Int32,System.Int32)">
+  ReplaceTasks(int, int, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Game/PlayerTasks.cs/#L77"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>タスクを置き換えます。現在の割り当ては削除されます。ローカルプレイヤーでのみ実行できます。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool ReplaceTasks(int commonTasks, int shortTasks, int longTasks)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>commonTasks</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>shortTasks</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>longTasks</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Virial_Game_PlayerTasks_RewindTasks_" data-uid="Virial.Game.PlayerTasks.RewindTasks*"></a>
+
+  <h3 id="Virial_Game_PlayerTasks_RewindTasks_System_Int32_" data-uid="Virial.Game.PlayerTasks.RewindTasks(System.Int32)">
+  RewindTasks(int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Game/PlayerTasks.cs/#L94"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>タスクを巻き戻します。ローカルプレイヤーでのみ実行できます。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool RewindTasks(int numOfTasks)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>numOfTasks</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
 
 </article>
 

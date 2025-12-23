@@ -963,6 +963,19 @@ references:
   isSpec: "True"
   fullName: Virial.Assignable.DefinedAssignable.ConfigurationHolder
   nameWithType: DefinedAssignable.ConfigurationHolder
+- uid: Virial.Assignable.DefinedAssignable.DefaultAssignableArguments
+  name: DefaultAssignableArguments
+  href: api/Virial.Assignable.DefinedAssignable.html#Virial_Assignable_DefinedAssignable_DefaultAssignableArguments
+  commentId: P:Virial.Assignable.DefinedAssignable.DefaultAssignableArguments
+  fullName: Virial.Assignable.DefinedAssignable.DefaultAssignableArguments
+  nameWithType: DefinedAssignable.DefaultAssignableArguments
+- uid: Virial.Assignable.DefinedAssignable.DefaultAssignableArguments*
+  name: DefaultAssignableArguments
+  href: api/Virial.Assignable.DefinedAssignable.html#Virial_Assignable_DefinedAssignable_DefaultAssignableArguments_
+  commentId: Overload:Virial.Assignable.DefinedAssignable.DefaultAssignableArguments
+  isSpec: "True"
+  fullName: Virial.Assignable.DefinedAssignable.DefaultAssignableArguments
+  nameWithType: DefinedAssignable.DefaultAssignableArguments
 - uid: Virial.Assignable.DefinedAssignable.DisplayColoredName
   name: DisplayColoredName
   href: api/Virial.Assignable.DefinedAssignable.html#Virial_Assignable_DefinedAssignable_DisplayColoredName
@@ -1015,6 +1028,32 @@ references:
   isSpec: "True"
   fullName: Virial.Assignable.DefinedAssignable.GeneralColoredBlurb
   nameWithType: DefinedAssignable.GeneralColoredBlurb
+- uid: Virial.Assignable.DefinedAssignable.IconColor
+  name: IconColor
+  href: api/Virial.Assignable.DefinedAssignable.html#Virial_Assignable_DefinedAssignable_IconColor
+  commentId: P:Virial.Assignable.DefinedAssignable.IconColor
+  fullName: Virial.Assignable.DefinedAssignable.IconColor
+  nameWithType: DefinedAssignable.IconColor
+- uid: Virial.Assignable.DefinedAssignable.IconColor*
+  name: IconColor
+  href: api/Virial.Assignable.DefinedAssignable.html#Virial_Assignable_DefinedAssignable_IconColor_
+  commentId: Overload:Virial.Assignable.DefinedAssignable.IconColor
+  isSpec: "True"
+  fullName: Virial.Assignable.DefinedAssignable.IconColor
+  nameWithType: DefinedAssignable.IconColor
+- uid: Virial.Assignable.DefinedAssignable.IconImage
+  name: IconImage
+  href: api/Virial.Assignable.DefinedAssignable.html#Virial_Assignable_DefinedAssignable_IconImage
+  commentId: P:Virial.Assignable.DefinedAssignable.IconImage
+  fullName: Virial.Assignable.DefinedAssignable.IconImage
+  nameWithType: DefinedAssignable.IconImage
+- uid: Virial.Assignable.DefinedAssignable.IconImage*
+  name: IconImage
+  href: api/Virial.Assignable.DefinedAssignable.html#Virial_Assignable_DefinedAssignable_IconImage_
+  commentId: Overload:Virial.Assignable.DefinedAssignable.IconImage
+  isSpec: "True"
+  fullName: Virial.Assignable.DefinedAssignable.IconImage
+  nameWithType: DefinedAssignable.IconImage
 - uid: Virial.Assignable.DefinedAssignable.InternalName
   name: InternalName
   href: api/Virial.Assignable.DefinedAssignable.html#Virial_Assignable_DefinedAssignable_InternalName
@@ -1067,6 +1106,19 @@ references:
   isSpec: "True"
   fullName: Virial.Assignable.DefinedAssignable.ShowOnHelpScreen
   nameWithType: DefinedAssignable.ShowOnHelpScreen
+- uid: Virial.Assignable.DefinedAssignable.WithStatistics
+  name: WithStatistics
+  href: api/Virial.Assignable.DefinedAssignable.html#Virial_Assignable_DefinedAssignable_WithStatistics
+  commentId: P:Virial.Assignable.DefinedAssignable.WithStatistics
+  fullName: Virial.Assignable.DefinedAssignable.WithStatistics
+  nameWithType: DefinedAssignable.WithStatistics
+- uid: Virial.Assignable.DefinedAssignable.WithStatistics*
+  name: WithStatistics
+  href: api/Virial.Assignable.DefinedAssignable.html#Virial_Assignable_DefinedAssignable_WithStatistics_
+  commentId: Overload:Virial.Assignable.DefinedAssignable.WithStatistics
+  isSpec: "True"
+  fullName: Virial.Assignable.DefinedAssignable.WithStatistics
+  nameWithType: DefinedAssignable.WithStatistics
 - uid: Virial.Assignable.DefinedAssignableTemplate
   name: DefinedAssignableTemplate
   href: api/Virial.Assignable.DefinedAssignableTemplate.html
@@ -1447,6 +1499,19 @@ references:
   isSpec: "True"
   fullName: Virial.Assignable.DefinedRole.IsMadmate
   nameWithType: DefinedRole.IsMadmate
+- uid: Virial.Assignable.DefinedRole.IsSystemRole
+  name: IsSystemRole
+  href: api/Virial.Assignable.DefinedRole.html#Virial_Assignable_DefinedRole_IsSystemRole
+  commentId: P:Virial.Assignable.DefinedRole.IsSystemRole
+  fullName: Virial.Assignable.DefinedRole.IsSystemRole
+  nameWithType: DefinedRole.IsSystemRole
+- uid: Virial.Assignable.DefinedRole.IsSystemRole*
+  name: IsSystemRole
+  href: api/Virial.Assignable.DefinedRole.html#Virial_Assignable_DefinedRole_IsSystemRole_
+  commentId: Overload:Virial.Assignable.DefinedRole.IsSystemRole
+  isSpec: "True"
+  fullName: Virial.Assignable.DefinedRole.IsSystemRole
+  nameWithType: DefinedRole.IsSystemRole
 - uid: Virial.Assignable.DefinedRole.MultipleAssignment
   name: MultipleAssignment
   href: api/Virial.Assignable.DefinedRole.html#Virial_Assignable_DefinedRole_MultipleAssignment
@@ -1902,6 +1967,25 @@ references:
   isSpec: "True"
   fullName: Virial.Assignable.ICodeName.CodeName
   nameWithType: ICodeName.CodeName
+- uid: Virial.Assignable.ICustomAssignableStatus
+  name: ICustomAssignableStatus
+  href: api/Virial.Assignable.ICustomAssignableStatus.html
+  commentId: T:Virial.Assignable.ICustomAssignableStatus
+  fullName: Virial.Assignable.ICustomAssignableStatus
+  nameWithType: ICustomAssignableStatus
+- uid: Virial.Assignable.ICustomAssignableStatus.CanSpawn(Virial.Assignable.DefinedAssignable)
+  name: CanSpawn(DefinedAssignable)
+  href: api/Virial.Assignable.ICustomAssignableStatus.html#Virial_Assignable_ICustomAssignableStatus_CanSpawn_Virial_Assignable_DefinedAssignable_
+  commentId: M:Virial.Assignable.ICustomAssignableStatus.CanSpawn(Virial.Assignable.DefinedAssignable)
+  fullName: Virial.Assignable.ICustomAssignableStatus.CanSpawn(Virial.Assignable.DefinedAssignable)
+  nameWithType: ICustomAssignableStatus.CanSpawn(DefinedAssignable)
+- uid: Virial.Assignable.ICustomAssignableStatus.CanSpawn*
+  name: CanSpawn
+  href: api/Virial.Assignable.ICustomAssignableStatus.html#Virial_Assignable_ICustomAssignableStatus_CanSpawn_
+  commentId: Overload:Virial.Assignable.ICustomAssignableStatus.CanSpawn
+  isSpec: "True"
+  fullName: Virial.Assignable.ICustomAssignableStatus.CanSpawn
+  nameWithType: ICustomAssignableStatus.CanSpawn
 - uid: Virial.Assignable.IExclusiveAssignmentRule
   name: IExclusiveAssignmentRule
   href: api/Virial.Assignable.IExclusiveAssignmentRule.html
@@ -2917,6 +3001,19 @@ references:
   isSpec: "True"
   fullName: Virial.Assignable.RuntimeAssignable.OnInactivated
   nameWithType: RuntimeAssignable.OnInactivated
+- uid: Virial.Assignable.RuntimeAssignable.OverriddenRoleIcon
+  name: OverriddenRoleIcon
+  href: api/Virial.Assignable.RuntimeAssignable.html#Virial_Assignable_RuntimeAssignable_OverriddenRoleIcon
+  commentId: P:Virial.Assignable.RuntimeAssignable.OverriddenRoleIcon
+  fullName: Virial.Assignable.RuntimeAssignable.OverriddenRoleIcon
+  nameWithType: RuntimeAssignable.OverriddenRoleIcon
+- uid: Virial.Assignable.RuntimeAssignable.OverriddenRoleIcon*
+  name: OverriddenRoleIcon
+  href: api/Virial.Assignable.RuntimeAssignable.html#Virial_Assignable_RuntimeAssignable_OverriddenRoleIcon_
+  commentId: Overload:Virial.Assignable.RuntimeAssignable.OverriddenRoleIcon
+  isSpec: "True"
+  fullName: Virial.Assignable.RuntimeAssignable.OverriddenRoleIcon
+  nameWithType: RuntimeAssignable.OverriddenRoleIcon
 - uid: Virial.Assignable.RuntimeAssignable.OverrideRoleName(System.String,System.Boolean,System.Boolean)
   name: OverrideRoleName(string, bool, bool)
   href: api/Virial.Assignable.RuntimeAssignable.html#Virial_Assignable_RuntimeAssignable_OverrideRoleName_System_String_System_Boolean_System_Boolean_
@@ -4222,6 +4319,83 @@ references:
   fullName.vb: Virial.Command.ArrayCommandToken.New
   nameWithType: ArrayCommandToken.ArrayCommandToken
   nameWithType.vb: ArrayCommandToken.New
+- uid: Virial.Command.CoActionTask
+  name: CoActionTask
+  href: api/Virial.Command.CoActionTask.html
+  commentId: T:Virial.Command.CoActionTask
+  fullName: Virial.Command.CoActionTask
+  nameWithType: CoActionTask
+- uid: Virial.Command.CoActionTask.#ctor(System.Action)
+  name: CoActionTask(Action)
+  href: api/Virial.Command.CoActionTask.html#Virial_Command_CoActionTask__ctor_System_Action_
+  commentId: M:Virial.Command.CoActionTask.#ctor(System.Action)
+  name.vb: New(Action)
+  fullName: Virial.Command.CoActionTask.CoActionTask(System.Action)
+  fullName.vb: Virial.Command.CoActionTask.New(System.Action)
+  nameWithType: CoActionTask.CoActionTask(Action)
+  nameWithType.vb: CoActionTask.New(Action)
+- uid: Virial.Command.CoActionTask.#ctor*
+  name: CoActionTask
+  href: api/Virial.Command.CoActionTask.html#Virial_Command_CoActionTask__ctor_
+  commentId: Overload:Virial.Command.CoActionTask.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Virial.Command.CoActionTask.CoActionTask
+  fullName.vb: Virial.Command.CoActionTask.New
+  nameWithType: CoActionTask.CoActionTask
+  nameWithType.vb: CoActionTask.New
+- uid: Virial.Command.CoActionTask.CoWait
+  name: CoWait()
+  href: api/Virial.Command.CoActionTask.html#Virial_Command_CoActionTask_CoWait
+  commentId: M:Virial.Command.CoActionTask.CoWait
+  fullName: Virial.Command.CoActionTask.CoWait()
+  nameWithType: CoActionTask.CoWait()
+- uid: Virial.Command.CoActionTask.CoWait*
+  name: CoWait
+  href: api/Virial.Command.CoActionTask.html#Virial_Command_CoActionTask_CoWait_
+  commentId: Overload:Virial.Command.CoActionTask.CoWait
+  isSpec: "True"
+  fullName: Virial.Command.CoActionTask.CoWait
+  nameWithType: CoActionTask.CoWait
+- uid: Virial.Command.CoActionTask.IsCompleted
+  name: IsCompleted
+  href: api/Virial.Command.CoActionTask.html#Virial_Command_CoActionTask_IsCompleted
+  commentId: P:Virial.Command.CoActionTask.IsCompleted
+  fullName: Virial.Command.CoActionTask.IsCompleted
+  nameWithType: CoActionTask.IsCompleted
+- uid: Virial.Command.CoActionTask.IsCompleted*
+  name: IsCompleted
+  href: api/Virial.Command.CoActionTask.html#Virial_Command_CoActionTask_IsCompleted_
+  commentId: Overload:Virial.Command.CoActionTask.IsCompleted
+  isSpec: "True"
+  fullName: Virial.Command.CoActionTask.IsCompleted
+  nameWithType: CoActionTask.IsCompleted
+- uid: Virial.Command.CoActionTask.IsFailed
+  name: IsFailed
+  href: api/Virial.Command.CoActionTask.html#Virial_Command_CoActionTask_IsFailed
+  commentId: P:Virial.Command.CoActionTask.IsFailed
+  fullName: Virial.Command.CoActionTask.IsFailed
+  nameWithType: CoActionTask.IsFailed
+- uid: Virial.Command.CoActionTask.IsFailed*
+  name: IsFailed
+  href: api/Virial.Command.CoActionTask.html#Virial_Command_CoActionTask_IsFailed_
+  commentId: Overload:Virial.Command.CoActionTask.IsFailed
+  isSpec: "True"
+  fullName: Virial.Command.CoActionTask.IsFailed
+  nameWithType: CoActionTask.IsFailed
+- uid: Virial.Command.CoActionTask.Result
+  name: Result
+  href: api/Virial.Command.CoActionTask.html#Virial_Command_CoActionTask_Result
+  commentId: P:Virial.Command.CoActionTask.Result
+  fullName: Virial.Command.CoActionTask.Result
+  nameWithType: CoActionTask.Result
+- uid: Virial.Command.CoActionTask.Result*
+  name: Result
+  href: api/Virial.Command.CoActionTask.html#Virial_Command_CoActionTask_Result_
+  commentId: Overload:Virial.Command.CoActionTask.Result
+  isSpec: "True"
+  fullName: Virial.Command.CoActionTask.Result
+  nameWithType: CoActionTask.Result
 - uid: Virial.Command.CoActionTask`1
   name: CoActionTask<T>
   href: api/Virial.Command.CoActionTask-1.html
@@ -4728,6 +4902,22 @@ references:
   isSpec: "True"
   fullName: Virial.Command.CoChainedTasksHelper.Select
   nameWithType: CoChainedTasksHelper.Select
+- uid: Virial.Command.CoChainedTasksHelper.SelectAsCoTask*
+  name: SelectAsCoTask
+  href: api/Virial.Command.CoChainedTasksHelper.html#Virial_Command_CoChainedTasksHelper_SelectAsCoTask_
+  commentId: Overload:Virial.Command.CoChainedTasksHelper.SelectAsCoTask
+  isSpec: "True"
+  fullName: Virial.Command.CoChainedTasksHelper.SelectAsCoTask
+  nameWithType: CoChainedTasksHelper.SelectAsCoTask
+- uid: Virial.Command.CoChainedTasksHelper.SelectAsCoTask``1(System.Collections.Generic.IEnumerable{Virial.Command.CoTask{``0}},System.Action)
+  name: SelectAsCoTask<T>(IEnumerable<CoTask<T>>, Action?)
+  href: api/Virial.Command.CoChainedTasksHelper.html#Virial_Command_CoChainedTasksHelper_SelectAsCoTask__1_System_Collections_Generic_IEnumerable_Virial_Command_CoTask___0___System_Action_
+  commentId: M:Virial.Command.CoChainedTasksHelper.SelectAsCoTask``1(System.Collections.Generic.IEnumerable{Virial.Command.CoTask{``0}},System.Action)
+  name.vb: SelectAsCoTask(Of T)(IEnumerable(Of CoTask(Of T)), Action)
+  fullName: Virial.Command.CoChainedTasksHelper.SelectAsCoTask<T>(System.Collections.Generic.IEnumerable<Virial.Command.CoTask<T>>, System.Action?)
+  fullName.vb: Virial.Command.CoChainedTasksHelper.SelectAsCoTask(Of T)(System.Collections.Generic.IEnumerable(Of Virial.Command.CoTask(Of T)), System.Action)
+  nameWithType: CoChainedTasksHelper.SelectAsCoTask<T>(IEnumerable<CoTask<T>>, Action?)
+  nameWithType.vb: CoChainedTasksHelper.SelectAsCoTask(Of T)(IEnumerable(Of CoTask(Of T)), Action)
 - uid: Virial.Command.CoChainedTasksHelper.SelectParallel*
   name: SelectParallel
   href: api/Virial.Command.CoChainedTasksHelper.html#Virial_Command_CoChainedTasksHelper_SelectParallel_
@@ -8187,6 +8377,19 @@ references:
   isSpec: "True"
   fullName: Virial.Configuration.ConfigurationTab.ImpostorRoles
   nameWithType: ConfigurationTab.ImpostorRoles
+- uid: Virial.Configuration.ConfigurationTab.IsVisible
+  name: IsVisible
+  href: api/Virial.Configuration.ConfigurationTab.html#Virial_Configuration_ConfigurationTab_IsVisible
+  commentId: P:Virial.Configuration.ConfigurationTab.IsVisible
+  fullName: Virial.Configuration.ConfigurationTab.IsVisible
+  nameWithType: ConfigurationTab.IsVisible
+- uid: Virial.Configuration.ConfigurationTab.IsVisible*
+  name: IsVisible
+  href: api/Virial.Configuration.ConfigurationTab.html#Virial_Configuration_ConfigurationTab_IsVisible_
+  commentId: Overload:Virial.Configuration.ConfigurationTab.IsVisible
+  isSpec: "True"
+  fullName: Virial.Configuration.ConfigurationTab.IsVisible
+  nameWithType: ConfigurationTab.IsVisible
 - uid: Virial.Configuration.ConfigurationTab.Modifiers
   name: Modifiers
   href: api/Virial.Configuration.ConfigurationTab.html#Virial_Configuration_ConfigurationTab_Modifiers
@@ -8878,6 +9081,19 @@ references:
   isSpec: "True"
   fullName: Virial.Configuration.IConfigurationHolder.IsShown
   nameWithType: IConfigurationHolder.IsShown
+- uid: Virial.Configuration.IConfigurationHolder.RelatedAssignable
+  name: RelatedAssignable
+  href: api/Virial.Configuration.IConfigurationHolder.html#Virial_Configuration_IConfigurationHolder_RelatedAssignable
+  commentId: P:Virial.Configuration.IConfigurationHolder.RelatedAssignable
+  fullName: Virial.Configuration.IConfigurationHolder.RelatedAssignable
+  nameWithType: IConfigurationHolder.RelatedAssignable
+- uid: Virial.Configuration.IConfigurationHolder.RelatedAssignable*
+  name: RelatedAssignable
+  href: api/Virial.Configuration.IConfigurationHolder.html#Virial_Configuration_IConfigurationHolder_RelatedAssignable_
+  commentId: Overload:Virial.Configuration.IConfigurationHolder.RelatedAssignable
+  isSpec: "True"
+  fullName: Virial.Configuration.IConfigurationHolder.RelatedAssignable
+  nameWithType: IConfigurationHolder.RelatedAssignable
 - uid: Virial.Configuration.IConfigurationHolder.ScheduleAddRelated(System.Func{Virial.Configuration.IConfigurationHolder[]})
   name: ScheduleAddRelated(Func<IConfigurationHolder[]>)
   href: api/Virial.Configuration.IConfigurationHolder.html#Virial_Configuration_IConfigurationHolder_ScheduleAddRelated_System_Func_Virial_Configuration_IConfigurationHolder____
@@ -10403,6 +10619,19 @@ references:
   commentId: T:Virial.Events.Game.Meeting.MeetingPreStartEvent
   fullName: Virial.Events.Game.Meeting.MeetingPreStartEvent
   nameWithType: MeetingPreStartEvent
+- uid: Virial.Events.Game.Meeting.MeetingPreStartEvent.Meeting
+  name: Meeting
+  href: api/Virial.Events.Game.Meeting.MeetingPreStartEvent.html#Virial_Events_Game_Meeting_MeetingPreStartEvent_Meeting
+  commentId: P:Virial.Events.Game.Meeting.MeetingPreStartEvent.Meeting
+  fullName: Virial.Events.Game.Meeting.MeetingPreStartEvent.Meeting
+  nameWithType: MeetingPreStartEvent.Meeting
+- uid: Virial.Events.Game.Meeting.MeetingPreStartEvent.Meeting*
+  name: Meeting
+  href: api/Virial.Events.Game.Meeting.MeetingPreStartEvent.html#Virial_Events_Game_Meeting_MeetingPreStartEvent_Meeting_
+  commentId: Overload:Virial.Events.Game.Meeting.MeetingPreStartEvent.Meeting
+  isSpec: "True"
+  fullName: Virial.Events.Game.Meeting.MeetingPreStartEvent.Meeting
+  nameWithType: MeetingPreStartEvent.Meeting
 - uid: Virial.Events.Game.Meeting.MeetingPreStartEvent.Reported
   name: Reported
   href: api/Virial.Events.Game.Meeting.MeetingPreStartEvent.html#Virial_Events_Game_Meeting_MeetingPreStartEvent_Reported
@@ -10708,6 +10937,12 @@ references:
   commentId: T:Virial.Events.Game.Minimap.AbstractMapOpenEvent
   fullName: Virial.Events.Game.Minimap.AbstractMapOpenEvent
   nameWithType: AbstractMapOpenEvent
+- uid: Virial.Events.Game.Minimap.MapCloseEvent
+  name: MapCloseEvent
+  href: api/Virial.Events.Game.Minimap.MapCloseEvent.html
+  commentId: T:Virial.Events.Game.Minimap.MapCloseEvent
+  fullName: Virial.Events.Game.Minimap.MapCloseEvent
+  nameWithType: MapCloseEvent
 - uid: Virial.Events.Game.Minimap.MapInstantiateEvent
   name: MapInstantiateEvent
   href: api/Virial.Events.Game.Minimap.MapInstantiateEvent.html
@@ -12826,6 +13061,54 @@ references:
   isSpec: "True"
   fullName: Virial.Game.DeadBody.TruePosition
   nameWithType: DeadBody.TruePosition
+- uid: Virial.Game.EmergencyMeeting
+  name: EmergencyMeeting
+  href: api/Virial.Game.EmergencyMeeting.html
+  commentId: T:Virial.Game.EmergencyMeeting
+  fullName: Virial.Game.EmergencyMeeting
+  nameWithType: EmergencyMeeting
+- uid: Virial.Game.EmergencyMeeting.EditMeetingTime(System.Int32)
+  name: EditMeetingTime(int)
+  href: api/Virial.Game.EmergencyMeeting.html#Virial_Game_EmergencyMeeting_EditMeetingTime_System_Int32_
+  commentId: M:Virial.Game.EmergencyMeeting.EditMeetingTime(System.Int32)
+  name.vb: EditMeetingTime(Integer)
+  fullName: Virial.Game.EmergencyMeeting.EditMeetingTime(int)
+  fullName.vb: Virial.Game.EmergencyMeeting.EditMeetingTime(Integer)
+  nameWithType: EmergencyMeeting.EditMeetingTime(int)
+  nameWithType.vb: EmergencyMeeting.EditMeetingTime(Integer)
+- uid: Virial.Game.EmergencyMeeting.EditMeetingTime*
+  name: EditMeetingTime
+  href: api/Virial.Game.EmergencyMeeting.html#Virial_Game_EmergencyMeeting_EditMeetingTime_
+  commentId: Overload:Virial.Game.EmergencyMeeting.EditMeetingTime
+  isSpec: "True"
+  fullName: Virial.Game.EmergencyMeeting.EditMeetingTime
+  nameWithType: EmergencyMeeting.EditMeetingTime
+- uid: Virial.Game.EmergencyMeeting.InvokedBy
+  name: InvokedBy
+  href: api/Virial.Game.EmergencyMeeting.html#Virial_Game_EmergencyMeeting_InvokedBy
+  commentId: P:Virial.Game.EmergencyMeeting.InvokedBy
+  fullName: Virial.Game.EmergencyMeeting.InvokedBy
+  nameWithType: EmergencyMeeting.InvokedBy
+- uid: Virial.Game.EmergencyMeeting.InvokedBy*
+  name: InvokedBy
+  href: api/Virial.Game.EmergencyMeeting.html#Virial_Game_EmergencyMeeting_InvokedBy_
+  commentId: Overload:Virial.Game.EmergencyMeeting.InvokedBy
+  isSpec: "True"
+  fullName: Virial.Game.EmergencyMeeting.InvokedBy
+  nameWithType: EmergencyMeeting.InvokedBy
+- uid: Virial.Game.EmergencyMeeting.ReportedDeadBody
+  name: ReportedDeadBody
+  href: api/Virial.Game.EmergencyMeeting.html#Virial_Game_EmergencyMeeting_ReportedDeadBody
+  commentId: P:Virial.Game.EmergencyMeeting.ReportedDeadBody
+  fullName: Virial.Game.EmergencyMeeting.ReportedDeadBody
+  nameWithType: EmergencyMeeting.ReportedDeadBody
+- uid: Virial.Game.EmergencyMeeting.ReportedDeadBody*
+  name: ReportedDeadBody
+  href: api/Virial.Game.EmergencyMeeting.html#Virial_Game_EmergencyMeeting_ReportedDeadBody_
+  commentId: Overload:Virial.Game.EmergencyMeeting.ReportedDeadBody
+  isSpec: "True"
+  fullName: Virial.Game.EmergencyMeeting.ReportedDeadBody
+  nameWithType: EmergencyMeeting.ReportedDeadBody
 - uid: Virial.Game.EndState
   name: EndState
   href: api/Virial.Game.EndState.html
@@ -13078,6 +13361,19 @@ references:
   commentId: T:Virial.Game.Game
   fullName: Virial.Game.Game
   nameWithType: Game
+- uid: Virial.Game.Game.CurrentMeeting
+  name: CurrentMeeting
+  href: api/Virial.Game.Game.html#Virial_Game_Game_CurrentMeeting
+  commentId: P:Virial.Game.Game.CurrentMeeting
+  fullName: Virial.Game.Game.CurrentMeeting
+  nameWithType: Game.CurrentMeeting
+- uid: Virial.Game.Game.CurrentMeeting*
+  name: CurrentMeeting
+  href: api/Virial.Game.Game.html#Virial_Game_Game_CurrentMeeting_
+  commentId: Overload:Virial.Game.Game.CurrentMeeting
+  isSpec: "True"
+  fullName: Virial.Game.Game.CurrentMeeting
+  nameWithType: Game.CurrentMeeting
 - uid: Virial.Game.Game.GameMode
   name: GameMode
   href: api/Virial.Game.Game.html#Virial_Game_Game_GameMode
@@ -13911,6 +14207,19 @@ references:
   isSpec: "True"
   fullName: Virial.Game.GameModeDefinition.AsBit
   nameWithType: GameModeDefinition.AsBit
+- uid: Virial.Game.GameModeDefinition.WithRoleSettings
+  name: WithRoleSettings
+  href: api/Virial.Game.GameModeDefinition.html#Virial_Game_GameModeDefinition_WithRoleSettings
+  commentId: P:Virial.Game.GameModeDefinition.WithRoleSettings
+  fullName: Virial.Game.GameModeDefinition.WithRoleSettings
+  nameWithType: GameModeDefinition.WithRoleSettings
+- uid: Virial.Game.GameModeDefinition.WithRoleSettings*
+  name: WithRoleSettings
+  href: api/Virial.Game.GameModeDefinition.html#Virial_Game_GameModeDefinition_WithRoleSettings_
+  commentId: Overload:Virial.Game.GameModeDefinition.WithRoleSettings
+  isSpec: "True"
+  fullName: Virial.Game.GameModeDefinition.WithRoleSettings
+  nameWithType: GameModeDefinition.WithRoleSettings
 - uid: Virial.Game.GameModeDefinition.op_Implicit(Virial.Game.GameModeDefinition)~System.UInt32
   name: implicit operator uint(GameModeDefinition)
   href: api/Virial.Game.GameModeDefinition.html#Virial_Game_GameModeDefinition_op_Implicit_Virial_Game_GameModeDefinition__System_UInt32
@@ -14010,6 +14319,12 @@ references:
   commentId: T:Virial.Game.GameStatsCategory
   fullName: Virial.Game.GameStatsCategory
   nameWithType: GameStatsCategory
+- uid: Virial.Game.GameStatsCategory.AeroGuesser
+  name: AeroGuesser
+  href: api/Virial.Game.GameStatsCategory.html#Virial_Game_GameStatsCategory_AeroGuesser
+  commentId: F:Virial.Game.GameStatsCategory.AeroGuesser
+  fullName: Virial.Game.GameStatsCategory.AeroGuesser
+  nameWithType: GameStatsCategory.AeroGuesser
 - uid: Virial.Game.GameStatsCategory.Death
   name: Death
   href: api/Virial.Game.GameStatsCategory.html#Virial_Game_GameStatsCategory_Death
@@ -14457,6 +14772,97 @@ references:
   isSpec: "True"
   fullName: Virial.Game.IGameModeModule.AllowSpecialGameEnd
   nameWithType: IGameModeModule.AllowSpecialGameEnd
+- uid: Virial.Game.IGameModeModule.CanGetTitle
+  name: CanGetTitle
+  href: api/Virial.Game.IGameModeModule.html#Virial_Game_IGameModeModule_CanGetTitle
+  commentId: P:Virial.Game.IGameModeModule.CanGetTitle
+  fullName: Virial.Game.IGameModeModule.CanGetTitle
+  nameWithType: IGameModeModule.CanGetTitle
+- uid: Virial.Game.IGameModeModule.CanGetTitle*
+  name: CanGetTitle
+  href: api/Virial.Game.IGameModeModule.html#Virial_Game_IGameModeModule_CanGetTitle_
+  commentId: Overload:Virial.Game.IGameModeModule.CanGetTitle
+  isSpec: "True"
+  fullName: Virial.Game.IGameModeModule.CanGetTitle
+  nameWithType: IGameModeModule.CanGetTitle
+- uid: Virial.Game.IGameModeModule.CanUseStampOnly
+  name: CanUseStampOnly
+  href: api/Virial.Game.IGameModeModule.html#Virial_Game_IGameModeModule_CanUseStampOnly
+  commentId: P:Virial.Game.IGameModeModule.CanUseStampOnly
+  fullName: Virial.Game.IGameModeModule.CanUseStampOnly
+  nameWithType: IGameModeModule.CanUseStampOnly
+- uid: Virial.Game.IGameModeModule.CanUseStampOnly*
+  name: CanUseStampOnly
+  href: api/Virial.Game.IGameModeModule.html#Virial_Game_IGameModeModule_CanUseStampOnly_
+  commentId: Overload:Virial.Game.IGameModeModule.CanUseStampOnly
+  isSpec: "True"
+  fullName: Virial.Game.IGameModeModule.CanUseStampOnly
+  nameWithType: IGameModeModule.CanUseStampOnly
+- uid: Virial.Game.IGameModeModule.GetAlternativePlayerStatusText
+  name: GetAlternativePlayerStatusText()
+  href: api/Virial.Game.IGameModeModule.html#Virial_Game_IGameModeModule_GetAlternativePlayerStatusText
+  commentId: M:Virial.Game.IGameModeModule.GetAlternativePlayerStatusText
+  fullName: Virial.Game.IGameModeModule.GetAlternativePlayerStatusText()
+  nameWithType: IGameModeModule.GetAlternativePlayerStatusText()
+- uid: Virial.Game.IGameModeModule.GetAlternativePlayerStatusText*
+  name: GetAlternativePlayerStatusText
+  href: api/Virial.Game.IGameModeModule.html#Virial_Game_IGameModeModule_GetAlternativePlayerStatusText_
+  commentId: Overload:Virial.Game.IGameModeModule.GetAlternativePlayerStatusText
+  isSpec: "True"
+  fullName: Virial.Game.IGameModeModule.GetAlternativePlayerStatusText
+  nameWithType: IGameModeModule.GetAlternativePlayerStatusText
+- uid: Virial.Game.IGameModeModule.GetAlternativeWinOrLoseText
+  name: GetAlternativeWinOrLoseText()
+  href: api/Virial.Game.IGameModeModule.html#Virial_Game_IGameModeModule_GetAlternativeWinOrLoseText
+  commentId: M:Virial.Game.IGameModeModule.GetAlternativeWinOrLoseText
+  fullName: Virial.Game.IGameModeModule.GetAlternativeWinOrLoseText()
+  nameWithType: IGameModeModule.GetAlternativeWinOrLoseText()
+- uid: Virial.Game.IGameModeModule.GetAlternativeWinOrLoseText*
+  name: GetAlternativeWinOrLoseText
+  href: api/Virial.Game.IGameModeModule.html#Virial_Game_IGameModeModule_GetAlternativeWinOrLoseText_
+  commentId: Overload:Virial.Game.IGameModeModule.GetAlternativeWinOrLoseText
+  isSpec: "True"
+  fullName: Virial.Game.IGameModeModule.GetAlternativeWinOrLoseText
+  nameWithType: IGameModeModule.GetAlternativeWinOrLoseText
+- uid: Virial.Game.IGameModeModule.ShowButtons
+  name: ShowButtons
+  href: api/Virial.Game.IGameModeModule.html#Virial_Game_IGameModeModule_ShowButtons
+  commentId: P:Virial.Game.IGameModeModule.ShowButtons
+  fullName: Virial.Game.IGameModeModule.ShowButtons
+  nameWithType: IGameModeModule.ShowButtons
+- uid: Virial.Game.IGameModeModule.ShowButtons*
+  name: ShowButtons
+  href: api/Virial.Game.IGameModeModule.html#Virial_Game_IGameModeModule_ShowButtons_
+  commentId: Overload:Virial.Game.IGameModeModule.ShowButtons
+  isSpec: "True"
+  fullName: Virial.Game.IGameModeModule.ShowButtons
+  nameWithType: IGameModeModule.ShowButtons
+- uid: Virial.Game.IGameModeModule.ShowMap
+  name: ShowMap
+  href: api/Virial.Game.IGameModeModule.html#Virial_Game_IGameModeModule_ShowMap
+  commentId: P:Virial.Game.IGameModeModule.ShowMap
+  fullName: Virial.Game.IGameModeModule.ShowMap
+  nameWithType: IGameModeModule.ShowMap
+- uid: Virial.Game.IGameModeModule.ShowMap*
+  name: ShowMap
+  href: api/Virial.Game.IGameModeModule.html#Virial_Game_IGameModeModule_ShowMap_
+  commentId: Overload:Virial.Game.IGameModeModule.ShowMap
+  isSpec: "True"
+  fullName: Virial.Game.IGameModeModule.ShowMap
+  nameWithType: IGameModeModule.ShowMap
+- uid: Virial.Game.IGameModeModule.ShowStatistics
+  name: ShowStatistics
+  href: api/Virial.Game.IGameModeModule.html#Virial_Game_IGameModeModule_ShowStatistics
+  commentId: P:Virial.Game.IGameModeModule.ShowStatistics
+  fullName: Virial.Game.IGameModeModule.ShowStatistics
+  nameWithType: IGameModeModule.ShowStatistics
+- uid: Virial.Game.IGameModeModule.ShowStatistics*
+  name: ShowStatistics
+  href: api/Virial.Game.IGameModeModule.html#Virial_Game_IGameModeModule_ShowStatistics_
+  commentId: Overload:Virial.Game.IGameModeModule.ShowStatistics
+  isSpec: "True"
+  fullName: Virial.Game.IGameModeModule.ShowStatistics
+  nameWithType: IGameModeModule.ShowStatistics
 - uid: Virial.Game.IGameModeStandard
   name: IGameModeStandard
   href: api/Virial.Game.IGameModeStandard.html
@@ -15607,6 +16013,25 @@ references:
   commentId: T:Virial.Game.OutfitDefinition
   fullName: Virial.Game.OutfitDefinition
   nameWithType: OutfitDefinition
+- uid: Virial.Game.OutfitDefinition.#ctor(Virial.Game.OutfitDefinition,System.Boolean,System.String,System.String,System.String,System.String,System.Nullable{System.Int32},System.String)
+  name: OutfitDefinition(OutfitDefinition, bool, string?, string?, string?, string?, int?, string?)
+  href: api/Virial.Game.OutfitDefinition.html#Virial_Game_OutfitDefinition__ctor_Virial_Game_OutfitDefinition_System_Boolean_System_String_System_String_System_String_System_String_System_Nullable_System_Int32__System_String_
+  commentId: M:Virial.Game.OutfitDefinition.#ctor(Virial.Game.OutfitDefinition,System.Boolean,System.String,System.String,System.String,System.String,System.Nullable{System.Int32},System.String)
+  name.vb: New(OutfitDefinition, Boolean, String, String, String, String, Integer?, String)
+  fullName: Virial.Game.OutfitDefinition.OutfitDefinition(Virial.Game.OutfitDefinition, bool, string?, string?, string?, string?, int?, string?)
+  fullName.vb: Virial.Game.OutfitDefinition.New(Virial.Game.OutfitDefinition, Boolean, String, String, String, String, Integer?, String)
+  nameWithType: OutfitDefinition.OutfitDefinition(OutfitDefinition, bool, string?, string?, string?, string?, int?, string?)
+  nameWithType.vb: OutfitDefinition.New(OutfitDefinition, Boolean, String, String, String, String, Integer?, String)
+- uid: Virial.Game.OutfitDefinition.#ctor*
+  name: OutfitDefinition
+  href: api/Virial.Game.OutfitDefinition.html#Virial_Game_OutfitDefinition__ctor_
+  commentId: Overload:Virial.Game.OutfitDefinition.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Virial.Game.OutfitDefinition.OutfitDefinition
+  fullName.vb: Virial.Game.OutfitDefinition.New
+  nameWithType: OutfitDefinition.OutfitDefinition
+  nameWithType.vb: OutfitDefinition.New
 - uid: Virial.Game.OutfitDefinition.HatArgument
   name: HatArgument
   href: api/Virial.Game.OutfitDefinition.html#Virial_Game_OutfitDefinition_HatArgument
@@ -17172,6 +17597,38 @@ references:
   isSpec: "True"
   fullName: Virial.Game.PlayerTasks.CurrentTasks
   nameWithType: PlayerTasks.CurrentTasks
+- uid: Virial.Game.PlayerTasks.ExemptTasks(System.Int32)
+  name: ExemptTasks(int)
+  href: api/Virial.Game.PlayerTasks.html#Virial_Game_PlayerTasks_ExemptTasks_System_Int32_
+  commentId: M:Virial.Game.PlayerTasks.ExemptTasks(System.Int32)
+  name.vb: ExemptTasks(Integer)
+  fullName: Virial.Game.PlayerTasks.ExemptTasks(int)
+  fullName.vb: Virial.Game.PlayerTasks.ExemptTasks(Integer)
+  nameWithType: PlayerTasks.ExemptTasks(int)
+  nameWithType.vb: PlayerTasks.ExemptTasks(Integer)
+- uid: Virial.Game.PlayerTasks.ExemptTasks*
+  name: ExemptTasks
+  href: api/Virial.Game.PlayerTasks.html#Virial_Game_PlayerTasks_ExemptTasks_
+  commentId: Overload:Virial.Game.PlayerTasks.ExemptTasks
+  isSpec: "True"
+  fullName: Virial.Game.PlayerTasks.ExemptTasks
+  nameWithType: PlayerTasks.ExemptTasks
+- uid: Virial.Game.PlayerTasks.GainExtraTasks(System.Int32,System.Int32,System.Int32,System.Boolean)
+  name: GainExtraTasks(int, int, int, bool)
+  href: api/Virial.Game.PlayerTasks.html#Virial_Game_PlayerTasks_GainExtraTasks_System_Int32_System_Int32_System_Int32_System_Boolean_
+  commentId: M:Virial.Game.PlayerTasks.GainExtraTasks(System.Int32,System.Int32,System.Int32,System.Boolean)
+  name.vb: GainExtraTasks(Integer, Integer, Integer, Boolean)
+  fullName: Virial.Game.PlayerTasks.GainExtraTasks(int, int, int, bool)
+  fullName.vb: Virial.Game.PlayerTasks.GainExtraTasks(Integer, Integer, Integer, Boolean)
+  nameWithType: PlayerTasks.GainExtraTasks(int, int, int, bool)
+  nameWithType.vb: PlayerTasks.GainExtraTasks(Integer, Integer, Integer, Boolean)
+- uid: Virial.Game.PlayerTasks.GainExtraTasks*
+  name: GainExtraTasks
+  href: api/Virial.Game.PlayerTasks.html#Virial_Game_PlayerTasks_GainExtraTasks_
+  commentId: Overload:Virial.Game.PlayerTasks.GainExtraTasks
+  isSpec: "True"
+  fullName: Virial.Game.PlayerTasks.GainExtraTasks
+  nameWithType: PlayerTasks.GainExtraTasks
 - uid: Virial.Game.PlayerTasks.HasExecutableTasks
   name: HasExecutableTasks
   href: api/Virial.Game.PlayerTasks.html#Virial_Game_PlayerTasks_HasExecutableTasks
@@ -17250,6 +17707,38 @@ references:
   isSpec: "True"
   fullName: Virial.Game.PlayerTasks.Quota
   nameWithType: PlayerTasks.Quota
+- uid: Virial.Game.PlayerTasks.ReplaceTasks(System.Int32,System.Int32,System.Int32)
+  name: ReplaceTasks(int, int, int)
+  href: api/Virial.Game.PlayerTasks.html#Virial_Game_PlayerTasks_ReplaceTasks_System_Int32_System_Int32_System_Int32_
+  commentId: M:Virial.Game.PlayerTasks.ReplaceTasks(System.Int32,System.Int32,System.Int32)
+  name.vb: ReplaceTasks(Integer, Integer, Integer)
+  fullName: Virial.Game.PlayerTasks.ReplaceTasks(int, int, int)
+  fullName.vb: Virial.Game.PlayerTasks.ReplaceTasks(Integer, Integer, Integer)
+  nameWithType: PlayerTasks.ReplaceTasks(int, int, int)
+  nameWithType.vb: PlayerTasks.ReplaceTasks(Integer, Integer, Integer)
+- uid: Virial.Game.PlayerTasks.ReplaceTasks*
+  name: ReplaceTasks
+  href: api/Virial.Game.PlayerTasks.html#Virial_Game_PlayerTasks_ReplaceTasks_
+  commentId: Overload:Virial.Game.PlayerTasks.ReplaceTasks
+  isSpec: "True"
+  fullName: Virial.Game.PlayerTasks.ReplaceTasks
+  nameWithType: PlayerTasks.ReplaceTasks
+- uid: Virial.Game.PlayerTasks.RewindTasks(System.Int32)
+  name: RewindTasks(int)
+  href: api/Virial.Game.PlayerTasks.html#Virial_Game_PlayerTasks_RewindTasks_System_Int32_
+  commentId: M:Virial.Game.PlayerTasks.RewindTasks(System.Int32)
+  name.vb: RewindTasks(Integer)
+  fullName: Virial.Game.PlayerTasks.RewindTasks(int)
+  fullName.vb: Virial.Game.PlayerTasks.RewindTasks(Integer)
+  nameWithType: PlayerTasks.RewindTasks(int)
+  nameWithType.vb: PlayerTasks.RewindTasks(Integer)
+- uid: Virial.Game.PlayerTasks.RewindTasks*
+  name: RewindTasks
+  href: api/Virial.Game.PlayerTasks.html#Virial_Game_PlayerTasks_RewindTasks_
+  commentId: Overload:Virial.Game.PlayerTasks.RewindTasks
+  isSpec: "True"
+  fullName: Virial.Game.PlayerTasks.RewindTasks
+  nameWithType: PlayerTasks.RewindTasks
 - uid: Virial.Game.PlayerTasks.TotalCompleted
   name: TotalCompleted
   href: api/Virial.Game.PlayerTasks.html#Virial_Game_PlayerTasks_TotalCompleted
@@ -18316,15 +18805,15 @@ references:
   isSpec: "True"
   fullName: Virial.Media.GUI.HorizontalMargin
   nameWithType: GUI.HorizontalMargin
-- uid: Virial.Media.GUI.Image(Virial.Media.GUIAlignment,Virial.Media.Image,Virial.Compat.FuzzySize,Virial.Media.GUIClickableAction,Virial.Media.GUIWidgetSupplier)
-  name: Image(GUIAlignment, Image, FuzzySize, GUIClickableAction?, GUIWidgetSupplier?)
-  href: api/Virial.Media.GUI.html#Virial_Media_GUI_Image_Virial_Media_GUIAlignment_Virial_Media_Image_Virial_Compat_FuzzySize_Virial_Media_GUIClickableAction_Virial_Media_GUIWidgetSupplier_
-  commentId: M:Virial.Media.GUI.Image(Virial.Media.GUIAlignment,Virial.Media.Image,Virial.Compat.FuzzySize,Virial.Media.GUIClickableAction,Virial.Media.GUIWidgetSupplier)
-  name.vb: Image(GUIAlignment, Image, FuzzySize, GUIClickableAction, GUIWidgetSupplier)
-  fullName: Virial.Media.GUI.Image(Virial.Media.GUIAlignment, Virial.Media.Image, Virial.Compat.FuzzySize, Virial.Media.GUIClickableAction?, Virial.Media.GUIWidgetSupplier?)
-  fullName.vb: Virial.Media.GUI.Image(Virial.Media.GUIAlignment, Virial.Media.Image, Virial.Compat.FuzzySize, Virial.Media.GUIClickableAction, Virial.Media.GUIWidgetSupplier)
-  nameWithType: GUI.Image(GUIAlignment, Image, FuzzySize, GUIClickableAction?, GUIWidgetSupplier?)
-  nameWithType.vb: GUI.Image(GUIAlignment, Image, FuzzySize, GUIClickableAction, GUIWidgetSupplier)
+- uid: Virial.Media.GUI.Image(Virial.Media.GUIAlignment,Virial.Media.Image,Virial.Compat.FuzzySize,Virial.Media.GUIClickableAction,Virial.Media.GUIWidgetSupplier,System.Boolean)
+  name: Image(GUIAlignment, Image, FuzzySize, GUIClickableAction?, GUIWidgetSupplier?, bool)
+  href: api/Virial.Media.GUI.html#Virial_Media_GUI_Image_Virial_Media_GUIAlignment_Virial_Media_Image_Virial_Compat_FuzzySize_Virial_Media_GUIClickableAction_Virial_Media_GUIWidgetSupplier_System_Boolean_
+  commentId: M:Virial.Media.GUI.Image(Virial.Media.GUIAlignment,Virial.Media.Image,Virial.Compat.FuzzySize,Virial.Media.GUIClickableAction,Virial.Media.GUIWidgetSupplier,System.Boolean)
+  name.vb: Image(GUIAlignment, Image, FuzzySize, GUIClickableAction, GUIWidgetSupplier, Boolean)
+  fullName: Virial.Media.GUI.Image(Virial.Media.GUIAlignment, Virial.Media.Image, Virial.Compat.FuzzySize, Virial.Media.GUIClickableAction?, Virial.Media.GUIWidgetSupplier?, bool)
+  fullName.vb: Virial.Media.GUI.Image(Virial.Media.GUIAlignment, Virial.Media.Image, Virial.Compat.FuzzySize, Virial.Media.GUIClickableAction, Virial.Media.GUIWidgetSupplier, Boolean)
+  nameWithType: GUI.Image(GUIAlignment, Image, FuzzySize, GUIClickableAction?, GUIWidgetSupplier?, bool)
+  nameWithType.vb: GUI.Image(GUIAlignment, Image, FuzzySize, GUIClickableAction, GUIWidgetSupplier, Boolean)
 - uid: Virial.Media.GUI.Image*
   name: Image
   href: api/Virial.Media.GUI.html#Virial_Media_GUI_Image_
@@ -18499,6 +18988,22 @@ references:
   isSpec: "True"
   fullName: Virial.Media.GUI.RealtimeText
   nameWithType: GUI.RealtimeText
+- uid: Virial.Media.GUI.RoleIcon(Virial.Media.GUIAlignment,Virial.Assignable.DefinedAssignable,System.Single,Virial.Compat.FuzzySize,System.Nullable{System.Single},Virial.Media.GUIClickableAction,Virial.Media.GUIWidgetSupplier,System.Boolean)
+  name: RoleIcon(GUIAlignment, DefinedAssignable?, float, FuzzySize, float?, GUIClickableAction?, GUIWidgetSupplier?, bool)
+  href: api/Virial.Media.GUI.html#Virial_Media_GUI_RoleIcon_Virial_Media_GUIAlignment_Virial_Assignable_DefinedAssignable_System_Single_Virial_Compat_FuzzySize_System_Nullable_System_Single__Virial_Media_GUIClickableAction_Virial_Media_GUIWidgetSupplier_System_Boolean_
+  commentId: M:Virial.Media.GUI.RoleIcon(Virial.Media.GUIAlignment,Virial.Assignable.DefinedAssignable,System.Single,Virial.Compat.FuzzySize,System.Nullable{System.Single},Virial.Media.GUIClickableAction,Virial.Media.GUIWidgetSupplier,System.Boolean)
+  name.vb: RoleIcon(GUIAlignment, DefinedAssignable, Single, FuzzySize, Single?, GUIClickableAction, GUIWidgetSupplier, Boolean)
+  fullName: Virial.Media.GUI.RoleIcon(Virial.Media.GUIAlignment, Virial.Assignable.DefinedAssignable?, float, Virial.Compat.FuzzySize, float?, Virial.Media.GUIClickableAction?, Virial.Media.GUIWidgetSupplier?, bool)
+  fullName.vb: Virial.Media.GUI.RoleIcon(Virial.Media.GUIAlignment, Virial.Assignable.DefinedAssignable, Single, Virial.Compat.FuzzySize, Single?, Virial.Media.GUIClickableAction, Virial.Media.GUIWidgetSupplier, Boolean)
+  nameWithType: GUI.RoleIcon(GUIAlignment, DefinedAssignable?, float, FuzzySize, float?, GUIClickableAction?, GUIWidgetSupplier?, bool)
+  nameWithType.vb: GUI.RoleIcon(GUIAlignment, DefinedAssignable, Single, FuzzySize, Single?, GUIClickableAction, GUIWidgetSupplier, Boolean)
+- uid: Virial.Media.GUI.RoleIcon*
+  name: RoleIcon
+  href: api/Virial.Media.GUI.html#Virial_Media_GUI_RoleIcon_
+  commentId: Overload:Virial.Media.GUI.RoleIcon
+  isSpec: "True"
+  fullName: Virial.Media.GUI.RoleIcon
+  nameWithType: GUI.RoleIcon
 - uid: Virial.Media.GUI.ScrollView(Virial.Media.GUIAlignment,Virial.Compat.Size,System.String,Virial.Media.GUIWidget,Virial.Compat.Artifact{Virial.Media.GUIScreen}@)
   name: ScrollView(GUIAlignment, Size, string?, GUIWidget?, out Artifact<GUIScreen>)
   href: api/Virial.Media.GUI.html#Virial_Media_GUI_ScrollView_Virial_Media_GUIAlignment_Virial_Compat_Size_System_String_Virial_Media_GUIWidget_Virial_Compat_Artifact_Virial_Media_GUIScreen___
@@ -20169,6 +20674,12 @@ references:
   commentId: F:Virial.Text.AttributeAsset.MarketplaceTabButton
   fullName: Virial.Text.AttributeAsset.MarketplaceTabButton
   nameWithType: AttributeAsset.MarketplaceTabButton
+- uid: Virial.Text.AttributeAsset.MarketplaceTabNonMaskedButton
+  name: MarketplaceTabNonMaskedButton
+  href: api/Virial.Text.AttributeAsset.html#Virial_Text_AttributeAsset_MarketplaceTabNonMaskedButton
+  commentId: F:Virial.Text.AttributeAsset.MarketplaceTabNonMaskedButton
+  fullName: Virial.Text.AttributeAsset.MarketplaceTabNonMaskedButton
+  nameWithType: AttributeAsset.MarketplaceTabNonMaskedButton
 - uid: Virial.Text.AttributeAsset.MarketplaceTitle
   name: MarketplaceTitle
   href: api/Virial.Text.AttributeAsset.html#Virial_Text_AttributeAsset_MarketplaceTitle
@@ -21910,6 +22421,32 @@ references:
   fullName.vb: Virial.Utilities.IFunctionalSetProperty(Of T).Value
   nameWithType: IFunctionalSetProperty<T>.Value
   nameWithType.vb: IFunctionalSetProperty(Of T).Value
+- uid: Virial.Utilities.IFunctionalValue`1
+  name: IFunctionalValue<T>
+  href: api/Virial.Utilities.IFunctionalValue-1.html
+  commentId: T:Virial.Utilities.IFunctionalValue`1
+  name.vb: IFunctionalValue(Of T)
+  fullName: Virial.Utilities.IFunctionalValue<T>
+  fullName.vb: Virial.Utilities.IFunctionalValue(Of T)
+  nameWithType: IFunctionalValue<T>
+  nameWithType.vb: IFunctionalValue(Of T)
+- uid: Virial.Utilities.IFunctionalValue`1.Value
+  name: Value
+  href: api/Virial.Utilities.IFunctionalValue-1.html#Virial_Utilities_IFunctionalValue_1_Value
+  commentId: P:Virial.Utilities.IFunctionalValue`1.Value
+  fullName: Virial.Utilities.IFunctionalValue<T>.Value
+  fullName.vb: Virial.Utilities.IFunctionalValue(Of T).Value
+  nameWithType: IFunctionalValue<T>.Value
+  nameWithType.vb: IFunctionalValue(Of T).Value
+- uid: Virial.Utilities.IFunctionalValue`1.Value*
+  name: Value
+  href: api/Virial.Utilities.IFunctionalValue-1.html#Virial_Utilities_IFunctionalValue_1_Value_
+  commentId: Overload:Virial.Utilities.IFunctionalValue`1.Value
+  isSpec: "True"
+  fullName: Virial.Utilities.IFunctionalValue<T>.Value
+  fullName.vb: Virial.Utilities.IFunctionalValue(Of T).Value
+  nameWithType: IFunctionalValue<T>.Value
+  nameWithType.vb: IFunctionalValue(Of T).Value
 - uid: Virial.Utilities.IHasher
   name: IHasher
   href: api/Virial.Utilities.IHasher.html

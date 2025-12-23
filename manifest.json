@@ -604,6 +604,20 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Assignable.ICustomAssignableStatus.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Assignable.ICustomAssignableStatus.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Assignable.ICustomAssignableStatus",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Virial.Assignable.IExclusiveAssignmentRule.yml",
       "output": {
         ".html": {
@@ -1174,6 +1188,20 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Virial.Command.CoActionTask<T>",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Command.CoActionTask.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Command.CoActionTask.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Command.CoActionTask",
       "Summary": null
     },
     {
@@ -2900,6 +2928,20 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Events.Game.Minimap.MapCloseEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Events.Game.Minimap.MapCloseEvent.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Events.Game.Minimap.MapCloseEvent",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Virial.Events.Game.Minimap.MapInstantiateEvent.yml",
       "output": {
         ".html": {
@@ -3890,6 +3932,20 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Virial.Game.DeadBody",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Game.EmergencyMeeting.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Game.EmergencyMeeting.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Game.EmergencyMeeting",
       "Summary": null
     },
     {
@@ -5668,6 +5724,20 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Virial.Utilities.IFunctionalSetProperty<T>",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Virial.Utilities.IFunctionalValue-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Virial.Utilities.IFunctionalValue-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Virial.Utilities.IFunctionalValue<T>",
       "Summary": null
     },
     {

@@ -2,9 +2,9 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Class GameModeDefinition | Virial </title>
+      <title>Interface EmergencyMeeting | Virial </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Class GameModeDefinition | Virial ">
+      <meta name="title" content="Interface EmergencyMeeting | Virial ">
       
       
       <link rel="icon" href="../images/icon.ico">
@@ -16,7 +16,7 @@
       <meta name="docfx:rel" content="../">
       
       
-      <meta name="docfx:docurl" content="https://github.com/Dolly1016/Nebula-Public/new/master/apiSpec/new?filename=Virial_Game_GameModeDefinition.md&amp;value=---%0Auid%3A%20Virial.Game.GameModeDefinition%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="docfx:docurl" content="https://github.com/Dolly1016/Nebula-Public/new/master/apiSpec/new?filename=Virial_Game_EmergencyMeeting.md&amp;value=---%0Auid%3A%20Virial.Game.EmergencyMeeting%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -84,12 +84,12 @@
           <nav id="breadcrumb"></nav>
         </div>
 
-        <article data-uid="Virial.Game.GameModeDefinition">
+        <article data-uid="Virial.Game.EmergencyMeeting">
 
 
 
-  <h1 id="Virial_Game_GameModeDefinition" data-uid="Virial.Game.GameModeDefinition" class="text-break">
-Class GameModeDefinition  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Game/GameMode.cs/#L13"><i class="bi bi-code-slash"></i></a>
+  <h1 id="Virial_Game_EmergencyMeeting" data-uid="Virial.Game.EmergencyMeeting" class="text-break">
+Interface EmergencyMeeting  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Game/EmergencyMeeting.cs/#L9"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -101,51 +101,23 @@ Class GameModeDefinition  <a class="header-action link-secondary" title="View so
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public abstract class GameModeDefinition : IBit32</code></pre>
+    <pre><code class="lang-csharp hljs">public interface EmergencyMeeting : ILifespan</code></pre>
   </div>
 
 
 
 
-  <dl class="typelist inheritance">
-    <dt>Inheritance</dt>
-    <dd>
-      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
-      <div><span class="xref">GameModeDefinition</span></div>
-    </dd>
-  </dl>
 
-  <dl class="typelist implements">
-    <dt>Implements</dt>
-    <dd>
-      <div><a class="xref" href="Virial.IBit32.html">IBit32</a></div>
-    </dd>
-  </dl>
 
 
   <dl class="typelist inheritedMembers">
     <dt>Inherited Members</dt>
     <dd>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+      <a class="xref" href="Virial.ILifespan.html#Virial_ILifespan_IsDeadObject">ILifespan.IsDeadObject</a>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+      <a class="xref" href="Virial.ILifespan.html#Virial_ILifespan_IsAliveObject">ILifespan.IsAliveObject</a>
     </div>
   </dd></dl>
 
@@ -165,18 +137,19 @@ Class GameModeDefinition  <a class="header-action link-secondary" title="View so
 </h2>
 
 
-  <a id="Virial_Game_GameModeDefinition_AsBit_" data-uid="Virial.Game.GameModeDefinition.AsBit*"></a>
+  <a id="Virial_Game_EmergencyMeeting_InvokedBy_" data-uid="Virial.Game.EmergencyMeeting.InvokedBy*"></a>
 
-  <h3 id="Virial_Game_GameModeDefinition_AsBit" data-uid="Virial.Game.GameModeDefinition.AsBit">
-  AsBit
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Game/GameMode.cs/#L15"><i class="bi bi-code-slash"></i></a>
+  <h3 id="Virial_Game_EmergencyMeeting_InvokedBy" data-uid="Virial.Game.EmergencyMeeting.InvokedBy">
+  InvokedBy
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Game/EmergencyMeeting.cs/#L19"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>会議を始めたプレイヤーです。</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public abstract uint AsBit { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">Player InvokedBy { get; }</code></pre>
   </div>
 
 
@@ -185,7 +158,7 @@ Class GameModeDefinition  <a class="header-action link-secondary" title="View so
 
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dt><a class="xref" href="Virial.Game.Player.html">Player</a></dt>
     <dd></dd>
   </dl>
 
@@ -196,18 +169,19 @@ Class GameModeDefinition  <a class="header-action link-secondary" title="View so
 
 
 
-  <a id="Virial_Game_GameModeDefinition_WithRoleSettings_" data-uid="Virial.Game.GameModeDefinition.WithRoleSettings*"></a>
+  <a id="Virial_Game_EmergencyMeeting_ReportedDeadBody_" data-uid="Virial.Game.EmergencyMeeting.ReportedDeadBody*"></a>
 
-  <h3 id="Virial_Game_GameModeDefinition_WithRoleSettings" data-uid="Virial.Game.GameModeDefinition.WithRoleSettings">
-  WithRoleSettings
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Game/GameMode.cs/#L21"><i class="bi bi-code-slash"></i></a>
+  <h3 id="Virial_Game_EmergencyMeeting_ReportedDeadBody" data-uid="Virial.Game.EmergencyMeeting.ReportedDeadBody">
+  ReportedDeadBody
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Game/EmergencyMeeting.cs/#L14"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>通報された死体です。</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public virtual bool WithRoleSettings { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">Player? ReportedDeadBody { get; }</code></pre>
   </div>
 
 
@@ -216,7 +190,7 @@ Class GameModeDefinition  <a class="header-action link-secondary" title="View so
 
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dt><a class="xref" href="Virial.Game.Player.html">Player</a></dt>
     <dd></dd>
   </dl>
 
@@ -227,35 +201,32 @@ Class GameModeDefinition  <a class="header-action link-secondary" title="View so
 
 
 
-  <h2 class="section" id="operators">Operators
+  <h2 class="section" id="methods">Methods
 </h2>
 
 
-  <a id="Virial_Game_GameModeDefinition_op_Implicit_" data-uid="Virial.Game.GameModeDefinition.op_Implicit*"></a>
+  <a id="Virial_Game_EmergencyMeeting_EditMeetingTime_" data-uid="Virial.Game.EmergencyMeeting.EditMeetingTime*"></a>
 
-  <h3 id="Virial_Game_GameModeDefinition_op_Implicit_Virial_Game_GameModeDefinition__System_UInt32" data-uid="Virial.Game.GameModeDefinition.op_Implicit(Virial.Game.GameModeDefinition)~System.UInt32">
-  implicit operator uint(GameModeDefinition)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Game/GameMode.cs/#L24"><i class="bi bi-code-slash"></i></a>
+  <h3 id="Virial_Game_EmergencyMeeting_EditMeetingTime_System_Int32_" data-uid="Virial.Game.EmergencyMeeting.EditMeetingTime(System.Int32)">
+  EditMeetingTime(int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dolly1016/Nebula-Public/blob/master/NebulaAPI/Game/EmergencyMeeting.cs/#L25"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>会議の残り時間を変更します。</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static implicit operator uint(GameModeDefinition gamemode)</code></pre>
+    <pre><code class="lang-csharp hljs">void EditMeetingTime(int deltaSec)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>gamemode</code> <a class="xref" href="Virial.Game.GameModeDefinition.html">GameModeDefinition</a></dt>
-    <dd></dd>
+    <dt><code>deltaSec</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>残り時間に足しこむ秒数。正数を指定すると延長する。</p>
+</dd>
   </dl>
 
-  <h4 class="section">Returns</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
-    <dd></dd>
-  </dl>
 
 
 
